@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<Override>
+		<!--Special Suits-->
+		<Item identifier="berra_etps7b" subcategory="Berra Group" category="Equipment" tags="smallitem,clothing,cbrngear" cargocontaineridentifier="metalcrate" scale="0.5" fireproof="true" waterproof="true" impactsoundtag="impact_soft">
+			<InventoryIcon texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" sourcerect="431,124,80,132" origin="0.5,0.5"/>
+			<Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="6,363,124,67" depth="0.6" origin="0.5,0.5"/>
+			<Body width="100" height="50" density="15" friction="0.8" restitution="0.01"/>
+			<Deconstruct time="16">
+				<Item identifier="rubber" amount="1"/>
+				<Item identifier="steel" amount="1"/>
+				<Item identifier="ballisticfiber" amount="2"/>
+			</Deconstruct>
+			<Fabricate suitablefabricators="fabricator" requiredtime="25" requiresrecipe="true">
+				<RequiredSkill identifier="mechanical" level="50"/>
+				<RequiredSkill identifier="medical" level="40"/>
+				<RequiredSkill identifier="weapons" level="40"/>
+				<RequiredItem identifier="rubber" amount="3"/>
+				<RequiredItem identifier="steel" amount="4"/>
+				<RequiredItem identifier="ballisticfiber" amount="3"/>
+				<RequiredItem identifier="organicfiber" amount="2"/>
+			</Fabricate>
+			<Wearable slots="Any,OuterClothes+InnerClothes+Head" msg="ItemMsgPickUpSelect">
+				<sprite name="ETPS HEAD" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="Head" inheritlimbdepth="true" inheritscale="false" ignorelimbscale="true" hidelimb="true" alphaclipotherwearables="true" sourcerect="410,8,101,107" scale="0.28" origin="0.5,0.6"/>
+				<sprite name="ETPS Torso" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="Torso" depthlimb="Jaw" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="183,13,90,137" scale="0.5" origin="0.4,0.6"/>
+				<sprite name="ETPS Waist" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="Waist" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="189,195,56,52" scale="0.55" origin="0.5,0.5"/>
+				<sprite name="ETPS Left Upper Arm" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="LeftArm" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="344,1,46,87" scale="0.5" origin="0.5,0.5"/>
+				<sprite name="ETPS Right Upper Arm" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="RightArm" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="284,1,46,87" scale="0.5" origin="0.5,0.45"/>
+				<sprite name="ETPS Left Lower Arm" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="LeftForearm" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="348,92,36,69" scale="0.5" origin="0.5,0.5"/>
+				<sprite name="ETPS Right Lower Arm" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="RightForearm" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="288,92,36,69" scale="0.5" origin="0.5,0.5"/>
+				<sprite name="ETPS Right Thigh" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="RightThigh" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="12,9,61,114" scale="0.5" origin="0.5,0.5"/>
+				<sprite name="ETPS Left Thigh" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="LeftThigh" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="91,9,61,114" scale="0.5" origin="0.5,0.5"/>
+				<sprite name="ETPS Right Leg" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="RightLeg" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="16,131,50,118" scale="0.5" origin="0.5,0.5"/>
+				<sprite name="ETPS Left Leg" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="LeftLeg" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="95,131,50,118" scale="0.5" origin="0.5,0.5"/>
+				<sprite name="ETPS Left Hand" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="LeftHand" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="356,165,29,34" scale="0.5" origin="0.5,0.4"/>
+				<sprite name="ETPS Right Hand" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="RightHand" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="291,164,30,36" scale="0.5" origin="0.5,0.4"/>
+				<sprite name="ETPS Right Shoe" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="RightFoot" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="277,205,60,50" scale="0.6" origin="0.4,0.6"/>
+				<sprite name="ETPS Left Shoe" texture="%ModDir:3278494407%/Jobgear/Fire_Eaters/ETPS-7B.png" limb="LeftFoot" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="344,205,60,50" scale="0.6" origin="0.4,0.6"/>
+				<sprite name="Hide Boobs" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="Tail" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.6"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.6"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.3"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.3"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="triton_7L" damagemultiplier="0.7"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.2"/>
+				<damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.95"/>
+				<damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.0" probabilitymultiplier="0.0" damagesound="" deflectprojectiles="true"/>
+				<StatusEffect type="OnWearing" target="Character" tag="cbrnsuit" SpeedMultiplier="0.8" LowPassMultiplier="0.2" OxygenAvailable="1500.0" ObstructVisionAmount="0.45" setvalue="true">
+					<Conditional IsLocalPlayer="True"/>
+					<Sound file="%ModDir:3278494407%/Jobgear/Under_Masks/maskedbreath.ogg" volume="0.5" loop="true"/>
+				</StatusEffect>
+				<StatusEffect type="OnWearing" target="Character" disabledeltatime="true" setvalue="true">
+					<Affliction identifier="CCR" amount="10"/>
+					<Affliction identifier="CBRNsuit" amount="10"/>
+				</StatusEffect>
+				<ItemContainer capacity="2">
+					<Containable items="smallitem" excludeditems="mobilecontainer"/>
+				</ItemContainer>
+			</Wearable>
+		</Item>
+		<Item identifier="berra_bio2" subcategory="Berra Group" category="Equipment" tags="smallitem,clothing,cbrngear" cargocontaineridentifier="metalcrate" scale="0.5" fireproof="true" waterproof="true" impactsoundtag="impact_soft">
+			<InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="448,132,64,64" origin="0.5,0.5"/>
+			<Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="6,363,124,67" depth="0.6" origin="0.5,0.5"/>
+			<Body width="100" height="50" density="15" friction="0.8" restitution="0.01"/>
+			<Deconstruct time="16">
+				<Item identifier="rubber" amount="1"/>
+				<Item identifier="ballisticfiber" amount="2"/>
+				<Item identifier="plastic" amount="2"/>
+			</Deconstruct>
+			<Fabricate suitablefabricators="fabricator" requiredtime="30" requiresrecipe="true">
+				<RequiredSkill identifier="medical" level="30"/>
+				<RequiredSkill identifier="weapons" level="30"/>
+				<RequiredItem identifier="rubber" amount="3"/>
+				<RequiredItem identifier="ballisticfiber" amount="3"/>
+				<RequiredItem identifier="plastic" amount="3"/>
+				<RequiredItem identifier="organicfiber" amount="2"/>
+				<RequiredItem identifier="steel" amount="4"/>
+			</Fabricate>
+			<Wearable slots="Any,OuterClothes+InnerClothes" msg="ItemMsgPickUpSelect">
+				<sprite name="bio2 HEAD" texture="%ModDir:3278494407%/Jobgear/Under_Masks/APR-2.png" limb="Head" depthlimb="RightArm" inheritlimbdepth="true" inheritscale="false" hidelimb="false" alphaclipotherwearables="false" sourcerect="6,5,214,220" scale="0.13" origin="0.55,0.6"/>
+				<sprite name="bio2 Torso" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="Torso" depthlimb="Jaw" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="162,8,118,164" scale="0.45" origin="0.6,0.45"/>
+				<sprite name="bio2 Waist" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="Waist" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="189,195,56,52" scale="0.5" origin="0.45,0.5"/>
+				<sprite name="bio2 Left Upper Arm" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="LeftArm" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="353,2,44,84" origin="0.45,0.6" scale="0.5"/>
+				<sprite name="bio2 Right Upper Arm" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="RightArm" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="286,1,46,84" origin="0.45,0.6" scale="0.5"/>
+				<sprite name="bio2 Left Lower Arm" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="LeftForearm" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="350,87,38,76" origin="0.4,0.55" scale="0.5"/>
+				<sprite name="bio2 Right Lower Arm" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="RightForearm" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="286,86,38,76" origin="0.4,0.55" scale="0.5"/>
+				<sprite name="bio2 Right Thigh" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="RightThigh" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="3,9,72,114" origin="0.5,0.45" scale="0.5"/>
+				<sprite name="bio2 Left Thigh" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="LeftThigh" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="76,9,72,114" origin="0.5,0.45" scale="0.5"/>
+				<sprite name="bio2 Right Leg" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="RightLeg" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="8,129,60,125" origin="0.5,0.45" scale="0.5"/>
+				<sprite name="bio2 Left Leg" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="LeftLeg" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="81,129,60,125" origin="0.5,0.45" scale="0.5"/>
+				<sprite name="bio2 Left Hand" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="LeftHand" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="357,190,28,38" origin="0.3,0.45" scale="0.5"/>
+				<sprite name="bio2 Right Hand" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="RightHand" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="293,189,28,39" origin="0.3,0.45" scale="0.5"/>
+				<sprite name="bio2 Right Shoe" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="RightFoot" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="431,140,69,51" origin="0.5,0.45" scale="0.5"/>
+				<sprite name="bio2 Left Shoe" texture="%ModDir:3278494407%/Jobgear/Under_Masks/Bio-2.png" limb="LeftFoot" hideotherwearables="false" inheritscale="false" hidelimb="true" inheritorigin="false" inheritsourcerect="false" sourcerect="436,203,69,51" origin="0.5,0.5" scale="0.5"/>
+				<sprite name="Hide Boobs" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="Tail" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.4"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.5"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.25"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.15"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="triton_7L" damagemultiplier="0.8"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="triton_burn" damagemultiplier="0.2"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.3"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.3" probabilitymultiplier="0.2" deflectprojectiles="true"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.0" probabilitymultiplier="0.0" deflectprojectiles="true"/>
+				<damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.25" probabilitymultiplier="0.3" deflectprojectiles="true"/>
+				<StatusEffect type="OnWearing" target="Character" tag="cbrnsuit" disabledeltatime="true" LowPassMultiplier="0.05" SpeedMultiplier="1.1" setvalue="true">
+					<Affliction identifier="CBRNsuit" amount="10"/>
+					<Affliction identifier="exosuited" amount="10"/>
+				</StatusEffect>
+				<ItemContainer capacity="2" maxstacksize="2">
+					<Containable items="smallitem" excludeditems="mobilecontainer"/>
+				</ItemContainer>
+			</Wearable>
+		</Item>
+		<Item identifier="tsm_cbrnert" subcategory="TSM" category="Equipment" tags="smallitem,deepdiving,cbrngear,heavycbrn" cargocontaineridentifier="metalcrate" scale="0.5" fireproof="true" waterproof="true" impactsoundtag="impact_soft">
+			<InventoryIcon texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suitcontained.png" sourcerect="0,255,128,173" origin="0.5,0.5"/>
+			<Sprite texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suititem.png" sourcerect="0,15,168,125" depth="0.6" origin="0.5,0.5"/>
+			<ContainedSprite name="ERT Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suitcontained.png" sourcerect="24,0,79,211" depth="0.55" origin="0.5,0.5"/>
+			<ContainedSprite name="ERT Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suitcontained.png" sourcerect="24,0,79,211" depth="0.55" origin="-0.12,-0.14"/>
+			<ContainedSprite name="ERT Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suititem.png" sourcerect="0,191,225,66" depth="0.55" origin="0.6,0.5"/>
+			<Body width="100" height="50" density="15" friction="0.8" restitution="0.01"/>
+			<Deconstruct time="30">
+				<Item identifier="titaniumaluminiumalloy" amount="2"/>
+				<Item identifier="fpgacircuit" amount="2"/>
+				<Item identifier="ballisticfiber" amount="1"/>
+				<Item identifier="rubber" amount="1"/>
+			</Deconstruct>
+			<Fabricate suitablefabricators="fabricator" requiredtime="45" requiresrecipe="true">
+				<RequiredItem identifier="titaniumaluminiumalloy" amount="4"/>
+				<RequiredItem identifier="ballisticfiber" amount="5"/>
+				<RequiredItem identifier="fpgacircuit" amount="4"/>
+				<RequiredItem identifier="steel" amount="2"/>
+				<RequiredItem identifier="rubber" amount="2"/>
+			</Fabricate>
+			<Wearable slots="Head+OuterClothes+InnerClothes" msg="ItemMsgPickUpSelect">
+				<sprite name="ERT Torso" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="Torso" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="138,0,126,191" origin="0.61,0.51"/>
+				<sprite name="ERT Right Hand" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="RightHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="true" origin="0.08,0.05"/>
+				<sprite name="ERT Left Hand" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="true" origin="0.08,0.05"/>
+				<sprite name="ERT Right Lower Arm" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="RightArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="295,0,39,82" origin="0.48,0.46"/>
+				<sprite name="ERT Left Lower Arm" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="352,0,49,85" origin="0.48,0.46"/>
+				<sprite name="ERT Right Upper Forearm" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="287,87,46,71" origin="0.58,0.52"/>
+				<sprite name="ERT Left Upper Forearm" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="349,87,47,69" origin="0.58,0.52"/>
+				<sprite name="ERT Waist" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="Waist" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="true" origin="0.14,0.15"/>
+				<sprite name="ERT Right Thigh" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="11,11,64,104" origin="0.5,0.48"/>
+				<sprite name="ERT Left Thigh" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="429,0,63,114" origin="0.5,0.48"/>
+				<sprite name="ERT Right Leg" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="11,132,78,101" origin="0.5,0.47"/>
+				<sprite name="ERT Left Leg" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="434,125,78,101" origin="0.5,0.47"/>
+				<sprite name="ERT Left Shoe" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="80,225,77,31" origin="0.54,0.33"/>
+				<sprite name="ERT Right Shoe" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" inheritsourcerect="false" sourcerect="337,224,75,32" origin="0.55,0.32"/>
+				<sprite name="ERT Helmet Wearable" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suititem.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" depthlimb="LeftArm" scale="0.8" hideotherwearables="true" hidelimb="true" sourcerect="0,170,80,90" origin="0.35,0.6">
+					<LightComponent range="1500.0" lightcolor="250,224,165,255" powerconsumption="0" IsOn="true">
+						<StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="1" setvalue="true">
+							<Conditional IsDead="false"/>
+						</StatusEffect>
+						<LightTexture texture="Content/Lights/lightcone.png" origin="0.0, 0.5" size="1.0,2.0"/>
+					</LightComponent>
+				</sprite>
+				<sprite name="Hide Boobs" texture="%ModDir:3278494407%/Jobgear/TSM_CBRN_ERT/CBRN_ERT_suit.png" limb="Tail" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.15"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,bitewounds,internaldamage" damagemultiplier="0.15" deflectprojectiles="true"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.1" deflectprojectiles="true"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.0" probabilitymultiplier="0.0" deflectprojectiles="true"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.2"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="triton_7L" damagemultiplier="0.4"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.1"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.0" probabilitymultiplier="0.0" deflectprojectiles="true"/>
+				<damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.1" probabilitymultiplier="0.0" deflectprojectiles="true"/>
+				<StatusEffect type="OnWearing" target="Character" tag="cbrnsuit" SpeedMultiplier="0.7" PressureProtection="8000.0" OxygenAvailable="2000" disabledeltatime="true" LowPassMultiplier="0.3" setvalue="true">
+					<Affliction identifier="CBRNsuit" amount="10"/>
+					<Affliction identifier="CCR" amount="10"/>
+				</StatusEffect>
+				<ItemContainer capacity="3" maxstacksize="3">
+					<Containable items="smallitem" excludeditems="mobilecontainer"/>
+					<SubContainer capacity="1" maxstacksize="1">
+						<Containable items="smallitem,mediumitem,weapon"/>
+					</SubContainer>
+				</ItemContainer>
+				<StatusHUD range="300" ShowTexts="true" OverlayColor="20,0,255,255" drawhudwhenequipped="true"/>
+			</Wearable>
+			<CustomInterface canbeselected="true" drawhudwhenequipped="true">
+				<GuiFrame relativesize="0.1,0.1" anchor="BottomLeft" absoluteoffset="20,20" style="ItemUI"/>
+				<TickBox text="lights">
+					<StatusEffect type="OnUse" targettype="This" targetitemcomponent="LightComponent" setvalue="true" IsOn="true"/>
+					<StatusEffect type="OnSecondaryUse" targettype="This" targetitemcomponent="LightComponent" setvalue="true" IsOn="false"/>
+				</TickBox>
+			</CustomInterface>
+			<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="70,-10" aimpos="70,-10" handle1="0,0" handle2="0,0" holdangle="0" msg="ItemMsgPickUpSelect"/>
+		</Item>
+		<!--Standard Suits-->
+		<Item identifier="standard_cbrnsuit_gray" aliases="securityuniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
+			<InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="448,132,64,64" origin="0.5,0.5"/>
+			<Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="6,363,124,67" depth="0.6" origin="0.5,0.5"/>
+			<Body width="100" height="50" density="15" friction="0.8" restitution="0.01"/>
+			<PreferredContainer primary="crewcab"/>
+			<Price baseprice="95">
+				<Price storeidentifier="merchantoutpost" minavailable="1" sold="false"/>
+				<Price storeidentifier="merchantcity" multiplier="0.9" sold="false"/>
+				<Price storeidentifier="merchantresearch" minavailable="1" multiplier="1.1"/>
+				<Price storeidentifier="merchantmilitary" minavailable="1" multiplier="0.9"/>
+				<Price storeidentifier="merchantmine" minavailable="1" sold="false"/>
+			</Price>
+			<Deconstruct time="10">
+				<Item identifier="organicfiber"/>
+			</Deconstruct>
+			<Fabricate suitablefabricators="fabricator" requiredtime="35" requiresrecipe="true">
+				<RequiredItem identifier="rubber" amount="1"/>
+				<RequiredItem identifier="ballisticfiber" amount="2"/>
+				<RequiredItem identifier="plastic" amount="1"/>
+				<RequiredItem identifier="iron" amount="1"/>
+				<RequiredItem identifier="organicfiber" amount="2"/>
+			</Fabricate>
+			<Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+				<sprite name="CBRNsuit orange Head" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/headgears.png" limb="Head" depthlimb="RightArm" inheritlimbdepth="true" inheritscale="false" hidelimb="false" hideotherwearables="true" sourcerect="915,229,105,110" scale="0.3" origin="0.55,0.55"/>
+				<sprite name="CBRNsuit gray Torso" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Right Hand" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Left Hand" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Left Lower Arm" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Right Lower Arm" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Left Upper Arm" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Right Upper Arm" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Waist" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Right Thigh" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Left Thigh" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Right Leg" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Left Leg" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Right Shoe" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="CBRNsuit gray Left Shoe" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="Captain's Uniform 2 Right Hand" texture="Content/Items/Jobgear/Captain/captain_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="Captain's Uniform 2 Left Hand" texture="Content/Items/Jobgear/Captain/captain_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+				<sprite name="Hide Boobs" texture="%ModDir:3278494407%/Jobgear/CBRN_Suits/cbrn_gray.png" limb="Tail" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.8"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.8"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.8"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.7"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.7"/>
+				<damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.9"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.8"/>
+				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.7"/>
+				<StatusEffect type="OnWearing" target="Character" tag="cbrnsuit" disabledeltatime="true">
+					<Affliction identifier="CBRNsuit" amount="10"/>
+				</StatusEffect>
+			</Wearable>
+		</Item>
+	</Override>
+</Items>
