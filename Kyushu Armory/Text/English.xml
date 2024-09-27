@@ -89,7 +89,7 @@
     <lightswitch>Twilight System</lightswitch>
     <mode.laser>Cutting Mode</mode.laser>
     <mode.charge>Energy Mode</mode.charge>
-    <subcategory.TSM>Sea of Miracles provides protection for you\nNot judged by success or failure in heroism</subcategory.TSM>
+    <subcategory.TSM>Sea of Miracles provides protection for you\nNot judged by success or failure, but in heroism.</subcategory.TSM>
     <mapentitycategory.tsm_ammo>Sea of Miracles Ammunition</mapentitycategory.tsm_ammo>
     <subcategory.the_adventists>The Adventists</subcategory.the_adventists>
     <subcategory.tsm_separatists>Separatist Army</subcategory.tsm_separatists>
@@ -510,7 +510,7 @@
     <entitydescription.tsm_lm_scarh>The standard 5.56*45 caliber bullets of the Coalition have proven inadequate against increasingly fortified body armor. Consequently, to meet the higher penetration demands of special forces for complex operations, this heavy combat rifle was developed. Uses ‖color:150,0,0,255‖7.62*51mm‖color:end‖ ammunition.</entitydescription.tsm_lm_scarh>
     <entityname.tsm_lm_mk18_c>Coalition MK18 Assault Rifle (Tactical) </entityname.tsm_lm_mk18_c>
     <entitydescription.tsm_lm_mk18_c>A camouflage MK18 that has been equipped with a scope and grip for improved control, allowing the shooter to fire without awkwardly gripping a poorly designed forend. Uses the Coalition-issued ‖color:150,0,0,255‖5.56mm‖color:end‖ magazine.</entitydescription.tsm_lm_mk18_c>
-    <entityname.tsm_lm_97>Coalition 97式 Rapid Response Rifle</entityname.tsm_lm_97>
+    <entityname.tsm_lm_97>Coalition Type97 Rapid Response Rifle</entityname.tsm_lm_97>
     <entitydescription.tsm_lm_97>A new bullpup rifle modified at the request of certain Coalition units, adapted to use ‖color:150,0,0,255‖6.5mm‖color:end‖ ammunition, and employs a short burst mechanism to achieve fast suppression and accuracy.</entitydescription.tsm_lm_97>
     <entityname.tsm_lm_drh>Coalition DRH Assault Rifle</entityname.tsm_lm_drh>
     <entitydescription.tsm_lm_drh>An assault rifle using ‖color:150,0,0,255‖6.5mm‖color:end‖ military ammunition, it has a high rate of fire and considerable power. However, the significant recoil from the 6.5mm ammunition requires extensive training to master and can be fitted with optics.</entitydescription.tsm_lm_drh>
@@ -1028,22 +1028,22 @@
     <tsm_escort_lm>Military Commandeering, drop your weapons.</tsm_escort_lm>
     <tsm_escort_lm>Open fire, kill these rebels.</tsm_escort_lm>
     <!--加载界面-->
-    <loadingscreentip>Yahweh Crystals can be bought at difficulty 25+ stations. You might also find them in ruins or shipwrecks.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>Humberley Stars are only sold in cities or research centers at difficulty 40+. If you’re lucky, you might find some in ruins or shipwrecks.--------Sea of Miracles</loadingscreentip>
+    <loadingscreentip>Yahweh Crystals can be bought at difficulty 25+ stations. You might also find them in ruins or shipwrecks.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>Humberley Stars are only sold in cities or research centers at difficulty 40+. If you’re lucky, you might find some in ruins or shipwrecks.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Some parts for tanks and Ravens can be purchased at various stations, but the main gun has been lost. Maybe it’s in a shipwreck?--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>ARS, known for its automatic recording products, collects data to trade or strengthen internal forces.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>Rumor has it that the Descendants are erecting 'Beacons' at abandoned sites.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>Sea of Miracles began in the dark waters of the Sunless Sea.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>The Coalition and the Rebels are engaged in full-scale war.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>As the war intensifies, Sea of Miracles’s board reported that escort service income has surpassed other sectors for the first time, with plans for further investment.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>After long construction, the Ice City project is finally complete. Once all inspections pass, it will open to the public for residence and commerce.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>DS104 border station lost contact. Sea of Miracles has dispatched personnel to investigate.--------Sea of Miracles</loadingscreentip>
+    <loadingscreentip>ARS, known for its automatic recording products, collects data to trade or strengthen internal forces.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>Rumor has it that the Descendants are erecting 'Beacons' at abandoned sites.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>Sea of Miracles began in the dark waters of the Sunless Sea.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>The Coalition and the Rebels are engaged in full-scale war.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>As the war intensifies, Sea of Miracles’s board reported that escort service income has surpassed other sectors for the first time, with plans for further investment.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>After long construction, the Ice City project is finally complete. Once all inspections pass, it will open to the public for residence and commerce.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>DS104 border station lost contact. Sea of Miracles has dispatched personnel to investigate.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Sea of Miracles has three armed divisions: Advanced Operations, Dusk Mountain Operations, and Kyushu Operations, focused on human combat, corporate security, and monster combat respectively.</loadingscreentip>
     <loadingscreentip>Sea of Miracles remains a corporation, yet it plays a key role in Europa’s development, city-building, and tech research. Its subsidiaries cover almost every industry on Europa, from military manufacturing to medical, schools, shipyards, and even its own Widow Station.</loadingscreentip>
-    <loadingscreentip>After showing 'miracles,' the Descendants gained followers exponentially, including some high-ranking Coalition officials.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>The Descendants’ goal is to bring their unique god to Europa, but the god requires a vessel, and none of Europa’s life forms are suitable. Their current mission is to create a perfect host.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>The Rebels, who split from a separatist group, are more dangerous and powerful, aiming to overthrow the Coalition’s iron rule.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>Communication has advanced, but limitations remain.--------Sea of Miracles</loadingscreentip>
-    <loadingscreentip>Whether it’s the Coalition, Rebels, or Sea of Miracles’s forces, they all call for reinforcements upon seeing the first enemy. Be cautious.--------Sea of Miracles</loadingscreentip>
+    <loadingscreentip>After showing 'miracles,' the Descendants gained followers exponentially, including some high-ranking Coalition officials.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>The Descendants’ goal is to bring their unique god to Europa, but the god requires a vessel, and none of Europa’s life forms are suitable. Their current mission is to create a perfect host.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>The Rebels, who split from a separatist group, are more dangerous and powerful, aiming to overthrow the Coalition’s iron rule.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>Communication has advanced, but limitations remain.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>Whether it’s the Coalition, Rebels, or Sea of Miracles’s forces, they all call for reinforcements upon seeing the first enemy. Be cautious.\n—The Sea of Miracles</loadingscreentip>
   </Override>
 </infotexts>

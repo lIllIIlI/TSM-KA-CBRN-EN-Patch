@@ -19,7 +19,7 @@
   <missionmessage0.tsmmission13>We don't fear the worms anymore!</missionmessage0.tsmmission13>
   <missionsonarlabel.tsmmission13>BUG</missionsonarlabel.tsmmission13>
   <missionname.tsmmission14>The Deepest Nightmares</missionname.tsmmission14>
-  <missiondescription.tsmmission14>!!! Emergency !!! T.S.M frontline observatory found some giant beasts quickly approaching this area, but the 日暮山 special-op assault squad is out on a mission, they cannot rush back in time. T.S.M is calling for heroic captains to stop disaster from happening and promising that the captain who can return alive will be rewarded with [reward] mk.</missiondescription.tsmmission14>
+  <missiondescription.tsmmission14>!!! Emergency !!! T.S.M frontline observatory found some giant beasts quickly approaching this area, but the Higurashi special-op assault squad is out on a mission, they cannot rush back in time. T.S.M is calling for heroic captains to stop disaster from happening and promising that the captain who can return alive will be rewarded with [reward] mk.</missiondescription.tsmmission14>
   <missionsuccess.tsmmission14>We've brought down the gods.</missionsuccess.tsmmission14>
   <missionheader0.tsmmission14>Monsters and Demons</missionheader0.tsmmission14>
   <missionmessage0.tsmmission14>It's incredible, you really made it, worthy of a legendary captain!</missionmessage0.tsmmission14>
@@ -354,7 +354,7 @@
   <missionmessage0.tsmmission2>What a bright performance!</missionmessage0.tsmmission2>
   <missionsonarlabel.tsmmission2>target</missionsonarlabel.tsmmission2>
   <missionname.tsmmission3>The Deepest Nightmares</missionname.tsmmission3>
-  <missiondescription.tsmmission3>!!! Emergency !!! T.S.M frontline observatory found some giant beasts quickly approaching this area, but the 日暮山 special-op assault squad is out on a mission, they cannot rush back in time. T.S.M is calling for heroic captains to stop disaster from happening and promising that the captain who can return alive will be rewarded with [reward] mk.</missiondescription.tsmmission3>
+  <missiondescription.tsmmission3>!!! Emergency !!! T.S.M frontline observatory found some giant beasts quickly approaching this area, but the Higurashi special-op assault squad is out on a mission, they cannot rush back in time. T.S.M is calling for heroic captains to stop disaster from happening and promising that the captain who can return alive will be rewarded with [reward] mk.</missiondescription.tsmmission3>
   <missionsuccess.tsmmission3>We've brought down the gods.</missionsuccess.tsmmission3>
   <missionheader0.tsmmission3>The Deepest Nightmares</missionheader0.tsmmission3>
   <missionmessage0.tsmmission3>It's incredible, you really made it, worthy of a legendary captain!</missionmessage0.tsmmission3>
@@ -366,7 +366,7 @@
   <missionmessage0.tsmmission4>Well done, you have defended the area once again, captain.</missionmessage0.tsmmission4>
   <missionsonarlabel.tsmmission4>Latcher</missionsonarlabel.tsmmission4>
   <missionname.tsmmission5>EMBI Experimental Biology Body</missionname.tsmmission5>
-  <missiondescription.tsmmission5>Europa Magic Biotechnology Inc.(EMBI) donated a batch of modified mystical creatures to 東亜重工 EastAsian-HeavyIndustry (EA-HI) , but EA-HI failed to contain them during testing, we had previously sent 日暮山 special-op assault squad over to suppress them, but lost the message after contact with the experiments, please be advised Captain, this is not ordinary bunch of giant spinelings! Please be very careful!</missiondescription.tsmmission5>
+  <missiondescription.tsmmission5>Europa Magic Biotechnology Inc.(EMBI) donated a batch of modified mystical creatures to East Asia-Heavy Industry (EA-HI) , but EA-HI failed to contain them during testing, we had previously sent Higurashi special-op assault squad over to suppress them, but lost the message after contact with the experiments, please be advised Captain, this is not ordinary bunch of giant spinelings! Please be very careful!</missiondescription.tsmmission5>
   <missionsuccess.tsmmission5>This mission must be kept secret or the EA-HI will face a hefty fine.</missionsuccess.tsmmission5>
   <missionheader0.tsmmission5>Containment Breach</missionheader0.tsmmission5>
   <missionmessage0.tsmmission5>Shh! Silence, please!</missionmessage0.tsmmission5>
@@ -427,396 +427,396 @@
   <missionsonarlabel.tsmmission22>Small latcher</missionsonarlabel.tsmmission22>
   <laser>Laser Pointer</laser>
   <entityname.tsm-mvdxe>DRK-11</entityname.tsm-mvdxe>
-  <missionname.tsmattack>暗夜截杀</missionname.tsmattack>
-  <missionheader0.tsmattack>开始行动，交火规则：格杀勿论</missionheader0.tsmattack>
-  <missionmessage0.tsmattack>这个世界不缺少死亡</missionmessage0.tsmattack>
-  <missionname.tsmmission_origin1>赏金任务：猎杀末日蠕虫</missionname.tsmmission_origin1>
-  <missiondescription.tsmmission_origin1>在[location1]和[location2]之间的航道内有只末日蠕虫一直骚扰我们的运输，这次有人出价[reward]mk悬赏，任务目标就是击杀这只蠕虫</missiondescription.tsmmission_origin1>
-  <missionsuccess.tsmmission_origin1>任务完成</missionsuccess.tsmmission_origin1>
-  <missionheader0.tsmmission_origin1>猎杀结束</missionheader0.tsmmission_origin1>
-  <missionmessage0.tsmmission_origin1>恭喜你完成任务，悬赏奖励会在你到达下个站点后发送到你账户</missionmessage0.tsmmission_origin1>
-  <missionsonarlabel.tsmmission_origin1>悬赏目标</missionsonarlabel.tsmmission_origin1>
-  <missionname.tsmmission_origin2>赏金任务：猎杀女妖</missionname.tsmmission_origin2>
-  <missiondescription.tsmmission_origin2>有一只女妖把[location1]和[location2]之间航道内当家了，不断骚扰附近站点和来往船只，所以我们出价[reward]mk买下这个女妖的头</missiondescription.tsmmission_origin2>
-  <missionsuccess.tsmmission_origin2>任务完成</missionsuccess.tsmmission_origin2>
-  <missionheader0.tsmmission_origin2>猎杀结束</missionheader0.tsmmission_origin2>
-  <missionmessage0.tsmmission_origin2>恭喜你完成任务，钱会在你到达下个站点后发送到你账户</missionmessage0.tsmmission_origin2>
-  <missionsonarlabel.tsmmission_origin2>悬赏目标</missionsonarlabel.tsmmission_origin2>
-  <missionname.tsmmission_origin3>赏金任务：猎杀捕勾兽</missionname.tsmmission_origin3>
-  <missiondescription.tsmmission_origin3>有一只外来捕勾占领了这个航道的深渊，让我们深渊开采作业难以进行，所以我们承诺如果有谁击杀了这只捕勾兽，将获得[reward]mk奖励</missiondescription.tsmmission_origin3>
-  <missionsuccess.tsmmission_origin3>任务完成</missionsuccess.tsmmission_origin3>
-  <missionheader0.tsmmission_origin3>猎杀结束</missionheader0.tsmmission_origin3>
-  <missionmessage0.tsmmission_origin3>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户</missionmessage0.tsmmission_origin3>
-  <missionsonarlabel.tsmmission_origin3>悬赏目标</missionsonarlabel.tsmmission_origin3>
-  <missionname.tsmmission_origin4>赏金任务：猎杀赛博蠕虫</missionname.tsmmission_origin4>
-  <missiondescription.tsmmission_origin4>我们的深渊勘探队在作业时，检测到附近类似于赛博蠕虫的声纳波形，所以他们发出悬赏，出价[reward]mk击杀这只赛博蠕虫，以保证深渊勘探的安全性</missiondescription.tsmmission_origin4>
-  <missionsuccess.tsmmission_origin4>任务完成</missionsuccess.tsmmission_origin4>
-  <missionheader0.tsmmission_origin4>猎杀结束</missionheader0.tsmmission_origin4>
-  <missionmessage0.tsmmission_origin4>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户，我们将继续在深渊进行勘探</missionmessage0.tsmmission_origin4>
-  <missionsonarlabel.tsmmission_origin4>悬赏目标</missionsonarlabel.tsmmission_origin4>
-  <missionname.tsmmission_origin5>赏金任务：猎杀巨型脊刺群</missionname.tsmmission_origin5>
-  <missiondescription.tsmmission_origin5>航道内的船只频繁失联，在查明原因后发现，原来是一群巨型棘刺从其他海域过来安家。这对我们航道安全产生了严重的危害，所以这次目标是这群棘刺</missiondescription.tsmmission_origin5>
-  <missionsuccess.tsmmission_origin5>任务完成</missionsuccess.tsmmission_origin5>
-  <missionheader0.tsmmission_origin5>猎杀结束</missionheader0.tsmmission_origin5>
-  <missionmessage0.tsmmission_origin5>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户，航道内再次进入平静的状态</missionmessage0.tsmmission_origin5>
-  <missionsonarlabel.tsmmission_origin5>悬赏目标</missionsonarlabel.tsmmission_origin5>
-  <missionname.tsmmission_origin6>赏金任务：猎杀毒蟒群</missionname.tsmmission_origin6>
-  <missiondescription.tsmmission_origin6>我们医院突然接到一批窒死中毒患者，根据抢救过来的船员回答，是在航行途中遭遇了毒蟒的攻击，为了大家安全，这群毒蟒必须死</missiondescription.tsmmission_origin6>
-  <missionsuccess.tsmmission_origin6>任务完成</missionsuccess.tsmmission_origin6>
-  <missionheader0.tsmmission_origin6>猎杀结束</missionheader0.tsmmission_origin6>
-  <missionmessage0.tsmmission_origin6>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户，我们不会再中窒死毒了</missionmessage0.tsmmission_origin6>
-  <missionsonarlabel.tsmmission_origin6>悬赏目标</missionsonarlabel.tsmmission_origin6>
-  <missionname.tsmmission_origin7>赏金任务：迅猛龙阻击战</missionname.tsmmission_origin7>
-  <missiondescription.tsmmission_origin7>大量迅猛龙霸占了原本安全的航道，并且威胁了周围站点安全，所以我们出价[reward]mk招募可以阻击这群迅猛龙的船队</missiondescription.tsmmission_origin7>
-  <missionsuccess.tsmmission_origin7>任务完成</missionsuccess.tsmmission_origin7>
-  <missionheader0.tsmmission_origin7>猎杀结束</missionheader0.tsmmission_origin7>
-  <missionmessage0.tsmmission_origin7>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户，阻击战完美完成</missionmessage0.tsmmission_origin7>
-  <missionsonarlabel.tsmmission_origin7>悬赏目标</missionsonarlabel.tsmmission_origin7>
-  <missionname.tsmmission_origin8>赏金任务：黑色摩洛克歼灭战</missionname.tsmmission_origin8>
-  <missiondescription.tsmmission_origin8>有群不长眼的船员在路过[location1]和[location2]的航道时，杀了几只摩洛克宝宝。这下一群黑色摩洛克占领了航道，没有办法只能征召勇士来帮忙解围</missiondescription.tsmmission_origin8>
-  <missionsuccess.tsmmission_origin8>任务完成</missionsuccess.tsmmission_origin8>
-  <missionheader0.tsmmission_origin8>猎杀结束</missionheader0.tsmmission_origin8>
-  <missionmessage0.tsmmission_origin8>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户，黑色摩洛克全部歼灭</missionmessage0.tsmmission_origin8>
-  <missionsonarlabel.tsmmission_origin8>悬赏目标</missionsonarlabel.tsmmission_origin8>
-  <missionname.tsmmission_origin9>赏金任务：脱粒机族群剿灭战</missionname.tsmmission_origin9>
-  <missiondescription.tsmmission_origin9>兹有一群虎尾煞盘踞在航道内，他们袭击过往附近站点，摧毁过往船只。之前有数名勇士前往讨伐，然皆未归。所以成功剿灭这群虎尾煞并安全返航的船队，可前往下个站点领取奖励</missiondescription.tsmmission_origin9>
-  <missionsuccess.tsmmission_origin9>任务完成</missionsuccess.tsmmission_origin9>
-  <missionheader0.tsmmission_origin9>猎杀结束</missionheader0.tsmmission_origin9>
-  <missionmessage0.tsmmission_origin9>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户，虎尾煞族群没有逃过剿灭</missionmessage0.tsmmission_origin9>
-  <missionsonarlabel.tsmmission_origin9>悬赏目标</missionsonarlabel.tsmmission_origin9>
-  <missionname.tsmmission_origin10>赏金任务：异星人的宴请</missionname.tsmmission_origin10>
-  <missiondescription.tsmmission_origin10>一支遗迹勘探队在勘探一座遗迹的时候，不小心放出几只守卫，这些守卫造成了严重的安全事故，所以我们需要有人去善后</missiondescription.tsmmission_origin10>
-  <missionsuccess.tsmmission_origin10>任务完成</missionsuccess.tsmmission_origin10>
-  <missionheader0.tsmmission_origin10>猎杀结束</missionheader0.tsmmission_origin10>
-  <missionmessage0.tsmmission_origin10>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户，但严格来说我们才是异星人</missionmessage0.tsmmission_origin10>
-  <missionsonarlabel.tsmmission_origin10>悬赏目标</missionsonarlabel.tsmmission_origin10>
-  <missionname.tsmmission_origin11>赏金任务：洞穴里的野蛮人</missionname.tsmmission_origin11>
-  <missiondescription.tsmmission_origin11>这次是画皮教派的发放的悬赏，他们有一些激进的成员在服用特制画皮卵后，抢劫了教派的画皮箱，并且逃到了一个洞穴内。所以教派希望有人去帮忙清理门户，并且摧毁那几个画皮箱</missiondescription.tsmmission_origin11>
-  <missionsuccess.tsmmission_origin11>任务完成</missionsuccess.tsmmission_origin11>
-  <missionheader0.tsmmission_origin11>猎杀结束</missionheader0.tsmmission_origin11>
-  <missionmessage0.tsmmission_origin11>恭喜你完成任务，[reward]mk会在你到达下个站点后发送到你账户，这强壮的体魄，低下的智力，到底是飞升成功还是失败了</missionmessage0.tsmmission_origin11>
-  <missionsonarlabel.tsmmission_origin11>悬赏目标</missionsonarlabel.tsmmission_origin11>
-  <missionname.tsmmission_origin13>运送衰变物质</missionname.tsmmission_origin13>
-  <missiondescription.tsmmission_origin13>有几箱正在衰变的急需运往[location2]，注意！你只有十分钟的时间</missiondescription.tsmmission_origin13>
-  <missionsuccess.tsmmission_origin13>顺风快递</missionsuccess.tsmmission_origin13>
-  <missionheader0.tsmmission_origin13>顺风快递</missionheader0.tsmmission_origin13>
-  <missionmessage0.tsmmission_origin13>与死神赛跑</missionmessage0.tsmmission_origin13>
-  <missionname.tsmmission_origin14>运送皮革原料</missionname.tsmmission_origin14>
-  <missiondescription.tsmmission_origin14>[location2]中的一个富豪预定了一些高等皮革，这些皮革很珍贵，并且不能碰到水，碰到水就会坏，所以千万要小心运输</missiondescription.tsmmission_origin14>
-  <missionsuccess.tsmmission_origin14>保质保量完成任务</missionsuccess.tsmmission_origin14>
-  <missionheader0.tsmmission_origin14>最好的快递服务</missionheader0.tsmmission_origin14>
-  <missionmessage0.tsmmission_origin14>保质保量完成任务</missionmessage0.tsmmission_origin14>
-  <missionname.tsmmission_origin15>运送被抓捕的降临派成员</missionname.tsmmission_origin15>
-  <missiondescription.tsmmission_origin15>奇迹之海逮捕了几名降临派的成员，现在需要把他们运到下个站点进行审问</missiondescription.tsmmission_origin15>
-  <missionsuccess.tsmmission_origin15>成员一个都没少</missionsuccess.tsmmission_origin15>
-  <missionheader0.tsmmission_origin15>任务完成</missionheader0.tsmmission_origin15>
-  <missionmessage0.tsmmission_origin15>成员一个都没少</missionmessage0.tsmmission_origin15>
-  <missionname.tsmmission_origin16>希洛克的宝藏</missionname.tsmmission_origin16>
-  <missiondescription.tsmmission_origin16>一位神秘人委托我们运输一个包裹给另一个神秘人，并且他还透露这个包裹就是希洛克的宝藏（据说希洛克的宝藏，什么都有可能分解出来，不过全凭运气）</missiondescription.tsmmission_origin16>
-  <missionsuccess.tsmmission_origin16>诚信至上</missionsuccess.tsmmission_origin16>
-  <missionheader0.tsmmission_origin16>任务完成</missionheader0.tsmmission_origin16>
-  <missionmessage0.tsmmission_origin16>诚信至上</missionmessage0.tsmmission_origin16>
-  <missionname.tsmmission_origin17>运送材料</missionname.tsmmission_origin17>
-  <missiondescription.tsmmission_origin17>奇迹之海委托我们运输一批矿石原矿</missiondescription.tsmmission_origin17>
-  <missionsuccess.tsmmission_origin17>诚信至上</missionsuccess.tsmmission_origin17>
-  <missionheader0.tsmmission_origin17>任务完成</missionheader0.tsmmission_origin17>
-  <missionmessage0.tsmmission_origin17>诚信至上</missionmessage0.tsmmission_origin17>
-  <missionname.tsmmission_origin18>运送医疗物资</missionname.tsmmission_origin18>
-  <missiondescription.tsmmission_origin18>[location2]医疗物资紧缺，他们从奇迹之海订购了一批医疗物资，急需运送</missiondescription.tsmmission_origin18>
-  <missionsuccess.tsmmission_origin18>诚信至上</missionsuccess.tsmmission_origin18>
-  <missionheader0.tsmmission_origin18>任务完成</missionheader0.tsmmission_origin18>
-  <missionmessage0.tsmmission_origin18>诚信至上</missionmessage0.tsmmission_origin18>
-  <missionname.tsmmission_origin19>运送奇迹之海士兵</missionname.tsmmission_origin19>
-  <missiondescription.tsmmission_origin19>奇迹之海有一个小队的人，希望可以乘坐你们的船前往下个站点</missiondescription.tsmmission_origin19>
-  <missionsuccess.tsmmission_origin19>安全抵达</missionsuccess.tsmmission_origin19>
-  <missionheader0.tsmmission_origin19>任务完成</missionheader0.tsmmission_origin19>
-  <missionmessage0.tsmmission_origin19>安全抵达</missionmessage0.tsmmission_origin19>
-  <missionname.tsmmission_origin20>赏金任务：爬行者歼灭战</missionname.tsmmission_origin20>
-  <missiondescription.tsmmission_origin20>在航道内有一大群爬行者，我们多次驱赶，但效果甚微。他们连站点安保力量都不怕，这已经不是一般的爬行者了，必须要出重拳</missiondescription.tsmmission_origin20>
-  <missionsuccess.tsmmission_origin20>爬行者督促潜艇驾驶，训练船员的射击技巧，真是煞费苦心</missionsuccess.tsmmission_origin20>
-  <missionheader0.tsmmission_origin20>任务完成</missionheader0.tsmmission_origin20>
-  <missionmessage0.tsmmission_origin20>爬行者督促潜艇驾驶，训练船员的射击技巧，真是煞费苦心</missionmessage0.tsmmission_origin20>
-  <missionsonarlabel.tsmmission_origin20>悬赏目标</missionsonarlabel.tsmmission_origin20>
-  <missionname.tsmmission_origin21>赏金任务：再见毁灭蠕虫</missionname.tsmmission_origin21>
-  <missiondescription.tsmmission_origin21>沉寂在深渊的毁灭蠕虫再次活跃起来，周围站点都发布了紧急状态通知，搞得大家人心惶惶，所以有人出[reward]mk悬赏毁灭蠕虫</missiondescription.tsmmission_origin21>
-  <missionsuccess.tsmmission_origin21>希望不要再醒来了</missionsuccess.tsmmission_origin21>
-  <missionheader0.tsmmission_origin21>任务完成</missionheader0.tsmmission_origin21>
-  <missionmessage0.tsmmission_origin21>再次沉睡</missionmessage0.tsmmission_origin21>
-  <missionsonarlabel.tsmmission_origin21>悬赏目标</missionsonarlabel.tsmmission_origin21>
-  <character.embi_009>荒疫</character.embi_009>
-  <character.embi_t037a>雷龙</character.embi_t037a>
-  <character.embi_001>实验体001</character.embi_001>
-  <character.embi_003>实验体003</character.embi_003>
-  <character.Experiment009_bug>毒爆虫</character.Experiment009_bug>
-  <character.tsm_husk_pucs>活骸</character.tsm_husk_pucs>
-  <character.tsm_husk_arm>活骸</character.tsm_husk_arm>
-  <character.tsm_beast>巨兽</character.tsm_beast>
-  <character.tsm_portalguardian_cave>洞穴清理者</character.tsm_portalguardian_cave>
-  <character.tsm_Guardianrepairbot>修复者</character.tsm_Guardianrepairbot>
-  <character.boneeater>吃骨者</character.boneeater>
-  <character.humaneyi>疫病体</character.humaneyi>
-  <character.eyivariant>变体</character.eyivariant>
-  <character.tsm_tyrant>暴君</character.tsm_tyrant>
-  <character.skinbreaker>破皮者</character.skinbreaker>
-  <character.eyibug>血虫</character.eyibug>
-  <character.Eyi_hugger>抱身者</character.Eyi_hugger>
-  <character.pgc>奇迹之海重装护卫</character.pgc>
-  <character.adventists_heavy>降临派重装头目</character.adventists_heavy>
-  <character.adventists>降临派武装士兵</character.adventists>
-  <character.Facility_security>设施安保</character.Facility_security>
-  <character.Facility_security_heavy>设施重装安保</character.Facility_security_heavy>
-  <character.Facility_security_outside>设施外围安保</character.Facility_security_outside>
-  <charactername.tsm_outpost_combat_npc_mission>奇迹之海士兵</charactername.tsm_outpost_combat_npc_mission>
-  <charactername.tsm_adventists_prisoner>降临派被俘虏的成员</charactername.tsm_adventists_prisoner>
-  <entityname.tsm_mcrate_time1>衰变物质</entityname.tsm_mcrate_time1>
-  <entitydescription.tsm_mcrate_time1>一箱衰变物资，保质期只有十分钟</entitydescription.tsm_mcrate_time1>
-  <entityname.tsm_mcrate_water1>箱装皮革</entityname.tsm_mcrate_water1>
-  <entitydescription.tsm_mcrate_water1>一整箱的高质量皮革，如果进水了，就会导致损坏，小心点，这东西普通人可赔不起</entitydescription.tsm_mcrate_water1>
-  <entityname.tsm_mcrate_shillok>洛希克的宝藏</entityname.tsm_mcrate_shillok>
-  <entitydescription.tsm_mcrate_shillok>据说这个口袋里面什么都可能有，不妨分解出来看看，你能得到什么？</entitydescription.tsm_mcrate_shillok>
-  <faction.tsm>奇迹之海</faction.tsm>
-  <faction.tsm.description>奇迹之海公司逐渐演变为一个重要的阵营势力。凭借其广泛的影响力和资源，公司的角色不仅限于商业运营，还扩展到深海世界中的政治和军事领域，形成了一个强大的阵营，对深海探险和区域安全产生了深远的影响。</faction.tsm.description>
-  <faction.tsm.shortdescription>奇迹之海是一家杰出的多领域企业。公司以其卓越的护航服务闻名，提供无与伦比的安全保障，确保深海探险者和商船的安全。</faction.tsm.shortdescription>
-  <randomnews35>同舟共寄团队，正在清空航道内的威胁，联盟给予了正面的回复，并希望更多的团队加入其中，让航道可以更加安全。</randomnews35>
-  <randomnews36>奇迹之海为你保驾护航</randomnews36>
-  <locationchange.tsm_city.changeto.abandoned>奇迹之海堡垒都市[previousname]被攻陷。</locationchange.tsm_city.changeto.abandoned>
-  <locationchange.tsm_city.changeto.none>奇迹之海堡垒都市[previousname]已经迁往其他更适宜居住的地方</locationchange.tsm_city.changeto.none>
-  <locationchange.none.changeto.tsm_city>奇迹之海发现了生态区[previousname]，并建立了一座堡垒都市</locationchange.none.changeto.tsm_city>
-  <locationchange.abandoned.changeto.tsm_city>奇迹之海清扫了[previousname]的内部威胁，并以此为基础建立了一座都市</locationchange.abandoned.changeto.tsm_city>
-  <eventtext.unlockpathgeneric.nomoney.tsm>“既然实力不行，也不打算缴纳保证金，那就不要打扰我宝贵的休息时间”</eventtext.unlockpathgeneric.nomoney.tsm>
-  <eventtext.unlockpath.refusebribe.tsm>想想还是算了</eventtext.unlockpath.refusebribe.tsm>
-  <lockedpathtooltiptsmreputation>这条通道已经被奇迹之海封锁了，若想继续前进，你在‖color:faction.tsm‖奇迹之海的声望必须超过 [requiredreputation]，还需征得管理员的许可。你可以在在信息界面查看你当前的声望。\n\n当前声望: [currentreputation]</lockedpathtooltiptsmreputation>
-  <eventtext.unlockpathcoldcaverns.tsmc1>“你们想通过这片关卡？”\n管理员抬起头，眼神透过控制台的光幕打量了一番船队，随后熟练地操作终端，\n“稍等，我先核对一下你们船队的记录。”\n几秒钟后\n“欢迎你，船长。经过核查，你们的声望足够，已授予你们前往木卫二海脊的通行权限，权限已同步到你们的终端。”\n他停顿片刻，眼中掠过一丝严肃\n“不过，木卫二海脊远比之前的航线更加凶险，深海暗涌、未知生物和残破的沉船都可能随时威胁你们的安全。船长，请务必保持冷静与谨慎。”</eventtext.unlockpathcoldcaverns.tsmc1>
-  <eventtext.unlockpathcoldcaverns.tsmc2>“想要潜入更深的区域？”\n管理员微微一笑，手指轻触终端，“稍等片刻，我需要调取你们的记录。”\n几秒钟后，屏幕上的数据让管理员皱了皱眉，“抱歉，从现有的记录来看，你们尚未达到通过封锁的要求。”\n“不过...”停顿了一下，视线从终端移向你们，语气带着些许玩味“这里可是奇迹之海，在这片海域，总有例外。如果你们执意要前往更深处，我们可以破例放行——前提是，缴纳2000mk的保证金。”\n管理员靠在椅背上，目光中带着几分等待与考量，“现在，决定权在你们手上。你们的选择是什么？”</eventtext.unlockpathcoldcaverns.tsmc2>
-  <eventtext.unlockpathcoldcaverns.tsmo1>2000MK,成交！</eventtext.unlockpathcoldcaverns.tsmo1>
-  <eventtext.unlockpathcoldcaverns.tsmo1.tsmc1>“很痛快嘛，我就喜欢这种性格的人，封锁线那边的人我会打好招呼，你们只管通过就好了。”</eventtext.unlockpathcoldcaverns.tsmo1.tsmc1>
-  <eventtext.unlockpathcoldcaverns.tsmo1.nomoney>“没钱？唉，那我就没办法了，你们船队的记录并不让人称心如意，没钱的话考虑去悬赏那里赚一笔？</eventtext.unlockpathcoldcaverns.tsmo1.nomoney>
-  <eventtext.unlockpathcoldcaverns.tsmo2.tsmc1>“既然实力不行，也不打算缴纳保证金，那就不要打扰我宝贵的休息时间”</eventtext.unlockpathcoldcaverns.tsmo2.tsmc1>
-  <eventtext.unlockpatheuropanridge.tsmc1>“你们想前往无光海原？”\n“请稍等一下”管理员指尖在终端上飞速划过.\n片刻后,管理员露出满意的笑容：：“看来你们一直在为我们开拓冰脊，做出了不少贡献。那么，我很高兴地宣布——无光海原的大门已向你们敞开。”\n“愿你们在那片黑暗深海中一帆风顺，祝旅途平安，船长。”</eventtext.unlockpatheuropanridge.tsmc1>
-  <eventtext.unlockpatheuropanridge.tsmc2>“你们想进入海原？”\n管理员眯起眼，手指轻敲着终端，片刻后轻笑一声，“根据记录来看，这可不太好说啊……”</eventtext.unlockpatheuropanridge.tsmc2>
-  <eventtext.unlockpatheuropanridge.tsmo1>“我懂，我懂4500mk的保证金够吗？”</eventtext.unlockpatheuropanridge.tsmo1>
-  <eventtext.unlockpatheuropanridge.tsmo1.tsmc1>“你们的记录不算差，但是否真的做好了准备，这片危险的海域可不会轻易接纳任何人。”</eventtext.unlockpatheuropanridge.tsmo1.tsmc1>
-  <eventtext.unlockpatheuropanridge.tsmo1.nomoney>“钱不够呀，这样吧，我们最近也发布了几个赏金任务，要不试试看？”</eventtext.unlockpatheuropanridge.tsmo1.nomoney>
-  <eventtext.unlockpatheuropanridge.tsmo2.tsmc1>“去与不去，都是不是我们决定的，而是你们，毕竟木卫二海脊很适合居住，不是吗？”</eventtext.unlockpatheuropanridge.tsmo2.tsmc1>
-  <eventtext.unlockpathaphoticplateau.tsmc1>“啊，是你们啊！你们现在可是明星船队呢，木卫二到处都在传出你们的事迹呢”\“当然，当然，这意味着你们已获得通过无光海原的资格，现在可以动身前往浩瀚汪洋了。如今这种局势，能穿越到那里的船队屈指可数。”\n管理员站起身和你握手，“我会立刻通知前方的关卡，允许你们进入渊洋。愿你们在那片深不可测的海域中顺利前行。”</eventtext.unlockpathaphoticplateau.tsmc1>
-  <eventtext.unlockpathaphoticplateau.tsmc2>“很抱歉”\n管理员叹了口气，神情中透出一丝无奈:“我知道你们一路走到这里并不容易，经历了不少艰难险阻。但我们不能冒险放任一艘未达标的船队进入浩瀚汪洋。”\n他抬起头，语气变得柔和了些许:“这是为了保护你们。希望你能理解，不是所有人都能承受那里潜藏的危险。”</eventtext.unlockpathaphoticplateau.tsmc2>
-  <eventtext.unlockpathaphoticplateau.tsmo1>“那如果我们缴纳9K保证金呢？”</eventtext.unlockpathaphoticplateau.tsmo1>
-  <eventtext.unlockpathaphoticplateau.tsmo1.tsmc1>“按我们的规定，确实是可以放行的，”他缓缓说道，语气中带着一丝慎重\n“不过，我还是得劝你们三思。浩瀚汪洋可不是人人都能轻易踏足的地方。”他凝视着你们，声音低沉却意味深长\n“那片海域隐藏着无尽的未知与危险，不是所有人都能从中归来。请务必慎重考虑。”</eventtext.unlockpathaphoticplateau.tsmo1.tsmc1>
-  <eventtext.unlockpathaphoticplateau.tsmo1.nomoney>“钱不够就不要逞能，更何况钱也不是万能的，先保住命再说吧“</eventtext.unlockpathaphoticplateau.tsmo1.nomoney>
-  <eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>“我就是说嘛，又不一定非要过去，无光海原多好，宜居，奇迹之海的总部就在无光海原，不如买一套公寓，退休养老吧”</eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>
-  <eventtext.unlockpathgreatsea.tsmc1>管理员老远看见你过来，他站了起来握住你手说到：“你看看，这谁来了，这不是无人不知道无人不晓的大明星船队嘛，这次来是有什么要求吗？”\n在听到你们想要前往热液废土的请求后，管理员的表情微微一僵。他沉默了片刻，随即语气沉缓地说道：“下个区域的生物数量异常丰富，加上地热活动引发的水流变化，航行将会变得更加危险。”他注视着你们，仿佛在确认你们的决心。“你们真的想好了吗？”\n他站直了身体，郑重地向你们敬了个礼。“那么，请务必小心，大意不得。”</eventtext.unlockpathgreatsea.tsmc1>
-  <eventtext.unlockpathgreatsea.tsmc2>“所以你想进入热流废土？想过去的船队不少，失联的也不少，这是奇迹之海的保证金制度，如果你们执意要去的话，看看吧”</eventtext.unlockpathgreatsea.tsmc2>
-  <eventtext.unlockpathgreatsea.tsmo1>“17000马克？这好说，我等下就把钱转过去”</eventtext.unlockpathgreatsea.tsmo1>
-  <eventtext.unlockpathgreatsea.tsmo1.tsmc1>“不要着急啊，可以再考虑考虑。唉，这年头有人用命赚钱，有人用钱换命，我还是第一次见花钱送死的。”</eventtext.unlockpathgreatsea.tsmo1.tsmc1>
-  <eventtext.unlockpathgreatsea.tsmo1.nomoney>“那就别去了，有钱有命才能花，有命总会有钱的”</eventtext.unlockpathgreatsea.tsmo1.nomoney>
-  <eventtext.unlockpathgreatsea.tsmo2.tsmc1>“好多人本来会跟你一样，可以站在这里，拥有一往无前的勇气”</eventtext.unlockpathgreatsea.tsmo2.tsmc1>
-  <npctitle.TSMnpc_1>狼隼小队队长</npctitle.TSMnpc_1>
-  <npctitle.TSMnpc_2>墨染小队队长</npctitle.TSMnpc_2>
-  <npctitle.TSMnpc_4>奇迹之海总教官</npctitle.TSMnpc_4>
-  <npctitle.TSMnpc_5>九州作战部代理部长</npctitle.TSMnpc_5>
-  <npctitle.TSMnpc_7>降临派的主教</npctitle.TSMnpc_7>
-  <npctitle.tsm_outpost_combat_npc>奇迹之海日暮山作战部</npctitle.tsm_outpost_combat_npc>
-  <npctitle.tsm_outpostmanager>管制官</npctitle.tsm_outpostmanager>
-  <npctitle.tsm_wz_ff>军需官</npctitle.tsm_wz_ff>
-  <npctitle.tsm_caretakers>航道管理员</npctitle.tsm_caretakers>
-  <npctitle.tsm_wz_ff_xbz>信标站管理员</npctitle.tsm_wz_ff_xbz>
-  <npctitle.tsm_bountyhunter>奇迹之海赏金任务派发员</npctitle.tsm_bountyhunter>
-  <npctitle.tsm_gendarmerie>奇迹之海宪兵</npctitle.tsm_gendarmerie>
-  <entityname.tsm_lighter>老牌打火机</entityname.tsm_lighter>
-  <entitydescription.tsm_lighter>你想抽一支烟？</entitydescription.tsm_lighter>
-  <entityname.tsm_marlboro_cigar>万宝路香烟</entityname.tsm_marlboro_cigar>
-  <entitydescription.tsm_marlboro_cigar>Man always remember love because of romantic only\n可缓慢治疗精神压力、精神病以及谵妄中毒</entitydescription.tsm_marlboro_cigar>
-  <entityname.tsm_marlboro_box>盒装万宝路</entityname.tsm_marlboro_box>
-  <entitydescription.tsm_marlboro_box>抽万宝路更有男人味\n内含8根万宝路香烟</entitydescription.tsm_marlboro_box>
-  <entityname.tsm_Chinese_cigar>华子</entityname.tsm_Chinese_cigar>
-  <entitydescription.tsm_Chinese_cigar>每一口中华尽显尊贵品质\n可快速治疗精神压力和精神病，并且给予精神压力抗性</entitydescription.tsm_Chinese_cigar>
-  <entityname.tsm_Chinesecigar_box>盒装中华</entityname.tsm_Chinesecigar_box>
-  <entitydescription.tsm_Chinesecigar_box>鲜明个性,典雅风范,中华之美\n内含6根中华</entitydescription.tsm_Chinesecigar_box>
-  <entityname.tsm_universe_cigar>宇宙牌香烟</entityname.tsm_universe_cigar>
-  <entitydescription.tsm_universe_cigar>木卫二超人的第一选择\n可快速治疗精神压力和谵妄中毒</entitydescription.tsm_universe_cigar>
-  <entityname.tsm_universe_box>盒装宇宙</entityname.tsm_universe_box>
-  <entitydescription.tsm_universe_box>抽宇宙牌，做木卫二人\n内含6根宇宙牌香烟</entitydescription.tsm_universe_box>
-  <entityname.tsm_eyi_relics>恶疫体</entityname.tsm_eyi_relics>
-  <entitydescription.tsm_eyi_relics>本不属于这个世界的产物,或许需要异常事务收容箱来收容</entitydescription.tsm_eyi_relics>
-  <entityname.tsm_virusstage_inhibitory>疫病Ⅲ型抑制剂</entityname.tsm_virusstage_inhibitory>
-  <entitydescription.tsm_virusstage_inhibitory>用于抑制血肉胚胎的生长防止进入下一阶段，但是并不能完全根治</entitydescription.tsm_virusstage_inhibitory>
-  <entityname.tsm_virusstage_clear>疫病强效清除剂</entityname.tsm_virusstage_clear>
-  <entitydescription.tsm_virusstage_clear>能够直接清除身体内的血肉胚胎，但是会对身体造成伤害。</entitydescription.tsm_virusstage_clear>
-  <entityname.tsm_virusstage_deep_inhibitory>恶疫强效清除剂</entityname.tsm_virusstage_deep_inhibitory>
-  <entitydescription.tsm_virusstage_deep_inhibitory>用于强效清除恶疫（血肉胚胎二阶段），代价是会对身体造成大量伤害。</entitydescription.tsm_virusstage_deep_inhibitory>
-  <entityname.tsm_eyi_stabilise_reagent>恶疫常态</entityname.tsm_eyi_stabilise_reagent>
-  <entitydescription.tsm_eyi_stabilise_reagent>稳定态：在你体内沉睡，如果体内被注入活体恶疫则会加速转化过程\n奇迹之海研发针对人体增强的常态，不同阶段会有不同的效果</entitydescription.tsm_eyi_stabilise_reagent>
-  <entityname.tsm_eyi_stabilise_reagent_1>恶疫稳定辅助剂</entityname.tsm_eyi_stabilise_reagent_1>
-  <entitydescription.tsm_eyi_stabilise_reagent_1>不知道何处来的辅助剂，也不能确定他是作为增加还是减少恶疫常态来使用的</entitydescription.tsm_eyi_stabilise_reagent_1>
-  <entityname.tsm_eyi_stabilise_reagent_2>恶疫稳定辅助剂</entityname.tsm_eyi_stabilise_reagent_2>
-  <entitydescription.tsm_eyi_stabilise_reagent_2>不知道何处来的辅助剂，也不能确定他是作为增加还是减少恶疫常态来使用的</entitydescription.tsm_eyi_stabilise_reagent_2>
-  <entityname.tsm_eyi_stabilise_add_1>恶疫补强辅助剂I</entityname.tsm_eyi_stabilise_add_1>
-  <entitydescription.tsm_eyi_stabilise_add_1>稳定辅助剂，每次使用会‖color:255,110,0,255‖增加1‖color:end‖的稳定恶疫常态</entitydescription.tsm_eyi_stabilise_add_1>
-  <entityname.tsm_eyi_stabilise_add_2>恶疫补强辅助剂II</entityname.tsm_eyi_stabilise_add_2>
-  <entitydescription.tsm_eyi_stabilise_add_2>稳定辅助剂，每次使用会‖color:255,110,0,255‖增加2‖color:end‖的稳定恶疫常态</entitydescription.tsm_eyi_stabilise_add_2>
-  <entityname.tsm_eyi_stabilise_add_3>恶疫补强辅助剂III</entityname.tsm_eyi_stabilise_add_3>
-  <entitydescription.tsm_eyi_stabilise_add_3>稳定辅助剂，每次使用会‖color:255,110,0,255‖增加3‖color:end‖的稳定恶疫常态</entitydescription.tsm_eyi_stabilise_add_3>
-  <entityname.tsm_eyi_stabilise_add_4>恶疫补强辅助剂IV</entityname.tsm_eyi_stabilise_add_4>
-  <entitydescription.tsm_eyi_stabilise_add_4>稳定辅助剂，每次使用会‖color:255,110,0,255‖增加4‖color:end‖的稳定恶疫常态</entitydescription.tsm_eyi_stabilise_add_4>
-  <entityname.tsm_eyi_stabilise_diminish_1>恶疫弱化辅助剂I</entityname.tsm_eyi_stabilise_diminish_1>
-  <entitydescription.tsm_eyi_stabilise_diminish_1>稳定辅助剂，每次使用会‖color:0,255,110,255‖减少1‖color:end‖的稳定恶疫常态</entitydescription.tsm_eyi_stabilise_diminish_1>
-  <entityname.tsm_eyi_stabilise_diminish_2>恶疫弱化辅助剂II</entityname.tsm_eyi_stabilise_diminish_2>
-  <entitydescription.tsm_eyi_stabilise_diminish_2>稳定辅助剂，每次使用会‖color:0,255,110,255‖减少2‖color:end‖的稳定恶疫常态</entitydescription.tsm_eyi_stabilise_diminish_2>
-  <entityname.tsm_eyi_stabilise_diminish_3>恶疫弱化辅助剂III</entityname.tsm_eyi_stabilise_diminish_3>
-  <entitydescription.tsm_eyi_stabilise_diminish_3>稳定辅助剂，每次使用会‖color:0,255,110,255‖减少3‖color:end‖的稳定恶疫常态</entitydescription.tsm_eyi_stabilise_diminish_3>
-  <entityname.tsm_eyi_stabilise_diminish_4>恶疫弱化辅助剂IV</entityname.tsm_eyi_stabilise_diminish_4>
-  <entitydescription.tsm_eyi_stabilise_diminish_4>稳定辅助剂，每次使用会‖color:0,255,110,255‖减少4‖color:end‖的稳定恶疫常态</entitydescription.tsm_eyi_stabilise_diminish_4>
-  <entityname.tsm_walkman>今宵别梦寒</entityname.tsm_walkman>
-  <entitydescription.tsm_walkman>随身听，可以播放从BOSS身上获得到的音频磁带，又或者是站点购买的。</entitydescription.tsm_walkman>
-  <entityname.tsm_suger>阿糖的幻化器</entityname.tsm_suger>
-  <entitydescription.tsm_suger>阿糖的幻化器，可以变化成阿糖的模样</entitydescription.tsm_suger>
-  <entityname.suger_combat_uniform>阿糖作战服</entityname.suger_combat_uniform>
-  <entitydescription.suger_combat_uniform>使用一种十分结实的防弹合成纤维来保护脆弱部位，但为了不影响穿戴者的灵活性做了大量裁剪。奇怪的是这套装备包含一件老船长夹克，它看上去又大又旧，用suger的解释来说，它意味着“责任与担当</entitydescription.suger_combat_uniform>
-  <entityname.suger_clothes>阿糖的连帽衫</entityname.suger_clothes>
-  <entitydescription.suger_clothes>阿糖休息时经常穿的一款连帽衫，轻便舒适</entitydescription.suger_clothes>
-  <entityname.tsm_grey_pupils>‖color:221,106,29,255‖灰瞳‖color:end‖</entityname.tsm_grey_pupils>
-  <entitydescription.tsm_grey_pupils>‖color:221,106,29,255‖莱伦汀的配枪,使用手炮子弹\n据说是当初她还在先进作战部中的一个小队队长的配枪，当时他们在受到伏击后，队长为了救她自己中弹身亡。之后她捡起了这把枪，戴上队长的头盔，发号施令。\n"噩兆天子"，大家这么叫她，她是奇迹之海的孩子，是你被死亡笼罩时的最后救星。‖color:end‖</entitydescription.tsm_grey_pupils>
-  <entityname.tsm_common_uniform>常服·衬衣</entityname.tsm_common_uniform>
-  <entitydescription.tsm_common_uniform>九州作战部配发的常服，但是女款</entitydescription.tsm_common_uniform>
-  <entityname.tsm_lerentine>莱伦汀幻化器</entityname.tsm_lerentine>
-  <entitydescription.tsm_lerentine>莱伦汀的幻化器，可以变化成莱伦汀的模样</entitydescription.tsm_lerentine>
-  <entityname.tsm_hat_officer>军官帽</entityname.tsm_hat_officer>
+  <missionname.tsmattack>Night Ambush</missionname.tsmattack>
+  <missionheader0.tsmattack>Begin operation, engagement rule: Kill on sight</missionheader0.tsmattack>
+  <missionmessage0.tsmattack>This world is not short of death</missionmessage0.tsmattack>
+  <missionname.tsmmission_origin1>Bounty Mission: Hunt the Doomworm</missionname.tsmmission_origin1>
+  <missiondescription.tsmmission_origin1>There is a Doomworm harassing our transport between [location1] and [location2]. This time, someone has offered a bounty of [reward]mk. The mission target is to kill this worm.</missiondescription.tsmmission_origin1>
+  <missionsuccess.tsmmission_origin1>Mission Complete</missionsuccess.tsmmission_origin1>
+  <missionheader0.tsmmission_origin1>Hunt Finished</missionheader0.tsmmission_origin1>
+  <missionmessage0.tsmmission_origin1>Congratulations on completing the mission, the bounty reward will be sent to your account after you reach the next station.</missionmessage0.tsmmission_origin1>
+  <missionsonarlabel.tsmmission_origin1>Bounty Target</missionsonarlabel.tsmmission_origin1>
+  <missionname.tsmmission_origin2>Bounty Mission: Hunt the Banshee</missionname.tsmmission_origin2>
+  <missiondescription.tsmmission_origin2>A Banshee has made its home in the passage between [location1] and [location2], constantly harassing nearby stations and passing ships. We are offering a bounty of [reward]mk for its head.</missiondescription.tsmmission_origin2>
+  <missionsuccess.tsmmission_origin2>Mission Complete</missionsuccess.tsmmission_origin2>
+  <missionheader0.tsmmission_origin2>Hunt Finished</missionheader0.tsmmission_origin2>
+  <missionmessage0.tsmmission_origin2>Congratulations on completing the mission, the money will be sent to your account after you reach the next station.</missionmessage0.tsmmission_origin2>
+  <missionsonarlabel.tsmmission_origin2>Bounty Target</missionsonarlabel.tsmmission_origin2>
+  <missionname.tsmmission_origin3>Bounty Mission: Hunt the Hook Beast</missionname.tsmmission_origin3>
+  <missiondescription.tsmmission_origin3>A foreign Hook Beast has taken over the abyss in this passage, making our abyss mining operations difficult. We promise a reward of [reward]mk to anyone who kills this Hook Beast.</missiondescription.tsmmission_origin3>
+  <missionsuccess.tsmmission_origin3>Mission Complete</missionsuccess.tsmmission_origin3>
+  <missionheader0.tsmmission_origin3>Hunt Finished</missionheader0.tsmmission_origin3>
+  <missionmessage0.tsmmission_origin3>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station.</missionmessage0.tsmmission_origin3>
+  <missionsonarlabel.tsmmission_origin3>Bounty Target</missionsonarlabel.tsmmission_origin3>
+  <missionname.tsmmission_origin4>Bounty Mission: Hunt the Cyber Worm</missionname.tsmmission_origin4>
+  <missiondescription.tsmmission_origin4>Our abyss exploration team detected sonar signals similar to a Cyber Worm during their operation, so they issued a bounty of [reward]mk to kill this Cyber Worm and ensure the safety of the abyss exploration.</missiondescription.tsmmission_origin4>
+  <missionsuccess.tsmmission_origin4>Mission Complete</missionsuccess.tsmmission_origin4>
+  <missionheader0.tsmmission_origin4>Hunt Finished</missionheader0.tsmmission_origin4>
+  <missionmessage0.tsmmission_origin4>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. We will continue exploring the abyss.</missionmessage0.tsmmission_origin4>
+  <missionsonarlabel.tsmmission_origin4>Bounty Target</missionsonarlabel.tsmmission_origin4>
+  <missionname.tsmmission_origin5>Bounty Mission: Hunt the Giant Spine Cluster</missionname.tsmmission_origin5>
+  <missiondescription.tsmmission_origin5>Ships frequently went missing in the passage, and after investigating the cause, it was found that a group of giant spines from other seas had settled in. This poses a serious threat to the safety of our passage, so the target this time is this group of spines.</missiondescription.tsmmission_origin5>
+  <missionsuccess.tsmmission_origin5>Mission Complete</missionsuccess.tsmmission_origin5>
+  <missionheader0.tsmmission_origin5>Hunt Finished</missionheader0.tsmmission_origin5>
+  <missionmessage0.tsmmission_origin5>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. The passage has returned to calm.</missionmessage0.tsmmission_origin5>
+  <missionsonarlabel.tsmmission_origin5>Bounty Target</missionsonarlabel.tsmmission_origin5>
+  <missionname.tsmmission_origin6>Bounty Mission: Hunt the Venomous Serpent Cluster</missionname.tsmmission_origin6>
+  <missiondescription.tsmmission_origin6>Our hospital suddenly received a batch of patients who were suffocated and poisoned. According to the rescued crew members, they were attacked by venomous serpents during their voyage. For everyone's safety, these venomous serpents must die.</missiondescription.tsmmission_origin6>
+  <missionsuccess.tsmmission_origin6>Mission Complete</missionsuccess.tsmmission_origin6>
+  <missionheader0.tsmmission_origin6>Hunt Finished</missionheader0.tsmmission_origin6>
+  <missionmessage0.tsmmission_origin6>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. We won't suffer from suffocation poisoning again.</missionmessage0.tsmmission_origin6>
+  <missionsonarlabel.tsmmission_origin6>Bounty Target</missionsonarlabel.tsmmission_origin6>
+  <missionname.tsmmission_origin7>Bounty Mission: Raptor Ambush</missionname.tsmmission_origin7>
+  <missiondescription.tsmmission_origin7>A large number of raptors have taken over what was once a safe passage, threatening the safety of nearby stations. We are offering a bounty of [reward]mk to recruit a fleet to ambush these raptors.</missiondescription.tsmmission_origin7>
+  <missionsuccess.tsmmission_origin7>Mission Complete</missionsuccess.tsmmission_origin7>
+  <missionheader0.tsmmission_origin7>Hunt Finished</missionheader0.tsmmission_origin7>
+  <missionmessage0.tsmmission_origin7>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. The ambush was perfectly executed.</missionmessage0.tsmmission_origin7>
+  <missionsonarlabel.tsmmission_origin7>Bounty Target</missionsonarlabel.tsmmission_origin7>
+  <missionname.tsmmission_origin8>Bounty Mission: Black Moloch Extermination</missionname.tsmmission_origin8>
+  <missiondescription.tsmmission_origin8>Some clueless crew killed a few baby Molochs while passing through the passage between [location1] and [location2]. Now a group of Black Molochs has taken over the passage, and we have no choice but to summon brave warriors to help clear the situation.</missiondescription.tsmmission_origin8>
+  <missionsuccess.tsmmission_origin8>Mission Complete</missionsuccess.tsmmission_origin8>
+  <missionheader0.tsmmission_origin8>Hunt Finished</missionheader0.tsmmission_origin8>
+  <missionmessage0.tsmmission_origin8>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. The Black Molochs have been exterminated.</missionmessage0.tsmmission_origin8>
+  <missionsonarlabel.tsmmission_origin8>Bounty Target</missionsonarlabel.tsmmission_origin8>
+  <missionname.tsmmission_origin9>Bounty Mission: Thresher Group Extermination</missionname.tsmmission_origin9>
+  <missiondescription.tsmmission_origin9>A group of Tiger Threshers have occupied the passage, attacking nearby stations and destroying passing ships. Several brave warriors have gone to eliminate them, but none returned. The fleet that successfully wipes out this group and returns safely can claim the reward at the next station.</missiondescription.tsmmission_origin9>
+  <missionsuccess.tsmmission_origin9>Mission Complete</missionsuccess.tsmmission_origin9>
+  <missionheader0.tsmmission_origin9>Hunt Finished</missionheader0.tsmmission_origin9>
+  <missionmessage0.tsmmission_origin9>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. The Tiger Threshers could not escape extermination.</missionmessage0.tsmmission_origin9>
+  <missionsonarlabel.tsmmission_origin9>Bounty Target</missionsonarlabel.tsmmission_origin9>
+  <missionname.tsmmission_origin10>Bounty Mission: Invitation of the Aliens</missionname.tsmmission_origin10>
+  <missiondescription.tsmmission_origin10>A relic exploration team accidentally released several guards while exploring a ruin. These guards caused a serious safety incident, so we need someone to clean up the mess.</missiondescription.tsmmission_origin10>
+  <missionsuccess.tsmmission_origin10>Mission Complete</missionsuccess.tsmmission_origin10>
+  <missionheader0.tsmmission_origin10>Hunt Finished</missionheader0.tsmmission_origin10>
+  <missionmessage0.tsmmission_origin10>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. Technically, we are the aliens here.</missionmessage0.tsmmission_origin10>
+  <missionsonarlabel.tsmmission_origin10>Bounty Target</missionsonarlabel.tsmmission_origin10>
+  <missionname.tsmmission_origin11>Bounty Mission: Barbarians in the Cave</missionname.tsmmission_origin11>
+  <missiondescription.tsmmission_origin11>This bounty was issued by the Skin Cult. Some radical members, after taking special skin eggs, robbed the cult's skin boxes and fled to a cave. The cult hopes someone can help clean house and destroy those skin boxes.</missiondescription.tsmmission_origin11>
+  <missionsuccess.tsmmission_origin11>Mission Complete</missionsuccess.tsmmission_origin11>
+  <missionheader0.tsmmission_origin11>Hunt Finished</missionheader0.tsmmission_origin11>
+  <missionmessage0.tsmmission_origin11>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. Those strong bodies and low intelligence — was it ascension or failure?</missionmessage0.tsmmission_origin11>
+  <missionsonarlabel.tsmmission_origin11>Bounty Target</missionsonarlabel.tsmmission_origin11>
+  <missionname.tsmmission_origin13>Transport Decaying Material</missionname.tsmmission_origin13>
+  <missiondescription.tsmmission_origin13>A few boxes of decaying material urgently need to be transported to [location2]. Attention! You only have ten minutes.</missiondescription.tsmmission_origin13>
+  <missionsuccess.tsmmission_origin13>Express Delivery</missionsuccess.tsmmission_origin13>
+  <missionheader0.tsmmission_origin13>Express Delivery</missionheader0.tsmmission_origin13>
+  <missionmessage0.tsmmission_origin13>Racing with Death</missionmessage0.tsmmission_origin13>
+  <missionname.tsmmission_origin14>Transport Leather Materials</missionname.tsmmission_origin14>
+  <missiondescription.tsmmission_origin14>A wealthy individual at [location2] has ordered some high-quality leather. This leather is very precious and cannot come into contact with water, or it will be ruined. So, be very careful during transport.</missiondescription.tsmmission_origin14>
+  <missionsuccess.tsmmission_origin14>Task completed with quality and quantity</missionsuccess.tsmmission_origin14>
+  <missionheader0.tsmmission_origin14>The best delivery service</missionheader0.tsmmission_origin14>
+  <missionmessage0.tsmmission_origin14>Task completed with quality and quantity</missionmessage0.tsmmission_origin14>
+  <missionname.tsmmission_origin15>Transport Captured Adventist Members</missionname.tsmmission_origin15>
+  <missiondescription.tsmmission_origin15>A few members of the Adventist were arrested at the Sea of Miracles. They now need to be transported to the next station for interrogation.</missiondescription.tsmmission_origin15>
+  <missionsuccess.tsmmission_origin15>No member was left behind</missionsuccess.tsmmission_origin15>
+  <missionheader0.tsmmission_origin15>Mission Complete</missionheader0.tsmmission_origin15>
+  <missionmessage0.tsmmission_origin15>No member was left behind</missionmessage0.tsmmission_origin15>
+  <missionname.tsmmission_origin16>Shirok’s Treasure</missionname.tsmmission_origin16>
+  <missiondescription.tsmmission_origin16>A mysterious person has entrusted us to transport a package to another mysterious person. He hinted that the package contains Shirok's Treasure (rumor has it, Shirok’s Treasure could break down into anything, but it’s all up to luck).</missiondescription.tsmmission_origin16>
+  <missionsuccess.tsmmission_origin16>Honesty above all</missionsuccess.tsmmission_origin16>
+  <missionheader0.tsmmission_origin16>Mission Complete</missionheader0.tsmmission_origin16>
+  <missionmessage0.tsmmission_origin16>Honesty above all</missionmessage0.tsmmission_origin16>
+  <missionname.tsmmission_origin17>Transport Materials</missionname.tsmmission_origin17>
+  <missiondescription.tsmmission_origin17>The Sea of Miracles has entrusted us to transport a batch of raw ore materials.</missiondescription.tsmmission_origin17>
+  <missionsuccess.tsmmission_origin17>Honesty above all</missionsuccess.tsmmission_origin17>
+  <missionheader0.tsmmission_origin17>Mission Complete</missionheader0.tsmmission_origin17>
+  <missionmessage0.tsmmission_origin17>Honesty above all</missionmessage0.tsmmission_origin17>
+  <missionname.tsmmission_origin18>Transport Medical Supplies</missionname.tsmmission_origin18>
+  <missiondescription.tsmmission_origin18>[location2] is in desperate need of medical supplies. They have ordered a batch from the Sea of Miracles, and it urgently needs to be delivered.</missiondescription.tsmmission_origin18>
+  <missionsuccess.tsmmission_origin18>Honesty above all</missionsuccess.tsmmission_origin18>
+  <missionheader0.tsmmission_origin18>Mission Complete</missionheader0.tsmmission_origin18>
+  <missionmessage0.tsmmission_origin18>Honesty above all</missionmessage0.tsmmission_origin18>
+  <missionname.tsmmission_origin19>Transport Sea of Miracles Soldiers</missionname.tsmmission_origin19>
+  <missiondescription.tsmmission_origin19>A squad from the Sea of Miracles wishes to travel on your ship to the next station.</missiondescription.tsmmission_origin19>
+  <missionsuccess.tsmmission_origin19>Arrived safely</missionsuccess.tsmmission_origin19>
+  <missionheader0.tsmmission_origin19>Mission Complete</missionheader0.tsmmission_origin19>
+  <missionmessage0.tsmmission_origin19>Arrived safely</missionmessage0.tsmmission_origin19>
+  <missionname.tsmmission_origin20>Bounty Mission: Crawler Extermination</missionname.tsmmission_origin20>
+  <missiondescription.tsmmission_origin20>A large group of Crawlers is present in the passage. We’ve tried multiple times to drive them away, but with little effect. They aren’t even afraid of station security forces anymore, which means these are no ordinary Crawlers. We need to strike hard.</missiondescription.tsmmission_origin20>
+  <missionsuccess.tsmmission_origin20>The Crawlers are pushing the submarine pilots and training the crew’s shooting skills, what a hassle.</missionsuccess.tsmmission_origin20>
+  <missionheader0.tsmmission_origin20>Mission Complete</missionheader0.tsmmission_origin20>
+  <missionmessage0.tsmmission_origin20>The Crawlers are pushing the submarine pilots and training the crew’s shooting skills, what a hassle.</missionmessage0.tsmmission_origin20>
+  <missionsonarlabel.tsmmission_origin20>Bounty Target</missionsonarlabel.tsmmission_origin20>
+  <missionname.tsmmission_origin21>Bounty Mission: Farewell, Doomworm</missionname.tsmmission_origin21>
+  <missiondescription.tsmmission_origin21>The Doomworm, dormant in the abyss, has become active again. Nearby stations have issued emergency alerts, causing widespread panic. Someone has offered [reward]mk to kill the Doomworm.</missiondescription.tsmmission_origin21>
+  <missionsuccess.tsmmission_origin21>Hopefully, it won’t awaken again</missionsuccess.tsmmission_origin21>
+  <missionheader0.tsmmission_origin21>Mission Complete</missionheader0.tsmmission_origin21>
+  <missionmessage0.tsmmission_origin21>Back to sleep again</missionmessage0.tsmmission_origin21>
+  <missionsonarlabel.tsmmission_origin21>Bounty Target</missionsonarlabel.tsmmission_origin21>
+  <character.embi_009>Plague</character.embi_009>
+  <character.embi_t037a>Thunder Dragon</character.embi_t037a>
+  <character.embi_001>Experiment 001</character.embi_001>
+  <character.embi_003>Experiment 003</character.embi_003>
+  <character.Experiment009_bug>Toxic Exploder</character.Experiment009_bug>
+  <character.tsm_husk_pucs>Living Cadaver</character.tsm_husk_pucs>
+  <character.tsm_husk_arm>Living Cadaver</character.tsm_husk_arm>
+  <character.tsm_beast>Behemoth</character.tsm_beast>
+  <character.tsm_portalguardian_cave>Cave Cleaner</character.tsm_portalguardian_cave>
+  <character.tsm_Guardianrepairbot>Repairer</character.tsm_Guardianrepairbot>
+  <character.boneeater>Bone Eater</character.boneeater>
+  <character.humaneyi>Plague Body</character.humaneyi>
+  <character.eyivariant>Mutant</character.eyivariant>
+  <character.tsm_tyrant>Tyrant</character.tsm_tyrant>
+  <character.skinbreaker>Skin Breaker</character.skinbreaker>
+  <character.eyibug>Bloodworm</character.eyibug>
+  <character.Eyi_hugger>Embracer</character.Eyi_hugger>
+  <character.pgc>Sea of Miracles Heavy Guard</character.pgc>
+  <character.adventists_heavy>Adventist Heavy Leader</character.adventists_heavy>
+  <character.adventists>Adventist Armed Soldier</character.adventists>
+  <character.Facility_security>Facility Security</character.Facility_security>
+  <character.Facility_security_heavy>Facility Heavy Security</character.Facility_security_heavy>
+  <character.Facility_security_outside>Facility Outer Security</character.Facility_security_outside>
+  <charactername.tsm_outpost_combat_npc_mission>Sea of Miracles Soldier</charactername.tsm_outpost_combat_npc_mission>
+  <charactername.tsm_adventists_prisoner>Captured Adventist Member</charactername.tsm_adventists_prisoner>
+  <entityname.tsm_mcrate_time1>Decaying Material</entityname.tsm_mcrate_time1>
+  <entitydescription.tsm_mcrate_time1>A box of decaying material with only ten minutes of shelf life.</entitydescription.tsm_mcrate_time1>
+  <entityname.tsm_mcrate_water1>Boxed Leather</entityname.tsm_mcrate_water1>
+  <entitydescription.tsm_mcrate_water1>A full box of high-quality leather. If it gets wet, it will be damaged. Be careful, most people can’t afford to pay for this.</entitydescription.tsm_mcrate_water1>
+  <entityname.tsm_mcrate_shillok>Shirok's Treasure</entityname.tsm_mcrate_shillok>
+  <entitydescription.tsm_mcrate_shillok>It's said that this pouch could contain anything. Why not break it down and see what you get?</entitydescription.tsm_mcrate_shillok>
+  <faction.tsm>The Sea of Miracles</faction.tsm>
+  <faction.tsm.description>The Sea of Miracles Company has gradually evolved into a significant faction. With its wide-reaching influence and resources, the company’s role has expanded beyond mere commercial operations, extending into the political and military realms of the deep-sea world, forming a powerful faction with a profound impact on deep-sea exploration and regional security.</faction.tsm.description>
+  <faction.tsm.shortdescription>Sea of Miracles is an outstanding multi-field enterprise. The company is renowned for its exceptional escort services, providing unparalleled safety guarantees, ensuring the safety of deep-sea explorers and merchant vessels.</faction.tsm.shortdescription>
+  <randomnews35>The joint Same Boat team is clearing threats from the channels. The alliance has responded positively and hopes more teams will join in to make the channels safer.</randomnews35>
+  <randomnews36>Sea of Miracles has your back</randomnews36>
+  <locationchange.tsm_city.changeto.abandoned>Sea of Miracles’s fortress city [previousname] has fallen.</locationchange.tsm_city.changeto.abandoned>
+  <locationchange.tsm_city.changeto.none>Sea of Miracles’s fortress city [previousname] has relocated to a more suitable location.</locationchange.tsm_city.changeto.none>
+  <locationchange.none.changeto.tsm_city>Sea of Miracles discovered the ecological zone [previousname] and established a fortress city there.</locationchange.none.changeto.tsm_city>
+  <locationchange.abandoned.changeto.tsm_city>Sea of Miracles cleared the internal threats of [previousname] and established a city on this foundation.</locationchange.abandoned.changeto.tsm_city>
+  <eventtext.unlockpathgeneric.nomoney.tsm>“If you're not capable and not planning to pay the deposit, don’t waste my precious rest time.”</eventtext.unlockpathgeneric.nomoney.tsm>
+  <eventtext.unlockpath.refusebribe.tsm>Thought better of it</eventtext.unlockpath.refusebribe.tsm>
+  <lockedpathtooltiptsmreputation>This passage has been sealed off by Sea of Miracles. If you want to continue, your reputation with ‖color:faction.tsm‖ Sea of Miracles must exceed [requiredreputation], and you must obtain the administrator's permission. You can view your current reputation in the info interface.\n\nCurrent Reputation: [currentreputation]</lockedpathtooltiptsmreputation>
+  <eventtext.unlockpathcoldcaverns.tsmc1>“You want to pass this checkpoint?”\nThe administrator looked up, his gaze sweeping through the fleet via the control panel's light screen, then skillfully operating the terminal,\n“Wait a moment, I need to verify your fleet’s records.”\nA few seconds later\n“Welcome, Captain. After review, your reputation is sufficient. Permission to travel to the Europa Ridge has been granted. The authorization has been synced to your terminal.”\nHe paused, a hint of seriousness flashing in his eyes\n“But, the Europa Ridge is far more perilous than previous routes. Deep-sea currents, unknown creatures, and wrecked ships may threaten your safety at any moment. Captain, please stay calm and cautious.”</eventtext.unlockpathcoldcaverns.tsmc1>
+  <eventtext.unlockpathcoldcaverns.tsmc2>“You want to dive into deeper waters?”\nThe administrator smiled faintly, lightly touching the terminal, “Hold on a moment, I need to pull up your records.”\nA few seconds later, the data on the screen made the administrator frown, “Sorry, according to the current records, you haven’t met the requirements to pass the blockade.”\n“But...” he paused, glancing from the terminal to you, with a slightly playful tone, “This is the Sea of Miracles, after all. In these waters, there are always exceptions. If you insist on heading deeper, we can make an exception—provided you pay a 2000mk deposit.”\nThe administrator leaned back in his chair, his gaze filled with a mix of anticipation and calculation, “Now, the decision is yours. What will you choose?”</eventtext.unlockpathcoldcaverns.tsmc2>
+  <eventtext.unlockpathcoldcaverns.tsmo1>2000MK, deal!</eventtext.unlockpathcoldcaverns.tsmo1>
+  <eventtext.unlockpathcoldcaverns.tsmo1.tsmc1>“Great! I like people with this kind of attitude. I’ll let the folks at the blockade know; you just go ahead.”</eventtext.unlockpathcoldcaverns.tsmo1.tsmc1>
+  <eventtext.unlockpathcoldcaverns.tsmo1.nomoney>“No money? Well, then I can’t help you. Your fleet’s records don’t look too promising. If you’re broke, consider earning some cash through bounties.”</eventtext.unlockpathcoldcaverns.tsmo1.nomoney>
+  <eventtext.unlockpathcoldcaverns.tsmo2.tsmc1>“If you’re not capable and not planning to pay the deposit, don’t waste my precious rest time.”</eventtext.unlockpathcoldcaverns.tsmo2.tsmc1>
+  <eventtext.unlockpatheuropanridge.tsmc1>“You want to head to the Abyssal Plains?”\n“Please hold on a second,” the administrator’s fingers swiftly glided over the terminal.\nA moment later, the administrator smiled in satisfaction, “It seems you’ve been contributing a lot to the Ice Ridge. I’m pleased to announce—you now have access to the Abyssal Plains.”\n“May you sail smoothly in those dark depths. Safe travels, Captain.”</eventtext.unlockpatheuropanridge.tsmc1>
+  <eventtext.unlockpatheuropanridge.tsmc2>“You want to enter the Abyssal Plains?”\nThe administrator squinted, lightly tapping the terminal, and chuckled softly after a moment, “Judging by the records, this doesn’t look too promising…”</eventtext.unlockpatheuropanridge.tsmc2>
+  <eventtext.unlockpatheuropanridge.tsmo1>“I understand, I understand, is 4500mk enough?”</eventtext.unlockpatheuropanridge.tsmo1>
+  <eventtext.unlockpatheuropanridge.tsmo1.tsmc1>“Your records aren’t bad, but are you truly ready? This dangerous sea won’t accept just anyone.”</eventtext.unlockpatheuropanridge.tsmo1.tsmc1>
+  <eventtext.unlockpatheuropanridge.tsmo1.nomoney>“Not enough money, huh? Well, we’ve recently posted some bounty missions, why not give them a shot?”</eventtext.unlockpatheuropanridge.tsmo1.nomoney>
+  <eventtext.unlockpatheuropanridge.tsmo2.tsmc1>“Whether you go or not, that’s not for us to decide, it’s up to you. After all, the Europa Ridge is a great place to live, isn’t it?”</eventtext.unlockpatheuropanridge.tsmo2.tsmc1>
+  <eventtext.unlockpathaphoticplateau.tsmc1>“Ah, it’s you! You’re the star fleet everyone’s been talking about, right? Your tales are all over Europa.”\n“Of course, of course, this means you’ve earned the right to traverse the Abyssal Plains. You may now set sail for the vast ocean. Not many fleets have managed to make it there under the current circumstances.”\nThe administrator stood up and shook your hand, “I’ll notify the checkpoint ahead to allow your passage into the Abyss. May you proceed safely through those unfathomable waters.”</eventtext.unlockpathaphoticplateau.tsmc1>
+  <eventtext.unlockpathaphoticplateau.tsmc2>“My apologies,”\nThe administrator sighed, a hint of helplessness in his expression, “I know it hasn’t been easy for you to make it this far, you’ve overcome many obstacles. But we cannot risk letting an unqualified fleet venture into the vast ocean.”\nHe looked up, his tone softening slightly, “This is for your protection. I hope you understand, not everyone can handle the dangers lurking there.”</eventtext.unlockpathaphoticplateau.tsmc2>
+  <eventtext.unlockpathaphoticplateau.tsmo1>“What if we pay a 9K deposit?”</eventtext.unlockpathaphoticplateau.tsmo1>
+  <eventtext.unlockpathaphoticplateau.tsmo1.tsmc1>“According to our regulations, you can indeed pass,” he said slowly, his tone solemn.\n“But I must advise you to think carefully. The vast ocean is not a place to tread lightly.” He gazed at you, his voice low and full of meaning.\n“That sea holds endless unknowns and dangers, and not everyone returns from it. Please consider carefully.”</eventtext.unlockpathaphoticplateau.tsmo1.tsmc1>
+  <eventtext.unlockpathaphoticplateau.tsmo1.nomoney>“If you don’t have enough money, don’t push it. Besides, money isn’t everything—stay alive first, then talk.”</eventtext.unlockpathaphoticplateau.tsmo1.nomoney>
+  <eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>“As I said, there’s no need to go overboard. The Abyssal Plains are great, livable, and Sea of Miracles's headquarters are there. Why not buy an apartment and retire?”</eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>
+  <eventtext.unlockpathgreatsea.tsmc1>The administrator saw you from afar and stood up, shaking your hand. “Look who it is! The famous star fleet! What can I do for you this time?”\nUpon hearing your request to travel to the Hydrothermal Wastelands, the administrator’s expression stiffened slightly. He was silent for a moment, then spoke in a slow, deliberate tone: “The number of creatures in the next area is abnormally high, and the currents stirred by geothermal activity will make navigation even more dangerous.” He looked at you, as if gauging your resolve. “Are you truly prepared?”\nHe straightened up and saluted you. “Then, please be careful—do not be careless.”</eventtext.unlockpathgreatsea.tsmc1>
+  <eventtext.unlockpathgreatsea.tsmc2>“So you want to enter the Thermal Wasteland? Many fleets have tried, and many have gone missing. This is the Sea of Miracles’s deposit system. If you’re determined to go, take a look.”</eventtext.unlockpathgreatsea.tsmc2>
+  <eventtext.unlockpathgreatsea.tsmo1>“17000mk? No problem, I’ll transfer the money shortly.”</eventtext.unlockpathgreatsea.tsmo1>
+  <eventtext.unlockpathgreatsea.tsmo1.tsmc1>“Don’t rush. You can always reconsider. It’s rare to see someone who’s both earning money with their life and buying their way into danger. First time I’ve seen someone paying to die.”</eventtext.unlockpathgreatsea.tsmo1.tsmc1>
+  <eventtext.unlockpathgreatsea.tsmo1.nomoney>“Then don’t go. You need both money and life to enjoy it. As long as you’re alive, you’ll always have money.”</eventtext.unlockpathgreatsea.tsmo1.nomoney>
+  <eventtext.unlockpathgreatsea.tsmo2.tsmc1>“Many could’ve stood where you are now, with the courage to press forward.”</eventtext.unlockpathgreatsea.tsmo2.tsmc1>
+  <npctitle.TSMnpc_1>Captain of Wolf Falcon Squad</npctitle.TSMnpc_1>
+  <npctitle.TSMnpc_2>Captain of Shadow-Stained Squad</npctitle.TSMnpc_2>
+  <npctitle.TSMnpc_4>Chief Instructor of Sea of Miracles</npctitle.TSMnpc_4>
+  <npctitle.TSMnpc_5>Acting Minister of Kyushu Operations Department</npctitle.TSMnpc_5>
+  <npctitle.TSMnpc_7>Bishop of the Adventist</npctitle.TSMnpc_7>
+  <npctitle.tsm_outpost_combat_npc>Sea of Miracles Dusk Mountain Operations Department</npctitle.tsm_outpost_combat_npc>
+  <npctitle.tsm_outpostmanager>Controller</npctitle.tsm_outpostmanager>
+  <npctitle.tsm_wz_ff>Quartermaster</npctitle.tsm_wz_ff>
+  <npctitle.tsm_caretakers>Route Manager</npctitle.tsm_caretakers>
+  <npctitle.tsm_wz_ff_xbz>Beacon Station Manager</npctitle.tsm_wz_ff_xbz>
+  <npctitle.tsm_bountyhunter>Sea of Miracles Bounty Task Distributor</npctitle.tsm_bountyhunter>
+  <npctitle.tsm_gendarmerie>Sea of Miracles Military Police</npctitle.tsm_gendarmerie>
+  <entityname.tsm_lighter>Old Lighter</entityname.tsm_lighter>
+  <entitydescription.tsm_lighter>Want to smoke a cigarette?</entitydescription.tsm_lighter>
+  <entityname.tsm_marlboro_cigar>Marlboro Cigarette</entityname.tsm_marlboro_cigar>
+  <entitydescription.tsm_marlboro_cigar>Man always remember love because of romantic only\nSlowly reduces mental stress, psychosis, and delirium poisoning</entitydescription.tsm_marlboro_cigar>
+  <entityname.tsm_marlboro_box>Pack of Marlboro</entityname.tsm_marlboro_box>
+  <entitydescription.tsm_marlboro_box>Smoking Marlboro gives you more masculinity\nContains 8 Marlboro cigarettes</entitydescription.tsm_marlboro_box>
+  <entityname.tsm_Chinese_cigar>Huazi Cigarette</entityname.tsm_Chinese_cigar>
+  <entitydescription.tsm_Chinese_cigar>Every puff of Huazi shows noble quality\nQuickly relieves mental stress and psychosis, and provides resistance to mental stress</entitydescription.tsm_Chinese_cigar>
+  <entityname.tsm_Chinesecigar_box>Pack of Huazi</entityname.tsm_Chinesecigar_box>
+  <entitydescription.tsm_Chinesecigar_box>Distinct character, elegant style, beauty of Huazi\nContains 6 Huazi cigarettes</entitydescription.tsm_Chinesecigar_box>
+  <entityname.tsm_universe_cigar>Cosmos Cigarette</entityname.tsm_universe_cigar>
+  <entitydescription.tsm_universe_cigar>The top choice for superhumans on Europa\nQuickly relieves mental stress and delirium poisoning</entitydescription.tsm_universe_cigar>
+  <entityname.tsm_universe_box>Pack of Cosmos</entityname.tsm_universe_box>
+  <entitydescription.tsm_universe_box>Smoke Cosmos, become a Europa person\nContains 6 Cosmos cigarettes</entitydescription.tsm_universe_box>
+  <entityname.tsm_eyi_relics>Plague Organism</entityname.tsm_eyi_relics>
+  <entitydescription.tsm_eyi_relics>A product not belonging to this world, might need an abnormal affairs containment box</entitydescription.tsm_eyi_relics>
+  <entityname.tsm_virusstage_inhibitory>Plague Type III Suppressant</entityname.tsm_virusstage_inhibitory>
+  <entitydescription.tsm_virusstage_inhibitory>Used to suppress the growth of flesh embryos and prevent them from entering the next stage, but it cannot fully cure</entitydescription.tsm_virusstage_inhibitory>
+  <entityname.tsm_virusstage_clear>Plague Potent Eliminator</entityname.tsm_virusstage_clear>
+  <entitydescription.tsm_virusstage_clear>Directly removes flesh embryos from the body, but causes physical harm.</entitydescription.tsm_virusstage_clear>
+  <entityname.tsm_virusstage_deep_inhibitory>Potent Plague Eliminator</entityname.tsm_virusstage_deep_inhibitory>
+  <entitydescription.tsm_virusstage_deep_inhibitory>Used for potent elimination of the plague (Flesh Embryo Stage 2), at the cost of significant bodily harm.</entitydescription.tsm_virusstage_deep_inhibitory>
+  <entityname.tsm_eyi_stabilise_reagent>Plague Norm</entityname.tsm_eyi_stabilise_reagent>
+  <entitydescription.tsm_eyi_stabilise_reagent>Stable state: Dormant inside your body, will accelerate transformation if injected with living plague\nA norm developed by Sea of Miracles to enhance the human body, with different effects at various stages</entitydescription.tsm_eyi_stabilise_reagent>
+  <entityname.tsm_eyi_stabilise_reagent_1>Plague Stability Enhancer</entityname.tsm_eyi_stabilise_reagent_1>
+  <entitydescription.tsm_eyi_stabilise_reagent_1>An enhancer from an unknown origin, its purpose to increase or decrease plague norm stability is unclear</entitydescription.tsm_eyi_stabilise_reagent_1>
+  <entityname.tsm_eyi_stabilise_reagent_2>Plague Stability Enhancer</entityname.tsm_eyi_stabilise_reagent_2>
+  <entitydescription.tsm_eyi_stabilise_reagent_2>An enhancer from an unknown origin, its purpose to increase or decrease plague norm stability is unclear</entitydescription.tsm_eyi_stabilise_reagent_2>
+  <entityname.tsm_eyi_stabilise_add_1>Plague Reinforcement Enhancer I</entityname.tsm_eyi_stabilise_add_1>
+  <entitydescription.tsm_eyi_stabilise_add_1>Stability enhancer, each use will‖color:255,110,0,255‖increase stability by 1‖color:end‖</entitydescription.tsm_eyi_stabilise_add_1>
+  <entityname.tsm_eyi_stabilise_add_2>Plague Reinforcement Enhancer II</entityname.tsm_eyi_stabilise_add_2>
+  <entitydescription.tsm_eyi_stabilise_add_2>Stability enhancer, each use will‖color:255,110,0,255‖increase stability by 2‖color:end‖</entitydescription.tsm_eyi_stabilise_add_2>
+  <entityname.tsm_eyi_stabilise_add_3>Plague Reinforcement Enhancer III</entityname.tsm_eyi_stabilise_add_3>
+  <entitydescription.tsm_eyi_stabilise_add_3>Stability enhancer, each use will‖color:255,110,0,255‖increase stability by 3‖color:end‖</entitydescription.tsm_eyi_stabilise_add_3>
+  <entityname.tsm_eyi_stabilise_add_4>Plague Reinforcement Enhancer IV</entityname.tsm_eyi_stabilise_add_4>
+  <entitydescription.tsm_eyi_stabilise_add_4>Stability enhancer, each use will‖color:255,110,0,255‖increase stability by 4‖color:end‖</entitydescription.tsm_eyi_stabilise_add_4>
+  <entityname.tsm_eyi_stabilise_diminish_1>Plague Weakening Enhancer I</entityname.tsm_eyi_stabilise_diminish_1>
+  <entitydescription.tsm_eyi_stabilise_diminish_1>Stability enhancer, each use will‖color:0,255,110,255‖decrease stability by 1‖color:end‖</entitydescription.tsm_eyi_stabilise_diminish_1>
+  <entityname.tsm_eyi_stabilise_diminish_2>Plague Weakening Enhancer II</entityname.tsm_eyi_stabilise_diminish_2>
+  <entitydescription.tsm_eyi_stabilise_diminish_2>Stability enhancer, each use will‖color:0,255,110,255‖decrease stability by 2‖color:end‖</entitydescription.tsm_eyi_stabilise_diminish_2>
+  <entityname.tsm_eyi_stabilise_diminish_3>Plague Weakening Enhancer III</entityname.tsm_eyi_stabilise_diminish_3>
+  <entitydescription.tsm_eyi_stabilise_diminish_3>Stability enhancer, each use will‖color:0,255,110,255‖decrease stability by 3‖color:end‖</entitydescription.tsm_eyi_stabilise_diminish_3>
+  <entityname.tsm_eyi_stabilise_diminish_4>Plague Weakening Enhancer IV</entityname.tsm_eyi_stabilise_diminish_4>
+  <entitydescription.tsm_eyi_stabilise_diminish_4>Stability enhancer, each use will‖color:0,255,110,255‖decrease stability by 4‖color:end‖</entitydescription.tsm_eyi_stabilise_diminish_4>
+  <entityname.tsm_walkman>This Night, No Dreams of Parting</entityname.tsm_walkman>
+  <entitydescription.tsm_walkman>A portable player, can play audio tapes obtained from bosses or purchased from the station.</entitydescription.tsm_walkman>
+  <entityname.tsm_suger>Sugar's Transmogrifier</entityname.tsm_suger>
+  <entitydescription.tsm_suger>Sugar's transmogrifier, can transform into Sugar's appearance</entitydescription.tsm_suger>
+  <entityname.suger_combat_uniform>Sugar's Combat Suit</entityname.suger_combat_uniform>
+  <entitydescription.suger_combat_uniform>Uses a durable bulletproof synthetic fiber to protect vulnerable areas, but heavily tailored for flexibility. Strangely, the outfit includes an old captain's jacket that looks oversized and worn, which, according to Sugar, symbolizes "responsibility and duty."</entitydescription.suger_combat_uniform>
+  <entityname.suger_clothes>Sugar's Hoodie</entityname.suger_clothes>
+  <entitydescription.suger_clothes>A hoodie that Sugar often wears while resting, light and comfortable</entitydescription.suger_clothes>
+  <entityname.tsm_grey_pupils>‖color:221,106,29,255‖Gray Eyes‖color:end‖</entityname.tsm_grey_pupils>
+  <entitydescription.tsm_grey_pupils>‖color:221,106,29,255‖Lerentine's sidearm, uses hand cannon rounds\nIt is said to be her squad leader's gun from when she was part of the Advanced Operations Department. During an ambush, the leader was shot and killed while saving her. She then took the gun, donned the leader's helmet, and gave the orders.\nShe became known as the "Child of Doom," Sea of Miracles's child, and your last savior when death looms over you.‖color:end‖</entitydescription.tsm_grey_pupils>
+  <entityname.tsm_common_uniform>Standard Uniform·Shirt</entityname.tsm_common_uniform>
+  <entitydescription.tsm_common_uniform>Standard issue uniform from Kyushu Operations Department, but the female version</entitydescription.tsm_common_uniform>
+  <entityname.tsm_lerentine>Lerentine's Transmogrifier</entityname.tsm_lerentine>
+  <entitydescription.tsm_lerentine>Lerentine's transmogrifier, can transform into Lerentine's appearance</entitydescription.tsm_lerentine>
+  <entityname.tsm_hat_officer>Officer's Cap</entityname.tsm_hat_officer>
   <entitydescription.tsm_hat_officer />
   <entityname.tsmmissions_px18_pistols>‖color:150,0,0,255‖PX-18‖color:end‖</entityname.tsmmissions_px18_pistols>
-  <entitydescription.tsmmissions_px18_pistols>使用‖color:150,0,0,255‖9mm‖color:end‖手枪弹匣</entitydescription.tsmmissions_px18_pistols>
-  <entityname.hxl_knife>‖color:150,0,0,255‖幻象‖color:end‖</entityname.hxl_knife>
-  <entitydescription.hxl_knife>‖color:150,0,0,255‖真实的假象‖color:end‖</entitydescription.hxl_knife>
-  <entityname.tsm_hxl_unform>幻下琅的衣服</entityname.tsm_hxl_unform>
-  <entitydescription.tsm_hxl_unform>琅\n幻影下的实体</entitydescription.tsm_hxl_unform>
-  <entityname.tsm_9_mag>手枪弹匣（9mm）</entityname.tsm_9_mag>
-  <entitydescription.tsm_9_mag>装填18发9mm子弹</entitydescription.tsm_9_mag>
-  <entityname.tsm_identifier>奇迹之海友军识别码</entityname.tsm_identifier>
-  <entitydescription.tsm_identifier>奇迹之海内部常见的识别码，可以要求奇迹之海后勤部门为你提供各种服务</entitydescription.tsm_identifier>
-  <entityname.tsm_pgcflare>护卫登陆舱指示器</entityname.tsm_pgcflare>
-  <entitydescription.tsm_pgcflare>'记住求助的感觉，呼叫奇迹之海'\n\n使用方式：扔出去，耐心等待即可。(只存在一巡回)</entitydescription.tsm_pgcflare>
-  <entityname.tsm_wz_cl_flare>矿物物资投放舱指示器</entityname.tsm_wz_cl_flare>
-  <entitydescription.tsm_wz_cl_flare>扔出后，奇迹之海会受到信号，并根据坐标投放物资补给舱</entitydescription.tsm_wz_cl_flare>
-  <entityname.tsm_wz_yl_flare>医疗物资投放舱指示器</entityname.tsm_wz_yl_flare>
-  <entitydescription.tsm_wz_yl_flare>扔出后，奇迹之海会受到信号，并根据坐标投放医疗补给舱</entitydescription.tsm_wz_yl_flare>
-  <entityname.tsm_mcrate_replenishment1>奇迹之海矿物补给箱</entityname.tsm_mcrate_replenishment1>
-  <entitydescription.tsm_mcrate_replenishment1>奇迹之海常见的物资补给箱，分解后会随机获得各种常见的矿物\n这些可都是才从矿井内打包发出来的，你嫌少我还嫌少呢</entitydescription.tsm_mcrate_replenishment1>
-  <entityname.tsm_mcrate_replenishment2>奇迹之海矿物补给箱</entityname.tsm_mcrate_replenishment2>
-  <entitydescription.tsm_mcrate_replenishment2>奇迹之海常见的物资补给箱，分解后会随机获得各种常见的矿物\n这些可都是才从矿井内打包发出来的，你嫌少我还嫌少呢</entitydescription.tsm_mcrate_replenishment2>
-  <entityname.tsm_mcrate_replenishment_med>奇迹之海医疗补给箱</entityname.tsm_mcrate_replenishment_med>
-  <entitydescription.tsm_mcrate_replenishment_med>奇迹之海常见的医疗补给箱，分解后会随机获得各种医疗物资\n加急！加急！前线兄弟们还等着救命！</entitydescription.tsm_mcrate_replenishment_med>
-  <entityname.tsm_suit_O5>西服</entityname.tsm_suit_O5>
-  <entitydescription.tsm_suit_O5>你的第二层皮肤，包裹着力量与自信</entitydescription.tsm_suit_O5>
-  <entityname.tsm_gendarmerie_uniforms>奇迹之海宪兵制服</entityname.tsm_gendarmerie_uniforms>
-  <entitydescription.tsm_gendarmerie_uniforms>奇迹之海的宪兵制服，主要维持部队纪律，保障部队命令的执行</entitydescription.tsm_gendarmerie_uniforms>
-  <entityname.tsm_gendarmerie_hat>奇迹之海宪兵帽</entityname.tsm_gendarmerie_hat>
+  <entitydescription.tsmmissions_px18_pistols>Uses a‖color:150,0,0,255‖9mm‖color:end‖pistol magazine</entitydescription.tsmmissions_px18_pistols>
+  <entityname.hxl_knife>‖color:150,0,0,255‖Illusion‖color:end‖</entityname.hxl_knife>
+  <entitydescription.hxl_knife>‖color:150,0,0,255‖A False Reality‖color:end‖</entitydescription.hxl_knife>
+  <entityname.tsm_hxl_unform>Clothes of Phantom Lang</entityname.tsm_hxl_unform>
+  <entitydescription.tsm_hxl_unform>Lang\nEntity under the Phantom</entitydescription.tsm_hxl_unform>
+  <entityname.tsm_9_mag>Pistol Magazine (9mm)</entityname.tsm_9_mag>
+  <entitydescription.tsm_9_mag>Holds 18 rounds of 9mm ammunition</entitydescription.tsm_9_mag>
+  <entityname.tsm_identifier>Sea of Miracles Allied Identification Code</entityname.tsm_identifier>
+  <entitydescription.tsm_identifier>A common identification code within the Sea of Miracles, which you can request various services from the Sea of Miracles logistics department</entitydescription.tsm_identifier>
+  <entityname.tsm_pgcflare>Guardian Landing Pod Indicator</entityname.tsm_pgcflare>
+  <entitydescription.tsm_pgcflare>'Remember the feeling of asking for help, call Sea of Miracles'\n\nUsage: Throw it out and wait patiently. (Exists only in one round)</entitydescription.tsm_pgcflare>
+  <entityname.tsm_wz_cl_flare>Mineral Supply Drop Indicator</entityname.tsm_wz_cl_flare>
+  <entitydescription.tsm_wz_cl_flare>After being thrown, the Sea of Miracles will receive a signal and drop a supply pod based on the coordinates</entitydescription.tsm_wz_cl_flare>
+  <entityname.tsm_wz_yl_flare>Medical Supply Drop Indicator</entityname.tsm_wz_yl_flare>
+  <entitydescription.tsm_wz_yl_flare>After being thrown, the Sea of Miracles will receive a signal and drop a medical supply pod based on the coordinates</entitydescription.tsm_wz_yl_flare>
+  <entityname.tsm_mcrate_replenishment1>Sea of Miracles Mineral Supply Box</entityname.tsm_mcrate_replenishment1>
+  <entitydescription.tsm_mcrate_replenishment1>A common supply box in the Sea of Miracles, which randomly yields various common minerals when dismantled\nThese have just been packed and sent from the mines; if you think it's little, I think it's little too</entitydescription.tsm_mcrate_replenishment1>
+  <entityname.tsm_mcrate_replenishment2>Sea of Miracles Mineral Supply Box</entityname.tsm_mcrate_replenishment2>
+  <entitydescription.tsm_mcrate_replenishment2>A common supply box in the Sea of Miracles, which randomly yields various common minerals when dismantled\nThese have just been packed and sent from the mines; if you think it's little, I think it's little too</entitydescription.tsm_mcrate_replenishment2>
+  <entityname.tsm_mcrate_replenishment_med>Sea of Miracles Medical Supply Box</entityname.tsm_mcrate_replenishment_med>
+  <entitydescription.tsm_mcrate_replenishment_med>A common medical supply box in the Sea of Miracles, which randomly yields various medical supplies when dismantled\nUrgent! Urgent! The brothers on the front line are still waiting for rescue!</entitydescription.tsm_mcrate_replenishment_med>
+  <entityname.tsm_suit_O5>Suit</entityname.tsm_suit_O5>
+  <entitydescription.tsm_suit_O5>Your second layer of skin, enveloping power and confidence</entitydescription.tsm_suit_O5>
+  <entityname.tsm_gendarmerie_uniforms>Sea of Miracles Gendarmerie Uniform</entityname.tsm_gendarmerie_uniforms>
+  <entitydescription.tsm_gendarmerie_uniforms>The gendarmerie uniform of the Sea of Miracles, mainly maintains troop discipline and ensures the execution of orders</entitydescription.tsm_gendarmerie_uniforms>
+  <entityname.tsm_gendarmerie_hat>Sea of Miracles Gendarmerie Hat</entityname.tsm_gendarmerie_hat>
   <entitydescription.tsm_gendarmerie_hat />
-  <entityname.tsm_advancedcombatsuit>损坏的军用先进防护服</entityname.tsm_advancedcombatsuit>
-  <entitydescription.tsm_advancedcombatsuit>大部分外部装甲受到了破坏，只能抗住5000米的水压了。</entitydescription.tsm_advancedcombatsuit>
-  <entityname.tsm_orangeconstant>损坏的橙无常防护服</entityname.tsm_orangeconstant>
-  <entitydescription.tsm_orangeconstant>这件防护服在战斗中损坏了，很多功能都失效了，耐压抗性只有5000米</entitydescription.tsm_orangeconstant>
-  <entityname.tsm_rz_2a>戎装2号A型</entityname.tsm_rz_2a>
-  <entitydescription.tsm_rz_2a>与2号B型不同的是，他并没有自带武器，仅仅只是作为一个全覆式外骨骼使用</entitydescription.tsm_rz_2a>
-  <entityname.lm_rapidreaction_helmet>联盟快速反应部队头盔</entityname.lm_rapidreaction_helmet>
+  <entityname.tsm_advancedcombatsuit>Damaged Military Advanced Protective Suit</entityname.tsm_advancedcombatsuit>
+  <entitydescription.tsm_advancedcombatsuit>Most of the external armor has been damaged, can only withstand water pressure of 5000 meters.</entitydescription.tsm_advancedcombatsuit>
+  <entityname.tsm_orangeconstant>Damaged Orange Wuchang Protective Suit</entityname.tsm_orangeconstant>
+  <entitydescription.tsm_orangeconstant>This protective suit was damaged in combat, many functions are disabled, and the pressure resistance is only 5000 meters</entitydescription.tsm_orangeconstant>
+  <entityname.tsm_rz_2a>Combat Outfit Type 2A</entityname.tsm_rz_2a>
+  <entitydescription.tsm_rz_2a>Unlike Type 2B, it does not come with a weapon, merely used as a full-body exoskeleton</entitydescription.tsm_rz_2a>
+  <entityname.lm_rapidreaction_helmet>Alliance Rapid Reaction Force Helmet</entityname.lm_rapidreaction_helmet>
   <entitydescription.lm_rapidreaction_helmet />
-  <entityname.lm_rapidreaction_vest>联盟快速反应部队防弹衣</entityname.lm_rapidreaction_vest>
+  <entityname.lm_rapidreaction_vest>Alliance Rapid Reaction Force Bulletproof Vest</entityname.lm_rapidreaction_vest>
   <entitydescription.lm_rapidreaction_vest />
-  <entityname.lm_rapidreaction_uniform>联盟快速反应部队战斗服</entityname.lm_rapidreaction_uniform>
+  <entityname.lm_rapidreaction_uniform>Alliance Rapid Reaction Force Combat Suit</entityname.lm_rapidreaction_uniform>
   <entitydescription.lm_rapidreaction_uniform />
-  <entityname.tsm_old_uniform>老式作战服</entityname.tsm_old_uniform>
+  <entityname.tsm_old_uniform>Old-fashioned Combat Suit</entityname.tsm_old_uniform>
   <entitydescription.tsm_old_uniform />
-  <entityname.adventists_uniform>降临派首领教袍</entityname.adventists_uniform>
+  <entityname.adventists_uniform>Leader's Robe of the Descending Faction</entityname.adventists_uniform>
   <entitydescription.adventists_uniform />
-  <entityname.adventists_Wind_proof>降临派防风安全外套</entityname.adventists_Wind_proof>
+  <entityname.adventists_Wind_proof>Descending Faction Windbreaker Safety Jacket</entityname.adventists_Wind_proof>
   <entitydescription.adventists_Wind_proof />
-  <entityname.tsm_rz_pirent_m>戎装盗窃者型</entityname.tsm_rz_pirent_m>
-  <entitydescription.tsm_rz_pirent_m>盗窃者们，在袭击奇迹之海货运船后得到戎装2号A型，并按照自己的想法改装</entitydescription.tsm_rz_pirent_m>
-  <entityname.tsm_fog>迷雾</entityname.tsm_fog>
-  <entityname.tsm_slogan>奇迹之海标语</entityname.tsm_slogan>
-  <entityname.tsm_mech>奇迹之海机甲装饰</entityname.tsm_mech>
-  <entityname.tsm_bossitem>奇迹之海boss掉落装饰</entityname.tsm_bossitem>
-  <entityname.tsm_eyi_ornamental>恶疫血肉装饰</entityname.tsm_eyi_ornamental>
-  <entityname.tsm_hf>宣传横幅</entityname.tsm_hf>
-  <talentname.tsm_ei_talent_test>实验恶疫常态</talentname.tsm_ei_talent_test>
-  <talentname.tsm_ei_talent_stabilise>稳定恶疫常态</talentname.tsm_ei_talent_stabilise>
-  <talentname.tsm_ei>佳作</talentname.tsm_ei>
-  <talentname.tsm_all_ru>纯种恶疫态</talentname.tsm_all_ru>
-  <talentname.tsm_warlord>暴力军阀</talentname.tsm_warlord>
-  <talentname.tsm_specops>特种部队</talentname.tsm_specops>
-  <talentname.tsm_beatcop>巡检警察</talentname.tsm_beatcop>
-  <talentname.tsm_bleeding_outpost_sundown>凝血剂</talentname.tsm_bleeding_outpost_sundown>
-  <talentname.suger_tail_handle>阿糖拟态</talentname.suger_tail_handle>
-  <talentdescription.suger_tail_handle>当你身着幻化器时，你将长出猫耳猫尾。</talentdescription.suger_tail_handle>
-  <talentname.tsm_ai_outpost>奇迹之海稳定恶疫常态</talentname.tsm_ai_outpost>
-  <talentdescription.tsm_ai_outpost>改变部分dna序列，让身体排斥外来寄生。</talentdescription.tsm_ai_outpost>
-  <talentname.tsm_eyi_instability>不稳定恶疫异常态</talentname.tsm_eyi_instability>
+  <entityname.tsm_rz_pirent_m>Combat Outfit Thief Type</entityname.tsm_rz_pirent_m>
+  <entitydescription.tsm_rz_pirent_m>Thieves, after attacking the Sea of Miracles cargo ship, acquired Combat Outfit Type 2A and modified it according to their own ideas</entitydescription.tsm_rz_pirent_m>
+  <entityname.tsm_fog>Fog</entityname.tsm_fog>
+  <entityname.tsm_slogan>Slogan of the Sea of Miracles</entityname.tsm_slogan>
+  <entityname.tsm_mech>Sea of Miracles Mecha Decoration</entityname.tsm_mech>
+  <entityname.tsm_bossitem>Sea of Miracles Boss Drop Decoration</entityname.tsm_bossitem>
+  <entityname.tsm_eyi_ornamental>Evil Plague Flesh Decoration</entityname.tsm_eyi_ornamental>
+  <entityname.tsm_hf>Propaganda Banner</entityname.tsm_hf>
+  <talentname.tsm_ei_talent_test>Experimental Evil Plague Normal State</talentname.tsm_ei_talent_test>
+  <talentname.tsm_ei_talent_stabilise>Stable Evil Plague Normal State</talentname.tsm_ei_talent_stabilise>
+  <talentname.tsm_ei>Masterpiece</talentname.tsm_ei>
+  <talentname.tsm_all_ru>Pure Evil Plague State</talentname.tsm_all_ru>
+  <talentname.tsm_warlord>Violent Warlord</talentname.tsm_warlord>
+  <talentname.tsm_specops>Special Forces</talentname.tsm_specops>
+  <talentname.tsm_beatcop>Inspection Police</talentname.tsm_beatcop>
+  <talentname.tsm_bleeding_outpost_sundown>Coagulant</talentname.tsm_bleeding_outpost_sundown>
+  <talentname.suger_tail_handle>A-Tang Mimicry</talentname.suger_tail_handle>
+  <talentdescription.suger_tail_handle>When you wear the mimicry device, you will grow cat ears and a cat tail.</talentdescription.suger_tail_handle>
+  <talentname.tsm_ai_outpost>Stable Evil Plague Normal State of the Sea of Miracles</talentname.tsm_ai_outpost>
+  <talentdescription.tsm_ai_outpost>Alter part of the DNA sequence to make the body reject foreign parasites.</talentdescription.tsm_ai_outpost>
+  <talentname.tsm_eyi_instability>Unstable Evil Plague Anomaly State</talentname.tsm_eyi_instability>
   <talentdescription.tsm_eyi_instability />
-  <afflictionname.tsm_ondeath>死海</afflictionname.tsm_ondeath>
-  <afflictiondescription.tsm_ondeath>你在追寻何物</afflictiondescription.tsm_ondeath>
-  <afflictioncauseofdeath.tsm_ondeath>你在追寻何物</afflictioncauseofdeath.tsm_ondeath>
-  <afflictioncauseofdeathself.tsm_ondeath>你在追寻何物</afflictioncauseofdeathself.tsm_ondeath>
-  <afflictionname.tsm_eyi_attack>战斗恶疫常态</afflictionname.tsm_eyi_attack>
-  <afflictiondescription.tsm_eyi_attack>你体内的恶疫为稳定状态，他会持续为你的战斗提供加成</afflictiondescription.tsm_eyi_attack>
-  <afflictionname.tsm_stress_resistance>意志坚定</afflictionname.tsm_stress_resistance>
-  <afflictiondescription.tsm_stress_resistance>你的意志此时非常坚定，可以抗住其他东西对你的精神的摧残</afflictiondescription.tsm_stress_resistance>
-  <afflictionname.tsm_stress>精神压力</afflictionname.tsm_stress>
-  <afflictiondescription.tsm_stress>你现在感觉很紧张，很痛苦</afflictiondescription.tsm_stress>
-  <afflictioncauseofdeath.tsm_stress>他自杀了</afflictioncauseofdeath.tsm_stress>
-  <afflictioncauseofdeathself.tsm_stress>你自杀了</afflictioncauseofdeathself.tsm_stress>
-  <afflictionname.tsm_eyi_provocative>血肉信息素</afflictionname.tsm_eyi_provocative>
-  <afflictiondescription.tsm_eyi_provocative>你被腐烂的躯体咬过，现在你受到的撕裂伤和咬伤会增加，并且敌人会更容易以你为目标</afflictiondescription.tsm_eyi_provocative>
-  <afflictionname.tsm_virusstage>血肉胚胎</afflictionname.tsm_virusstage>
-  <afflictiondescription.tsm_virusstage>恶疫病毒正在把你的身体当作培养场，宿主的基因被强行改造来与破皮者相匹配</afflictiondescription.tsm_virusstage>
-  <afflictionname.tsm_virusstage_deep>恶疫</afflictionname.tsm_virusstage_deep>
-  <afflictiondescription.tsm_virusstage_deep>宿主的基因已经被改造，这种情况基本上不可逆转，他的身体正在发生变化</afflictiondescription.tsm_virusstage_deep>
-  <afflictioncauseofdeath.tsm_virusstage_deep>我逆流而上，你宛在水中央</afflictioncauseofdeath.tsm_virusstage_deep>
-  <afflictioncauseofdeathself.tsm_virusstage_deep>我逆流而上，你宛在水中央</afflictioncauseofdeathself.tsm_virusstage_deep>
-  <afflictionname.tsmmission_eyi_bite>虫叮</afflictionname.tsmmission_eyi_bite>
-  <afflictiondescription.tsmmission_eyi_bite>你被恶疫血虫咬了</afflictiondescription.tsmmission_eyi_bite>
-  <afflictionname.tsmmission_monster_50>断骨</afflictionname.tsmmission_monster_50>
-  <afflictiondescription.tsmmission_monster_50>你感觉身上的骨头断了/n此时你受到的撕裂和咬伤都将增加</afflictiondescription.tsmmission_monster_50>
-  <afflictionname.tsmmission_ai_mod_resistancefor>奇迹之海日暮山稳定恶疫常态</afflictionname.tsmmission_ai_mod_resistancefor>
-  <afflictiondescription.tsmmission_ai_mod_resistancefor>改变部分dna序列，让身体排斥外来寄生。</afflictiondescription.tsmmission_ai_mod_resistancefor>
-  <afflictionname.tsm_eyi_stable_state>稳定恶疫常态</afflictionname.tsm_eyi_stable_state>
-  <afflictiondescription.tsmmission_eyi_0_1>在此阶段，你将会免疫水压，不需要氧气，最大生命值提高30%，并且不再会药物成瘾，烧伤迅速恢复，会迅速治疗血肉胚胎以及画皮</afflictiondescription.tsmmission_eyi_0_1>
-  <afflictiondescription.tsmmission_eyi_1_4>在此阶段，你将不会需要氧气，并且获得30%游泳速度</afflictiondescription.tsmmission_eyi_1_4>
-  <afflictiondescription.tsmmission_eyi_4_8>在此阶段，你将获得对所有毒物的免疫</afflictiondescription.tsmmission_eyi_4_8>
-  <afflictiondescription.tsmmission_eyi_8_16>在此阶段，你将免疫6213米的水压，并且缓慢治疗缺氧。</afflictiondescription.tsmmission_eyi_8_16>
-  <afflictiondescription.tsmmission_eyi_16_22>在此阶段，你将快速治愈身上的出血与失血</afflictiondescription.tsmmission_eyi_16_22>
-  <afflictiondescription.tsmmission_eyi_22_28>在此阶段，你将获得30%的物理伤害抗性</afflictiondescription.tsmmission_eyi_22_28>
-  <afflictiondescription.tsmmission_eyi_28_33>在此阶段，你将获得10%的远程武器攻速加成以及减少20%扩散</afflictiondescription.tsmmission_eyi_28_33>
-  <afflictiondescription.tsmmission_eyi_33_37>在此阶段，你将获得50%的眩晕抗性和烧伤抗性</afflictiondescription.tsmmission_eyi_33_37>
-  <afflictiondescription.tsmmission_eyi_37_39>在此阶段，你将缓慢治疗物理伤害和烧伤</afflictiondescription.tsmmission_eyi_37_39>
-  <afflictiondescription.tsmmission_eyi_39_42>在此阶段，你将获得50%酸性烧伤抗性，并且身上的阿片类中毒、戒断、成瘾，酒精中毒，精神病，画皮，酸性烧伤会缓慢自愈</afflictiondescription.tsmmission_eyi_39_42>
-  <afflictiondescription.tsmmission_eyi_42_44>在此阶段，你将获得25%的攻击力，50%近战打击力度，10%炮台攻击速度</afflictiondescription.tsmmission_eyi_42_44>
-  <afflictiondescription.tsmmission_eyi_44_47>在此阶段，你将55%的出血抗性</afflictiondescription.tsmmission_eyi_44_47>
-  <afflictiondescription.tsmmission_eyi_48_55>在此阶段，你将免疫5112米水压</afflictiondescription.tsmmission_eyi_48_55>
-  <afflictiondescription.tsmmission_eyi_55_59>在此阶段，你所有技能等级+18，维修速度增加44%</afflictiondescription.tsmmission_eyi_55_59>
-  <afflictiondescription.tsmmission_eyi_59_63>在此阶段，你将获得30%近战攻速，20%移动速度，40%眩晕抗性</afflictiondescription.tsmmission_eyi_59_63>
-  <afflictiondescription.tsmmission_eyi_63_65>在此阶段，你将获得30%伤害抗性，30%最大生命值</afflictiondescription.tsmmission_eyi_63_65>
-  <afflictiondescription.tsmmission_eyi_65_69>在此阶段，你将获得对缓慢治疗所有毒的能力。</afflictiondescription.tsmmission_eyi_65_69>
-  <afflictiondescription.tsmmission_eyi_69_72>在此阶段，你能从眩晕中更快起来，增加百分之30%攻击力，5%远程攻击速度</afflictiondescription.tsmmission_eyi_69_72>
-  <afflictiondescription.tsmmission_eyi_72_76>在此阶段，你将永远不死</afflictiondescription.tsmmission_eyi_72_76>
-  <afflictiondescription.tsmmission_eyi_76_83>在此阶段，你制作物品速度增加150%，制作等级+2</afflictiondescription.tsmmission_eyi_76_83>
-  <afflictiondescription.tsmmission_eyi_83_85>在此阶段，你将免疫6177米的水压，并不需要氧气。</afflictiondescription.tsmmission_eyi_83_85>
-  <afflictiondescription.tsmmission_eyi_85_90>在此阶段，你将获得25%物理伤害和烧伤抗性，获得25%攻击力加成</afflictiondescription.tsmmission_eyi_85_90>
-  <afflictiondescription.tsmmission_eyi_90_95>在此阶段，所有对你的治疗效果将增加100%</afflictiondescription.tsmmission_eyi_90_95>
-  <afflictiondescription.tsmmission_eyi_95_100>在此阶段，你的身体部分dna序列发生改变，开始排斥外来寄生</afflictiondescription.tsmmission_eyi_95_100>
-  <locationdescription.tsm_city>奇迹之海旗下最大的都市，人来人往，比较全面的设施以及服务。</locationdescription.tsm_city>
-  <locationname.tsm_city>奇迹之海堡垒都市</locationname.tsm_city>
-  <locationnameformat.tsm_city>[name]站</locationnameformat.tsm_city>
-  <locationname.tsm_mine>奇迹之海矿坑站点</locationname.tsm_mine>
-  <locationdescription.tsm_mine>奇迹之海旗下矿物开采地，可以深入到矿洞里采矿</locationdescription.tsm_mine>
-  <locationnameformat.tsm_mine>[name]站</locationnameformat.tsm_mine>
-  <locationname.tsm_military>奇迹之海武装部</locationname.tsm_military>
-  <locationdescription.tsm_military>奇迹之海旗下的军事瓮城</locationdescription.tsm_military>
-  <locationnameformat.tsm_military>[name]站</locationnameformat.tsm_military>
-  <locationname.tsm_city.0>曦歌</locationname.tsm_city.0>
-  <locationname.tsm_city.1>三神丘</locationname.tsm_city.1>
-  <locationname.tsm_city.2>怀朔</locationname.tsm_city.2>
-  <locationname.tsm_city.3>永安</locationname.tsm_city.3>
-  <locationname.tsm_city.4>长安</locationname.tsm_city.4>
-  <locationname.tsm_city.5>抚冥</locationname.tsm_city.5>
-  <locationname.tsm_city.6>获鹿</locationname.tsm_city.6>
-  <loadingscreentip>去试试东方潜渊行动组</loadingscreentip>
-  <entityname.tsm_touhou>联动内容-东方潜渊行动组</entityname.tsm_touhou>
+  <afflictionname.tsm_ondeath>Dead Sea</afflictionname.tsm_ondeath>
+  <afflictiondescription.tsm_ondeath>What are you seeking?</afflictiondescription.tsm_ondeath>
+  <afflictioncauseofdeath.tsm_ondeath>What are you seeking?</afflictioncauseofdeath.tsm_ondeath>
+  <afflictioncauseofdeathself.tsm_ondeath>What are you seeking?</afflictioncauseofdeathself.tsm_ondeath>
+  <afflictionname.tsm_eyi_attack>Combat Evil Plague Normal State</afflictionname.tsm_eyi_attack>
+  <afflictiondescription.tsm_eyi_attack>The Evil Plague within you is in a stable state, continuously providing bonuses for your combat.</afflictiondescription.tsm_eyi_attack>
+  <afflictionname.tsm_stress_resistance>Strong Will</afflictionname.tsm_stress_resistance>
+  <afflictiondescription.tsm_stress_resistance>Your will is very firm at this moment, able to withstand the torment of other things on your mind.</afflictiondescription.tsm_stress_resistance>
+  <afflictionname.tsm_stress>Mental Stress</afflictionname.tsm_stress>
+  <afflictiondescription.tsm_stress>You are currently feeling very tense and in pain.</afflictiondescription.tsm_stress>
+  <afflictioncauseofdeath.tsm_stress>He committed suicide.</afflictioncauseofdeath.tsm_stress>
+  <afflictioncauseofdeathself.tsm_stress>You committed suicide.</afflictioncauseofdeathself.tsm_stress>
+  <afflictionname.tsm_eyi_provocative>Flesh Information Pheromone</afflictionname.tsm_eyi_provocative>
+  <afflictiondescription.tsm_eyi_provocative>You have been bitten by a rotting corpse; now the tearing wounds and bites you receive will increase, and enemies will be more likely to target you.</afflictiondescription.tsm_eyi_provocative>
+  <afflictionname.tsm_virusstage>Flesh Embryo</afflictionname.tsm_virusstage>
+  <afflictiondescription.tsm_virusstage>The Evil Plague virus is using your body as a breeding ground, forcibly altering the host's genes to match the Skin Breaker.</afflictiondescription.tsm_virusstage>
+  <afflictionname.tsm_virusstage_deep>Evil Plague</afflictionname.tsm_virusstage_deep>
+  <afflictiondescription.tsm_virusstage_deep>The host's genes have been altered; this situation is basically irreversible, and his body is undergoing changes.</afflictiondescription.tsm_virusstage_deep>
+  <afflictioncauseofdeath.tsm_virusstage_deep>I swim upstream, you are like in the center of the water.</afflictioncauseofdeath.tsm_virusstage_deep>
+  <afflictioncauseofdeathself.tsm_virusstage_deep>I swim upstream, you are like in the center of the water.</afflictioncauseofdeathself.tsm_virusstage_deep>
+  <afflictionname.tsmmission_eyi_bite>Insect Bite</afflictionname.tsmmission_eyi_bite>
+  <afflictiondescription.tsmmission_eyi_bite>You have been bitten by an Evil Plague bloodworm.</afflictiondescription.tsmmission_eyi_bite>
+  <afflictionname.tsmmission_monster_50>Broken Bones</afflictionname.tsmmission_monster_50>
+  <afflictiondescription.tsmmission_monster_50>You feel as if your bones have broken/n At this moment, the tearing and biting damage you suffer will increase.</afflictiondescription.tsmmission_monster_50>
+  <afflictionname.tsmmission_ai_mod_resistancefor>Sea of Miracles Dusk Mountain Stable Evil Plague Normal State</afflictionname.tsmmission_ai_mod_resistancefor>
+  <afflictiondescription.tsmmission_ai_mod_resistancefor>Alter part of the DNA sequence to make the body reject foreign parasites.</afflictiondescription.tsmmission_ai_mod_resistancefor>
+  <afflictionname.tsm_eyi_stable_state>Stable Evil Plague Normal State</afflictionname.tsm_eyi_stable_state>
+  <afflictiondescription.tsmmission_eyi_0_1>At this stage, you will be immune to water pressure, require no oxygen, increase maximum health by 30%, and will no longer become addicted to drugs. Burns will recover quickly, and you will rapidly heal from Flesh Embryos and Skin Painting.</afflictiondescription.tsmmission_eyi_0_1>
+  <afflictiondescription.tsmmission_eyi_1_4>At this stage, you will not need oxygen and will gain 30% swimming speed.</afflictiondescription.tsmmission_eyi_1_4>
+  <afflictiondescription.tsmmission_eyi_4_8>At this stage, you will gain immunity to all toxins.</afflictiondescription.tsmmission_eyi_4_8>
+  <afflictiondescription.tsmmission_eyi_8_16>At this stage, you will be immune to water pressure of 6213 meters and slowly heal from hypoxia.</afflictiondescription.tsmmission_eyi_8_16>
+  <afflictiondescription.tsmmission_eyi_16_22>At this stage, you will quickly heal from bleeding and blood loss.</afflictiondescription.tsmmission_eyi_16_22>
+  <afflictiondescription.tsmmission_eyi_22_28>At this stage, you will gain 30% physical damage resistance.</afflictiondescription.tsmmission_eyi_22_28>
+  <afflictiondescription.tsmmission_eyi_28_33>At this stage, you will gain a 10% attack speed increase for ranged weapons and reduce spread by 20%.</afflictiondescription.tsmmission_eyi_28_33>
+  <afflictiondescription.tsmmission_eyi_33_37>At this stage, you will gain 50% resistance to dizziness and burns.</afflictiondescription.tsmmission_eyi_33_37>
+  <afflictiondescription.tsmmission_eyi_37_39>At this stage, you will slowly heal physical damage and burns.</afflictiondescription.tsmmission_eyi_37_39>
+  <afflictiondescription.tsmmission_eyi_39_42>At this stage, you will gain 50% resistance to acid burns, and the opioid poisoning, withdrawal, addiction, alcohol poisoning, psychosis, Skin Painting, and acid burns in your body will heal slowly.</afflictiondescription.tsmmission_eyi_39_42>
+  <afflictiondescription.tsmmission_eyi_42_44>At this stage, you will gain 25% attack power, 50% melee strike force, and 10% turret attack speed.</afflictiondescription.tsmmission_eyi_42_44>
+  <afflictiondescription.tsmmission_eyi_44_47>At this stage, you will have 55% bleeding resistance.</afflictiondescription.tsmmission_eyi_44_47>
+  <afflictiondescription.tsmmission_eyi_48_55>At this stage, you will be immune to water pressure of 5112 meters.</afflictiondescription.tsmmission_eyi_48_55>
+  <afflictiondescription.tsmmission_eyi_55_59>At this stage, all your skill levels will increase by 18, and repair speed will increase by 44%.</afflictiondescription.tsmmission_eyi_55_59>
+  <afflictiondescription.tsmmission_eyi_59_63>At this stage, you will gain 30% melee attack speed, 20% movement speed, and 40% dizziness resistance.</afflictiondescription.tsmmission_eyi_59_63>
+  <afflictiondescription.tsmmission_eyi_63_65>At this stage, you will gain 30% damage resistance and 30% maximum health.</afflictiondescription.tsmmission_eyi_63_65>
+  <afflictiondescription.tsmmission_eyi_65_69>At this stage, you will gain the ability to slowly heal from all toxins.</afflictiondescription.tsmmission_eyi_65_69>
+  <afflictiondescription.tsmmission_eyi_69_72>At this stage, you can recover from dizziness faster, increasing attack power by 30% and ranged attack speed by 5%.</afflictiondescription.tsmmission_eyi_69_72>
+  <afflictiondescription.tsmmission_eyi_72_76>At this stage, you will never die.</afflictiondescription.tsmmission_eyi_72_76>
+  <afflictiondescription.tsmmission_eyi_76_83>At this stage, your item crafting speed will increase by 150%, and crafting level will increase by 2.</afflictiondescription.tsmmission_eyi_76_83>
+  <afflictiondescription.tsmmission_eyi_83_85>At this stage, you will be immune to water pressure of 6177 meters and will not need oxygen.</afflictiondescription.tsmmission_eyi_83_85>
+  <afflictiondescription.tsmmission_eyi_85_90>At this stage, you will gain 25% resistance to physical damage and burns, and gain 25% attack power.</afflictiondescription.tsmmission_eyi_85_90>
+  <afflictiondescription.tsmmission_eyi_90_95>At this stage, all healing effects on you will increase by 100%.</afflictiondescription.tsmmission_eyi_90_95>
+  <afflictiondescription.tsmmission_eyi_95_100>At this stage, part of your body’s DNA sequence will change, beginning to reject foreign parasites.</afflictiondescription.tsmmission_eyi_95_100>
+  <locationdescription.tsm_city>The largest city under the Sea of Miracles, bustling with people, with comprehensive facilities and services.</locationdescription.tsm_city>
+  <locationname.tsm_city>Sea of Miracles Fortress City</locationname.tsm_city>
+  <locationnameformat.tsm_city>[name] Station</locationnameformat.tsm_city>
+  <locationname.tsm_mine>Sea of Miracles Mine Station</locationname.tsm_mine>
+  <locationdescription.tsm_mine>A mineral mining site under the Sea of Miracles, where you can go deep into the mines to mine.</locationdescription.tsm_mine>
+  <locationnameformat.tsm_mine>[name] Station</locationnameformat.tsm_mine>
+  <locationname.tsm_military>Sea of Miracles Armed Division</locationname.tsm_military>
+  <locationdescription.tsm_military>A military stronghold under the Sea of Miracles.</locationdescription.tsm_military>
+  <locationnameformat.tsm_military>[name] Station</locationnameformat.tsm_military>
+  <locationname.tsm_city.0>Xige</locationname.tsm_city.0>
+  <locationname.tsm_city.1>Three Gods Hill</locationname.tsm_city.1>
+  <locationname.tsm_city.2>Huai Shuo</locationname.tsm_city.2>
+  <locationname.tsm_city.3>Yongan</locationname.tsm_city.3>
+  <locationname.tsm_city.4>Chang'an</locationname.tsm_city.4>
+  <locationname.tsm_city.5>Fu Ming</locationname.tsm_city.5>
+  <locationname.tsm_city.6>Huo Lu</locationname.tsm_city.6>
+  <loadingscreentip>Go try the Touhou Deep Sea Operation Team!</loadingscreentip>
+  <entityname.tsm_touhou>Linked Content - Touhou Deep Sea Operation Team</entityname.tsm_touhou>
 </infotexts>
