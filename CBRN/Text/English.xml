@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="true" translatedname="English">
-  
   <entityname.berra_etps7b>BerraARM ETPS-7B Extreme Temperature Protective Suit</entityname.berra_etps7b>
   <entityname.berra_bio2>BerraARM Bio-2 Combat NBC Suit</entityname.berra_bio2>
   <entityname.berra_cbrn3>BerraARM CBRN-3 Gas Mask</entityname.berra_cbrn3>
@@ -13,7 +12,6 @@
   <entitydescription.berra_cbrn3a>A comprehensive respirator produced by Berra Armory,can filter toxic substances or using oxygen tanks to breath in low oxygen locations. \nBetter material,better FOV. \nA part of Berra TAC Combat NBC Gear.</entitydescription.berra_cbrn3a>
   <entitydescription.tsm_filiter>Standard gas mask filter issued by T.S.M \nShould be used with a gas mask </entitydescription.tsm_filiter>
   <entitydescription.berra_filiter>Standard gas mask filter produced by Berra Armory,better material,more durable \nShould be used with a gas mask</entitydescription.berra_filiter>
-  
   <entityname.berra_TES20>BerraARM 20mm MAWS "Punisher"</entityname.berra_TES20>
   <entityname.berra_obj227flamethrower>Object.227 Heavy Flame Thrower "Burner"</entityname.berra_obj227flamethrower>
   <entityname.berra_obj227aflamethrower>Object.227(A) Flame Thrower</entityname.berra_obj227aflamethrower>
@@ -42,7 +40,6 @@
   <entitydescription.berra_mk153>A Shoulder-launched Multipurpose Assault Weapon  produced by Berra Armory\nLaunch all compatible ammunition</entitydescription.berra_mk153>
   <entitydescription.berra_m2hb>A long barrel M2HB \nUses .50BMG M9 belts\nUUwUU</entitydescription.berra_m2hb>
   <entitydescription.sacabambaspis_he>A REGULAR offensive grenade,double tap E and throw it. \n DONT BLOW YOURSELF UP \nCan easily blow up almost everything(including yourself) but doors \nSmaller effective range, greater lethality</entitydescription.sacabambaspis_he>
-  
   <entityname.tes20mag_ap>20mm"Punisher" Magazine \nAPFSDS</entityname.tes20mag_ap>
   <entityname.tes20mag_arr>20mm"Punisher" Magazine \nFlechette</entityname.tes20mag_arr>
   <entityname.tes20mag_he>20mm"Punisher" Magazine \nHE</entityname.tes20mag_he>
@@ -82,7 +79,6 @@
   <entitydescription.berra_mk153_bdm>Mk153 SMAW Bunker Buaster \nHeavier,slower \nOld design to destory "bunkers" on the earth,now it was revived on Europa \nNOW GO TO HELL WITH YOUR RIDICULOUS "COVER" \nBackblast range:4.4m</entitydescription.berra_mk153_bdm>
   <entitydescription.berra_mk153_he>Mk153 SMAW HE-Frag \nDesigned for killing,enough fragments and explosives to kill living things within range. \nBackblast range:4.4m</entitydescription.berra_mk153_he>
   <entitydescription.tubeitem_carrier>A carrier backpack for "tube" item</entitydescription.tubeitem_carrier>
-  
   <entityname.vx_chemdist_40>40mm Chemical Grenade</entityname.vx_chemdist_40>
   <entityname.mustard_chemdist_40>40mm Chemical Grenade</entityname.mustard_chemdist_40>
   <entityname.phosgene_chemdist_40>40mm Chemical Grenade</entityname.phosgene_chemdist_40>
@@ -111,7 +107,6 @@
   <entitydescription.cs_chemdist_throwable>A grenade designed to spread chemicals \nFilled CS Agent \nFuse 0.3s</entitydescription.cs_chemdist_throwable>
   <entitydescription.bz_chemdist_throwable>A grenade designed to spread chemicals \nFilled BZ Agent \nFuse 0.3s</entitydescription.bz_chemdist_throwable>
   <entitydescription.fsm_throwable>A grenade filled with special chemicals.Can instantly fill the room with CO2 gas \nFuse 1.5s \nWARNING:PLEASE EQUIP BREATHING EQUIPMENTS WHILE USING</entitydescription.fsm_throwable>
-  
   <entityname.canister>Sealed Container</entityname.canister>
   <entityname.vxcanister>Sealed Container</entityname.vxcanister>
   <entityname.cscanister>Sealed Container</entityname.cscanister>
@@ -133,7 +128,6 @@
   <entitydescription.chemdist_40>A 40mm grenade designed to spread chemicals</entitydescription.chemdist_40>
   <entitydescription.biodist_40>A 40mm grenade designed to spread contained with explosives</entitydescription.biodist_40>
   <entitydescription.chemdist_throwable>A grenade designed to spread chemicals</entitydescription.chemdist_throwable>
-  
   <entityname.berra_xtg12>BerraMed xTG-12 Toxicide</entityname.berra_xtg12>
   <entityname.berra_obj121>BerraMed Type121 Biological Countermeasure</entityname.berra_obj121>
   <entityname.tsm_d6>T.S.M D-6 Comprehensive NBC Countermeasure</entityname.tsm_d6>
@@ -144,14 +138,12 @@
   <entitydescription.tsm_d6>Comprehensive first-aid measure issued by T.S.M \nEffective against NBC threats</entitydescription.tsm_d6>
   <entitydescription.col_cac2>Coalition issued chemical countermeasure for all coalition soliders \nCheap but useful</entitydescription.col_cac2>
   <entitydescription.pe_cure>Pulmonary Edema Treatment,only treats Pulmonary Edema :) \nThis item is for Neurotrauma</entitydescription.pe_cure>
-  
   <entityname.powdercapsule_vx>Sealed Tube</entityname.powdercapsule_vx>
   <entityname.powdercapsule_med>Sealed Tube</entityname.powdercapsule_med>
   <entityname.powdercapsule_anthrax>Sealed Tube</entityname.powdercapsule_anthrax>
   <entitydescription.powdercapsule_anthrax>Sealed tube contains white chemical \nYou may try if it's "The Medicine"</entitydescription.powdercapsule_anthrax>
   <entitydescription.powdercapsule_vx>Sealed tube contains white chemical \nYou may try if it's "The Medicine"</entitydescription.powdercapsule_vx>
   <entitydescription.powdercapsule_med>Sealed tube contains white chemical \nYou may try if it's "The Medicine"</entitydescription.powdercapsule_med>
-  
   <entityname.nuke_10k>10kt Nuclear Warhead</entityname.nuke_10k>
   <entityname.nuke_100k>100kt Nuclear Warhead</entityname.nuke_100k>
   <entityname.nuke_1000k>1000kt Nuclear Warhead</entityname.nuke_1000k>
@@ -172,7 +164,6 @@
   <entitydescription.neutron_warhead>A fully functional neutron warhead \nIrregular nuclear weapon,uses radiation to kill every living things \nCovers are jokes with this.</entitydescription.neutron_warhead>
   <entitydescription.emp_warhead>Heavy EMP warhead, can shutdown everything electronic within range. \nWhat was your mission in Shanghai? :)</entitydescription.emp_warhead>
   <entitydescription.omega_warhead>A special warhead manufactured on the earth with non-replicable technology \nThe onlything able to disable everything within range. \nThis the very last resort.Good Luck.</entitydescription.omega_warhead>
-  
   <afflictionname.vxpoisoning_displayer>VX Poisoning</afflictionname.vxpoisoning_displayer>
   <afflictionname.bzpoisoning_displayer>BZ Poisoning</afflictionname.bzpoisoning_displayer>
   <afflictionname.cspoisoning_displayer>CS Poisoning</afflictionname.cspoisoning_displayer>
@@ -197,7 +188,6 @@
   <afflictiondescription.omegathedeath />
   <afflictionname.the_medicine>Unknown Medicine</afflictionname.the_medicine>
   <afflictiondescription.the_medicine>This body was enhanced by the medicine</afflictiondescription.the_medicine>
-  
   <displayname.50beowulf_fr>[itemname] 12.7×45 Fragile</displayname.50beowulf_fr>
   <displayname.50beowulf_ap>[itemname] 12.7×45 AP</displayname.50beowulf_ap>
   <displayname.458socom>[itemname] .458SOCOM</displayname.458socom>
@@ -219,7 +209,6 @@
   <displayname.fillanthraxcanister>[itemname] Produce Anthrax</displayname.fillanthraxcanister>
   <displayname.fillanthraxdist>[itemname] Fill Anthrax</displayname.fillanthraxdist>
   <causeofdeath.unconscious_poisonsource>Sleep well</causeofdeath.unconscious_poisonsource>
-  
   <entityname.chemical_decal_standard>Chemical Standard</entityname.chemical_decal_standard>
   <entityname.biological_decal_standard>Biological Standard</entityname.biological_decal_standard>
   <entityname.radiological_decal_standard>Radiological Standard</entityname.radiological_decal_standard>
@@ -228,7 +217,6 @@
   <entityname.biological_decal_plain>Biological</entityname.biological_decal_plain>
   <entityname.radiological_decal_plain>Radiological</entityname.radiological_decal_plain>
   <entityname.nuclear_decal_plain>Nuclear</entityname.nuclear_decal_plain>
-  
   <entityname.tes20rounds_ap>20mm APFSDS \nHow can you see this?</entityname.tes20rounds_ap>
   <entityname.tes20rounds_he>20mm HE \nHow can you see this?</entityname.tes20rounds_he>
   <entityname.tes20rounds_arr>20mmfl \nHow can you see this?</entityname.tes20rounds_arr>
@@ -246,7 +234,6 @@
   <entityname.c4_stickcharge>C4 Plastic Charge</entityname.c4_stickcharge>
   <entitydescription.c4_stickcharge>The most common C4 plastic charge in sapper units,come with special glue,can easily stick to anything it touchs \nEach cell contains 2KG explosive.Theoretically it can blow up even the thickest barrier.</entitydescription.c4_stickcharge>
   <entitydescription.m57detonator>The most common detonator in sapper units, can detonate 2 explosives with electronic fuse. \nField tutorial:RMB+LMB at the start of each round,no less or more than 2 explosives at a time or malfunction. After setting enough charges,RMB+LMB to detonate</entitydescription.m57detonator>
-  
   <missionname.berra_fireeaters_outpostdestory>Destory "Fire Eater" Stations</missionname.berra_fireeaters_outpostdestory>
   <missiondescription.berra_fireeaters_outpostdestory>"Fire Eater" found a bio leak in this outpost.Destory everything here</missiondescription.berra_fireeaters_outpostdestory>
   <missionsuccess.berra_fireeaters_outpostdestory>Target Destoryed</missionsuccess.berra_fireeaters_outpostdestory>
@@ -271,7 +258,6 @@
   <missionfailure.berra_undermasks_assination>From man to numbers.</missionfailure.berra_undermasks_assination>
   <missionheader0.berra_undermasks_assination>Nobody was left living.</missionheader0.berra_undermasks_assination>
   <missionmessage0.berra_undermasks_assination>Step into the outpost is the start of a war and a countdown to death.</missionmessage0.berra_undermasks_assination>
-  
   <Override>
     <entitydescription.tsm_helmet_respirator>Heavy helmet produced by T.S.M,has great ballistic performence and a gas mask.</entitydescription.tsm_helmet_respirator>
     <entitydescription.tsm_medicalkits_s>Advanced medical kit produced by T.S.M,contains enough medical equipments for a field surgery.Also contains medicals against NBC threats. \nExpensive but worthy.</entitydescription.tsm_medicalkits_s>
@@ -280,11 +266,9 @@
     <entityname.nuclearshellcheap>Radioactive Material Shell(Cheap)</entityname.nuclearshellcheap>
     <entitydescription.nuclearshellcheap>A explosive device designed to launch from a Railgun.Usually was used to throw tons of radioactive material onto enemies.</entitydescription.nuclearshellcheap>
   </Override>
-  
   <loadingscreentip>Five years ago, I lost 30,000 men in a blink of an eye. And the Europa just F***IN Watched.\n——Lerentine</loadingscreentip>
   <loadingscreentip>BURN, EUROPA! \n——Lerentine</loadingscreentip>
   <loadingscreentip>Normally you cant just put carbon,sulfur and phosphorus into a tiny machine and cook these chemical agents. \n——NotAlwaysTrue，Berra Group CEO</loadingscreentip>
-  
   <arm>ARM</arm>
   <activate>ACTIVATE</activate>
   <minus10seconds>+ 10 s</minus10seconds>
@@ -404,13 +388,12 @@
   <talentvalue.anthraxcanister>Sealed Container Anthrax</talentvalue.anthraxcanister>
   <reset>Reset</reset>
   <talentvalue.berra_300FAL_M118LR>FAL Magazine M118LR</talentvalue.berra_300FAL_M118LR>
-  
   <entityname.m57detonator>M57 Detonator(Double)</entityname.m57detonator>
   <lights>Light</lights>
-<entityname.eyi_weaponizedcanister>密封容器</entityname.eyi_weaponizedcanister>
+  <entityname.eyi_weaponizedcanister>密封容器</entityname.eyi_weaponizedcanister>
   <entitydescription.eyi_weaponizedcanister>使用高硬度玻璃和钢制造的密封容器 \n内部使用特殊药剂保存了武器化的恶疫病毒 \n可以承受小强度撞击和子弹打击 \n说明:此武器化病毒为特别为人类修改,有能力感染并转化人类,通过气溶胶传播 \n经过特殊调制的基因组序列将有效地自我复制并转化宿主原有细胞 </entitydescription.eyi_weaponizedcanister>
   <entityname.standard_cbrnsuit_orange>标准CBRN防护服(橙色)</entityname.standard_cbrnsuit_orange>
   <entitydescription.standard_cbrnsuit_orange>一套符合联盟标准的核生化防护服,不能提供什么良好的防护,但是总比什么防护都没有强 \n能提供足够的接触保护</entitydescription.standard_cbrnsuit_orange>
   <talentdescription.maxtriggerinseconds>此效果在[seconds]秒内只能触发1次</talentdescription.maxtriggerinseconds>
   <damage>物理伤害</damage>
-  </infotexts>
+</infotexts>
