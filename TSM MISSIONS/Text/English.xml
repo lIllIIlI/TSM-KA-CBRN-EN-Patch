@@ -19,7 +19,7 @@
   <missionmessage0.tsmmission13>We don't fear the worms anymore!</missionmessage0.tsmmission13>
   <missionsonarlabel.tsmmission13>BUG</missionsonarlabel.tsmmission13>
   <missionname.tsmmission14>The Deepest Nightmares</missionname.tsmmission14>
-  <missiondescription.tsmmission14>!!! Emergency !!! T.S.M frontline observatory found some giant beasts quickly approaching this area, but the Higurashi special-op assault squad is out on a mission, they cannot rush back in time. T.S.M is calling for heroic captains to stop disaster from happening and promising that the captain who can return alive will be rewarded with [reward] mk.</missiondescription.tsmmission14>
+  <missiondescription.tsmmission14>!!! Emergency !!! T.S.M frontline observatory found some giant beasts quickly approaching this area, but the Sundown special-op assault squad is out on a mission, they cannot rush back in time. T.S.M is calling for heroic captains to stop disaster from happening and promising that the captain who can return alive will be rewarded with [reward] mk.</missiondescription.tsmmission14>
   <missionsuccess.tsmmission14>We've brought down the gods.</missionsuccess.tsmmission14>
   <missionheader0.tsmmission14>Monsters and Demons</missionheader0.tsmmission14>
   <missionmessage0.tsmmission14>It's incredible, you really made it, worthy of a legendary captain!</missionmessage0.tsmmission14>
@@ -43,7 +43,7 @@
   <missionmessage0.tsmmission17>We found our warriors in uniforms of The Sea of Miracles inside the stomachs of the crawlers. So young they were, yet they received treatment like soldiers, deployment like weapons, and burial like objects. In the end, they received no honor or praise which they deserved, or even a decent funeral.</missionmessage0.tsmmission17>
   <missionsonarlabel.tsmmission17>Crawler</missionsonarlabel.tsmmission17>
   <missionname.tsmmission21>Test Subjects of Europa Magic and Biology Inc.</missionname.tsmmission21>
-  <missiondescription.tsmmission21>The Europa Magic and Biology Inc. has donated a batch of modified mysterious creatures to East Asia Heavy Industries. However, during testing, the subjects escaped. We have previously sent the Higurashi Forces to suppress them, but the contact was lost immediately they encountered the subjects. Be aware, captain, these are not ordinary spinelings, so please handle them carefully.</missiondescription.tsmmission21>
+  <missiondescription.tsmmission21>The Europa Magic and Biology Inc. has donated a batch of modified mysterious creatures to East Asia Heavy Industries. However, during testing, the subjects escaped. We have previously sent the Sundown Forces to suppress them, but the contact was lost immediately they encountered the subjects. Be aware, captain, these are not ordinary spinelings, so please handle them carefully.</missiondescription.tsmmission21>
   <missionsuccess.tsmmission21>This mission must be kept confidential, or East Asia Heavy Industries will face heavy fines.</missionsuccess.tsmmission21>
   <missionheader0.tsmmission21>Containment Failure</missionheader0.tsmmission21>
   <missionmessage0.tsmmission21>Hush! Silence!</missionmessage0.tsmmission21>
@@ -222,7 +222,7 @@
   <character.MobileTaskForce>TSM Mobile Task Force</character.MobileTaskForce>
   <character.MobileTaskForce1>TSM Mobile Task Force</character.MobileTaskForce1>
   <character.RiotSquad>TSM Mobile Task Force</character.RiotSquad>
-  <character.sundownm>Higurashi Forces</character.sundownm>
+  <character.sundownm>Sundown Forces</character.sundownm>
   <character.Ship>HTC24 Turquoise Troop Carrier</character.Ship>
   <character.Ship1>HTC24 Turquoise</character.Ship1>
   <character.Ship2>HTC24 Turquoise</character.Ship2>
@@ -354,7 +354,7 @@
   <missionmessage0.tsmmission2>What a bright performance!</missionmessage0.tsmmission2>
   <missionsonarlabel.tsmmission2>target</missionsonarlabel.tsmmission2>
   <missionname.tsmmission3>The Deepest Nightmares</missionname.tsmmission3>
-  <missiondescription.tsmmission3>!!! Emergency !!! T.S.M frontline observatory found some giant beasts quickly approaching this area, but the Higurashi special-op assault squad is out on a mission, they cannot rush back in time. T.S.M is calling for heroic captains to stop disaster from happening and promising that the captain who can return alive will be rewarded with [reward] mk.</missiondescription.tsmmission3>
+  <missiondescription.tsmmission3>!!! Emergency !!! T.S.M frontline observatory found some giant beasts quickly approaching this area, but the Sundown special-op assault squad is out on a mission, they cannot rush back in time. T.S.M is calling for heroic captains to stop disaster from happening and promising that the captain who can return alive will be rewarded with [reward] mk.</missiondescription.tsmmission3>
   <missionsuccess.tsmmission3>We've brought down the gods.</missionsuccess.tsmmission3>
   <missionheader0.tsmmission3>The Deepest Nightmares</missionheader0.tsmmission3>
   <missionmessage0.tsmmission3>It's incredible, you really made it, worthy of a legendary captain!</missionmessage0.tsmmission3>
@@ -366,7 +366,7 @@
   <missionmessage0.tsmmission4>Well done, you have defended the area once again, captain.</missionmessage0.tsmmission4>
   <missionsonarlabel.tsmmission4>Latcher</missionsonarlabel.tsmmission4>
   <missionname.tsmmission5>EMBI Experimental Biology Body</missionname.tsmmission5>
-  <missiondescription.tsmmission5>Europa Magic Biotechnology Inc.(EMBI) donated a batch of modified mystical creatures to East Asia-Heavy Industry (EA-HI) , but EA-HI failed to contain them during testing, we had previously sent Higurashi special-op assault squad over to suppress them, but lost the message after contact with the experiments, please be advised Captain, this is not ordinary bunch of giant spinelings! Please be very careful!</missiondescription.tsmmission5>
+  <missiondescription.tsmmission5>Europa Magic Biotechnology Inc.(EMBI) donated a batch of modified mystical creatures to East Asia-Heavy Industry (EA-HI) , but EA-HI failed to contain them during testing, we had previously sent Sundown special-op assault squad over to suppress them, but lost the message after contact with the experiments, please be advised Captain, this is not ordinary bunch of giant spinelings! Please be very careful!</missiondescription.tsmmission5>
   <missionsuccess.tsmmission5>This mission must be kept secret or the EA-HI will face a hefty fine.</missionsuccess.tsmmission5>
   <missionheader0.tsmmission5>Containment Breach</missionheader0.tsmmission5>
   <missionmessage0.tsmmission5>Shh! Silence, please!</missionmessage0.tsmmission5>
@@ -577,13 +577,13 @@
   <faction.tsm>The Sea of Miracles</faction.tsm>
   <faction.tsm.description>The Sea of Miracles Company has gradually evolved into a significant faction. With its wide-reaching influence and resources, the company’s role has expanded beyond mere commercial operations, extending into the political and military realms of the deep-sea world, forming a powerful faction with a profound impact on deep-sea exploration and regional security.</faction.tsm.description>
   <faction.tsm.shortdescription>Sea of Miracles is an outstanding multi-field enterprise. The company is renowned for its exceptional escort services, providing unparalleled safety guarantees, ensuring the safety of deep-sea explorers and merchant vessels.</faction.tsm.shortdescription>
-  <randomnews35>The joint Same Boat team is clearing threats from the channels. The alliance has responded positively and hopes more teams will join in to make the channels safer.</randomnews35>
+  <randomnews35>A new submarine is clearing threats from the waters of Europa. The Coalition has responded positively and hopes more teams will join in to make the channels safer.</randomnews35>
   <randomnews36>Sea of Miracles has your back</randomnews36>
   <locationchange.tsm_city.changeto.abandoned>Sea of Miracles’s fortress city [previousname] has fallen.</locationchange.tsm_city.changeto.abandoned>
   <locationchange.tsm_city.changeto.none>Sea of Miracles’s fortress city [previousname] has relocated to a more suitable location.</locationchange.tsm_city.changeto.none>
   <locationchange.none.changeto.tsm_city>Sea of Miracles discovered the ecological zone [previousname] and established a fortress city there.</locationchange.none.changeto.tsm_city>
   <locationchange.abandoned.changeto.tsm_city>Sea of Miracles cleared the internal threats of [previousname] and established a city on this foundation.</locationchange.abandoned.changeto.tsm_city>
-  <eventtext.unlockpathgeneric.nomoney.tsm>“If you're not capable and not planning to pay the deposit, don’t waste my precious rest time.”</eventtext.unlockpathgeneric.nomoney.tsm>
+  <eventtext.unlockpathgeneric.nomoney.tsm>“If you're not capable and not planning to pay the deposit, don’t waste my precious nap time.”</eventtext.unlockpathgeneric.nomoney.tsm>
   <eventtext.unlockpath.refusebribe.tsm>Thought better of it</eventtext.unlockpath.refusebribe.tsm>
   <lockedpathtooltiptsmreputation>This passage has been sealed off by Sea of Miracles. If you want to continue, your reputation with ‖color:faction.tsm‖ Sea of Miracles must exceed [requiredreputation], and you must obtain the administrator's permission. You can view your current reputation in the info interface.\n\nCurrent Reputation: [currentreputation]</lockedpathtooltiptsmreputation>
   <eventtext.unlockpathcoldcaverns.tsmc1>“You want to pass this checkpoint?”\nThe administrator looked up, his gaze sweeping through the fleet via the control panel's light screen, then skillfully operating the terminal,\n“Wait a moment, I need to verify your fleet’s records.”\nA few seconds later\n“Welcome, Captain. After review, your reputation is sufficient. Permission to travel to the Europa Ridge has been granted. The authorization has been synced to your terminal.”\nHe paused, a hint of seriousness flashing in his eyes\n“But, the Europa Ridge is far more perilous than previous routes. Deep-sea currents, unknown creatures, and wrecked ships may threaten your safety at any moment. Captain, please stay calm and cautious.”</eventtext.unlockpathcoldcaverns.tsmc1>
@@ -605,7 +605,7 @@
   <eventtext.unlockpathaphoticplateau.tsmo1.nomoney>“If you don’t have enough money, don’t push it. Besides, money isn’t everything—stay alive first, then talk.”</eventtext.unlockpathaphoticplateau.tsmo1.nomoney>
   <eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>“As I said, there’s no need to go overboard. The Abyssal Plains are great, livable, and Sea of Miracles's headquarters are there. Why not buy an apartment and retire?”</eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>
   <eventtext.unlockpathgreatsea.tsmc1>The administrator saw you from afar and stood up, shaking your hand. “Look who it is! The famous star fleet! What can I do for you this time?”\nUpon hearing your request to travel to the Hydrothermal Wastelands, the administrator’s expression stiffened slightly. He was silent for a moment, then spoke in a slow, deliberate tone: “The number of creatures in the next area is abnormally high, and the currents stirred by geothermal activity will make navigation even more dangerous.” He looked at you, as if gauging your resolve. “Are you truly prepared?”\nHe straightened up and saluted you. “Then, please be careful—do not be careless.”</eventtext.unlockpathgreatsea.tsmc1>
-  <eventtext.unlockpathgreatsea.tsmc2>“So you want to enter the Thermal Wasteland? Many fleets have tried, and many have gone missing. This is the Sea of Miracles’s deposit system. If you’re determined to go, take a look.”</eventtext.unlockpathgreatsea.tsmc2>
+  <eventtext.unlockpathgreatsea.tsmc2>“So you want to enter the Hydrothermal Wasteland? Many fleets have tried, and many have gone missing. This is the Sea of Miracles’s deposit system. If you’re determined to go, take a look.”</eventtext.unlockpathgreatsea.tsmc2>
   <eventtext.unlockpathgreatsea.tsmo1>“17000mk? No problem, I’ll transfer the money shortly.”</eventtext.unlockpathgreatsea.tsmo1>
   <eventtext.unlockpathgreatsea.tsmo1.tsmc1>“Don’t rush. You can always reconsider. It’s rare to see someone who’s both earning money with their life and buying their way into danger. First time I’ve seen someone paying to die.”</eventtext.unlockpathgreatsea.tsmo1.tsmc1>
   <eventtext.unlockpathgreatsea.tsmo1.nomoney>“Then don’t go. You need both money and life to enjoy it. As long as you’re alive, you’ll always have money.”</eventtext.unlockpathgreatsea.tsmo1.nomoney>
@@ -716,11 +716,11 @@
   <entitydescription.tsm_orangeconstant>This protective suit was damaged in combat, many functions are disabled, and the pressure resistance is only 5000 meters</entitydescription.tsm_orangeconstant>
   <entityname.tsm_rz_2a>Combat Outfit Type 2A</entityname.tsm_rz_2a>
   <entitydescription.tsm_rz_2a>Unlike Type 2B, it does not come with a weapon, merely used as a full-body exoskeleton</entitydescription.tsm_rz_2a>
-  <entityname.lm_rapidreaction_helmet>Alliance Rapid Reaction Force Helmet</entityname.lm_rapidreaction_helmet>
+  <entityname.lm_rapidreaction_helmet>Coalition Rapid Reaction Force Helmet</entityname.lm_rapidreaction_helmet>
   <entitydescription.lm_rapidreaction_helmet />
-  <entityname.lm_rapidreaction_vest>Alliance Rapid Reaction Force Bulletproof Vest</entityname.lm_rapidreaction_vest>
+  <entityname.lm_rapidreaction_vest>Coalition Rapid Reaction Force Bulletproof Vest</entityname.lm_rapidreaction_vest>
   <entitydescription.lm_rapidreaction_vest />
-  <entityname.lm_rapidreaction_uniform>Alliance Rapid Reaction Force Combat Suit</entityname.lm_rapidreaction_uniform>
+  <entityname.lm_rapidreaction_uniform>Coalition Rapid Reaction Force Combat Suit</entityname.lm_rapidreaction_uniform>
   <entitydescription.lm_rapidreaction_uniform />
   <entityname.tsm_old_uniform>Old-fashioned Combat Suit</entityname.tsm_old_uniform>
   <entitydescription.tsm_old_uniform />
@@ -767,7 +767,7 @@
   <afflictionname.tsm_virusstage>Flesh Embryo</afflictionname.tsm_virusstage>
   <afflictiondescription.tsm_virusstage>The Evil Plague virus is using your body as a breeding ground, forcibly altering the host's genes to match the Skin Breaker.</afflictiondescription.tsm_virusstage>
   <afflictionname.tsm_virusstage_deep>Evil Plague</afflictionname.tsm_virusstage_deep>
-  <afflictiondescription.tsm_virusstage_deep>The host's genes have been altered; this situation is basically irreversible, and his body is undergoing changes.</afflictiondescription.tsm_virusstage_deep>
+  <afflictiondescription.tsm_virusstage_deep>The host's genes have been altered; this situation is basically irreversible, and the body is undergoing changes.</afflictiondescription.tsm_virusstage_deep>
   <afflictioncauseofdeath.tsm_virusstage_deep>I swim upstream, you are like in the center of the water.</afflictioncauseofdeath.tsm_virusstage_deep>
   <afflictioncauseofdeathself.tsm_virusstage_deep>I swim upstream, you are like in the center of the water.</afflictioncauseofdeathself.tsm_virusstage_deep>
   <afflictionname.tsmmission_eyi_bite>Insect Bite</afflictionname.tsmmission_eyi_bite>
@@ -777,7 +777,7 @@
   <afflictionname.tsmmission_ai_mod_resistancefor>Sea of Miracles Dusk Mountain Stable Evil Plague Normal State</afflictionname.tsmmission_ai_mod_resistancefor>
   <afflictiondescription.tsmmission_ai_mod_resistancefor>Alter part of the DNA sequence to make the body reject foreign parasites.</afflictiondescription.tsmmission_ai_mod_resistancefor>
   <afflictionname.tsm_eyi_stable_state>Stable Evil Plague Normal State</afflictionname.tsm_eyi_stable_state>
-  <afflictiondescription.tsmmission_eyi_0_1>At this stage, you will be immune to water pressure, require no oxygen, increase maximum health by 30%, and will no longer become addicted to drugs. Burns will recover quickly, and you will rapidly heal from Flesh Embryos and Skin Painting.</afflictiondescription.tsmmission_eyi_0_1>
+  <afflictiondescription.tsmmission_eyi_0_1>At this stage, you will be immune to water pressure, require no oxygen, increase maximum health by 30%, and will no longer become addicted to drugs. Burns will recover quickly, and you will rapidly heal from Flesh Embryos and Husk Infection.</afflictiondescription.tsmmission_eyi_0_1>
   <afflictiondescription.tsmmission_eyi_1_4>At this stage, you will not need oxygen and will gain 30% swimming speed.</afflictiondescription.tsmmission_eyi_1_4>
   <afflictiondescription.tsmmission_eyi_4_8>At this stage, you will gain immunity to all toxins.</afflictiondescription.tsmmission_eyi_4_8>
   <afflictiondescription.tsmmission_eyi_8_16>At this stage, you will be immune to water pressure of 6213 meters and slowly heal from hypoxia.</afflictiondescription.tsmmission_eyi_8_16>
@@ -819,4 +819,107 @@
   <locationname.tsm_city.6>Huo Lu</locationname.tsm_city.6>
   <loadingscreentip>Go try the Touhou Deep Sea Operation Team!</loadingscreentip>
   <entityname.tsm_touhou>Linked Content - Touhou Deep Sea Operation Team</entityname.tsm_touhou>
+  <!-- OutpostEvents.xml -->
+  <tsm.tl1>Hello, I am the quartermaster of the Sea of Miracles. How may I assist you?</tsm.tl1>
+  <tsm.tl2>Exchange items with friendly identification codes.</tsm.tl2>
+  <tsm.tl3>Due to the current chaotic situation with the factions, the outlook is not good. For now, we can only offer these exchanges.</tsm.tl3>
+  <tsm.tl4>Exchange for mineral supplies.</tsm.tl4>
+  <tsm.tl5>Please take your items.</tsm.tl5>
+  <tsm.tl6>You don't have any friendly identification codes. Please don't waste my time.</tsm.tl6>
+  <tsm.tl7>Exchange for medical supplies.</tsm.tl7>
+  <tsm.tl8>Please take your items.</tsm.tl8>
+  <tsm.tl9>You don't have any friendly identification codes. Please don't waste my time.</tsm.tl9>
+  <tsm.tl10>Exchange for escort services.</tsm.tl10>
+  <tsm.tl11>Please take your items.</tsm.tl11>
+  <tsm.tl12>You don't have any friendly identification codes. Please don't waste my time.</tsm.tl12>
+  <tsm.tl13>I'll come back later.</tsm.tl13>
+  <tsm.tl14>I'll be waiting for your visit anytime.</tsm.tl14>
+  <tsm.tl15>Exchange items with Sea of Miracles reputation points.</tsm.tl15>
+  <tsm.tl16>You need to have over 25 reputation points to exchange for supplies.</tsm.tl16>
+  <tsm.tl17>Exchange for mineral supplies.</tsm.tl17>
+  <tsm.tl18>Please take your items.</tsm.tl18>
+  <tsm.tl19>You don't have enough reputation points. Please don't waste my time.</tsm.tl19>
+  <tsm.tl20>Exchange for medical supplies.</tsm.tl20>
+  <tsm.tl21>Please take your items.</tsm.tl21>
+  <tsm.tl22>You don't have enough reputation points. Please don't waste my time.</tsm.tl22>
+  <tsm.tl23>Exchange for escort services.</tsm.tl23>
+  <tsm.tl24>Please take your items.</tsm.tl24>
+  <tsm.tl25>You don't have enough reputation points. Please don't waste my time.</tsm.tl25>
+  <tsm.tl26>I'll come back later.</tsm.tl26>
+  <tsm.tl27>I'll be waiting for your visit anytime.</tsm.tl27>
+  <tsm.tl28>I'll come back later.</tsm.tl28>
+  <tsm.tl29>I'll be waiting for your visit anytime.</tsm.tl29>
+  <tsm.tl30>Welcome to the Sea of Miracles Supply Beacon Station. How may I assist you?</tsm.tl30>
+  <tsm.tl31>Exchange items with friendly identification codes.</tsm.tl31>
+  <tsm.tl32>Due to the current chaotic situation with the factions, the outlook is not good. For now, we can only offer these exchanges.</tsm.tl32>
+  <tsm.tl33>Exchange for mineral supplies.</tsm.tl33>
+  <tsm.tl34>Please take your items.</tsm.tl34>
+  <tsm.tl35>You don't have any friendly identification codes. Please don't waste my time.</tsm.tl35>
+  <tsm.tl36>Exchange for medical supplies.</tsm.tl36>
+  <tsm.tl37>Please take your items.</tsm.tl37>
+  <tsm.tl38>You don't have any friendly identification codes. Please don't waste my time.</tsm.tl38>
+  <tsm.tl39>Exchange for escort services.</tsm.tl39>
+  <tsm.tl40>Please take your items.</tsm.tl40>
+  <tsm.tl41>You don't have any friendly identification codes. Please don't waste my time.</tsm.tl41>
+  <tsm.tl42>I'll come back later.</tsm.tl42>
+  <tsm.tl43>I'll be waiting for your visit anytime.</tsm.tl43>
+  <tsm.tl44>Exchange items with the Sea of Miracles reputation points.</tsm.tl44>
+  <tsm.tl45>You need to have over 25 reputation points to exchange for supplies.</tsm.tl45>
+  <tsm.tl46>Exchange for mineral supplies.</tsm.tl46>
+  <tsm.tl47>Please take your items.</tsm.tl47>
+  <tsm.tl48>You don't have enough reputation points. Please don't waste my time.</tsm.tl48>
+  <tsm.tl49>Exchange for medical supplies.</tsm.tl49>
+  <tsm.tl50>Please take your items.</tsm.tl50>
+  <tsm.tl51>You don't have enough reputation points. Please don't waste my time.</tsm.tl51>
+  <tsm.tl52>Exchange for escort services.</tsm.tl52>
+  <tsm.tl53>Please take your items.</tsm.tl53>
+  <tsm.tl54>You don't have enough reputation points. Please don't waste my time.</tsm.tl54>
+  <tsm.tl55>I'll come back later.</tsm.tl55>
+  <tsm.tl56>I'll be waiting for your visit anytime.</tsm.tl56>
+  <tsm.tl57>I'll come back later.</tsm.tl57>
+  <tsm.tl58>I'll be waiting for your visit anytime.</tsm.tl58>
+  <tsm.tl59>Hello, I am Yu Lang, the head of the Sea of Miracles Armory. I'm here to issue bounties from the Sea of Miracles to passing captains.</tsm.tl59>
+  <tsm.tl60>You are... Phantom Lang?</tsm.tl60>
+  <tsm.tl61>Ah, yes, that's my nickname. You can call me that too.</tsm.tl61>
+  <tsm.tl62>No, I mean: I’ve met someone called "Phantom Lang" before...</tsm.tl62>
+  <tsm.tl63>Oh, I know what you mean. Those were my people. They were issuing commands on my behalf, but many of them are now missing... like they disappeared. If you see them, please let me know.</tsm.tl63>
+  <tsm.tl64>Oh, I see. Alright, alright. So, what tasks do you have now?</tsm.tl64>
+  <tsm.tl65>Hmm... I've already sent the tasks to your panel. Please proceed with caution.\nAnd... try to stay alive.</tsm.tl65>
+  <tsm.tl66>This route is now under a blockade by the Sea of Miracles. Turn back immediately, or we will resort to forceful expulsion!</tsm.tl66>
+  <tsm.tl67>This is your final warning! Turn back now!</tsm.tl67>
+  <tsm.tl68>You see a man acting suspiciously, so you approach him to see what he's up to.</tsm.tl68>
+  <tsm.tl69>"What are you doing?" you say while putting a hand on his shoulder.</tsm.tl69>
+  <tsm.tl70>The man is clearly startled. After glancing at the device in his hand, he stares at you blankly. As soon as you realize what he's holding, he takes off running.</tsm.tl70>
+  <tsm.tl71>"Don't run!" Just as you start to chase after him, alarms begin blaring throughout the station.</tsm.tl71>
+  <tsm.tl72>T.S.M: \nUnknown hostile forces have been detected, T-71 defense protocol has been activated.\nThe entire station is now under lockdown. All civilians are urged to remain calm and proceed to the nearest safety shelter. The Sundown Operations Department will begin clearing out the intruders. Please refrain from taking any unauthorized actions and wait for the situation to stabilize.</tsm.tl72>
+  <!-- OutpostEvents_tsm.xml -->
+  <tsm.tl_p_1>Hello, I am Yu Lang, the head of the Armed Forces of the Sea of Miracles. I am still searching for my missing team members.</tsm.tl_p_1>
+  <tsm.tl_p_2>Sorry to bother you.</tsm.tl_p_2>
+  <tsm.tl_p_3>I'm handling business, don't disturb me.</tsm.tl_p_3>
+  <tsm.tl_p_4>Exchange items</tsm.tl_p_4>
+  <tsm.tl_p_5>Fair prices, honest trade.</tsm.tl_p_5>
+  <tsm.tl_p_6>400 MK to exchange for Atang Transmuter</tsm.tl_p_6>
+  <tsm.tl_p_7>Hey, these are rare treasures, though they’re all knock-offs... replicas. But I'm raising MK to repair my drone Nancy, otherwise, I wouldn't be willing to sell them to you.</tsm.tl_p_7>
+  <tsm.tl_p_8>300 MK to exchange for Atang Combat Suit</tsm.tl_p_8>
+  <tsm.tl_p_9>250 MK to exchange for Atang Hoodie</tsm.tl_p_9>
+  <tsm.tl_p_10>450 MK to exchange for Atang's Battle Axe</tsm.tl_p_10>
+  <tsm.tl_p_11>150 MK to exchange for Navy Officer's Large Hat</tsm.tl_p_11>
+  <tsm.tl_p_12>2300 MK to exchange for Icarus Hand Cannon</tsm.tl_p_12>
+  <tsm.tl_p_13>800 MK to exchange for 6 Hand Cannon Bullets</tsm.tl_p_13>
+  <tsm.tl_p_14>Six bullets, enough to take down twelve people.</tsm.tl_p_14>
+  <tsm.tl_p_15>1000 MK to exchange for Medical Supplies</tsm.tl_p_15>
+  <tsm.tl_p_16>Special supplies from the Sea of Miracles.</tsm.tl_p_16>
+  <tsm.tl_p_17>Not much left, see what you need.</tsm.tl_p_17>
+  <tsm.tl_p_18>400 MK to exchange for Lairen Transmuter</tsm.tl_p_18>
+  <tsm.tl_p_19>Don’t use it for bad things!</tsm.tl_p_19>
+  <tsm.tl_p_20>300 MK to exchange for Women's Uniform</tsm.tl_p_20>
+  <tsm.tl_p_21>This is a women's uniform from Kyushu.</tsm.tl_p_21>
+  <tsm.tl_p_22>2600 MK to exchange for Grey Eye</tsm.tl_p_22>
+  <tsm.tl_p_23>This gun has been with me for a long time. If you're worthy, take it.</tsm.tl_p_23>
+  <tsm.tl_p_24>200 MK to exchange for Officer's Hat</tsm.tl_p_24>
+  <tsm.tl_p_25>A symbol of power.</tsm.tl_p_25>
+  <tsm.tl_p_26>350 MK to exchange for Suit</tsm.tl_p_26>
+  <tsm.tl_p_27>Looks nice.</tsm.tl_p_27>
+  <tsm.tl_p_28>Think carefully before pulling the trigger.</tsm.tl_p_28>
+  <tsm.tl_p_29>800 MK to exchange for Supplies</tsm.tl_p_29>
 </infotexts>

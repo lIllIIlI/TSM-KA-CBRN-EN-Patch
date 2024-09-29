@@ -169,8 +169,8 @@
     <entitydescription.tsm_old_vest>Offers more protected areas than a standard bulletproof vest, but its protective performance is not particularly good.</entitydescription.tsm_old_vest>
     <entityname.tsm_advanced_uniform>Advanced Combat Suit</entityname.tsm_advanced_uniform>
     <entitydescription.tsm_advanced_uniform>Uniform of the Advanced Combat Department.</entitydescription.tsm_advanced_uniform>
-    <entityname.tsm_sundawn_uniform>Sunset Mountain Security Uniform</entityname.tsm_sundawn_uniform>
-    <entitydescription.tsm_sundawn_uniform>A security uniform worn by the Sunset Mountain Combat Department during internal security periods.</entitydescription.tsm_sundawn_uniform>
+    <entityname.tsm_sundawn_uniform>Sundown Security Uniform</entityname.tsm_sundawn_uniform>
+    <entitydescription.tsm_sundawn_uniform>A security uniform worn by the Sundown Combat Department during internal security periods.</entitydescription.tsm_sundawn_uniform>
     <entityname.tsm_pgvest>Sea of Miracles Insert Plate Bulletproof Vest</entityname.tsm_pgvest>
     <entitydescription.tsm_pgvest>A bulletproof vest modified by the Kyushu Armory, featuring insert plate slots that can accommodate corresponding insert plates to protect against specific damage.</entitydescription.tsm_pgvest>
     <entityname.tsm_heavy_vest>Sea of Miracles New-Style Bulletproof Vest</entityname.tsm_heavy_vest>
@@ -301,10 +301,10 @@
     <entitydescription.rz_prototype>Due to various reasons and the increasingly severe situation, the headquarters of the Sea of Miracles urgently needed a heavy fire support platform that could enter submarines. Thus, the “Rongzhuang” heavy fire platform prototype was born.</entitydescription.rz_prototype>
     <entityname.tsm_rz_2b>“Rongzhuang” Prototype No. 2 Type B</entityname.tsm_rz_2b>
     <entitydescription.tsm_rz_2b>This is a combat platform equipped with heavy firepower. The operator can enter and exit the body more quickly, and the heavy firepower mounted on the arms can easily respond to various situations inside submarines, but it is still a platform for technical verification. Uses ‖color:150,0,0,255‖Rongzhuang Magazines‖color:end‖ for ammunition supply.</entitydescription.tsm_rz_2b>
-    <entityname.tsm_rz_pirent>Rongzhuang Thief Type</entityname.tsm_rz_pirent>
-    <entitydescription.tsm_rz_pirent>Original Type B body, modified by thieves to enhance protective and output capabilities.</entitydescription.tsm_rz_pirent>
-    <entityname.tsm_rz_pirent_k>Rongzhuang Thief Type</entityname.tsm_rz_pirent_k>
-    <entitydescription.tsm_rz_pirent_k>Original Type B body, modified by thieves to enhance protective and output capabilities.</entitydescription.tsm_rz_pirent_k>
+    <entityname.tsm_rz_pirent>Rongzhuang Bandit Type</entityname.tsm_rz_pirent>
+    <entitydescription.tsm_rz_pirent>Original Type B body, modified by bandits to enhance protective and output capabilities.</entitydescription.tsm_rz_pirent>
+    <entityname.tsm_rz_pirent_k>Rongzhuang Bandit Type</entityname.tsm_rz_pirent_k>
+    <entitydescription.tsm_rz_pirent_k>Original Type B body, modified by bandits to enhance protective and output capabilities.</entitydescription.tsm_rz_pirent_k>
     <entityname.tsm_kepsuit>Three Divine Hills Combat Suit</entityname.tsm_kepsuit>
     <entitydescription.tsm_kepsuit>As an experimental team for operators, headquarters designed a dedicated combat system for them, but it needs to be paired with the Three Divine Hills combat helmet and cloak to activate.</entitydescription.tsm_kepsuit>
     <entityname.tsm_kepcape>Three Divine Hills Cloak</entityname.tsm_kepcape>
@@ -567,11 +567,11 @@
     <entitydescription.tsm_miniammo>200 rounds of 5.56 caliber ammunition, fire away.</entitydescription.tsm_miniammo>
     <!--反抗军-->
     <entityname.tsm_fkj_an94>Rebel AN94 Assault Rifle</entityname.tsm_fkj_an94>
-    <entitydescription.tsm_fkj_an94>A relic from a once-existing country, inherited by the rebels and brought to new heights. The rebels not only increased its caliber to ‖color:150,0,0,255‖7.62*39‖color:end‖ but also retained its accuracy. However, it requires extensive training to use it properly. (The weapon's durability getting stuck at 50% after firing is normal, a necessary sacrifice for the recoil mechanism.)</entitydescription.tsm_fkj_an94>
+    <entitydescription.tsm_fkj_an94>A relic from a once-existing country, inherited by the Separatists and brought to new heights. The Separatists not only increased its caliber to ‖color:150,0,0,255‖7.62*39‖color:end‖ but also retained its accuracy. However, it requires extensive training to use it properly. (The weapon's durability getting stuck at 50% after firing is normal, a necessary sacrifice for the recoil mechanism.)</entitydescription.tsm_fkj_an94>
     <entityname.tsm_fkj_ak74>Rebel AK74 Automatic Rifle</entityname.tsm_fkj_ak74>
     <entitydescription.tsm_fkj_ak74>Can be properly used after only half an hour of learning, the perfect weapon for a seven-year-old. Fires ‖color:150,0,0,255‖5.45*39‖color:end‖ rounds. </entitydescription.tsm_fkj_ak74>
     <entityname.tsm_fkj_groza>Rebel OTS Groza-1 “Lightning” Bullpup Assault Rifle</entityname.tsm_fkj_groza>
-    <entitydescription.tsm_fkj_groza>A short bullpup rifle modified from the AK74U, using a ‖color:150,0,0,255‖7.62*39‖color:end‖ caliber magazine. Despite its powerful large caliber and impressive fire rate, its poor ergonomics and uncontrollable recoil quickly led to it being phased out in submarine warfare, but its low cost and portability made it popular among pirates and rebels. </entitydescription.tsm_fkj_groza>
+    <entitydescription.tsm_fkj_groza>A short bullpup rifle modified from the AK74U, using a ‖color:150,0,0,255‖7.62*39‖color:end‖ caliber magazine. Despite its powerful large caliber and impressive fire rate, its poor ergonomics and uncontrollable recoil quickly led to it being phased out in submarine warfare, but its low cost and portability made it popular among pirates and Separatists. </entitydescription.tsm_fkj_groza>
     <entityname.tsm_fkj_ak103>Rebel AK103 Assault Rifle</entityname.tsm_fkj_ak103>
     <entitydescription.tsm_fkj_ak103>An excellent weapon, perfect for resisting Union tyranny. Many times, all you need to do is grab the gun and unload on the Union. Fires ‖color:150,0,0,255‖7.62*39‖color:end‖ rounds. </entitydescription.tsm_fkj_ak103>
     <entityname.tsm_fkj_ak103_l>AK103 Assault Rifle (Lightweight Stock)</entityname.tsm_fkj_ak103_l>
@@ -583,7 +583,7 @@
     <entityname.tsm_fkj_sks>Simonov Rifle</entityname.tsm_fkj_sks>
     <entitydescription.tsm_fkj_sks>A former weapon of the socialist bloc, but modified by the petty bourgeoisie. While it’s more user-friendly, something just feels off? Uses ‖color:150,0,0,255‖7.62*39‖color:end‖ magazines. </entitydescription.tsm_fkj_sks>
     <entityname.tsm_fkj_ak12>Rebel AK12 Assault Rifle</entityname.tsm_fkj_ak12>
-    <entitydescription.tsm_fkj_ak12>A "new" weapon with a century of history, modified by the rebels with an adaptive barrel and chamber to fire both ‖color:150,0,0,255‖5.45*39‖color:end‖ and ‖color:150,0,0,255‖7.62*39‖color:end‖ calibers. </entitydescription.tsm_fkj_ak12>
+    <entitydescription.tsm_fkj_ak12>A "new" weapon with a century of history, modified by the Separatists with an adaptive barrel and chamber to fire both ‖color:150,0,0,255‖5.45*39‖color:end‖ and ‖color:150,0,0,255‖7.62*39‖color:end‖ calibers. </entitydescription.tsm_fkj_ak12>
     <entityname.tsm_fkj_aa12>Rebel AA12 Automatic Shotgun</entityname.tsm_fkj_aa12>
     <entitydescription.tsm_fkj_aa12>A powerhouse in the cabin, a meat grinder in close quarters. Just hold down the trigger and nothing, man or beast, in front of you will survive. Uses ‖color:150,0,0,255‖Rebel Shotgun Drum‖color:end‖ for ammunition. </entitydescription.tsm_fkj_aa12>
     <entityname.tsm_fkj_svd>Rebel SVD Sniper Rifle</entityname.tsm_fkj_svd>
@@ -591,7 +591,7 @@
     <entityname.tsm_fkj_jts>Rebel General-Purpose Light Machine Gun</entityname.tsm_fkj_jts>
     <entitydescription.tsm_fkj_jts>A powerful weapon that allows rebel fighters to suppress Union dogs, pinning them down, before ripping them and their cover to shreds. The recoil from continuous fire can even push the shooter backward, so it's advised to be trained before using this weapon. Uses ‖color:150,0,0,255‖Rebel General-Purpose Machine Gun Magazine (5.45*39)‖color:end‖. </entitydescription.tsm_fkj_jts>
     <entityname.tsm_fkj_pkp>Rebel General-Purpose Machine Gun (PKP)</entityname.tsm_fkj_pkp>
-    <entitydescription.tsm_fkj_pkp>A modernized improvement of what's considered the world's best general-purpose machine gun, still formidable even on Europa. The name "Pecheneg" comes from the Pechenegs, a belligerent Western Turkic branch from Earth's steppes. Effective within range against light structures and basic cover. Now modified by the rebels to use ‖color:150,0,0,255‖Rebel Machine Gun Magazine (7.62*51)‖color:end‖. </entitydescription.tsm_fkj_pkp>
+    <entitydescription.tsm_fkj_pkp>A modernized improvement of what's considered the world's best general-purpose machine gun, still formidable even on Europa. The name "Pecheneg" comes from the Pechenegs, a belligerent Western Turkic branch from Earth's steppes. Effective within range against light structures and basic cover. Now modified by the Separatists to use ‖color:150,0,0,255‖Rebel Machine Gun Magazine (7.62*51)‖color:end‖. </entitydescription.tsm_fkj_pkp>
     <entityname.tsm_fkj_jq430>Rebel JQ430 Assault Rifle</entityname.tsm_fkj_jq430>
     <entitydescription.tsm_fkj_jq430>Features a faux-wood stock and foregrip, letting users feel the breath of Earth, while its grenade launcher can give enemies a taste of Europa's shockwaves (Note: Do not use both the magazine and grenade at the same time, as it may cause a barrel explosion). However, the bayonet at the muzzle is so difficult to use that almost no one can wield it. Fires ‖color:150,0,0,255‖7.62*39‖color:end‖ rounds. </entitydescription.tsm_fkj_jq430>
     <entityname.tsm_fkj_ak12_c>AK12 Assault Rifle (Tactical Version)</entityname.tsm_fkj_ak12_c>
@@ -995,25 +995,25 @@
     <missionheader0.tsm_combat_escort>Toss the bodies out.</missionheader0.tsm_combat_escort>
     <missionmessage0.tsm_combat_escort>You Coalition dogs, get off my ship!</missionmessage0.tsm_combat_escort>
     <missionname.tsm_combat_aria>Aria</missionname.tsm_combat_aria>
-    <missiondescription.tsm_combat_aria>Previously, we found a Descendants' site conducting human control experiments. After sending a team to raid it, we lost contact.\nAccording to life signs, they’re still alive, but likely controlled.\nWe have no solution, so we must sacrifice the team. Captain, eliminate everything alive at the site.\nBe cautious—some members of the team have been issued Revolution magazines.</missiondescription.tsm_combat_aria>
+    <missiondescription.tsm_combat_aria>Previously, we found a Adventists' site conducting human control experiments. After sending a team to raid it, we lost contact.\nAccording to life signs, they’re still alive, but likely controlled.\nWe have no solution, so we must sacrifice the team. Captain, eliminate everything alive at the site.\nBe cautious—some members of the team have been issued Revolution magazines.</missiondescription.tsm_combat_aria>
     <missionsuccess.tsm_combat_aria>Next time you pass by, Europa will be without us.</missionsuccess.tsm_combat_aria>
     <missionfailure.tsm_combat_aria>Mission failed, HQ has dispatched a more elite team for extermination.</missionfailure.tsm_combat_aria>
     <missionheader0.tsm_combat_aria>I feel like a decaying corpse, lonely and helpless.</missionheader0.tsm_combat_aria>
     <missionmessage0.tsm_combat_aria>The sun has risen, the darkness remains behind, but the sun isn’t ours—we must sleep.</missionmessage0.tsm_combat_aria>
     <missionname.tsm_adventists_save>Rescue Ms. Qiu</missionname.tsm_adventists_save>
-    <missiondescription.tsm_adventists_save>We've pinpointed Ms. Qiu’s location at [location1], likely captured by the Descendants. We need to rescue her and ensure her safe transport to the Sea of Miracles station.</missiondescription.tsm_adventists_save>
+    <missiondescription.tsm_adventists_save>We've pinpointed Ms. Qiu’s location at [location1], likely captured by the Adventists. We need to rescue her and ensure her safe transport to the Sea of Miracles station.</missiondescription.tsm_adventists_save>
     <missionsuccess.tsm_adventists_save>Mission complete, we’ll handle the escort from here.</missionsuccess.tsm_adventists_save>
     <missionfailure.tsm_adventists_save></missionfailure.tsm_adventists_save>
     <missionheader0.tsm_adventists_save>First Meeting</missionheader0.tsm_adventists_save>
     <missionmessage0.tsm_adventists_save>As she left, she kept looking back, as if trying to remember your face.</missionmessage0.tsm_adventists_save>
     <missionname.tsm_combat_advisers>"Feline" Consultant</missionname.tsm_combat_advisers>
-    <missiondescription.tsm_combat_advisers>Recently, our forces noticed something peculiar during fights with the Rebels: their tactics seem familiar and target the Coalition precisely. These tactics were used by Sea of Miracles during prior operations, leading us to believe someone from Sea of Miracles is advising them.\nAccording to intel, the Feline Consultant is in this building, along with elite Rebels. The goal is to eliminate all Feline military advisors.</missiondescription.tsm_combat_advisers>
+    <missiondescription.tsm_combat_advisers>Recently, our forces noticed something peculiar during fights with the Separatists: their tactics seem familiar and target the Coalition precisely. These tactics were used by Sea of Miracles during prior operations, leading us to believe someone from Sea of Miracles is advising them.\nAccording to intel, the Feline Consultant is in this building, along with elite Separatists. The goal is to eliminate all Feline military advisors.</missiondescription.tsm_combat_advisers>
     <missionsuccess.tsm_combat_advisers>Decapitation Strike</missionsuccess.tsm_combat_advisers>
     <missionfailure.tsm_combat_advisers>Tonight, the stars will drown in the water.</missionfailure.tsm_combat_advisers>
     <missionheader0.tsm_combat_advisers>Decapitation</missionheader0.tsm_combat_advisers>
     <missionmessage0.tsm_combat_advisers>Obstacles and bullets—they block the road, but we laugh and boldly charge through.</missionmessage0.tsm_combat_advisers>
     <missionname.tsm_combat_adventists>Hell Crossing</missionname.tsm_combat_adventists>
-    <missiondescription.tsm_combat_adventists>Based on stolen data, the thieves are now working with the Descendants. We’ll use this chance to wipe them out. A squad will assist you in raiding the site. They’re ready and will coordinate with your actions.</missiondescription.tsm_combat_adventists>
+    <missiondescription.tsm_combat_adventists>Based on stolen data, the bandits are now working with the Adventists. We’ll use this chance to wipe them out. A squad will assist you in raiding the site. They’re ready and will coordinate with your actions.</missiondescription.tsm_combat_adventists>
     <missionsuccess.tsm_combat_adventists>First Joint Operation</missionsuccess.tsm_combat_adventists>
     <missionfailure.tsm_combat_adventists>We should’ve acted, but kept stalling.</missionfailure.tsm_combat_adventists>
     <missionheader0.tsm_combat_adventists>First Joint Operation</missionheader0.tsm_combat_adventists>
@@ -1026,24 +1026,24 @@
     <missionmessage0.tsm_combat_nz>The bullet pierced his brain, and in his daze, he seemed to be on stage, seeing a dark audience. Yet, he clearly heard two voices.\n“Who is performing?” one asked.\nThe other replied, “The performer, awkward but skillful, is either a clown or a king.”\nAs the words fell, applause erupted, and an ode to joy began.\nLadies and gentlemen, this is Solomon’s end.</missionmessage0.tsm_combat_nz>
     <tsm_escort_lm>The situation has changed. Everyone drop your weapons; we’re commandeering this ship for military use.</tsm_escort_lm>
     <tsm_escort_lm>Military Commandeering, drop your weapons.</tsm_escort_lm>
-    <tsm_escort_lm>Open fire, kill these rebels.</tsm_escort_lm>
+    <tsm_escort_lm>Open fire, kill these Separatists.</tsm_escort_lm>
     <!--加载界面-->
     <loadingscreentip>Yahweh Crystals can be bought at difficulty 25+ stations. You might also find them in ruins or shipwrecks.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Humberley Stars are only sold in cities or research centers at difficulty 40+. If you’re lucky, you might find some in ruins or shipwrecks.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Some parts for tanks and Ravens can be purchased at various stations, but the main gun has been lost. Maybe it’s in a shipwreck?--------Sea of Miracles</loadingscreentip>
     <loadingscreentip>ARS, known for its automatic recording products, collects data to trade or strengthen internal forces.\n—The Sea of Miracles</loadingscreentip>
-    <loadingscreentip>Rumor has it that the Descendants are erecting 'Beacons' at abandoned sites.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>Rumor has it that the Adventists are erecting 'Beacons' at abandoned sites.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Sea of Miracles began in the dark waters of the Sunless Sea.\n—The Sea of Miracles</loadingscreentip>
-    <loadingscreentip>The Coalition and the Rebels are engaged in full-scale war.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>The Coalition and the Separatists are engaged in full-scale war.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>As the war intensifies, Sea of Miracles’s board reported that escort service income has surpassed other sectors for the first time, with plans for further investment.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>After long construction, the Ice City project is finally complete. Once all inspections pass, it will open to the public for residence and commerce.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>DS104 border station lost contact. Sea of Miracles has dispatched personnel to investigate.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Sea of Miracles has three armed divisions: Advanced Operations, Dusk Mountain Operations, and Kyushu Operations, focused on human combat, corporate security, and monster combat respectively.</loadingscreentip>
     <loadingscreentip>Sea of Miracles remains a corporation, yet it plays a key role in Europa’s development, city-building, and tech research. Its subsidiaries cover almost every industry on Europa, from military manufacturing to medical, schools, shipyards, and even its own Widow Station.</loadingscreentip>
-    <loadingscreentip>After showing 'miracles,' the Descendants gained followers exponentially, including some high-ranking Coalition officials.\n—The Sea of Miracles</loadingscreentip>
-    <loadingscreentip>The Descendants’ goal is to bring their unique god to Europa, but the god requires a vessel, and none of Europa’s life forms are suitable. Their current mission is to create a perfect host.\n—The Sea of Miracles</loadingscreentip>
-    <loadingscreentip>The Rebels, who split from a separatist group, are more dangerous and powerful, aiming to overthrow the Coalition’s iron rule.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>After showing 'miracles,' the Adventists gained followers exponentially, including some high-ranking Coalition officials.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>The Adventists’ goal is to bring their unique god to Europa, but the god requires a vessel, and none of Europa’s life forms are suitable. Their current mission is to create a perfect host.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>The Separatists are now more dangerous and powerful, aiming to overthrow the Coalition’s iron rule.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Communication has advanced, but limitations remain.\n—The Sea of Miracles</loadingscreentip>
-    <loadingscreentip>Whether it’s the Coalition, Rebels, or Sea of Miracles’s forces, they all call for reinforcements upon seeing the first enemy. Be cautious.\n—The Sea of Miracles</loadingscreentip>
+    <loadingscreentip>Whether it’s the Coalition, Separatists, or Sea of Miracles’s forces, they all call for reinforcements upon seeing the first enemy. Be cautious.\n—The Sea of Miracles</loadingscreentip>
   </Override>
 </infotexts>

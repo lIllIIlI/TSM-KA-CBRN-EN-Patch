@@ -2,6 +2,9 @@
 <contentpackage name="TSM-KA-CBRN EN Patch" modversion="1.0.95" corepackage="False" gameversion="1.5.9.2">
     <Text file="%ModDir%/CBRN/Text/English.xml" />
     <Item file="%ModDir%/CBRN/Text/items.xml" />
-    <Text file="%ModDir%/Kyushu Armory//Text/English.xml" />
-    <Text file="%ModDir%/TSM MISSIONS//Text/English.xml" />
+    <Text file="%ModDir%/Kyushu Armory/Text/English.xml" />
+    <Text file="%ModDir%/TSM MISSIONS/Text/English.xml" />
+    <RandomEvents file="%ModDir%/TSM MISSIONS/OutpostEvents.xml" />
+    <RandomEvents file="%ModDir%/TSM MISSIONS/OutpostEvents_tsm.xml" />
+
 </contentpackage>
