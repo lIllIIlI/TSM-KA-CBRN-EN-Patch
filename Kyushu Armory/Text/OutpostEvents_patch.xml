@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Randomevents>
+  <Override>
   <EventPrefabs>
     
     <ScriptedEvent identifier="tsm_indestructible_wall">
@@ -1026,4 +1027,5 @@
       <ScriptedEvent identifier="tsm_opdeco_hrflyers_1" commonness="10" />
     </EventSet>
   </EventSet>
+</Override>
 </Randomevents>

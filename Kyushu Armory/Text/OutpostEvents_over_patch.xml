@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Override>
   <Randomevents>
-    <EventPrefabs>
+    <Override>
+      <EventPrefabs>
       
       <ScriptedEvent identifier="tsm_wz_ff_event" commonness="100">
         <TagAction criteria="player" tag="player" />
@@ -241,5 +241,5 @@
         <NPCWaitAction npctag="tsm_wz_ff" wait="false" />
       </ScriptedEvent>
     </EventPrefabs>
+  </Override>
   </Randomevents>
-</Override>
