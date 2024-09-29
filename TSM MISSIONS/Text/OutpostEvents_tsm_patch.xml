@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Randomevents>
+	<Override>
 	<EventPrefabs>
-		<Override>
 			<ScriptedEvent identifier="tsm_missionevent_TSM1" commonness="100">
 				<TagAction criteria="player" tag="player"/>
 				<SpawnAction npcsetidentifier="tsmnpc" npcidentifier="tsmnpc_1" targettag="tsmnpc_1" spawnlocation="Outpost" targetmoduletags="airlock"/>
@@ -319,6 +319,6 @@
 					<StatusEffect target="This" UseHealthWindow="false"/>
 				</StatusEffectAction>
 			</ScriptedEvent>
-		</Override>
 	</EventPrefabs>
+	</Override>
 </Randomevents>

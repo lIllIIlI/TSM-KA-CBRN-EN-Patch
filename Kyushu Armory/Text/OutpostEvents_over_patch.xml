@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Override>
+  <Randomevents>
+    <EventPrefabs>
+      
+      <ScriptedEvent identifier="tsm_wz_ff_event" commonness="100">
+        <TagAction criteria="player" tag="player" />
+        <SpawnAction npcsetidentifier="tsm_city_npcs" npcidentifier="tsm_wz_ff" targettag="tsm_wz_ff" spawnlocation="Outpost" targetmoduletags="airlock" />
+        <StatusEffectAction targettag="tsm_wz_ff">
+          <StatusEffect target="This" UseHealthWindow="false" />
+        </StatusEffectAction>
+        <Label name="beginningofthejourney" />
+        <NPCWaitAction npctag="tsm_wz_ff" wait="false" />
+        <TriggerAction target1tag="tsm_wz_ff" target2tag="player" applytotarget2="triggerer_player" radius="200" waitforinteraction="true" />
+        <ConversationAction targettag="triggerer_player" text="ka.tl_h_1">
+          <Option text="ka.tl_h_2">
+            <ConversationAction targettag="triggerer_player" text="ka.tl_h_3">
+              <Option text="ka.tl_h_4">
+                <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
+                  <Success>
+                    <RemoveItemAction targettag="triggerer_player" identifier="tsm_identifier" amount="1" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_wz_cl_flare" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_6" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckItemAction>
+              </Option>
+              <Option text="ka.tl_h_7">
+                <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
+                  <Success>
+                    <RemoveItemAction targettag="triggerer_player" identifier="tsm_identifier" amount="1" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_wz_yl_flare" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_6" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckItemAction>
+              </Option>
+              <Option text="ka.tl_h_8">
+                <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
+                  <Success>
+                    <RemoveItemAction targettag="triggerer_player" identifier="tsm_identifier" amount="1" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_ammunition_resupply" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_6" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckItemAction>
+              </Option>
+              <Option text="ka.tl_h_9">
+                <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
+                  <Success>
+                    <RemoveItemAction targettag="triggerer_player" identifier="tsm_identifier" amount="1" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_pgcflare" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_6" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckItemAction>
+              </Option>
+              <Option text="ka.tl_h_10">
+                <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
+                  <Success>
+                    <RemoveItemAction targettag="triggerer_player" identifier="tsm_identifier" amount="1" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_triton_bag" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_6" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckItemAction>
+              </Option>
+              <Option text="ka.tl_h_11">
+                <ConversationAction text="ka.tl_h_12" dialogtype="Small" targettag="triggerer_player" />
+                <ClearTagAction tag="triggerer_player" />
+                <GoTo name="beginningofthejourney" />
+              </Option>
+            </ConversationAction>
+          </Option>
+          <Option text="ka.tl_h_13">
+            <ConversationAction targettag="triggerer_player" text="ka.tl_h_14">
+              <Option text="ka.tl_h_4">
+                <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
+                  <Success>
+                    <ReputationAction targettype="Faction" identifier="tsm" increase="-3" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_wz_cl_flare" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_15" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckReputationAction>
+              </Option>
+              <Option text="ka.tl_h_7">
+                <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
+                  <Success>
+                    <ReputationAction targettype="Faction" identifier="tsm" increase="-3" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_wz_yl_flare" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_15" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckReputationAction>
+              </Option>
+              <Option text="ka.tl_h_8">
+                <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
+                  <Success>
+                    <ReputationAction targettype="Faction" identifier="tsm" increase="-3" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_ammunition_resupply" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_15" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckReputationAction>
+              </Option>
+              <Option text="ka.tl_h_9">
+                <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
+                  <Success>
+                    <ReputationAction targettype="Faction" identifier="tsm" increase="-2" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_pgcflare" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_15" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckReputationAction>
+              </Option>
+              <Option text="ka.tl_h_10">
+                <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
+                  <Success>
+                    <ReputationAction targettype="Faction" identifier="tsm" increase="-2" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_triton_bag" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_15" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckReputationAction>
+              </Option>
+              <Option text="ka.tl_h_11">
+                <ConversationAction text="ka.tl_h_12" dialogtype="Small" targettag="triggerer_player" />
+                <ClearTagAction tag="triggerer_player" />
+                <GoTo name="beginningofthejourney" />
+              </Option>
+            </ConversationAction>
+          </Option>
+          <Option text="tsm.bg">
+            <ConversationAction targettag="triggerer_player" text="tsm.d1">
+              <Option text="ka.tl_h_10">
+                <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_bg_licences" amount="1">
+                  <Success>
+                    <RemoveItemAction targettag="triggerer_player" identifier="tsm_bg_licences" amount="1" />
+                    <ConversationAction targettag="triggerer_player" text="tsm.bg1" />
+                    <SpawnAction itemidentifier="tsm_triton_bag" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="tsm.d2" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckItemAction>
+              </Option>
+              <Option text="ka.tl_h_16">
+                <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_bg_licences" amount="1">
+                  <Success>
+                    <RemoveItemAction targettag="triggerer_player" identifier="tsm_bg_licences" amount="1" />
+                    <ConversationAction targettag="triggerer_player" text="ka.tl_h_5" />
+                    <SpawnAction itemidentifier="tsm_identifier" targetinventory="triggerer_player" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Success>
+                  <Failure>
+                    <ConversationAction targettag="triggerer_player" text="tsm.d2" />
+                    <ClearTagAction tag="triggerer_player" />
+                    <GoTo name="beginningofthejourney" />
+                  </Failure>
+                </CheckItemAction>
+              </Option>
+              <Option text="ka.tl_h_11">
+                <ConversationAction text="ka.tl_h_12" dialogtype="Small" targettag="triggerer_player" />
+                <ClearTagAction tag="triggerer_player" />
+                <GoTo name="beginningofthejourney" />
+              </Option>
+            </ConversationAction>
+          </Option>
+          <Option text="ka.tl_h_11">
+            <ConversationAction text="ka.tl_h_12" dialogtype="Small" targettag="triggerer_player" />
+            <ClearTagAction tag="triggerer_player" />
+            <GoTo name="beginningofthejourney" />
+          </Option>
+        </ConversationAction>
+        <NPCWaitAction npctag="tsm_wz_ff" wait="false" />
+      </ScriptedEvent>
+    </EventPrefabs>
+  </Randomevents>
+</Override>

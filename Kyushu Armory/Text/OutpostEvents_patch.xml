@@ -1,0 +1,1029 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Randomevents>
+  <EventPrefabs>
+    
+    <ScriptedEvent identifier="tsm_indestructible_wall">
+      
+      <TagAction criteria="structureidentifier:ff_x_wall" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:ff_y_wall" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella25" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella26" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassd" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglasse" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassf" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:topwindow" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:verticalwindow" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      
+      <TagAction criteria="structureidentifier:icewall" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:icewall90" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      
+      <TagAction criteria="structureidentifier:ff_x_wall_wrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella07wrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella21wrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella23wrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:shella26degwrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassdwrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassewrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassfwrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="targetwall">
+        <StatusEffect target="This" indestructible="true" />
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_srm_onactive">
+      <CheckDataAction identifier="tsm_save_missqiu_outpost" condition="eq active" forcestring="true">
+        
+        <Success>
+          <TagAction criteria="tsm_restarget" tag="TSM_customisation_qiuwu" ignoreincapacitatedcharacters="false" />
+          
+          <TagAction criteria="player" tag="player" ignoreincapacitatedcharacters="false" />
+          
+          <NPCWaitAction npctag="TSM_customisation_qiuwu" wait="true" />
+          
+          <TriggerAction target1tag="TSM_customisation_qiuwu" target2tag="player" applytotarget1="TSM_customisation_qiuwu" applytotarget2="trigger_player" type="Inside" radius="250" disableincombat="true" disableiftargetincapacitated="true" waitforinteraction="true" />
+          
+          <ConversationAction text="tsm_srm_text.rescuetargetmessage1" speakertag="TSM_customisation_qiuwu" targettag="trigger_player" fadetoblack="true" endeventifinterrupted="true" dialogtype="Mission" continueconversation="false" continueautomatically="true">
+            
+            <Option text="tsm_srm_text.arrested">
+              <NPCChangeTeamAction npctag="TSM_customisation_qiuwu" teamid="Team1" />
+              
+              <NPCFollowAction npctag="TSM_customisation_qiuwu" targettag="trigger_player" follow="true" maxtargets="1" />
+              
+              <SetDataAction operation="Set" value="accomplished" identifier="tsm_save_missqiu_outpost" />
+              
+              <TriggerEventAction identifier="tsm_spawnrescuednpc" nextround="true" />
+              
+            </Option>
+          </ConversationAction>
+        </Success>
+      </CheckDataAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_spawnrescuednpc">
+      <CheckDataAction identifier="tsm_save_missqiu_outpost" condition="eq accomplished" forcestring="true">
+        
+        <Success>
+          <SpawnAction npcsetidentifier="TSM_mission_npc" npcidentifier="TSM_customisation_qiuwu" lootingisstealing="false" targettag="TSM_customisation_qiuwu" spawnlocation="Outpost" teamid="FriendlyNPC" allowduplicates="false" amount="1" />
+          
+          <SetDataAction operation="Set" value="end" identifier="tsm_save_missqiu_outpost" />
+          
+          <ConversationAction text="tsm_srm_text.thanks1" speakertag="TSM_customisation_qiuwu" invokertag="trigger_player" fadetoblack="false">
+            <Option text="tsm_srm_text.answer1" />
+          </ConversationAction>
+        </Success>
+      </CheckDataAction>
+    </ScriptedEvent>
+    
+    
+    <ScriptedEvent identifier="tsm_opdeco_hrflyers_1" commonness="10">
+      <TagAction criteria="player" tag="player" />
+      <TagAction criteria="itemidentifier:opdeco_hrflyers" tag="potentialflyers" submarinetype="outpost" />
+      <TriggerAction target1tag="potentialflyers" target2tag="player" applytotarget2="triggerer_player" radius="150" waitforinteraction="true" />
+      <ConversationAction targettag="triggerer_player" text="tsm_opdeco_hrflyers_1.c1" eventsprite="BombScare1">
+        <Option text="tsm_opdeco_hrflyers_1.o1">
+          <ConversationAction targettag="triggerer_player" text="tsm_opdeco_hrflyers_1.o1.c1" eventsprite="BombScare1" />
+          <ConversationAction text="tsm_opdeco_hrflyers_1.o2" dialogtype="Small" targettag="triggerer_player" />
+          <MissionAction missiontag="tsm_escort" />
+        </Option>
+      </ConversationAction>
+    </ScriptedEvent>
+    
+    
+    
+    <ScriptedEvent identifier="tsm_qrf_buff">
+      <TagAction criteria="humanprefabidentifier:rapidreaction_leader" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_elite" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_elite_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_breaker" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:moon_shadow" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_qrf_stun" strength="50" />
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_stun" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_qrf_buff_other">
+      <TagAction criteria="humanprefabidentifier:rapidreaction_leader" tag="enemy_leader" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_elite" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_elite_p" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_breaker" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_p" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:moon_shadow" tag="enemy_elite" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_leader">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_qrf_jia_buff" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_elite">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_qrf_yi_buff" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_pt">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_qrf_bing_buff" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_reinforcement_buff">
+      <TagAction criteria="humanprefabidentifier:rapidreaction_reinforcement" tag="enemy_reinforcement" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_reinforcement">
+        <StatusEffect target="This" enabledespawn="true">
+          <Affliction identifier="tsm_qrf_jia_buff" strength="50" />
+          <Affliction identifier="tsm_ai_stun" strength="50" />
+          <Affliction identifier="tsm_qrf_stun" strength="50" />
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_occupation_buff">
+      <TagAction criteria="humanprefabidentifier:occupation_leader" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_elite" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_elite_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_ex" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_fire" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_qiuwu" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_occupation_buff_other">
+      <TagAction criteria="humanprefabidentifier:occupation_leader" tag="enemy_leader" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_elite" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_elite_p" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_ex" tag="enemy_ex" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_ex_p" tag="enemy_ex" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_p" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_fire" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_qiuwu" tag="enemy_elite" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_leader">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_occupation_jia_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <Affliction identifier="tsm_ai_stun_5" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_elite">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_occupation_yi_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <Affliction identifier="tsm_ai_stun_2" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_pt">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_occupation_bing_buff" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_ex">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_occupation_bing_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_combat_occupation_event">
+      <TagAction criteria="crew" tag="crew" />
+      <TagAction criteria="bot" tag="bot" />
+      <Label name="waitforspotting" />
+      <WaitAction time="1" />
+      <CheckVisibilityAction entitytag="bot" excludedentitytag="crew" targettag="crew">
+        <Failure>
+          <Goto name="waitforspotting" />
+        </Failure>
+      </CheckVisibilityAction>
+      <WaitAction time="4" />
+      <ConversationAction text="ka.tl_z_1" dialogtype="Small" />
+      <Label name="delay" />
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="1" />
+        </Success>
+        <Failure>
+          <RNGAction chance="0.5">
+            <Success>
+              <WaitAction time="0.5" />
+            </Success>
+            <Failure>
+              <WaitAction time="1.5" />
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </RNGAction>
+      <GoTo name="delay" maxtimes="400" />
+      <SpawnAction npcsetidentifier="occupation_npcs" npcidentifier="occupation_leader" lootingisstealing="false" targettag="occupation" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <StatusEffectAction targettag="occupation" enabledespawn="true">
+        <StatusEffect target="This">
+          <Sound file="%ModDir%/ogg/Blood for the Blood.ogg" range="10000" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="occupation_npcs" npcidentifier="occupation_leader" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="occupation_npcs" npcidentifier="occupation_leader" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="occupation_npcs" npcidentifier="occupation_leader" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="occupation_npcs" npcidentifier="occupation_leader" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_reinforcement" tag="enemy_reinforcement" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:occupation_leader" tag="enemy_reinforcement" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_reinforcement">
+        <StatusEffect target="This" enabledespawn="true">
+          <Affliction identifier="tsm_qrf_jia_buff" strength="50" />
+          <Affliction identifier="tsm_ai_stun" strength="50" />
+          <Affliction identifier="tsm_qrf_stun" strength="50" />
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_stun_5" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <Affliction identifier="tsm_ai_stun_2" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_beowulf_buff">
+      <TagAction criteria="humanprefabidentifier:beowulf_leader" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_elite" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_elite_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_breaker" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_fire" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_ex" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_ex_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_sl" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_beowulf_buff_other">
+      <TagAction criteria="humanprefabidentifier:beowulf_leader" tag="enemy_leader" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_elite" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_elite_p" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_breaker" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_fire" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_ex" tag="enemy_ex" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_ex_p" tag="enemy_ex" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_p" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_sl" tag="enemy_leader" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_leader">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_beowulf_jia_buff" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+          <Affliction identifier="tsm_ai_stun_5" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_elite">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_beowulf_yi_buff" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_pt">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_beowulf_bing_buff" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_ex">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_occupation_bing_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_combat_beowulf_event">
+      <TagAction criteria="crew" tag="crew" />
+      <TagAction criteria="bot" tag="bot" />
+      <Label name="waitforspotting" />
+      <WaitAction time="1" />
+      <CheckVisibilityAction entitytag="bot" excludedentitytag="crew" targettag="crew">
+        <Failure>
+          <Goto name="waitforspotting" />
+        </Failure>
+      </CheckVisibilityAction>
+      <WaitAction time="3" />
+      <ConversationAction text="ka.tl_z_2" dialogtype="Small" />
+      <Label name="delay" />
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="1" />
+        </Success>
+        <Failure>
+          <RNGAction chance="0.5">
+            <Success>
+              <WaitAction time="0.5" />
+            </Success>
+            <Failure>
+              <WaitAction time="1.5" />
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </RNGAction>
+      <GoTo name="delay" maxtimes="390" />
+      <SpawnAction npcsetidentifier="beowulf_npcs" npcidentifier="beowulf_leader" lootingisstealing="false" targettag="beowulf" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <StatusEffectAction targettag="beowulf">
+        <StatusEffect target="This" enabledespawn="true">
+          <Sound file="%ModDir%/ogg/phonkghost.ogg" range="10000" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="beowulf" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="beowulf" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="beowulf" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="beowulf" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="beowulf" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="beowulf" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="beowulf" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="beowulf_npcs" npcidentifier="beowulf_leader" lootingisstealing="false" targettag="beowulf" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <TagAction criteria="humanprefabidentifier:rapidreaction_reinforcement" tag="enemy_reinforcement" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:beowulf_leader" tag="enemy_reinforcement" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_reinforcement">
+        <StatusEffect target="This" enabledespawn="true">
+          <Affliction identifier="tsm_qrf_jia_buff" strength="50" />
+          <Affliction identifier="tsm_ai_stun" strength="50" />
+          <Affliction identifier="tsm_qrf_stun" strength="50" />
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_crosstalk_buff">
+      <TagAction criteria="humanprefabidentifier:crosstalk_leader" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:crosstalk_leader_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:crosstalk" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:crosstalk_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:crosstalk_tianjie" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:crosstalk_ckhs233" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_crosstalk_buff_other">
+      <TagAction criteria="humanprefabidentifier:crosstalk_leader" tag="enemy_leader" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:crosstalk_tianjie" tag="enemy_leader" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:crosstalk_ckhs233" tag="enemy_leader" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_leader">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_crosstalk_jia_buff" strength="50" />
+          <Affliction identifier="tsm_ai_stun_2" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_pt_buff">
+      <TagAction criteria="humanprefabidentifier:coalition_leader" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:coalition_leader_e" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:coalition" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:coalition_themohavemailman" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:coalition_AloneFllen" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:coalition_e" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:separatists_leader" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:separatists_rbq" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:separatists" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:separatists_e" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:separatists_000032" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    
+    <ScriptedEvent identifier="tsm_yehuo_buff">
+      <TagAction criteria="humanprefabidentifier:yehuo_leader" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_elite" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_elite_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_ex" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_reinforcement" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This" enabledespawn="true">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_yehuo_buff_other">
+      <TagAction criteria="humanprefabidentifier:yehuo_leader" tag="enemy_leader" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_elite" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_elite_p" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_p" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_ex" tag="enemy_ex" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_reinforcement" tag="enemy_elite" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_leader">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_yehuo_jia_buff" strength="50" />
+          <Affliction identifier="tsm_ai_stun_5" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_elite">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_yehuo_yi_buff" strength="50" />
+          <Affliction identifier="tsm_ai_stun_2" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_pt">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_yehuo_bing_buff" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_ex">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_occupation_bing_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_combat_yehuo_event">
+      <TagAction criteria="crew" tag="crew" />
+      <TagAction criteria="bot" tag="bot" />
+      <Label name="waitforspotting" />
+      <WaitAction time="1" />
+      <CheckVisibilityAction entitytag="bot" excludedentitytag="crew" targettag="crew">
+        <Failure>
+          <Goto name="waitforspotting" />
+        </Failure>
+      </CheckVisibilityAction>
+      <WaitAction time="3" />
+      <ConversationAction text="ka.tl_z_3" dialogtype="Small" />
+      <Label name="delay" />
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.8" />
+        </Success>
+        <Failure>
+          <RNGAction chance="0.5">
+            <Success>
+              <WaitAction time="0.4" />
+            </Success>
+            <Failure>
+              <WaitAction time="1.2" />
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </RNGAction>
+      <GoTo name="delay" maxtimes="400" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_leader" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <StatusEffectAction targettag="yehuo" enabledespawn="true">
+        <StatusEffect target="This">
+          <Sound file="%ModDir%/ogg/red rock for mother Russia.ogg" range="10000" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_leader" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_leader" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_leader" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <TagAction criteria="humanprefabidentifier:yehuo_reinforcement" tag="enemy_reinforcement" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:yehuo_leader" tag="enemy_reinforcement_jia" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_reinforcement">
+        <StatusEffect target="This" enabledespawn="true">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_stun_2" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_yehuo_yi_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_reinforcement_jia">
+        <StatusEffect target="This" enabledespawn="true">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_stun_5" strength="50" />
+          <Affliction identifier="tsm_yehuo_jia_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_anonymous_buff">
+      <TagAction criteria="humanprefabidentifier:Anonymous_leader" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:Anonymous_elite" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:Anonymous_elite_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:Anonymous" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:Anonymous_p" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_anonymous_buff_other">
+      <TagAction criteria="humanprefabidentifier:Anonymous_leader" tag="enemy_leader" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:Anonymous_elite" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:Anonymous_elite_p" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:Anonymous" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:Anonymous_p" tag="enemy_elite" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_leader">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_anonymous_jia_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+          <Affliction identifier="tsm_ai_stun_2" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_elite">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_anonymous_yi_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    
+    <ScriptedEvent identifier="tsm_combat_buff">
+      <TagAction criteria="humanprefabidentifier:tsm_jz" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_pgc" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_advanced" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_sundawn" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_elite" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_elite_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_p" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_ml" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_Finianna" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_combat_buff_other">
+      <TagAction criteria="humanprefabidentifier:tsm_jz" tag="enemy_jz" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_pgc" tag="enemy_jz" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_advanced" tag="enemy_advanced" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_sundawn" tag="enemy_advanced" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_Finianna" tag="enemy_advanced" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_elite" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_elite_p" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_p" tag="enemy_pt" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_ml" tag="enemy_advanced" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_jz">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_jz_buff" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+          <Affliction identifier="tsm_ai_stun_5" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_advanced">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_advanced_buff" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+          <Affliction identifier="tsm_ai_stun_2" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_pt">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_pt_buff" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_outpost_combat">
+      <TagAction criteria="humanprefabidentifier:tsm_outpost_combat_3" tag="enemy_outpost_combat" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_outpost_combat">
+        <StatusEffect target="This" enabledespawn="true">
+          <Affliction identifier="tsm_ai_stun" strength="50" />
+          <Affliction identifier="tsm_eyi_combat" strength="50" />
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_eyi_rev" strength="50" />
+          <Affliction identifier="tsm_eyi_defend" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_combat_buff_cat">
+      <TagAction criteria="humanprefabidentifier:tsm_military_advisers" tag="enemy_military_advisers" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_military_advisers" tag="enemy_soldier" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:fkj_elite" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:fkj_elite_p" tag="enemy_elite" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:tsm_soldier_FFFFFour" tag="enemy_soldier" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_military_advisers">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <Affliction identifier="tsm_ma_buff" strength="50" />
+          <Affliction identifier="tsm_ai_stun_5" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1,specops" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_soldier">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_sec_buff" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <StatusEffectAction targettag="enemy_elite">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <Affliction identifier="tsm_yehuo_yi_buff" strength="50" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_combat_tsm_event">
+      <TagAction criteria="crew" tag="crew" />
+      <TagAction criteria="bot" tag="bot" />
+      <Label name="waitforspotting" />
+      <WaitAction time="1" />
+      <CheckVisibilityAction entitytag="bot" excludedentitytag="crew" targettag="crew">
+        <Failure>
+          <Goto name="waitforspotting" />
+        </Failure>
+      </CheckVisibilityAction>
+      <WaitAction time="3" />
+      <ConversationAction text="tsm_combat_tsm_event.1" dialogtype="Small" />
+      <Label name="delay" />
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.8" />
+        </Success>
+        <Failure>
+          <RNGAction chance="0.5">
+            <Success>
+              <WaitAction time="0.4" />
+            </Success>
+            <Failure>
+              <WaitAction time="1.2" />
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </RNGAction>
+      <GoTo name="delay" maxtimes="300" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <StatusEffectAction targettag="TSM" enabledespawn="true">
+        <StatusEffect target="This">
+          <Sound file="%ModDir%/ogg/四面楚歌.ogg" range="10000" />
+        </StatusEffect>
+      </StatusEffectAction>
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <TagAction criteria="humanprefabidentifier:tsm_outpost_combat_3" tag="enemy_outpost_combat" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy_outpost_combat">
+        <StatusEffect target="This" enabledespawn="true">
+          <Affliction identifier="tsm_ai_stun" strength="50" />
+          <Affliction identifier="tsm_eyi_combat" strength="50" />
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_tk" strength="50" />
+          <Affliction identifier="tsm_eyi_rev" strength="50" />
+          <Affliction identifier="tsm_eyi_defend" strength="50" />
+          <Affliction identifier="tsm_ai_fire" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="lm_reinforcement_event">
+      <TagAction criteria="crew" tag="crew" />
+      <Label name="beginning" />
+      <TagAction criteria="bot" tag="bot" />
+      <Label name="waitforspotting" />
+      <WaitAction time="1" />
+      <CheckVisibilityAction entitytag="bot" excludedentitytag="crew" targettag="crew">
+        <Failure>
+          <Goto name="waitforspotting" />
+        </Failure>
+      </CheckVisibilityAction>
+      <ConversationAction text="ka.tl_z_4" dialogtype="Small" />
+      <WaitAction time="10" />
+      <CheckConditionalAction targettag="bot" TeamID="None" IsIncapacitated="false" logicaloperator="And">
+        <Success>
+          <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_breaker" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+          <WaitAction time="0.1" />
+          <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_breaker" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+          <WaitAction time="0.1" />
+          <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_breaker" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+          <WaitAction time="0.1" />
+          <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_breaker" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+          <WaitAction time="0.1" />
+          <ConversationAction text="ka.tl_z_5" dialogtype="Small" />
+          <Goto name="beginning" />
+        </Success>
+        <Failure>
+          <ConversationAction text="ka.tl_z_6" dialogtype="Small" />
+        </Failure>
+      </CheckConditionalAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_combat_adventists_event">
+      <TagAction criteria="crew" tag="crew" />
+      <TagAction criteria="bot" tag="bot" />
+      <Label name="waitforspotting" />
+      <WaitAction time="1" />
+      <CheckVisibilityAction entitytag="bot" excludedentitytag="crew" targettag="crew">
+        <Failure>
+          <Goto name="waitforspotting" />
+        </Failure>
+      </CheckVisibilityAction>
+      <WaitAction time="10" />
+      <Label name="delay" />
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.8" />
+        </Success>
+        <Failure>
+          <RNGAction chance="0.5">
+            <Success>
+              <WaitAction time="0.4" />
+            </Success>
+            <Failure>
+              <WaitAction time="1.2" />
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </RNGAction>
+      <GoTo name="delay" maxtimes="5" />
+      <SpawnAction npcsetidentifier="tsm_adventists_npcs" npcidentifier="adventists_elite" lootingisstealing="false" targettag="adventists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_adventists_npcs" npcidentifier="adventists_elite" lootingisstealing="false" targettag="adventists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_adventists_npcs" npcidentifier="adventists_elite" lootingisstealing="false" targettag="adventists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_adventists_npcs" npcidentifier="adventists_elite" lootingisstealing="false" targettag="adventists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+      <SpawnAction npcsetidentifier="tsm_adventists_npcs" npcidentifier="adventists_elite" lootingisstealing="false" targettag="adventists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
+      <WaitAction time="0.1" />
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_combat_adventists_event_tsm">
+      <TagAction criteria="crew" tag="crew" />
+      <TagAction criteria="bot" tag="bot" />
+      <Label name="waitforspotting" />
+      <WaitAction time="1" />
+      <CheckVisibilityAction entitytag="bot" excludedentitytag="crew" targettag="crew">
+        <Failure>
+          <Goto name="waitforspotting" />
+        </Failure>
+      </CheckVisibilityAction>
+      <WaitAction time="1" />
+      <ConversationAction text="tsm_combat_adventists_event_tsm.1" />
+      <Label name="delay" />
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.8" />
+        </Success>
+        <Failure>
+          <RNGAction chance="0.5">
+            <Success>
+              <WaitAction time="0.4" />
+            </Success>
+            <Failure>
+              <WaitAction time="1.2" />
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </RNGAction>
+      <GoTo name="delay" maxtimes="5" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_2" lootingisstealing="true" targettag="TSM" spawnpointtag="banditleader" spawnlocation="outpost" TeamID="Team1" allowinplayerview="false" CanInventoryBeAccessed="false" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_2" lootingisstealing="true" targettag="TSM" spawnpointtag="banditleader" spawnlocation="outpost" TeamID="Team1" allowinplayerview="false" CanInventoryBeAccessed="false" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_2" lootingisstealing="true" targettag="TSM" spawnpointtag="banditleader" spawnlocation="outpost" TeamID="Team1" allowinplayerview="false" CanInventoryBeAccessed="false" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_2" lootingisstealing="true" targettag="TSM" spawnpointtag="banditleader" spawnlocation="outpost" TeamID="Team1" allowinplayerview="false" CanInventoryBeAccessed="false" />
+      <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_2" lootingisstealing="true" targettag="TSM" spawnpointtag="banditleader" spawnlocation="outpost" TeamID="Team1" allowinplayerview="false" CanInventoryBeAccessed="false" />
+      <CombatAction combatmode="Offensive" npctag="TSM" enemytag="adventists" isinstigator="false" guardreaction="arrest" witnessreaction="retreat" />
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_nz_combat">
+      <TagAction criteria="humanprefabidentifier:gunner_Passive" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:gunner_Patrol" tag="enemy" continueifnotargetsfound="true" />
+      <TagAction criteria="humanprefabidentifier:gunner_solomon" tag="enemy" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="enemy">
+        <StatusEffect target="This">
+          <Affliction identifier="tsm_nz_buff" strength="50" />
+          <Affliction identifier="tsm_ai_asphyxiating_pressure" strength="50" />
+          <Affliction identifier="tsm_ai_bleeding" strength="50" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="tsm_lightningwizard_1" />
+          <GiveTalentInfo giverandom="false" talentidentifiers="specops" />
+        </StatusEffect>
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_darkstormynight">
+      <TagAction criteria="player" tag="player" />
+      <ConversationAction text="ka.tl_z_7" targettag="player" fadetoblack="true" continueconversation="true" />
+      <ConversationAction text="ka.tl_z_8" targettag="player" fadetoblack="true" continueconversation="true" />
+      <ConversationAction text="ka.tl_z_9" targettag="player" fadetoblack="true" />
+      <AfflictionAction targettag="player" affliction="tsm_darknight" strength="1" multiplybymaxvitality="true" />
+      <Label name="eventloop" />
+      <WaitAction time="0.5" />
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.5" />
+        </Success>
+      </RNGAction>
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.5" />
+        </Success>
+      </RNGAction>
+      <AfflictionAction targettag="player" affliction="tsm_lightthunder" strength="1" multiplybymaxvitality="true" />
+      <Label name="eventloop" />
+      <WaitAction time="0.2" />
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.5" />
+        </Success>
+      </RNGAction>
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.5" />
+        </Success>
+      </RNGAction>
+      <AfflictionAction targettag="player" affliction="tsm_darknight" strength="0.1" />
+      <WaitAction time="10" />
+      <GoTo name="eventloop" />
+    </ScriptedEvent>
+    <ScriptedEvent identifier="tsm_darkstormynight_overvoltage">
+      <TagAction criteria="itemtag:battery" tag="targetbattery" submarinetype="player" continueifnotargetsfound="true" />
+      <StatusEffectAction targettag="targetbattery">
+        <StatusEffect target="This" charge="-100" duration="3" />
+      </StatusEffectAction>
+    </ScriptedEvent>
+    
+    <ScriptedEvent identifier="tsm_darkstormynight_radio">
+      <TagAction criteria="itemtag:mobileradio" tag="radio" continueifnotargetsfound="true" />
+      <Label name="eventloop" />
+      <RNGAction chance="0.5">
+        <Success>
+          <StatusEffectAction targettag="radio">
+            <StatusEffect target="This" JamTimer="0.2" setvalue="true" duration="0.1" />
+          </StatusEffectAction>
+          <WaitAction time="0.3" />
+        </Success>
+        <Failure>
+          <RNGAction chance="0.8">
+            <Success>
+              <StatusEffectAction targettag="radio">
+                <StatusEffect target="This" JamTimer="0.3" setvalue="true" duration="0.1" />
+              </StatusEffectAction>
+              <WaitAction time="0.4" />
+            </Success>
+            <Failure>
+              <StatusEffectAction targettag="radio">
+                <StatusEffect target="This" JamTimer="0.4" setvalue="true" duration="0.1" />
+              </StatusEffectAction>
+              <WaitAction time="0.5" />
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </RNGAction>
+      <RNGAction chance="0.5">
+        <Success>
+          <WaitAction time="0.1" />
+        </Success>
+        <Failure>
+          <RNGAction chance="0.8">
+            <Success>
+              <WaitAction time="0.2" />
+            </Success>
+            <Failure>
+              <WaitAction time="0.3" />
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </RNGAction>
+      <Goto name="eventloop" maxtimes="4" />
+    </ScriptedEvent>
+    
+  </EventPrefabs>
+  <EventSet identifier="outposteventsTsm_ars" leveltype="outpost" locationtype="city,military,base,blockade,survey,excavation,study,lab,clinic,hospital,surgery,hydroponics,biosphere,nourishment,factory" allowatstart="true" minleveldifficulty="0" maxleveldifficulty="100" chooserandom="false" ignorecooldown="true" additive="true" commonness="85">
+    <EventSet identifier="outposteventsTSM.ALL.generic.missionevents.ars" minleveldifficulty="15" maxleveldifficulty="100" allowatstart="true" chooserandom="true" onceperoutpost="true">
+      <ScriptedEvent identifier="TSM_convertible_npc" commonness="100" />
+    </EventSet>
+  </EventSet>
+  <EventSet identifier="outposteventsTsm_blackship" leveltype="outpost" locationtype="outpost,city,research,military,mine,colony,settlement,construction,camp,base,blockade,survey,excavation,study,lab,clinic,hospital,surgery,hydroponics,biosphere,nourishment,factory,shipyard,fusion" allowatstart="true" minleveldifficulty="25" maxleveldifficulty="100" chooserandom="false" ignorecooldown="true" additive="true" commonness="50">
+    <EventSet identifier="outposteventsTSM.ALL.generic.missionevents.blackship" minleveldifficulty="20" maxleveldifficulty="50" allowatstart="true" chooserandom="true" onceperoutpost="true">
+      <ScriptedEvent identifier="tsm_opdeco_hrflyers_1" commonness="10" />
+    </EventSet>
+  </EventSet>
+</Randomevents>

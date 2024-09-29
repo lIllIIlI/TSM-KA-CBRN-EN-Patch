@@ -16,11 +16,11 @@
     <talentname.tsm_lightningwizard>Counter Spike Armor</talentname.tsm_lightningwizard>
     <talentname.tsm_ai_stun>Power Reaction</talentname.tsm_ai_stun>
     <!--伤害类型-->
-    <afflictionname.triton_7L>Reform</afflictionname.triton_7L>
-    <afflictiondescription.triton_7L>Wounds caused by the Reform 7L type exhibit inducible corruption; if not treated in time, it will cause burns and other symptoms of tritium poisoning</afflictiondescription.triton_7L>
-    <afflictioncauseofdeath.triton_7L>Severe tritium core damage has compromised your body's tissues</afflictioncauseofdeath.triton_7L>
-    <afflictioncauseofdeathself.triton_7L>The tritium core fills your body, and you begin to rot and decay.</afflictioncauseofdeathself.triton_7L>
-    <afflictiondescription.triton_7L.low>The current wounds do not appear serious, but there is a risk of deterioration</afflictiondescription.triton_7L.low>
+    <afflictionname.triton_7L>Triton 7L</afflictionname.triton_7L>
+    <afflictiondescription.triton_7L>Wounds caused by Triton 7L show induced decay, which if left untreated can induce tritium poisoning resulting in burns, etc.</afflictiondescription.triton_7L>
+    <afflictioncauseofdeath.triton_7L>Severe tritium nucleation destroys your body's tissues.</afflictioncauseofdeath.triton_7L>
+    <afflictioncauseofdeathself.triton_7L>Tritium nuclei fill your body and you begin to rot and fester.</afflictioncauseofdeathself.triton_7L>
+    <afflictiondescription.triton_7L.low>The wounds inflicted so far do not look serious, but there is a risk of deterioration.</afflictiondescription.triton_7L.low>
     <afflictiondescription.triton_7L>The bullet has penetrated your body, with intense burning at the wound site; some tissue has been expelled.</afflictiondescription.triton_7L>
     <afflictionname.triton_9C>Tritium Poisoning</afflictionname.triton_9C>
     <afflictiondescription.triton_9C>The affected area is starting to rot, and you feel a churn in your stomach, wanting to vomit.</afflictiondescription.triton_9C>
@@ -1045,5 +1045,32 @@
     <loadingscreentip>The Separatists are now more dangerous and powerful, aiming to overthrow the Coalition’s iron rule.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Communication has advanced, but limitations remain.\n—The Sea of Miracles</loadingscreentip>
     <loadingscreentip>Whether it’s the Coalition, Separatists, or Sea of Miracles’s forces, they all call for reinforcements upon seeing the first enemy. Be cautious.\n—The Sea of Miracles</loadingscreentip>
+    <!-- OutpostEvents.xml -->
+    <ka.tl_h_1>Hello, I am the Quartermaster of the Sea of Miracles. How can I assist you?</ka.tl_h_1>
+    <ka.tl_h_2>Exchange items using Allied Identification Codes</ka.tl_h_2>
+    <ka.tl_h_3>Due to the ongoing chaos among various factions, the situation is quite grim, so for now, I can only offer these exchanges.</ka.tl_h_3>
+    <ka.tl_h_4>Exchange for mineral supplies</ka.tl_h_4>
+    <ka.tl_h_5>Please keep your items safe.</ka.tl_h_5>
+    <ka.tl_h_6>You do not have an Allied Identification Code, please do not waste my time.</ka.tl_h_6>
+    <ka.tl_h_7>Exchange for medical supplies</ka.tl_h_7>
+    <ka.tl_h_8>Exchange for ammunition supplies</ka.tl_h_8>
+    <ka.tl_h_9>Exchange for escort services</ka.tl_h_9>
+    <ka.tl_h_10>Exchange for Tritium Core Packs</ka.tl_h_10>
+    <ka.tl_h_11>I’ll come back later.</ka.tl_h_11>
+    <ka.tl_h_12>I look forward to your visit at any time.</ka.tl_h_12>
+    <ka.tl_h_13>Exchange items using Sea of Miracles reputation</ka.tl_h_13>
+    <ka.tl_h_14>You must first reach a reputation of 25 or above to exchange supplies.</ka.tl_h_14>
+    <ka.tl_h_15>You do not have enough reputation, please do not waste my time.</ka.tl_h_15>
+    <ka.tl_h_16>Exchange for Allied Identification Code</ka.tl_h_16>
+    <!-- OutpostEvents_over.xml -->
+    <ka.tl_z_1>The situation is dire, nearby rapid response forces are approaching this site, we need to hurry!</ka.tl_z_1>
+    <ka.tl_z_2>Damn it, we intercepted a message from Beowulf Squad, they called for reinforcements. The Alliance's nearest rapid response forces are on their way, we need to hurry.</ka.tl_z_2>
+    <ka.tl_z_3>Wildfire calling for Hammer support team, contact established, need reinforcements! Need reinforcements!</ka.tl_z_3>
+    <ka.tl_z_4>The occupying forces have spotted you and called for reinforcements. The rapid response team will arrive in 10 minutes.</ka.tl_z_4>
+    <ka.tl_z_5>Reinforcements have arrived...</ka.tl_z_5>
+    <ka.tl_z_6>The occupying forces are dead, there will be no further reinforcements...</ka.tl_z_6>
+    <ka.tl_z_7>A lightning storm is approaching!</ka.tl_z_7>
+    <ka.tl_z_8>It doesn't look good; today is not a good day to meet your end.</ka.tl_z_8>
+    <ka.tl_z_9>It's time for a real showdown!</ka.tl_z_9>
   </Override>
 </infotexts>

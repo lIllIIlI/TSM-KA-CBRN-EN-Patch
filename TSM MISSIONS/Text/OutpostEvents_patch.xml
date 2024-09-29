@@ -40,123 +40,123 @@
       <Label name="beginningofthejourney" />
       <NPCWaitAction npctag="tsm_wz_ff" wait="false" />
       <TriggerAction target1tag="tsm_wz_ff" target2tag="player" applytotarget2="triggerer_player" radius="200" waitforinteraction="true" />
-      <ConversationAction targettag="triggerer_player" text="[tsm.tl1]">
-        <Option text="[tsm.tl2]">
-          <ConversationAction targettag="triggerer_player" text="[tsm.tl3]">
-            <Option text="[tsm.tl4]">
+      <ConversationAction targettag="triggerer_player" text="tsm.tl1">
+        <Option text="tsm.tl2">
+          <ConversationAction targettag="triggerer_player" text="tsm.tl3">
+            <Option text="tsm.tl4">
               <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
                 <Success>
                   <RemoveItemAction targettag="triggerer_player" identifier="tsm_identifier" amount="1" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl5]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl5" />
                   <SpawnAction itemidentifier="tsm_wz_cl_flare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl6]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl6" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckItemAction>
             </Option>
-            <Option text="[tsm.tl7]">
+            <Option text="tsm.tl7">
               <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
                 <Success>
                   <RemoveItemAction targettag="triggerer_player" identifier="tsm_identifier" amount="1" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl8]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl8" />
                   <SpawnAction itemidentifier="tsm_wz_yl_flare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl9]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl9" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckItemAction>
             </Option>
-            <Option text="[tsm.tl10]">
+            <Option text="tsm.tl10">
               <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
                 <Success>
                   <RemoveItemAction targettag="triggerer_player" identifier="tsm_identifier" amount="1" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl11]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl11" />
                   <SpawnAction itemidentifier="tsm_pgcflare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl12]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl12" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckItemAction>
             </Option>
-            <Option text="[tsm.tl13]">
-              <ConversationAction text="[tsm.tl14]" dialogtype="Small" targettag="triggerer_player" />
+            <Option text="tsm.tl13">
+              <ConversationAction text="tsm.tl14" dialogtype="Small" targettag="triggerer_player" />
               <ClearTagAction tag="triggerer_player" />
               <GoTo name="beginningofthejourney" />
             </Option>
           </ConversationAction>
         </Option>
-        <Option text="[tsm.tl15]">
-          <ConversationAction targettag="triggerer_player" text="[tsm.tl16]">
-            <Option text="[tsm.tl17]">
+        <Option text="tsm.tl15">
+          <ConversationAction targettag="triggerer_player" text="tsm.tl16">
+            <Option text="tsm.tl17">
               <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
                 <Success>
                   <ReputationAction targettype="Faction" identifier="tsm" increase="-3" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl18]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl18" />
                   <SpawnAction itemidentifier="tsm_wz_cl_flare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl19]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl19" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckReputationAction>
             </Option>
-            <Option text="[tsm.tl20]">
+            <Option text="tsm.tl20">
               <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
                 <Success>
                   <ReputationAction targettype="Faction" identifier="tsm" increase="-3" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl21]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl21" />
                   <SpawnAction itemidentifier="tsm_wz_yl_flare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl22]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl22" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckReputationAction>
             </Option>
-            <Option text="[tsm.tl23]">
+            <Option text="tsm.tl23">
               <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
                 <Success>
                   <ReputationAction targettype="Faction" identifier="tsm" increase="-2" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl24]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl24" />
                   <SpawnAction itemidentifier="tsm_pgcflare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl25]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl25" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckReputationAction>
             </Option>
-            <Option text="[tsm.tl26]">
-              <ConversationAction text="[tsm.tl27]" dialogtype="Small" targettag="triggerer_player" />
+            <Option text="tsm.tl26">
+              <ConversationAction text="tsm.tl27" dialogtype="Small" targettag="triggerer_player" />
               <ClearTagAction tag="triggerer_player" />
               <GoTo name="beginningofthejourney" />
             </Option>
           </ConversationAction>
         </Option>
-        <Option text="[tsm.tl28]">
-          <ConversationAction text="[tsm.tl29]" dialogtype="Small" targettag="triggerer_player" />
+        <Option text="tsm.tl28">
+          <ConversationAction text="tsm.tl29" dialogtype="Small" targettag="triggerer_player" />
           <ClearTagAction tag="triggerer_player" />
           <GoTo name="beginningofthejourney" />
         </Option>
@@ -170,123 +170,123 @@
       <Label name="beginningofthejourney" />
       <NPCWaitAction npctag="tsm_wz_ff_xbz" wait="false" />
       <TriggerAction target1tag="tsm_wz_ff_xbz" target2tag="player" applytotarget2="triggerer_player" radius="200" waitforinteraction="true" />
-      <ConversationAction targettag="triggerer_player" text="[tsm.tl30]">
-        <Option text="[tsm.tl31]">
-          <ConversationAction targettag="triggerer_player" text="[tsm.tl32]">
-            <Option text="[tsm.tl33]">
+      <ConversationAction targettag="triggerer_player" text="tsm.tl30">
+        <Option text="tsm.tl31">
+          <ConversationAction targettag="triggerer_player" text="tsm.tl32">
+            <Option text="tsm.tl33">
               <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
                 <Success>
                   <RemoveItemAction identifier="tsm_identifier" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl34]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl34" />
                   <SpawnAction itemidentifier="tsm_wz_cl_flare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl35]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl35" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckItemAction>
             </Option>
-            <Option text="[tsm.tl36]">
+            <Option text="tsm.tl36">
               <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
                 <Success>
                   <RemoveItemAction identifier="tsm_identifier" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl37]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl37" />
                   <SpawnAction itemidentifier="tsm_wz_yl_flare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl38]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl38" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckItemAction>
             </Option>
-            <Option text="[tsm.tl39]">
+            <Option text="tsm.tl39">
               <CheckItemAction targettag="triggerer_player" itemidentifiers="tsm_identifier" amount="1">
                 <Success>
                   <RemoveItemAction identifier="tsm_identifier" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl40]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl40" />
                   <SpawnAction itemidentifier="tsm_pgcflare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl41]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl41" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckItemAction>
             </Option>
-            <Option text="[tsm.tl42]">
-              <ConversationAction text="[tsm.tl43]" dialogtype="Small" targettag="triggerer_player" />
+            <Option text="tsm.tl42">
+              <ConversationAction text="tsm.tl43" dialogtype="Small" targettag="triggerer_player" />
               <ClearTagAction tag="triggerer_player" />
               <GoTo name="beginningofthejourney" />
             </Option>
           </ConversationAction>
         </Option>
-        <Option text="[tsm.tl44]">
-          <ConversationAction targettag="triggerer_player" text="[tsm.tl45]">
-            <Option text="[tsm.tl46]">
+        <Option text="tsm.tl44">
+          <ConversationAction targettag="triggerer_player" text="tsm.tl45">
+            <Option text="tsm.tl46">
               <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
                 <Success>
                   <ReputationAction targettype="Faction" identifier="tsm" increase="-3" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl47]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl47" />
                   <SpawnAction itemidentifier="tsm_wz_cl_flare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl48]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl48" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckReputationAction>
             </Option>
-            <Option text="[tsm.tl49]">
+            <Option text="tsm.tl49">
               <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
                 <Success>
                   <ReputationAction targettype="Faction" identifier="tsm" increase="-3" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl50]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl50" />
                   <SpawnAction itemidentifier="tsm_wz_yl_flare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl51]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl51" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckReputationAction>
             </Option>
-            <Option text="[tsm.tl52]">
+            <Option text="tsm.tl52">
               <CheckReputationAction targettype="faction" identifier="tsm" condition="gte 25">
                 <Success>
                   <ReputationAction targettype="Faction" identifier="tsm" increase="-2" />
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl53]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl53" />
                   <SpawnAction itemidentifier="tsm_pgcflare" targetinventory="triggerer_player" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player" text="[tsm.tl54]" />
+                  <ConversationAction targettag="triggerer_player" text="tsm.tl54" />
                   <ClearTagAction tag="triggerer_player" />
                   <GoTo name="beginningofthejourney" />
                 </Failure>
               </CheckReputationAction>
             </Option>
-            <Option text="[tsm.tl55]">
-              <ConversationAction text="[tsm.tl56]" dialogtype="Small" targettag="triggerer_player" />
+            <Option text="tsm.tl55">
+              <ConversationAction text="tsm.tl56" dialogtype="Small" targettag="triggerer_player" />
               <ClearTagAction tag="triggerer_player" />
               <GoTo name="beginningofthejourney" />
             </Option>
           </ConversationAction>
         </Option>
-        <Option text="[tsm.tl57]">
-          <ConversationAction text="[tsm.tl58]" dialogtype="Small" targettag="triggerer_player" />
+        <Option text="tsm.tl57">
+          <ConversationAction text="tsm.tl58" dialogtype="Small" targettag="triggerer_player" />
           <ClearTagAction tag="triggerer_player" />
           <GoTo name="beginningofthejourney" />
         </Option>
@@ -348,14 +348,14 @@
       </StatusEffectAction>
       <NPCWaitAction npctag="tsmnpc_1" wait="false" />
       <TriggerAction target1tag="tsmnpc_1" target2tag="player" applytotarget2="triggerer_player" radius="200" waitforinteraction="true" />
-      <ConversationAction targettag="triggerer_player" speakertag="tsmnpc_1" text="[tsm.tl59]" eventsprite="hxl">
-        <Option text="[tsm.tl60]">
-          <ConversationAction text="[tsm.tl61]" dialogtype="Small" targettag="triggerer_player" eventsprite="hxl">
-            <Option text="[tsm.tl62]">
+      <ConversationAction targettag="triggerer_player" speakertag="tsmnpc_1" text="tsm.tl59" eventsprite="hxl">
+        <Option text="tsm.tl60">
+          <ConversationAction text="tsm.tl61" dialogtype="Small" targettag="triggerer_player" eventsprite="hxl">
+            <Option text="tsm.tl62">
               <ConversationAction text="……" endeventifinterrupted="false" dialogtype="Small" eventsprite="hxl" />
-              <ConversationAction text="[tsm.tl63]" endeventifinterrupted="false" dialogtype="Small" eventsprite="hxl">
-                <Option text="[tsm.tl64]">
-                  <ConversationAction text="[tsm.tl65]" endeventifinterrupted="false" dialogtype="Small" eventsprite="hxl" />
+              <ConversationAction text="tsm.tl63" endeventifinterrupted="false" dialogtype="Small" eventsprite="hxl">
+                <Option text="tsm.tl64">
+                  <ConversationAction text="tsm.tl65" endeventifinterrupted="false" dialogtype="Small" eventsprite="hxl" />
                   <MissionAction missiontag="tsm_origin" />
                   <MissionAction missiontag="tsm_origin" />
                   <MissionAction missiontag="tsm_origin" />
@@ -437,9 +437,9 @@
       <WaitAction time="1" />
       <CheckVisibilityAction entitytag="bot" excludedentitytag="crew" targettag="crew" />
       <WaitAction time="3" />
-      <ConversationAction text="[tsm.tl66]" dialogtype="Small" />
+      <ConversationAction text="tsm.tl66" dialogtype="Small" />
       <WaitAction time="30" />
-      <ConversationAction text="[tsm.tl67]" dialogtype="Small" />
+      <ConversationAction text="tsm.tl67" dialogtype="Small" />
     </ScriptedEvent>
     
     <ScriptedEvent identifier="tsm_outpost_invasions_coalition" commonness="100">
@@ -449,14 +449,14 @@
       <Label name="beginningofthejourney" />
       <NPCWaitAction npctag="tsm_coalition_spy" wait="true" />
       <TriggerAction target1tag="tsm_coalition_spy" target2tag="player" applytotarget2="triggerer_player" radius="200" waitforinteraction="true" />
-      <ConversationAction targettag="triggerer_player" text="[tsm.tl68]">
-        <Option text="[tsm.tl69]">
-          <ConversationAction targettag="triggerer_player" text="[tsm.tl70]">
-            <Option text="[tsm.tl71]" endconversation="true">
+      <ConversationAction targettag="triggerer_player" text="tsm.tl68">
+        <Option text="tsm.tl69">
+          <ConversationAction targettag="triggerer_player" text="tsm.tl70">
+            <Option text="tsm.tl71" endconversation="true">
               <ReputationAction targettype="Faction" identifier="coalition" increase="4" />
               <ReputationAction targettype="Faction" identifier="tsm" increase="-3" />
               <WaitAction time="3" />
-              <ConversationAction targettag="sound" text="[tsm.tl72]" endconversation="true" />
+              <ConversationAction targettag="sound" text="tsm.tl72" endconversation="true" />
               <StatusEffectAction targettag="sound">
                 <StatusEffect target="This">
                   <Sound file="%ModDir%/Sounds/tsm_alert.ogg" range="10000" dontmuffle="true" />
