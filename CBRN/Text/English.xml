@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="true" translatedname="English">
+  <!-- (×\d+)(?!\d*mm) / $1mm-->
   <entityname.berra_etps7b>BerraARM ETPS-7B Extreme Temperature Protective Suit</entityname.berra_etps7b>
   <entityname.berra_bio2>BerraARM Bio-2 Combat NBC Suit</entityname.berra_bio2>
   <entityname.berra_cbrn3>BerraARM CBRN-3 Gas Mask</entityname.berra_cbrn3>
@@ -34,11 +35,11 @@
   <entitydescription.berra_drl3_heat>Disposable Rocket Launcher, come with a HEAT warhead \nClear back blast area before launch \nPenetration:~2500mm \nBackblastrange:3.6m</entitydescription.berra_drl3_heat>
   <entitydescription.berra_drl3_dumb>Disposable Rocket Launcher, come with a Training warhead \nClear back blast area before launch \nHey,this is just a training weapon,DO NOT FIGHT YOUR ENEMY WITH THIS!  \nBackblast range:3.6m</entitydescription.berra_drl3_dumb>
   <entitydescription.berra_m4_beowulf>A M4 but fires 12.7×45 rounds\nFULL AUTO \nHigh recoil and expensiveness prevent it from large scale use \nWAIT...WHAT?</entitydescription.berra_m4_beowulf>
-  <entitydescription.berra_m4_458socom>A M4 but fires .458 SOCOM rounds \nFULL AUTO \nLess recoil compare to 12.7×45,a better design allow it come with a built-in suppressor</entitydescription.berra_m4_458socom>
+  <entitydescription.berra_m4_458socom>A M4 but fires .458cal SOCOM rounds \nFULL AUTO \nLess recoil compare to 12.7×45,a better design allow it come with a built-in suppressor</entitydescription.berra_m4_458socom>
   <entitydescription.berra_m110>High quality DMR produced by Berra Armory \nFires 7.62×51 NATO \nPerfect accuracy and low recoil,the best choice for marksmen</entitydescription.berra_m110>
   <entitydescription.berra_m3e1maaws>A M3E1 recoilless rifle \nLaunch all compatible ammunition \nDid someone said 'rifle'?</entitydescription.berra_m3e1maaws>
   <entitydescription.berra_mk153>A Shoulder-launched Multipurpose Assault Weapon  produced by Berra Armory\nLaunch all compatible ammunition</entitydescription.berra_mk153>
-  <entitydescription.berra_m2hb>A long barrel M2HB \nUses .50BMG M9 belts\nUUwUU</entitydescription.berra_m2hb>
+  <entitydescription.berra_m2hb>A long barrel M2HB \nUses .50cal BMG M9 belts\nUUwUU</entitydescription.berra_m2hb>
   <entitydescription.sacabambaspis_he>A REGULAR offensive grenade,double tap E and throw it. \n DONT BLOW YOURSELF UP \nCan easily blow up almost everything(including yourself) but doors \nSmaller effective range, greater lethality</entitydescription.sacabambaspis_he>
   <entityname.tes20mag_ap>20mm"Punisher" Magazine \nAPFSDS</entityname.tes20mag_ap>
   <entityname.tes20mag_arr>20mm"Punisher" Magazine \nFlechette</entityname.tes20mag_arr>
@@ -66,11 +67,11 @@
   <entitydescription.tes20mag_ll>20mm Rubber Less Lethal shot used by "Punisher",IT HURTS...</entitydescription.tes20mag_ll>
   <entitydescription.berra_STANAG_50beowulf_fr>STANAG Magazine \nContaining 7 12.7×45 Fragile rounds \nPoor penetration but extreme stopping power</entitydescription.berra_STANAG_50beowulf_fr>
   <entitydescription.berra_STANAG_50beowulf_ap>STANAG Magazine \nContaining 7 12.7×45 AP rounds \nPerfect penetration and (relatively)high stopping power </entitydescription.berra_STANAG_50beowulf_ap>
-  <entitydescription.berra_STANAG_458socom>STANAG Magazine \nContaining 10 .458 SOCOM rounds \nGood stopping power and penetration,less expensive than 12.7×45</entitydescription.berra_STANAG_458socom>
-  <entitydescription.berra_STANAG_458socom_ext>STANAG Magazine \nContaining 20 .458 SOCOM rounds \nGood stopping power and penetration,less expensive than 12.7×45</entitydescription.berra_STANAG_458socom_ext>
-  <entitydescription.berra_STANAG_50beowulf_fr_ext>STANAG Magazine \nContaining 15 12.7×45 Fragile rounds \nPoor penetration but extreme stopping power</entitydescription.berra_STANAG_50beowulf_fr_ext>
-  <entitydescription.berra_STANAG_50beowulf_ap_ext>STANAG Magazine \nContaining 15 12.7×45 AP rounds \nPerfect penetration and (relatively)high stopping power! \nLet's kick some ass</entitydescription.berra_STANAG_50beowulf_ap_ext>
-  <entitydescription.berra_300FAL_M118LR>FAL Magazine \nContaining 25 7.62×51NATO M118LR rounds \nHigh-accuracy ammunition,designed for DMRs</entitydescription.berra_300FAL_M118LR>
+  <entitydescription.berra_STANAG_458socom>STANAG Magazine \nContaining 10 .458 SOCOM rounds \nGood stopping power and penetration,less expensive than 12.7×45mm</entitydescription.berra_STANAG_458socom>
+  <entitydescription.berra_STANAG_458socom_ext>STANAG Magazine \nContaining 20 .458 SOCOM rounds \nGood stopping power and penetration,less expensive than 12.7×45mm</entitydescription.berra_STANAG_458socom_ext>
+  <entitydescription.berra_STANAG_50beowulf_fr_ext>STANAG Magazine \nContaining 15 12.7×45mm Fragile rounds \nPoor penetration but extreme stopping power</entitydescription.berra_STANAG_50beowulf_fr_ext>
+  <entitydescription.berra_STANAG_50beowulf_ap_ext>STANAG Magazine \nContaining 15 12.7×45mm AP rounds \nPerfect penetration and (relatively)high stopping power! \nLet's kick some ass</entitydescription.berra_STANAG_50beowulf_ap_ext>
+  <entitydescription.berra_300FAL_M118LR>FAL Magazine \nContaining 25 7.62×51mmNATO M118LR rounds \nHigh-accuracy ammunition,designed for DMRs</entitydescription.berra_300FAL_M118LR>
   <entitydescription.berra_50bmg_belt_fmjt>.50BMG belt \nM33 FMJ \n500 rounds MAX \nSTOP WORRING ABOUT AMMUNITION,JUST SHOOT!!!!</entitydescription.berra_50bmg_belt_fmjt>
   <entitydescription.berra_mk153_dumb>Mk153 SMAW Training rounds,the same trajectory with standard MK153 rounds \nSERIOUSLY,DO NOT FIGHT YOUR ENEMY WITH THIS \nBackblast range:4.4m</entitydescription.berra_mk153_dumb>
   <entitydescription.berra_mk153_inc>Mk153 SMAW Incendiary rounds,much more heavier=much more fuel \nBARBECUE TIME \nBackblast range:4.4m</entitydescription.berra_mk153_inc>
@@ -188,12 +189,12 @@
   <afflictiondescription.omegathedeath />
   <afflictionname.the_medicine>Unknown Medicine</afflictionname.the_medicine>
   <afflictiondescription.the_medicine>This body was enhanced by the medicine</afflictiondescription.the_medicine>
-  <displayname.50beowulf_fr>[itemname] 12.7×45 Fragile</displayname.50beowulf_fr>
-  <displayname.50beowulf_ap>[itemname] 12.7×45 AP</displayname.50beowulf_ap>
+  <displayname.50beowulf_fr>[itemname] 12.7×45mm Fragile</displayname.50beowulf_fr>
+  <displayname.50beowulf_ap>[itemname] 12.7×45mm AP</displayname.50beowulf_ap>
   <displayname.458socom>[itemname] .458SOCOM</displayname.458socom>
   <displayname.m118lr>[itemname] M118LR</displayname.m118lr>
-  <displayname.50beowulf_fr_recycle>[itemname] Reload 12.7×45 Fragile</displayname.50beowulf_fr_recycle>
-  <displayname.50beowulf_ap_recycle>[itemname] Reload 12.7×45 AP</displayname.50beowulf_ap_recycle>
+  <displayname.50beowulf_fr_recycle>[itemname] Reload 12.7×45mm Fragile</displayname.50beowulf_fr_recycle>
+  <displayname.50beowulf_ap_recycle>[itemname] Reload 12.7×45mm AP</displayname.50beowulf_ap_recycle>
   <displayname.458socom_recycle>[itemname] Reload .458SOCOM</displayname.458socom_recycle>
   <displayname.m118lr_recycle>[itemname] Reload M118LR</displayname.m118lr_recycle>
   <displayname.fillvxcanister>[itemname] Produce VX</displayname.fillvxcanister>
@@ -261,10 +262,10 @@
   <Override>
     <entitydescription.tsm_helmet_respirator>Heavy helmet produced by The Sea of Miracles,has great ballistic performence and a gas mask.</entitydescription.tsm_helmet_respirator>
     <entitydescription.tsm_medicalkits_s>Advanced medical kit produced by The Sea of Miracles,contains enough medical equipments for a field surgery.Also contains medicals against NBC threats. \nExpensive but worthy.</entitydescription.tsm_medicalkits_s>
-    <entityname.nuclearshell>Radioactive Material Shell</entityname.nuclearshell>
-    <entitydescription.nuclearshell>A explosive device designed to launch from a Railgun.Usually was used to throw tons of radioactive material onto enemies.</entitydescription.nuclearshell>
-    <entityname.nuclearshellcheap>Radioactive Material Shell(Cheap)</entityname.nuclearshellcheap>
-    <entitydescription.nuclearshellcheap>A explosive device designed to launch from a Railgun.Usually was used to throw tons of radioactive material onto enemies.</entitydescription.nuclearshellcheap>
+    <entityname.nuclearshell>Nuclear Shell</entityname.nuclearshell>
+    <entitydescription.nuclearshell>A explosive device designed to launch from a Railgun. Usually was used to throw tons of radioactive material onto enemies.</entitydescription.nuclearshell>
+    <entityname.nuclearshellcheap>Nuclear Shell(Cheap)</entityname.nuclearshellcheap>
+    <entitydescription.nuclearshellcheap>A explosive device designed to launch from a Railgun. Usually was used to throw tons of radioactive material onto enemies.</entitydescription.nuclearshellcheap>
   </Override>
   <loadingscreentip>Five years ago, I lost 30,000 men in a blink of an eye. And the Europa just F***IN Watched.\n——Lerentine</loadingscreentip>
   <loadingscreentip>BURN, EUROPA! \n——Lerentine</loadingscreentip>
@@ -357,8 +358,8 @@
   <talentdescription.dutyofcbrn>When you are attacked, acquire [affliction2] \nYou will not fall unconscious for [time] seconds when health below 0</talentdescription.dutyofcbrn>
   <talentdescription.nanomachine>Plant nanomachine in your body,providing [amount]% resist fro poison</talentdescription.nanomachine>
   <talentdescription.nanomachineondamaged>When your health below [amount]%, heal yourself using nanomachine  \nNanomachine will last [time] seconds after reaching [amount]% health</talentdescription.nanomachineondamaged>
-  <talentvalue.berra_STANAG_458socom>STANAG .458SOCOM</talentvalue.berra_STANAG_458socom>
-  <talentvalue.berra_STANAG_50beowulf_fr>STANAG .50Beowulf Fragile</talentvalue.berra_STANAG_50beowulf_fr>
+  <talentvalue.berra_STANAG_458socom>STANAG .458mm SOCOM</talentvalue.berra_STANAG_458socom>
+  <talentvalue.berra_STANAG_50beowulf_fr>STANAG .50mm Beowulf Fragile</talentvalue.berra_STANAG_50beowulf_fr>
   <talentvalue.cs_chemdist_40>40mm Chemical Grenade CS Gas</talentvalue.cs_chemdist_40>
   <talentvalue.bz_chemdist_40>40mm Chemical Grenade BZ Gas</talentvalue.bz_chemdist_40>
   <talentvalue.cs_chemdist_throwable>Chemical Grenade CS Gas</talentvalue.cs_chemdist_throwable>
@@ -376,9 +377,9 @@
   <talentvalue.vxcanister>Sealed Container VX Gas</talentvalue.vxcanister>
   <talentvalue.berra_M107Mag_m1022>M82/M107 Magazine M1022</talentvalue.berra_M107Mag_m1022>
   <talentvalue.berra_M107Mag_m33>M82/M107 Magazine M33 FMJ</talentvalue.berra_M107Mag_m33>
-  <talentvalue.berra_STANAG_50beowulf_ap>STANAG .50Beowulf AP</talentvalue.berra_STANAG_50beowulf_ap>
-  <talentvalue.berra_STANAG_50beowulf_fr_ext>STANAG(Extened) .50Beowulf Fragile</talentvalue.berra_STANAG_50beowulf_fr_ext>
-  <talentvalue.berra_STANAG_458socom_ext>STANAG(Extened) .458SOCOM</talentvalue.berra_STANAG_458socom_ext>
+  <talentvalue.berra_STANAG_50beowulf_ap>STANAG .50cal Beowulf AP</talentvalue.berra_STANAG_50beowulf_ap>
+  <talentvalue.berra_STANAG_50beowulf_fr_ext>STANAG(Extened) .50cal Beowulf Fragile</talentvalue.berra_STANAG_50beowulf_fr_ext>
+  <talentvalue.berra_STANAG_458socom_ext>STANAG(Extened) .458cal SOCOM</talentvalue.berra_STANAG_458socom_ext>
   <talentvalue.anthrax_biodist_40>40mm Explosive Spread Grenade Anthrax</talentvalue.anthrax_biodist_40>
   <talentvalue.mustard_biodist_40>40mm Explosive Spread Grenade Mustard Agent</talentvalue.mustard_biodist_40>
   <talentvalue.vx_biodist_40>40mm Explosive Spread Grenade VX Agent</talentvalue.vx_biodist_40>

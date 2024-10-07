@@ -97,7 +97,7 @@
     <displayname.防护服改造>[itemname] (Protective Suit Modification)</displayname.防护服改造>
     <!--药品-->
     <entityname.triton_9C_antidote>Special Damage Neutralizer</entityname.triton_9C_antidote>
-    <entitydescription.triton_9C_antidote>A medicine used to treat Tritium poisoning, transformation injuries, and blast wounds.</entitydescription.triton_9C_antidote>
+    <entitydescription.triton_9C_antidote>A medicine used to treat Tritium poisoning, Triton injuries, and blast wounds.</entitydescription.triton_9C_antidote>
     <entityname.tsm_medicalkits>Medical Kit</entityname.tsm_medicalkits>
     <entitydescription.tsm_medicalkits>A standard medical kit produced by The Sea of Miracles, containing sufficient medical instruments to handle most common situations on the battlefield, used for treating physical injuries, burns, and bleeding. This medical kit is not expensive and is sold without returns or exchanges.</entitydescription.tsm_medicalkits>
     <entityname.tsm_medicalkits_s>Enhanced Medical Kit</entityname.tsm_medicalkits_s>
@@ -150,7 +150,7 @@
     <entityname.tsm_bg_licences>T.S.M Tritium Core Package License</entityname.tsm_bg_licences>
     <entitydescription.tsm_bg_licences>A certificate used at NPCs to exchange for Tritium core packages.</entitydescription.tsm_bg_licences>
     <entityname.tsm_triton_bag>T.S.M Tritium Core Package</entityname.tsm_triton_bag>
-    <entitydescription.tsm_triton_bag>A small package of Tritium core, used at the processing table to craft items related to the transformation projectile. This packaging does not completely prevent the internal Tritium core from leaking, and it needs to be placed in a The Sea of Miracles anomaly containment box to avoid burning.</entitydescription.tsm_triton_bag>
+    <entitydescription.tsm_triton_bag>A small package of Tritium core, used at the processing table to craft items related to the Triton projectile. This packaging does not completely prevent the internal Tritium core from leaking, and it needs to be placed in a The Sea of Miracles anomaly containment box to avoid burning.</entitydescription.tsm_triton_bag>
     <entityname.tsm_danger_box>T.S.M Anomaly Containment Box</entityname.tsm_danger_box>
     <entitydescription.tsm_danger_box>A specialized box for containing anomalies, featuring two compartments.</entitydescription.tsm_danger_box>
     <entityname.tsm_fabricator>Weapon Ammunition Processing Table</entityname.tsm_fabricator>
@@ -278,7 +278,7 @@
     <entityname.tsm_armor_paralysis>TSM Technology - Paralysis Protection Plate</entityname.tsm_armor_paralysis>
     <entitydescription.tsm_armor_paralysis>Paralysis protection armor plate\n\nResearch Location: Kyushu Armory\n\nProtection Type: Paralysis\n\nProtection Level: IV</entitydescription.tsm_armor_paralysis>
     <entityname.tsm_armor_triton>TSM Technology - Special Damage Protection Plate</entityname.tsm_armor_triton>
-    <entitydescription.tsm_armor_triton>Special protection armor plate\n\nResearch Location: Kyushu Armory\n\nProtection Type: Transformation/Explosion\n\nProtection Level: II</entitydescription.tsm_armor_triton>
+    <entitydescription.tsm_armor_triton>Special protection armor plate\n\nResearch Location: Kyushu Armory\n\nProtection Type: Triton/Explosion\n\nProtection Level: II</entitydescription.tsm_armor_triton>
     <entityname.tsm_armor_bitewounds>TSM Technology - Bite Protection Plate</entityname.tsm_armor_bitewounds>
     <entitydescription.tsm_armor_bitewounds>Bite protection armor plate\n\nResearch Location: Kyushu Armory\n\nProtection Type: Bite\n\nProtection Level: II</entitydescription.tsm_armor_bitewounds>
     <entityname.tsm_armor_explosiondamage>TSM Technology - Explosion Protection Plate</entityname.tsm_armor_explosiondamage>
@@ -304,7 +304,7 @@
     <entityname.tsm_kepsuit>Three Divine Hills Combat Suit</entityname.tsm_kepsuit>
     <entitydescription.tsm_kepsuit>As an experimental team for operators, headquarters designed a dedicated combat system for them, but it needs to be paired with the Three Divine Hills combat helmet and cloak to activate.</entitydescription.tsm_kepsuit>
     <entityname.tsm_kepcape>Three Divine Hills Cloak</entityname.tsm_kepcape>
-    <entitydescription.tsm_kepcape>A dedicated cloak for the Three Divine Hills experimental team, designed to withstand a certain amount of damage, and it also has some resistance to transformation bullets. When paired with the Three Divine Hills combat suit and helmet, it can activate the auxiliary system.</entitydescription.tsm_kepcape>
+    <entitydescription.tsm_kepcape>A dedicated cloak for the Three Divine Hills experimental team, designed to withstand a certain amount of damage, and it also has some resistance to Triton bullets. When paired with the Three Divine Hills combat suit and helmet, it can activate the auxiliary system.</entitydescription.tsm_kepcape>
     <entityname.tsm_kepcap>Three Divine Hills Combat Helmet</entityname.tsm_kepcap>
     <entitydescription.tsm_kepcap>A dedicated combat helmet for the Three Divine Hills team, it has a certain amount of defense and can be used with chips. When paired with the combat suit and cloak, it can activate the auxiliary system.</entitydescription.tsm_kepcap>
     <entityname.tsm_advisers_vest>'Feline' Consultant Bulletproof Vest</entityname.tsm_advisers_vest>
@@ -894,7 +894,7 @@
     <tsm.d1>Currently, the permits issued by headquarters are several times more than before. But there's no choice; with the war starting, the situation everywhere is very dire. I hope the war ends soon.</tsm.d1>
     <tsm.d2>Sorry, you do not have an official permit. Next time you make this kind of joke, you will be arrested.</tsm.d2>
     <tsm.bg1>Please show the permit issued by headquarters</tsm.bg1>
-    <tsm.bg>Sea of Miracles Transformation Ammunition Permit Exchange for Tritium Core Pack</tsm.bg>
+    <tsm.bg>Sea of Miracles Triton Ammunition Permit Exchange for Tritium Core Pack</tsm.bg>
     <tsm.ammo_resupply>5000 Marks for Ammunition Supply</tsm.ammo_resupply>
     <tsm.ammo_resupply_next>Remember to use it in a safe place. After we see the signal, we will drop the supplies. It currently includes two Coalition ammo crates + two Separatist ammo crates + two Sea of Miracles ammo crates.</tsm.ammo_resupply_next>
     <tsm.bg2>Sir, after verification, the permit is genuine. Here is the core pack you need. Please keep it safe.</tsm.bg2>
