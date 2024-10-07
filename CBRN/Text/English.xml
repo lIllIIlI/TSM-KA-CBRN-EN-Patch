@@ -10,7 +10,7 @@
   <entitydescription.berra_bio2>NBC EXOsuit produced by Berra Armory,advanced self-sealing material can provide secure air tightness in combat. \nA part of Berra TAC Combat NBC Gear.</entitydescription.berra_bio2>
   <entitydescription.berra_cbrn3>A ballistic gas mask made by Berra Armory,can combine with filiter to filter toxic substances in the cost of field of view. \nA part of Berra TAC Combat NBC Gear.</entitydescription.berra_cbrn3>
   <entitydescription.berra_cbrn3a>A comprehensive respirator produced by Berra Armory,can filter toxic substances or using oxygen tanks to breath in low oxygen locations. \nBetter material,better FOV. \nA part of Berra TAC Combat NBC Gear.</entitydescription.berra_cbrn3a>
-  <entitydescription.tsm_filiter>Standard gas mask filter issued by T.S.M \nShould be used with a gas mask </entitydescription.tsm_filiter>
+  <entitydescription.tsm_filiter>Standard gas mask filter issued by The Sea of Miracles \nShould be used with a gas mask </entitydescription.tsm_filiter>
   <entitydescription.berra_filiter>Standard gas mask filter produced by Berra Armory,better material,more durable \nShould be used with a gas mask</entitydescription.berra_filiter>
   <entityname.berra_TES20>BerraARM 20mm MAWS "Punisher"</entityname.berra_TES20>
   <entityname.berra_obj227flamethrower>Object.227 Heavy Flame Thrower "Burner"</entityname.berra_obj227flamethrower>
@@ -135,7 +135,7 @@
   <entityname.pe_cure>Pulmonary Edema Treatment C</entityname.pe_cure>
   <entitydescription.berra_xtg12>Multipurpose toxicide,can treat poisoning effectively</entitydescription.berra_xtg12>
   <entitydescription.berra_obj121>Multipurpose biological countermeasure,can treat bioinfection effectively</entitydescription.berra_obj121>
-  <entitydescription.tsm_d6>Comprehensive first-aid measure issued by T.S.M \nEffective against NBC threats</entitydescription.tsm_d6>
+  <entitydescription.tsm_d6>Comprehensive first-aid measure issued by The Sea of Miracles \nEffective against NBC threats</entitydescription.tsm_d6>
   <entitydescription.col_cac2>Coalition issued chemical countermeasure for all coalition soliders \nCheap but useful</entitydescription.col_cac2>
   <entitydescription.pe_cure>Pulmonary Edema Treatment,only treats Pulmonary Edema :) \nThis item is for Neurotrauma</entitydescription.pe_cure>
   <entityname.powdercapsule_vx>Sealed Tube</entityname.powdercapsule_vx>
@@ -259,8 +259,8 @@
   <missionheader0.berra_undermasks_assination>Nobody was left living.</missionheader0.berra_undermasks_assination>
   <missionmessage0.berra_undermasks_assination>Step into the outpost is the start of a war and a countdown to death.</missionmessage0.berra_undermasks_assination>
   <Override>
-    <entitydescription.tsm_helmet_respirator>Heavy helmet produced by T.S.M,has great ballistic performence and a gas mask.</entitydescription.tsm_helmet_respirator>
-    <entitydescription.tsm_medicalkits_s>Advanced medical kit produced by T.S.M,contains enough medical equipments for a field surgery.Also contains medicals against NBC threats. \nExpensive but worthy.</entitydescription.tsm_medicalkits_s>
+    <entitydescription.tsm_helmet_respirator>Heavy helmet produced by The Sea of Miracles,has great ballistic performence and a gas mask.</entitydescription.tsm_helmet_respirator>
+    <entitydescription.tsm_medicalkits_s>Advanced medical kit produced by The Sea of Miracles,contains enough medical equipments for a field surgery.Also contains medicals against NBC threats. \nExpensive but worthy.</entitydescription.tsm_medicalkits_s>
     <entityname.nuclearshell>Radioactive Material Shell</entityname.nuclearshell>
     <entitydescription.nuclearshell>A explosive device designed to launch from a Railgun.Usually was used to throw tons of radioactive material onto enemies.</entitydescription.nuclearshell>
     <entityname.nuclearshellcheap>Radioactive Material Shell(Cheap)</entityname.nuclearshellcheap>
@@ -303,7 +303,7 @@
   <entityname.berra_M107Mag_m1022>M82/M107 Magazine</entityname.berra_M107Mag_m1022>
   <entitydescription.berra_M107Mag_m1022>M107 Standard 10 round magazine, can adapt to M82A1 AMR \nM1022 \nHigh precision ammunition</entitydescription.berra_M107Mag_m1022>
   <entityname.tsm_cbrnert>T.S.M Combat CBRN Suit</entityname.tsm_cbrnert>
-  <entitydescription.tsm_cbrnert>Heavy combat CBRN suit designed and produced by T.S.M. Everything is perfect but weight and mobility. \nUsing hard materials and high strength self sealing chemical fillers, it can effectively resist projectiles and protect users in chemical environments. Crush depth: 8000m \nMain equipment of T.S.M CBRN Emergency Response Team \nYou are the last line against threats.</entitydescription.tsm_cbrnert>
+  <entitydescription.tsm_cbrnert>Heavy combat CBRN suit designed and produced by The Sea of Miracles. Everything is perfect but weight and mobility. \nUsing hard materials and high strength self sealing chemical fillers, it can effectively resist projectiles and protect users in chemical environments. Crush depth: 8000m \nMain equipment of The Sea of Miracles CBRN Emergency Response Team \nYou are the last line against threats.</entitydescription.tsm_cbrnert>
   <entityname.standard_cbrnsuit_gray>Standard CBRN Suit(Gray)</entityname.standard_cbrnsuit_gray>
   <entitydescription.standard_cbrnsuit_gray>A CBRN Suit that meets the standards of the Coalition. May not provide good protection, but it is better than nothing</entitydescription.standard_cbrnsuit_gray>
   <entityname.berra_mk153_illumination>Mk153 SMAW Illumination</entityname.berra_mk153_illumination>

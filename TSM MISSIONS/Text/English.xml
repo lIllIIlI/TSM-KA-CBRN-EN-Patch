@@ -491,7 +491,7 @@
   <missionmessage0.tsmmission_origin10>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. Technically, we are the aliens here.</missionmessage0.tsmmission_origin10>
   <missionsonarlabel.tsmmission_origin10>Bounty Target</missionsonarlabel.tsmmission_origin10>
   <missionname.tsmmission_origin11>Bounty Mission: Barbarians in the Cave</missionname.tsmmission_origin11>
-  <missiondescription.tsmmission_origin11>This bounty was issued by the Skin Cult. Some radical members, after taking special skin eggs, robbed the cult's skin boxes and fled to a cave. The cult hopes someone can help clean house and destroy those skin boxes.</missiondescription.tsmmission_origin11>
+  <missiondescription.tsmmission_origin11>This bounty was issued by the Husk Cult. Some radical members, after taking special Husk eggs, robbed the cult's Husk boxes and fled to a cave. The cult hopes someone can help clean house and destroy those Husk boxes.</missiondescription.tsmmission_origin11>
   <missionsuccess.tsmmission_origin11>Mission Complete</missionsuccess.tsmmission_origin11>
   <missionheader0.tsmmission_origin11>Hunt Finished</missionheader0.tsmmission_origin11>
   <missionmessage0.tsmmission_origin11>Congratulations on completing the mission, [reward]mk will be sent to your account after you reach the next station. Those strong bodies and low intelligence — was it ascension or failure?</missionmessage0.tsmmission_origin11>
@@ -615,7 +615,7 @@
   <npctitle.TSMnpc_4>Chief Instructor of Sea of Miracles</npctitle.TSMnpc_4>
   <npctitle.TSMnpc_5>Acting Minister of Kyushu Operations Department</npctitle.TSMnpc_5>
   <npctitle.TSMnpc_7>Bishop of the Adventist</npctitle.TSMnpc_7>
-  <npctitle.tsm_outpost_combat_npc>Sea of Miracles Dusk Mountain Operations Department</npctitle.tsm_outpost_combat_npc>
+  <npctitle.tsm_outpost_combat_npc>Sea of Miracles Sundown Operations Department</npctitle.tsm_outpost_combat_npc>
   <npctitle.tsm_outpostmanager>Controller</npctitle.tsm_outpostmanager>
   <npctitle.tsm_wz_ff>Quartermaster</npctitle.tsm_wz_ff>
   <npctitle.tsm_caretakers>Route Manager</npctitle.tsm_caretakers>
@@ -690,7 +690,7 @@
   <entitydescription.tsm_hxl_unform>Lang\nEntity under the Phantom</entitydescription.tsm_hxl_unform>
   <entityname.tsm_9_mag>Pistol Magazine (9mm)</entityname.tsm_9_mag>
   <entitydescription.tsm_9_mag>Holds 18 rounds of 9mm ammunition</entitydescription.tsm_9_mag>
-  <entityname.tsm_identifier>Sea of Miracles Allied Identification Code</entityname.tsm_identifier>
+  <entityname.tsm_identifier>T.S.M Allied Identification Code</entityname.tsm_identifier>
   <entitydescription.tsm_identifier>A common identification code within the Sea of Miracles, which you can request various services from the Sea of Miracles logistics department</entitydescription.tsm_identifier>
   <entityname.tsm_pgcflare>Guardian Landing Pod Indicator</entityname.tsm_pgcflare>
   <entitydescription.tsm_pgcflare>'Remember the feeling of asking for help, call Sea of Miracles'\n\nUsage: Throw it out and wait patiently. (Exists only in one round)</entitydescription.tsm_pgcflare>
@@ -698,17 +698,17 @@
   <entitydescription.tsm_wz_cl_flare>After being thrown, the Sea of Miracles will receive a signal and drop a supply pod based on the coordinates</entitydescription.tsm_wz_cl_flare>
   <entityname.tsm_wz_yl_flare>Medical Supply Drop Indicator</entityname.tsm_wz_yl_flare>
   <entitydescription.tsm_wz_yl_flare>After being thrown, the Sea of Miracles will receive a signal and drop a medical supply pod based on the coordinates</entitydescription.tsm_wz_yl_flare>
-  <entityname.tsm_mcrate_replenishment1>Sea of Miracles Mineral Supply Box</entityname.tsm_mcrate_replenishment1>
+  <entityname.tsm_mcrate_replenishment1>T.S.M Mineral Supply Box</entityname.tsm_mcrate_replenishment1>
   <entitydescription.tsm_mcrate_replenishment1>A common supply box in the Sea of Miracles, which randomly yields various common minerals when dismantled\nThese have just been packed and sent from the mines; if you think it's little, I think it's little too</entitydescription.tsm_mcrate_replenishment1>
-  <entityname.tsm_mcrate_replenishment2>Sea of Miracles Mineral Supply Box</entityname.tsm_mcrate_replenishment2>
+  <entityname.tsm_mcrate_replenishment2>T.S.M Mineral Supply Box</entityname.tsm_mcrate_replenishment2>
   <entitydescription.tsm_mcrate_replenishment2>A common supply box in the Sea of Miracles, which randomly yields various common minerals when dismantled\nThese have just been packed and sent from the mines; if you think it's little, I think it's little too</entitydescription.tsm_mcrate_replenishment2>
-  <entityname.tsm_mcrate_replenishment_med>Sea of Miracles Medical Supply Box</entityname.tsm_mcrate_replenishment_med>
+  <entityname.tsm_mcrate_replenishment_med>T.S.M Medical Supply Box</entityname.tsm_mcrate_replenishment_med>
   <entitydescription.tsm_mcrate_replenishment_med>A common medical supply box in the Sea of Miracles, which randomly yields various medical supplies when dismantled\nUrgent! Urgent! The brothers on the front line are still waiting for rescue!</entitydescription.tsm_mcrate_replenishment_med>
   <entityname.tsm_suit_O5>Suit</entityname.tsm_suit_O5>
   <entitydescription.tsm_suit_O5>Your second layer of skin, enveloping power and confidence</entitydescription.tsm_suit_O5>
-  <entityname.tsm_gendarmerie_uniforms>Sea of Miracles Gendarmerie Uniform</entityname.tsm_gendarmerie_uniforms>
+  <entityname.tsm_gendarmerie_uniforms>T.S.M Gendarmerie Uniform</entityname.tsm_gendarmerie_uniforms>
   <entitydescription.tsm_gendarmerie_uniforms>The gendarmerie uniform of the Sea of Miracles, mainly maintains troop discipline and ensures the execution of orders</entitydescription.tsm_gendarmerie_uniforms>
-  <entityname.tsm_gendarmerie_hat>Sea of Miracles Gendarmerie Hat</entityname.tsm_gendarmerie_hat>
+  <entityname.tsm_gendarmerie_hat>T.S.M Gendarmerie Hat</entityname.tsm_gendarmerie_hat>
   <entitydescription.tsm_gendarmerie_hat />
   <entityname.tsm_advancedcombatsuit>Damaged Military Advanced Protective Suit</entityname.tsm_advancedcombatsuit>
   <entitydescription.tsm_advancedcombatsuit>Most of the external armor has been damaged, can only withstand water pressure of 5000 meters.</entitydescription.tsm_advancedcombatsuit>
@@ -731,9 +731,9 @@
   <entityname.tsm_rz_pirent_m>Combat Outfit Thief Type</entityname.tsm_rz_pirent_m>
   <entitydescription.tsm_rz_pirent_m>Thieves, after attacking the Sea of Miracles cargo ship, acquired Combat Outfit Type 2A and modified it according to their own ideas</entitydescription.tsm_rz_pirent_m>
   <entityname.tsm_fog>Fog</entityname.tsm_fog>
-  <entityname.tsm_slogan>Slogan of the Sea of Miracles</entityname.tsm_slogan>
-  <entityname.tsm_mech>Sea of Miracles Mecha Decoration</entityname.tsm_mech>
-  <entityname.tsm_bossitem>Sea of Miracles Boss Drop Decoration</entityname.tsm_bossitem>
+  <entityname.tsm_slogan>Slogan of the T.S.M</entityname.tsm_slogan>
+  <entityname.tsm_mech>T.S.M Mecha Decoration</entityname.tsm_mech>
+  <entityname.tsm_bossitem>T.S.M Boss Drop Decoration</entityname.tsm_bossitem>
   <entityname.tsm_eyi_ornamental>Evil Plague Flesh Decoration</entityname.tsm_eyi_ornamental>
   <entityname.tsm_hf>Propaganda Banner</entityname.tsm_hf>
   <talentname.tsm_ei_talent_test>Experimental Evil Plague Normal State</talentname.tsm_ei_talent_test>
@@ -774,7 +774,7 @@
   <afflictiondescription.tsmmission_eyi_bite>You have been bitten by an Evil Plague bloodworm.</afflictiondescription.tsmmission_eyi_bite>
   <afflictionname.tsmmission_monster_50>Broken Bones</afflictionname.tsmmission_monster_50>
   <afflictiondescription.tsmmission_monster_50>You feel as if your bones have broken/n At this moment, the tearing and biting damage you suffer will increase.</afflictiondescription.tsmmission_monster_50>
-  <afflictionname.tsmmission_ai_mod_resistancefor>Sea of Miracles Dusk Mountain Stable Evil Plague Normal State</afflictionname.tsmmission_ai_mod_resistancefor>
+  <afflictionname.tsmmission_ai_mod_resistancefor>Sea of Miracles Sundown Stable Evil Plague Normal State</afflictionname.tsmmission_ai_mod_resistancefor>
   <afflictiondescription.tsmmission_ai_mod_resistancefor>Alter part of the DNA sequence to make the body reject foreign parasites.</afflictiondescription.tsmmission_ai_mod_resistancefor>
   <afflictionname.tsm_eyi_stable_state>Stable Evil Plague Normal State</afflictionname.tsm_eyi_stable_state>
   <afflictiondescription.tsmmission_eyi_0_1>At this stage, you will be immune to water pressure, require no oxygen, increase maximum health by 30%, and will no longer become addicted to drugs. Burns will recover quickly, and you will rapidly heal from Flesh Embryos and Husk Infection.</afflictiondescription.tsmmission_eyi_0_1>
@@ -922,4 +922,116 @@
   <tsm.tl_p_27>Looks nice.</tsm.tl_p_27>
   <tsm.tl_p_28>Think carefully before pulling the trigger.</tsm.tl_p_28>
   <tsm.tl_p_29>800 MK to exchange for Supplies</tsm.tl_p_29>
+
+  <afflictionname.tsmmission_ai_stun>Stun Recovery</afflictionname.tsmmission_ai_stun>
+  <afflictionname.tsmmission_eyi_rev>Recovery</afflictionname.tsmmission_eyi_rev>
+  <afflictionname.tsmmission_eyi_defend>Damage Resistance</afflictionname.tsmmission_eyi_defend>
+  <afflictionname.tsm_eyi_instability>Unstable Plague Abnormal State</afflictionname.tsm_eyi_instability>
+  <entityname.tsm_blastshield_small>Round Shield</entityname.tsm_blastshield_small>
+  <entityname.tsm_blastshield_big>Square Shield</entityname.tsm_blastshield_big>
+  <entityname.tsmmission_handgun_b>Legacy</entityname.tsmmission_handgun_b>
+  <entityname.tsmmission_handgun_o>Legacy</entityname.tsmmission_handgun_o>
+  <entityname.tsmmission_assaultrifle_m>Assault Rifle</entityname.tsmmission_assaultrifle_m>
+  <entityname.tsmmission_hmg_m>Heavy Machine Gun</entityname.tsmmission_hmg_m>
+  <entityname.tsmmission_stunbaton_m>Special Electric Baton</entityname.tsmmission_stunbaton_m>
+  <entityname.tsmmissions_pqc_m>Wall Breaching Hammer</entityname.tsmmissions_pqc_m>
+  <entityname.tsmmissions_pmf_m>Door Breaching Axe</entityname.tsmmissions_pmf_m>
+  <entityname.tsm_facility_med_uniform>Facility Doctor Uniform</entityname.tsm_facility_med_uniform>
+  <entityname.tsm_facility_security_uniform_b>Facility Security Uniform</entityname.tsm_facility_security_uniform_b>
+  <entityname.tsm_facility_security_uniform_w>Facility Security Uniform</entityname.tsm_facility_security_uniform_w>
+  <entityname.tsm_facility_security_vest>Facility Security Bulletproof Vest</entityname.tsm_facility_security_vest>
+  <entityname.tsm_facility_security_vest_heavy>Facility Security Heavy Bulletproof Vest</entityname.tsm_facility_security_vest_heavy>
+  <entityname.tsm_facility_security_helmet_w>Facility Security Helmet</entityname.tsm_facility_security_helmet_w>
+  <entityname.tsm_facility_security_helmet_y>Facility Security Helmet</entityname.tsm_facility_security_helmet_y>
+  <entityname.tsm_peripheral_security_uniform>Facility Perimeter Security Uniform</entityname.tsm_peripheral_security_uniform>
+  <entityname.tsm_peripheral_security_vest>Facility Perimeter Security Bulletproof Vest</entityname.tsm_peripheral_security_vest>
+  <entityname.tsm_peripheral_security_helmet>Facility Perimeter Security Helmet</entityname.tsm_peripheral_security_helmet>
+  <entityname.tsmmissions_snow>Snowing</entityname.tsmmissions_snow>
+  <entityname.tsmmissions_rain>Raining</entityname.tsmmissions_rain>
+
+  <entityname.tsm_land_rs>Riot Squad Drop Pod</entityname.tsm_land_rs>
+  <entityname.tsm_land_mtf>Vanguard Unit Drop Pod</entityname.tsm_land_mtf>
+  <entityname.tsm_land_corrode>Corrosion Drop Pod</entityname.tsm_land_corrode>
+  <entityname.tsm_land_wz_cl>Supply Drop Pod</entityname.tsm_land_wz_cl>
+  <entityname.tsm_land_wz_yl>Medical Drop Pod</entityname.tsm_land_wz_yl>
+  <entityname.tsm_danger_box>Sea of Miracles Anomaly Containment Box</entityname.tsm_danger_box>
+  <entityname.tsm_eyi_trap>Rotting Body Clamp</entityname.tsm_eyi_trap>
+  <entityname.tsm_needletube_empty>Empty Syringe</entityname.tsm_needletube_empty>
+  <entityname.tsm_eyi_embryo>Flesh Embryo</entityname.tsm_eyi_embryo>
+  <entityname.tsm_eyi_glandular>Genetic Material</entityname.tsm_eyi_glandular>
+  <entityname.tsm_touhou_4>Hakurei Reimu</entityname.tsm_touhou_4>
+  <entityname.tsm_touhou_1>Touhou Flower Ornament</entityname.tsm_touhou_1>
+  <entityname.tsm_touhou_2>Touhou Flower Ornament</entityname.tsm_touhou_2>
+  <entityname.tsm_touhou_3>Touhou Flower Ornament</entityname.tsm_touhou_3>
+  <entityname.tsm_black_stain>Black Stain 1</entityname.tsm_black_stain>
+  <entityname.tsm_black_stain_1>Black Stain 2</entityname.tsm_black_stain_1>
+  <entityname.tsm_blood_big>Large Bloodstain</entityname.tsm_blood_big>
+  <entityname.tsm_stain_1>Stain 1</entityname.tsm_stain_1>
+  <entityname.tsm_stain_2>Stain 2</entityname.tsm_stain_2>
+  <entityname.tsm_blood_stain>Bloodstain</entityname.tsm_blood_stain>
+  <entityname.tsm_stain_sand>Sand Stain</entityname.tsm_stain_sand>
+  <entityname.tsm_blood_1>Blood Splatter 1</entityname.tsm_blood_1>
+  <entityname.tsm_blood_2>Blood Splatter 2</entityname.tsm_blood_2>
+  <entityname.tsm_blood_3>Blood Splatter 3</entityname.tsm_blood_3>
+  <entityname.tsm_blood_4>Blood Splatter 4</entityname.tsm_blood_4>
+  <entityname.tsm_paint_1>Paint Splatter 1</entityname.tsm_paint_1>
+  <entityname.tsm_paint_2>Paint Splatter 2</entityname.tsm_paint_2>
+  <entityname.tsm_paint_3>Paint Splatter 3</entityname.tsm_paint_3>
+  <entityname.tsm_paint_4>Paint Splatter 4</entityname.tsm_paint_4>
+  <entityname.tsm_rz1>Military Exosuit</entityname.tsm_rz1>
+  <entityname.tsm_rz2>Military Exosuit</entityname.tsm_rz2>
+  <entityname.tsm_rz3>Military Exosuit</entityname.tsm_rz3>
+  <entityname.tsm_mvdxe>Witch's Jaw</entityname.tsm_mvdxe>
+  <entityname.tsm_lldyj>Thunder Dragon's Eye</entityname.tsm_lldyj>
+  <entityname.tsm_hyddx>Plague Venom Gland</entityname.tsm_hyddx>
+  <entityname.tsm_ddbm>Wailing Earth</entityname.tsm_ddbm>
+  <entityname.tsm_eyi_ornamental1>Flesh Decoration</entityname.tsm_eyi_ornamental1>
+  <entityname.tsm_eyi_ornamental2>Flesh Decoration</entityname.tsm_eyi_ornamental2>
+  <entityname.tsm_eyi_ornamental3>Flesh Decoration</entityname.tsm_eyi_ornamental3>
+  <entityname.tsm_eyi_ornamental4>Flesh Decoration</entityname.tsm_eyi_ornamental4>
+  <entityname.tsm_eyi_ornamental5>Flesh Decoration</entityname.tsm_eyi_ornamental5>
+  <entityname.tsm_eyi_7229>Number</entityname.tsm_eyi_7229>
+  <entityname.tsm_eyi_deadbody1>Corpse</entityname.tsm_eyi_deadbody1>
+  <entityname.tsm_eyi_deadbody2>Corpse</entityname.tsm_eyi_deadbody2>
+  <entityname.tsm_hf_1>Banner</entityname.tsm_hf_1>
+  <entityname.tsm_hf_2>Banner</entityname.tsm_hf_2>
+  <entityname.tsm_eyi_statues_1>Plague Statue</entityname.tsm_eyi_statues_1>
+  <entityname.tsm_egg>Egg</entityname.tsm_egg>
+  <entityname.tsm_mission_egg>Beacon Base</entityname.tsm_mission_egg>
+  <entityname.tsm_mission_husk_box>Living Husk Box</entityname.tsm_mission_husk_box>
+  
+  <entityname.tsm_ai_eyi_outpost_sundown>Sea of Miracles Station Security Plague Injector</entityname.tsm_ai_eyi_outpost_sundown>
+  <entityname.tsm_eyi_instability>Unstable Plague Abnormal Injector</entityname.tsm_eyi_instability>
+  <entityname.tsm_event_spawn_npc>Event Generator</entityname.tsm_event_spawn_npc>
+  <entityname.tsm_event_spawn_npc_tsm1>tsm1 Generator</entityname.tsm_event_spawn_npc_tsm1>
+  <entityname.tsm_event_spawn_npc_tsm2>tsm2 Generator</entityname.tsm_event_spawn_npc_tsm2>
+  <entityname.tsm_event_spawn_npc_tsm3>tsm3 Generator</entityname.tsm_event_spawn_npc_tsm3>
+  <entityname.tsm_event_spawn_npc_tsm4>tsm4 Generator</entityname.tsm_event_spawn_npc_tsm4>
+  <entityname.tsm_event_spawn_npc_tsm5>tsm5 Generator</entityname.tsm_event_spawn_npc_tsm5>
+  <entityname.tsm_event_spawn_npc_tsm6>tsm6 Generator</entityname.tsm_event_spawn_npc_tsm6>
+  <entityname.tsm_event_spawn_npc_quartermaster>Quartermaster Generator</entityname.tsm_event_spawn_npc_quartermaster>
+  <entityname.tsm_event_spawn_outpost_invasions_coalition>Station Invasion Generator</entityname.tsm_event_spawn_outpost_invasions_coalition>
+  <entityname.tsm_event_xbz_bg>Beacon Supply Generator</entityname.tsm_event_xbz_bg>
+  <entityname.tsm_event_outpost_enhance>Station Security Enhancement Generator</entityname.tsm_event_outpost_enhance>
+  <entityname.tsm_headset_hxl>Lang Transmogrifier Device</entityname.tsm_headset_hxl>
+  <entityname.tsm_hxl>Lang Transmogrifier Device</entityname.tsm_hxl>
+  <entitydescription.tsm_hxl>Lang’s Headphones, Can Morph Into Lang</entitydescription.tsm_hxl>
+  <entityname.tsmmissions_hx870>Disillusion 870</entityname.tsmmissions_hx870>
+  <entityname.tsm_hxl_unform_ai>Lang Uniform</entityname.tsm_hxl_unform_ai>
+  <entityname.tsm_headset_lerentine>Lerentine Transmogrifier Device</entityname.tsm_headset_lerentine>
+  <entityname.tsm_lerentine_uniform>Lerentine Uniform</entityname.tsm_lerentine_uniform>
+  <entitydescription.tsm_lerentine_uniform></entitydescription.tsm_lerentine_uniform>
+  <entityname.tsm_headset_suger>Sugar Transmogrifier Device</entityname.tsm_headset_suger>
+  <entityname.tsm_suger_uniform>Sugar Combat Uniform</entityname.tsm_suger_uniform>
+  <entitydescription.tsm_suger_uniform></entitydescription.tsm_suger_uniform>
+  <entityname.猜疑链>Chain of Suspicion</entityname.猜疑链>
+  <entityname.降神典仪>Descent Ritual</entityname.降神典仪>
+  <entityname.腐败机械>Corrupt Machinery</entityname.腐败机械>
+  <entityname.sz>sand dream+砂塵の彼方へ…</entityname.sz>
+  <entityname.zszg>True Coffin</entityname.zszg>
+  <entityname.bjzc>Tragic City Eloreno</entityname.bjzc>
+  <entityname.kl1>Charon One</entityname.kl1>
+  <entityname.kl2>Charon Two</entityname.kl2>
+  <entityname.tsm_eyi_helmet>Plague Protection Helmet</entityname.tsm_eyi_helmet>
+  <entityname.tsm_eyi_suit>Plague Protection Suit</entityname.tsm_eyi_suit>
 </infotexts>

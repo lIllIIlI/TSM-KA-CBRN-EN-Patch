@@ -7,15 +7,27 @@ def extract_element_info(file_path):
         root = tree.getroot()
 
         element_data = []
+        items = None
 
-        # Iterate over all top-level elements
-        for element in root:
-            identifier = element.get('identifier')
-            name = element.get('name', 'Unnamed')  # Default to "Unnamed" if no name
-            desc = element.get('description', '')  # Keep description empty if not present
+        # Check if the root has an <Items> tag directly or within an <Override> tag
+        if root.tag == 'Items':
+            items = root
+        elif root.tag == 'Override':
+            for child in root:
+                if child.tag == 'Items':
+                    items = child
+                    break
 
-            if identifier:
-                element_data.append((identifier, name, desc))
+        if items:
+            # Iterate over <Item> elements inside <Items>
+            for element in items:
+                if element.tag == 'Item':
+                    identifier = element.get('identifier', 'Unnamed')
+                    name = element.get('name', 'Unnamed')  # Default to "Unnamed" if no name
+                    desc = element.get('description', '')  # Keep description empty if not present
+                    element_data.append((identifier, name, desc))
+        else:
+            print(f"No <Items> found in {file_path}")
 
         return element_data
     except ET.ParseError as e:

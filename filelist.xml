@@ -3,9 +3,9 @@
     <Text file="%ModDir%/TSM MISSIONS/Text/English.xml" />
     <RandomEvents file="%ModDir%/TSM MISSIONS/Text/OutpostEvents_patch.xml" />
     <RandomEvents file="%ModDir%/TSM MISSIONS/Text/OutpostEvents_tsm_patch.xml" />
-    <Text file="%ModDir%/Kyushu Armory/Text/English.xml" />
-    <RandomEvents file="%ModDir%/Kyushu Armory/Text/OutpostEvents_patch.xml" />
-    <RandomEvents file="%ModDir%/Kyushu Armory/Text/OutpostEvents_over_patch.xml" />
+    <Text file="%ModDir%/Kyushu Arsenal/Text/English.xml" />
+    <RandomEvents file="%ModDir%/Kyushu Arsenal/Text/OutpostEvents_patch.xml" />
+    <RandomEvents file="%ModDir%/Kyushu Arsenal/Text/OutpostEvents_over_patch.xml" />
     <Text file="%ModDir%/CBRN/Text/English.xml" />
     <Item file="%ModDir%/CBRN/Text/items.xml" />
 
