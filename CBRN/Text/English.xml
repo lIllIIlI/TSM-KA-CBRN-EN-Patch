@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="true" translatedname="English">
-  <!-- (×\d+)(?!\d*mm) / $1mm-->
+  <!-- (x\d+)(?!\d*mm) / $1mm-->
   <entityname.berra_etps7b>BerraARM ETPS-7B Extreme Temperature Protective Suit</entityname.berra_etps7b>
   <entityname.berra_bio2>BerraARM Bio-2 Combat NBC Suit</entityname.berra_bio2>
   <entityname.berra_cbrn3>BerraARM CBRN-3 Gas Mask</entityname.berra_cbrn3>
@@ -34,17 +34,17 @@
   <entitydescription.berra_drl3_fab>Disposable Rocket Launcher, come with a fuel-air warhead \nClear back blast area before launch \nBackblast range:3.6m</entitydescription.berra_drl3_fab>
   <entitydescription.berra_drl3_heat>Disposable Rocket Launcher, come with a HEAT warhead \nClear back blast area before launch \nPenetration:~2500mm \nBackblastrange:3.6m</entitydescription.berra_drl3_heat>
   <entitydescription.berra_drl3_dumb>Disposable Rocket Launcher, come with a Training warhead \nClear back blast area before launch \nHey,this is just a training weapon,DO NOT FIGHT YOUR ENEMY WITH THIS!  \nBackblast range:3.6m</entitydescription.berra_drl3_dumb>
-  <entitydescription.berra_m4_beowulf>A M4 but fires 12.7×45 rounds\nFULL AUTO \nHigh recoil and expensiveness prevent it from large scale use \nWAIT...WHAT?</entitydescription.berra_m4_beowulf>
-  <entitydescription.berra_m4_458socom>A M4 but fires .458cal SOCOM rounds \nFULL AUTO \nLess recoil compare to 12.7×45,a better design allow it come with a built-in suppressor</entitydescription.berra_m4_458socom>
-  <entitydescription.berra_m110>High quality DMR produced by Berra Armory \nFires 7.62×51 NATO \nPerfect accuracy and low recoil,the best choice for marksmen</entitydescription.berra_m110>
+  <entitydescription.berra_m4_beowulf>A M4 but fires 12.7x45 rounds\nFULL AUTO \nHigh recoil and expensiveness prevent it from large scale use \nWAIT...WHAT?</entitydescription.berra_m4_beowulf>
+  <entitydescription.berra_m4_458socom>A M4 but fires .458cal SOCOM rounds \nFULL AUTO \nLess recoil compare to 12.7x45,a better design allow it come with a built-in suppressor</entitydescription.berra_m4_458socom>
+  <entitydescription.berra_m110>High quality DMR produced by Berra Armory \nFires 7.62x51 NATO \nPerfect accuracy and low recoil,the best choice for marksmen</entitydescription.berra_m110>
   <entitydescription.berra_m3e1maaws>A M3E1 recoilless rifle \nLaunch all compatible ammunition \nDid someone said 'rifle'?</entitydescription.berra_m3e1maaws>
   <entitydescription.berra_mk153>A Shoulder-launched Multipurpose Assault Weapon  produced by Berra Armory\nLaunch all compatible ammunition</entitydescription.berra_mk153>
   <entitydescription.berra_m2hb>A long barrel M2HB \nUses .50cal BMG M9 belts\nUUwUU</entitydescription.berra_m2hb>
   <entitydescription.sacabambaspis_he>A REGULAR offensive grenade,double tap E and throw it. \n DONT BLOW YOURSELF UP \nCan easily blow up almost everything(including yourself) but doors \nSmaller effective range, greater lethality</entitydescription.sacabambaspis_he>
-  <entityname.tes20mag_ap>20mm"Punisher" Magazine \nAPFSDS</entityname.tes20mag_ap>
-  <entityname.tes20mag_arr>20mm"Punisher" Magazine \nFlechette</entityname.tes20mag_arr>
-  <entityname.tes20mag_he>20mm"Punisher" Magazine \nHE</entityname.tes20mag_he>
-  <entityname.tes20mag_ll>20mm"Punisher" Magazine \nRubber Shot</entityname.tes20mag_ll>
+  <entityname.tes20mag_ap>20mm "Punisher" Magazine \nAPFSDS</entityname.tes20mag_ap>
+  <entityname.tes20mag_arr>20mm "Punisher" Magazine \nFlechette</entityname.tes20mag_arr>
+  <entityname.tes20mag_he>20mm "Punisher" Magazine \nHE</entityname.tes20mag_he>
+  <entityname.tes20mag_ll>20mm "Punisher" Magazine \nRubber Shot</entityname.tes20mag_ll>
   <entityname.obj227_fueltanks>Obj.227 Oxidant-Fuel Unit</entityname.obj227_fueltanks>
   <entityname.berra_STANAG_50beowulf_fr>STANAG Magazine</entityname.berra_STANAG_50beowulf_fr>
   <entityname.berra_STANAG_50beowulf_ap>STANAG Magazine</entityname.berra_STANAG_50beowulf_ap>
@@ -53,7 +53,7 @@
   <entityname.berra_STANAG_50beowulf_fr_ext>STANAG Magazine(Extened)</entityname.berra_STANAG_50beowulf_fr_ext>
   <entityname.berra_STANAG_50beowulf_ap_ext>STANAG Magazine(Extened)</entityname.berra_STANAG_50beowulf_ap_ext>
   <entityname.berra_300FAL_M118LR>FAL Magazine</entityname.berra_300FAL_M118LR>
-  <entityname.berra_50bmg_belt_fmjt>M9 .50BMG Belt</entityname.berra_50bmg_belt_fmjt>
+  <entityname.berra_50bmg_belt_fmjt>M9 .50cal BMG Belt</entityname.berra_50bmg_belt_fmjt>
   <entityname.berra_mk153_dumb>Mk153 SMAW Training</entityname.berra_mk153_dumb>
   <entityname.berra_mk153_inc>Mk153 SMAW Incendiary</entityname.berra_mk153_inc>
   <entityname.berra_mk153_heat>Mk153 SMAW HEDP</entityname.berra_mk153_heat>
@@ -65,14 +65,14 @@
   <entitydescription.tes20mag_arr>20mm Flechette used by "Punisher", EXTREMELY effective in close range</entitydescription.tes20mag_arr>
   <entitydescription.tes20mag_he>20mm programable high-explosive used by "Punisher" \nLet's blow something up \nWARNING:CURRENTLY NOT PROGRAMABLE</entitydescription.tes20mag_he>
   <entitydescription.tes20mag_ll>20mm Rubber Less Lethal shot used by "Punisher",IT HURTS...</entitydescription.tes20mag_ll>
-  <entitydescription.berra_STANAG_50beowulf_fr>STANAG Magazine \nContaining 7 12.7×45 Fragile rounds \nPoor penetration but extreme stopping power</entitydescription.berra_STANAG_50beowulf_fr>
-  <entitydescription.berra_STANAG_50beowulf_ap>STANAG Magazine \nContaining 7 12.7×45 AP rounds \nPerfect penetration and (relatively)high stopping power </entitydescription.berra_STANAG_50beowulf_ap>
-  <entitydescription.berra_STANAG_458socom>STANAG Magazine \nContaining 10 .458 SOCOM rounds \nGood stopping power and penetration,less expensive than 12.7×45mm</entitydescription.berra_STANAG_458socom>
-  <entitydescription.berra_STANAG_458socom_ext>STANAG Magazine \nContaining 20 .458 SOCOM rounds \nGood stopping power and penetration,less expensive than 12.7×45mm</entitydescription.berra_STANAG_458socom_ext>
-  <entitydescription.berra_STANAG_50beowulf_fr_ext>STANAG Magazine \nContaining 15 12.7×45mm Fragile rounds \nPoor penetration but extreme stopping power</entitydescription.berra_STANAG_50beowulf_fr_ext>
-  <entitydescription.berra_STANAG_50beowulf_ap_ext>STANAG Magazine \nContaining 15 12.7×45mm AP rounds \nPerfect penetration and (relatively)high stopping power! \nLet's kick some ass</entitydescription.berra_STANAG_50beowulf_ap_ext>
-  <entitydescription.berra_300FAL_M118LR>FAL Magazine \nContaining 25 7.62×51mmNATO M118LR rounds \nHigh-accuracy ammunition,designed for DMRs</entitydescription.berra_300FAL_M118LR>
-  <entitydescription.berra_50bmg_belt_fmjt>.50BMG belt \nM33 FMJ \n500 rounds MAX \nSTOP WORRING ABOUT AMMUNITION,JUST SHOOT!!!!</entitydescription.berra_50bmg_belt_fmjt>
+  <entitydescription.berra_STANAG_50beowulf_fr>STANAG Magazine \nContaining 7 12.7x45 Fragile rounds \nPoor penetration but extreme stopping power</entitydescription.berra_STANAG_50beowulf_fr>
+  <entitydescription.berra_STANAG_50beowulf_ap>STANAG Magazine \nContaining 7 12.7x45 AP rounds \nPerfect penetration and (relatively)high stopping power </entitydescription.berra_STANAG_50beowulf_ap>
+  <entitydescription.berra_STANAG_458socom>STANAG Magazine \nContaining 10 .458cal SOCOM rounds \nGood stopping power and penetration,less expensive than 12.7x45mm</entitydescription.berra_STANAG_458socom>
+  <entitydescription.berra_STANAG_458socom_ext>STANAG Magazine \nContaining 20 .458cal SOCOM rounds \nGood stopping power and penetration,less expensive than 12.7x45mm</entitydescription.berra_STANAG_458socom_ext>
+  <entitydescription.berra_STANAG_50beowulf_fr_ext>STANAG Magazine \nContaining 15 12.7x45mm Fragile rounds \nPoor penetration but extreme stopping power</entitydescription.berra_STANAG_50beowulf_fr_ext>
+  <entitydescription.berra_STANAG_50beowulf_ap_ext>STANAG Magazine \nContaining 15 12.7x45mm AP rounds \nPerfect penetration and (relatively)high stopping power! \nLet's kick some ass</entitydescription.berra_STANAG_50beowulf_ap_ext>
+  <entitydescription.berra_300FAL_M118LR>FAL Magazine \nContaining 25 7.62x51mmNATO M118LR rounds \nHigh-accuracy ammunition,designed for DMRs</entitydescription.berra_300FAL_M118LR>
+  <entitydescription.berra_50bmg_belt_fmjt>.50cal BMG belt \nM33 FMJ \n500 rounds MAX \nSTOP WORRING ABOUT AMMUNITION,JUST SHOOT!!!!</entitydescription.berra_50bmg_belt_fmjt>
   <entitydescription.berra_mk153_dumb>Mk153 SMAW Training rounds,the same trajectory with standard MK153 rounds \nSERIOUSLY,DO NOT FIGHT YOUR ENEMY WITH THIS \nBackblast range:4.4m</entitydescription.berra_mk153_dumb>
   <entitydescription.berra_mk153_inc>Mk153 SMAW Incendiary rounds,much more heavier=much more fuel \nBARBECUE TIME \nBackblast range:4.4m</entitydescription.berra_mk153_inc>
   <entitydescription.berra_mk153_heat>Mk153 SMAW HEDP rounds \nMost common ammunition,good at both killing and penetration \nPenetration:~2500mm \nBackblast range:4.4m</entitydescription.berra_mk153_heat>
@@ -156,7 +156,7 @@
   <entityname.u235core_medium>Nuclear Core(Medium)</entityname.u235core_medium>
   <entityname.u235core_high>Nuclear Core(High)</entityname.u235core_high>
   <entityname.fusioncore>Fusion Core</entityname.fusioncore>
-  <entityname.devilscore>Devil's Core</entityname.devilscore>
+  <entityname.devilscore>Demon Core</entityname.devilscore>
   <entityname.neutron_reflector>Neutron Reflector</entityname.neutron_reflector>
   <entitydescription.nuke_10k>A fully functional 10kt TNT equivalent nuclear warhead.All you need to do is to detonate it \Now I am become death.The destoryer of worlds</entitydescription.nuke_10k>
   <entitydescription.nuke_100k>A fully functional 100kt TNT equivalent nuclear warhead \nThis is not a toy.Treat it with caution</entitydescription.nuke_100k>
@@ -189,25 +189,25 @@
   <afflictiondescription.omegathedeath />
   <afflictionname.the_medicine>Unknown Medicine</afflictionname.the_medicine>
   <afflictiondescription.the_medicine>This body was enhanced by the medicine</afflictiondescription.the_medicine>
-  <displayname.50beowulf_fr>[itemname] 12.7×45mm Fragile</displayname.50beowulf_fr>
-  <displayname.50beowulf_ap>[itemname] 12.7×45mm AP</displayname.50beowulf_ap>
-  <displayname.458socom>[itemname] .458SOCOM</displayname.458socom>
+  <displayname.50beowulf_fr>[itemname] 12.7x45mm Fragile</displayname.50beowulf_fr>
+  <displayname.50beowulf_ap>[itemname] 12.7x45mm AP</displayname.50beowulf_ap>
+  <displayname.458socom>[itemname] .458cal SOCOM</displayname.458socom>
   <displayname.m118lr>[itemname] M118LR</displayname.m118lr>
-  <displayname.50beowulf_fr_recycle>[itemname] Reload 12.7×45mm Fragile</displayname.50beowulf_fr_recycle>
-  <displayname.50beowulf_ap_recycle>[itemname] Reload 12.7×45mm AP</displayname.50beowulf_ap_recycle>
-  <displayname.458socom_recycle>[itemname] Reload .458SOCOM</displayname.458socom_recycle>
+  <displayname.50beowulf_fr_recycle>[itemname] Reload 12.7x45mm Fragile</displayname.50beowulf_fr_recycle>
+  <displayname.50beowulf_ap_recycle>[itemname] Reload 12.7x45mm AP</displayname.50beowulf_ap_recycle>
+  <displayname.458socom_recycle>[itemname] Reload .458cal SOCOM</displayname.458socom_recycle>
   <displayname.m118lr_recycle>[itemname] Reload M118LR</displayname.m118lr_recycle>
-  <displayname.fillvxcanister>[itemname] Produce VX</displayname.fillvxcanister>
-  <displayname.fillcscanister>[itemname] Produce CS</displayname.fillcscanister>
-  <displayname.fillbzcanister>[itemname] Produce BZ</displayname.fillbzcanister>
-  <displayname.fillmustardcanister>[itemname] Produce Mustard</displayname.fillmustardcanister>
-  <displayname.fillphosgenecanister>[itemname] Produce Phosgene</displayname.fillphosgenecanister>
+  <displayname.fillvxcanister>[itemname] Fill VX</displayname.fillvxcanister>
+  <displayname.fillcscanister>[itemname] Fill CS</displayname.fillcscanister>
+  <displayname.fillbzcanister>[itemname] Fill BZ</displayname.fillbzcanister>
+  <displayname.fillmustardcanister>[itemname] Fill Mustard</displayname.fillmustardcanister>
+  <displayname.fillphosgenecanister>[itemname] Fill Phosgene</displayname.fillphosgenecanister>
   <displayname.fillvxdist>[itemname] Fill VX</displayname.fillvxdist>
   <displayname.fillcsdist>[itemname] Fill CS</displayname.fillcsdist>
   <displayname.fillbzdist>[itemname] Fill BZ</displayname.fillbzdist>
   <displayname.fillmustarddist>[itemname] Fill Mustard</displayname.fillmustarddist>
   <displayname.fillphosgenedist>[itemname] Fill Phosgene</displayname.fillphosgenedist>
-  <displayname.fillanthraxcanister>[itemname] Produce Anthrax</displayname.fillanthraxcanister>
+  <displayname.fillanthraxcanister>[itemname] Fill Anthrax</displayname.fillanthraxcanister>
   <displayname.fillanthraxdist>[itemname] Fill Anthrax</displayname.fillanthraxdist>
   <causeofdeath.unconscious_poisonsource>Sleep well</causeofdeath.unconscious_poisonsource>
   <entityname.chemical_decal_standard>Chemical Standard</entityname.chemical_decal_standard>
@@ -220,15 +220,15 @@
   <entityname.nuclear_decal_plain>Nuclear</entityname.nuclear_decal_plain>
   <entityname.tes20rounds_ap>20mm APFSDS \nHow can you see this?</entityname.tes20rounds_ap>
   <entityname.tes20rounds_he>20mm HE \nHow can you see this?</entityname.tes20rounds_he>
-  <entityname.tes20rounds_arr>20mmfl \nHow can you see this?</entityname.tes20rounds_arr>
-  <entityname.tes20rounds_ll>20mmRubber \nHow can you see this?</entityname.tes20rounds_ll>
-  <entityname.drl3_inc_warhead>84mmInc \nHow can you see this?</entityname.drl3_inc_warhead>
-  <entityname.drl3_fab_warhead>84mmFuel-Air \nHow can you see this?</entityname.drl3_fab_warhead>
-  <entityname.drl3_heat_warhead>84mmHEAT \nHow can you see this?</entityname.drl3_heat_warhead>
-  <entityname.drl3_dumb_warhead>84mmTraining \nHow can you see this?</entityname.drl3_dumb_warhead>
-  <entityname.berra_50beowulf_fr>12.7×45Fr \nHow can you see this?</entityname.berra_50beowulf_fr>
-  <entityname.berra_50beowulf_ap>12.7×45AP \nHow can you see this?</entityname.berra_50beowulf_ap>
-  <entityname.berra_458socom>.458SOCOM \nHow can you see this?</entityname.berra_458socom>
+  <entityname.tes20rounds_arr>20mm fl \nHow can you see this?</entityname.tes20rounds_arr>
+  <entityname.tes20rounds_ll>20mm Rubber \nHow can you see this?</entityname.tes20rounds_ll>
+  <entityname.drl3_inc_warhead>84mm Inc \nHow can you see this?</entityname.drl3_inc_warhead>
+  <entityname.drl3_fab_warhead>84mm Fuel-Air \nHow can you see this?</entityname.drl3_fab_warhead>
+  <entityname.drl3_heat_warhead>84mm HEAT \nHow can you see this?</entityname.drl3_heat_warhead>
+  <entityname.drl3_dumb_warhead>84mm Training \nHow can you see this?</entityname.drl3_dumb_warhead>
+  <entityname.berra_50beowulf_fr>12.7*45Fr \nHow can you see this?</entityname.berra_50beowulf_fr>
+  <entityname.berra_50beowulf_ap>12.7*45AP \nHow can you see this?</entityname.berra_50beowulf_ap>
+  <entityname.berra_458socom>.458cal SOCOM \nHow can you see this?</entityname.berra_458socom>
   <entityname.univ_backblast_exc>Backblast generator \nHow can you see this?</entityname.univ_backblast_exc>
   <entityname.univ_backblast_self>Backblast \nHow can you see this?</entityname.univ_backblast_self>
   <entityname.univ_heat_self>Metal jet \nHow can you see this?</entityname.univ_heat_self>
@@ -257,7 +257,7 @@
   <missiondescription.berra_undermasks_assination>CBRN Emergency Response Team found a chemical weapon leak in this location.None shall leave with the samples. \nWARNING:CLEARING THE AREA MAY LEAD TO COMPLETE DESTRUCTION ON THE OUTPOST.</missiondescription.berra_undermasks_assination>
   <missionsuccess.berra_undermasks_assination>Mission Accomplished</missionsuccess.berra_undermasks_assination>
   <missionfailure.berra_undermasks_assination>From man to numbers.</missionfailure.berra_undermasks_assination>
-  <missionheader0.berra_undermasks_assination>Nobody was left living.</missionheader0.berra_undermasks_assination>
+  <missionheader0.berra_undermasks_assination>Nobody was left alive.</missionheader0.berra_undermasks_assination>
   <missionmessage0.berra_undermasks_assination>Step into the outpost is the start of a war and a countdown to death.</missionmessage0.berra_undermasks_assination>
   <Override>
     <entitydescription.tsm_helmet_respirator>Heavy helmet produced by The Sea of Miracles,has great ballistic performence and a gas mask.</entitydescription.tsm_helmet_respirator>
@@ -276,29 +276,29 @@
   <plus10seconds>- 10 s</plus10seconds>
   <subcategory.CBRN_Ammunition>Biological and Chemical</subcategory.CBRN_Ammunition>
   <subcategory.Nuclear>Nuclear</subcategory.Nuclear>
-  <subcategory.WMD>Weapon of Mass Destructions</subcategory.WMD>
-  <subcategory.nuclearmaterial>Nuclear Materials</subcategory.nuclearmaterial>
+  <subcategory.WMD>Weapon of Mass Destruction</subcategory.WMD>
+  <subcategory.nuclearmaterial>Nuclear Material</subcategory.nuclearmaterial>
   <afflictionname.poison>Poison</afflictionname.poison>
   <jobname.cbrn_guy>CBRN Technician</jobname.cbrn_guy>
   <jobdescription.cbrn_guy>A Security Officer who took basic CBRN training. He can build weapons with his knowledge after further training.</jobdescription.cbrn_guy>
   <afflictionname.eyiinfection_weaponized>Weaponized Evil Virus infection</afflictionname.eyiinfection_weaponized>
   <afflictiondescription.eyiinfection_weaponized>Infected with weaponzied Evil Virus, conversion in progress. \nWARNING: patient is infectious</afflictiondescription.eyiinfection_weaponized>
   <afflictioncauseofdeath.eyiinfection_weaponized>Becoming another victim of bio weapons</afflictioncauseofdeath.eyiinfection_weaponized>
-  <afflictioncauseofdeathself.eyiinfection_weaponized>You have become another victim of bio weapons, but politicians they don't care.</afflictioncauseofdeathself.eyiinfection_weaponized>
+  <afflictioncauseofdeathself.eyiinfection_weaponized>You have become another victim of bio weapons, but politicians...they don't care.</afflictioncauseofdeathself.eyiinfection_weaponized>
   <entityname.weyicanister>Sealed Container</entityname.weyicanister>
   <entitydescription.weyicanister>Sealed Container made with steel and hardened glass\nFilled with Weaponized Evil Virus \nCan stand small impacts and stray bullets \nNote: This weaponized virus was modified specifically for human, have ability to infect and convert human into monsters, can spread through aerosol </entitydescription.weyicanister>
   <entityname.tsm_de_handgun_fa>Desert Eagle(AUTO)</entityname.tsm_de_handgun_fa>
   <entitydescription.tsm_de_handgun_fa>A fullauto modification on a large caliber pistol. This modified version cannot unleash the full power of. 50AE, meanwhile bold recoil made controlling it a difficult. Small capacity and massive spread shows it only effective in close range. \nUse ‖color:150,0,0,255‖.50 AE‖color:end‖</entitydescription.tsm_de_handgun_fa>
   <entityname.berra_m82a1>BerraARM M82A1 Anti-Materila Rifle</entityname.berra_m82a1>
-  <entitydescription.berra_m82a1>A .50BMG auto Anti-Material Rifle, high cost in return of impressvie accuracy and power </entitydescription.berra_m82a1>
+  <entitydescription.berra_m82a1>A .50cal BMG auto Anti-Material Rifle, high cost in return of impressvie accuracy and power </entitydescription.berra_m82a1>
   <entityname.berra_m107a1>BerraARM M107A1 Anti-Materila Rifle</entityname.berra_m107a1>
-  <entitydescription.berra_m107a1>A .50BMG auto Anti-Material Rifle, cost less, has a shorter barrel.</entitydescription.berra_m107a1>
+  <entitydescription.berra_m107a1>A .50cal BMG auto Anti-Material Rifle, cost less, has a shorter barrel.</entitydescription.berra_m107a1>
   <entityname.berra_m107a1_fa>BerraARM M107A1 Mod1 Anti-Materila Rifle "Blender"</entityname.berra_m107a1_fa>
-  <entitydescription.berra_m107a1_fa>A .50BMG auto Anti-Material Rifle. High Power, Full AUTO \nBlend your enemies</entitydescription.berra_m107a1_fa>
+  <entitydescription.berra_m107a1_fa>A .50cal BMG auto Anti-Material Rifle. High Power, Full AUTO \nBlend your enemies</entitydescription.berra_m107a1_fa>
   <entityname.berra_M107Mag_mk211mod0>M82/M107 Magazine</entityname.berra_M107Mag_mk211mod0>
   <entitydescription.berra_M107Mag_mk211mod0>M107 Standard 10 round magazine, can adapt to M82A1 AMR \nMk211 Mod0 HEIAP \nPossible llegal issue when using against human, if you really care</entitydescription.berra_M107Mag_mk211mod0>
   <entityname.berra_M107Mag_m33>M82/M107 Magazine</entityname.berra_M107Mag_m33>
-  <entitydescription.berra_M107Mag_m33>M107 Standard 10 round magazine, can adapt to M82A1 AMR \nM33 FMJ \nThe cheapest and most common .50BMG ammo</entitydescription.berra_M107Mag_m33>
+  <entitydescription.berra_M107Mag_m33>M107 Standard 10 round magazine, can adapt to M82A1 AMR \nM33 FMJ \nThe cheapest and most common .50cal BMG ammo</entitydescription.berra_M107Mag_m33>
   <entityname.berra_M107Mag_m903>M82/M107 Magazine</entityname.berra_M107Mag_m903>
   <entitydescription.berra_M107Mag_m903>M107 Standard 10 round magazine, can adapt to M82A1 AMR \nM903 SLAP \nRare experimental ammunition</entitydescription.berra_M107Mag_m903>
   <entityname.berra_M107Mag_m1022>M82/M107 Magazine</entityname.berra_M107Mag_m1022>
@@ -322,7 +322,7 @@
   <entityname.sacabambaspis_he_impact>Sacabambaspis(Impact)</entityname.sacabambaspis_he_impact>
   <entitydescription.sacabambaspis_he_impact>A offensive grenade with impact fuse \nWARNING: May cause unexpected detonation or misfire if not properly used \nCan easily blow up almost everything(including yourself, doors and your enemies) \nSmaller effective range, greater lethality</entitydescription.sacabambaspis_he_impact>
   <displayname.fillweyi>[itemname] Fill Weaponized Evil Virus</displayname.fillweyi>
-  <displayname.fillweyicanister>[itemname] Produce Weaponized Evil Virus</displayname.fillweyicanister>
+  <displayname.fillweyicanister>[itemname] Fill Weaponized Evil Virus</displayname.fillweyicanister>
   <displayname.m33>[itemname] M33 FMJ</displayname.m33>
   <displayname.m33_recycle>[itemname] M33 FMJ Reload</displayname.m33_recycle>
   <displayname.m1022>[itemname] M1022</displayname.m1022>
@@ -358,7 +358,7 @@
   <talentdescription.dutyofcbrn>When you are attacked, acquire [affliction2] \nYou will not fall unconscious for [time] seconds when health below 0</talentdescription.dutyofcbrn>
   <talentdescription.nanomachine>Plant nanomachine in your body,providing [amount]% resist fro poison</talentdescription.nanomachine>
   <talentdescription.nanomachineondamaged>When your health below [amount]%, heal yourself using nanomachine  \nNanomachine will last [time] seconds after reaching [amount]% health</talentdescription.nanomachineondamaged>
-  <talentvalue.berra_STANAG_458socom>STANAG .458mm SOCOM</talentvalue.berra_STANAG_458socom>
+  <talentvalue.berra_STANAG_458socom>STANAG .458cal SOCOM</talentvalue.berra_STANAG_458socom>
   <talentvalue.berra_STANAG_50beowulf_fr>STANAG .50mm Beowulf Fragile</talentvalue.berra_STANAG_50beowulf_fr>
   <talentvalue.cs_chemdist_40>40mm Chemical Grenade CS Gas</talentvalue.cs_chemdist_40>
   <talentvalue.bz_chemdist_40>40mm Chemical Grenade BZ Gas</talentvalue.bz_chemdist_40>
@@ -397,4 +397,114 @@
   <entitydescription.standard_cbrnsuit_orange>A nuclear, biological, and chemical shielding suit that meets Coalition standards. It doesn't offer great ballistics protection but is better than nothing. \nIt provides sufficient contact protection.</entitydescription.standard_cbrnsuit_orange>
   <talentdescription.maxtriggerinseconds>This effect can only trigger once every [seconds] seconds</talentdescription.maxtriggerinseconds>
   <damage>Physical Damage</damage>
+
+  <!-- 3.3 -->
+  <entityname.m57detonator>M57 Detonator(Double)</entityname.m57detonator>
+  <lights>Light</lights>
+  <afflictionname.chemicalliner_main>Self-sealing Chemical Liner</afflictionname.chemicalliner_main>
+  <afflictiondescription.chemicalliner_main>-85% Gunshotwound \n-99% Bleeding \n-85% Laceration \n-85% Blunttrauma \n-85% Internaldamage \n-85% Deep Tissue Injury \n-80% Burn\n-60% Special Damage \n-100% Armor Break \n5u/s Wounds Sealing \n10u/s Stop Bleeding</afflictiondescription.chemicalliner_main>
+  <afflictionname.chemicalliner_secondary>Self-sealing Chemical Liner</afflictionname.chemicalliner_secondary>
+  <afflictiondescription.chemicalliner_main>\n-99% Bleeding \n-100% Armor Break \n10u/s Stop Bleeding</afflictiondescription.chemicalliner_main>
+  <entityname.fuelextractor>Nuclear Material Extractor</entityname.fuelextractor>
+  <entityname.nuclearwaste>Nuclear Waste</entityname.nuclearwaste>
+  <entityname.plutonium_core>Mixed Plutonium</entityname.plutonium_core>
+  <entityname.plutonium_weapon>Weapon Grade Plutonium</entityname.plutonium_weapon>
+  <entityname.plutoniumfuelrod>MOX Fuelrod</entityname.plutoniumfuelrod>
+  <entityname.watercanister>Sealed Container</entityname.watercanister>
+  <entityname.d2ocanister>Sealed Container</entityname.d2ocanister>
+  <entityname.col_filiter>Coalition Standard Filiter</entityname.col_filiter>
+  <entityname.sep_filiter>Separatists Homemade Filiter</entityname.sep_filiter>
+  <entityname.breachhammer>Breach Hammer</entityname.breachhammer>
+  <entityname.tsm_m61_vulcan>M61A1 "Vulcan" 20mm Cannon</entityname.tsm_m61_vulcan>
+  <entityname.tsm_cbrnert_ai>T.S.M Heavy NBC Suit Mod.0 Mass Production</entityname.tsm_cbrnert_ai>
+  <entityname.tsm_cbrnert>T.S.M Heavy NBC Suit Mod.I Block 0</entityname.tsm_cbrnert>
+  <entityname.rz_p_mk1_cbrn>Mech Mk.1 NBCPv2</entityname.rz_p_mk1_cbrn>
+  <entityname.rz_p_mk1_cbrn_ai>Mech Mk.1 NBCP</entityname.rz_p_mk1_cbrn_ai>
+  <entityname.rz_p_mk1_cbrn_plus>Mech Mk.1 NBCPv3</entityname.rz_p_mk1_cbrn_plus>
+  <entityname.berra_bio2_ai>BerraARM Bio-2L NBC Suit</entityname.berra_bio2_ai>
+  <entityname.craftable_cbrn_col>CBRN Crew Spawnner(Coalition)</entityname.craftable_cbrn_col>
+  <entityname.craftable_cbrn_sep>CBRN Crew Spawnner(Separatists)</entityname.craftable_cbrn_sep>
+  <entitydescription.fuelextractor>A integrated nuclear material extraction device, can be used to extract many nuclear materials \nAim and press E to place</entitydescription.fuelextractor>
+  <entitydescription.nuclearwaste>Depleted reactor fuel, process in Nuclear Material Extractor for nuclear materials</entitydescription.nuclearwaste>
+  <entitydescription.plutonium_core>Radioactive powder mainly consist of plutonium, can be processed for further product</entitydescription.plutonium_core>
+  <entitydescription.plutonium_weapon>A weapon grade concentration of plutonium, preserved in a special amount for safety considerations \nA component of nuclear weapons</entitydescription.plutonium_weapon>
+  <entitydescription.plutoniumfuelrod>A reactor fuelrod mainly consist of plutonium dioxide and uranium dioxide, has a long lifetime. Process in Nuclear Material Extractor for nuclear materials after depleted</entitydescription.plutoniumfuelrod>
+  <entitydescription.watercanister>Sealed container filled with water, can be processed for deuteroxide.</entitydescription.watercanister>
+  <entitydescription.d2ocanister>Sealed container filled with deuteroxide. Process in Nuclear Material Extractor for triton container after depletion</entitydescription.d2ocanister>
+  <entitydescription.tsm_m61_vulcan>M61A1 "Vulcan" cannon will tear your enemy with 6000rpm fire rate \nLarge scale and weight makes it ‖color:255,0,0,255‖IMPOSSIBLE to use without proper gear‖color:end‖</entitydescription.tsm_m61_vulcan>
+  <entitydescription.tsm_cbrnert_ai>A heavy NBC suit produced by The Sea of Miracle, everything is fine but weightness and mobility.\nUsing hard material and B-22 recipe chemical liner, can easily stop projectiles and protect user in a hazardous environment. Pressure Protection 12500m \nMain gear of T.S.M CBRN ERT \nYou are the last line against the threats \n‖color:255,0,0,255‖Untrained user may damage this gear‖color:end‖</entitydescription.tsm_cbrnert_ai>
+  <entitydescription.tsm_cbrnert>The most advanced NBC suit in The Sea of Miracles, everything is fine but weightness and mobility. \nUsing hard material and D-03 recipe chemical liner to provide relible protection. Pressure Protection 12500m \nVery rare, only equipped a small amount of combat units \nYou are the last line against the threats \n‖color:255,0,0,255‖Untrained user cannot use this gear‖color:end‖</entitydescription.tsm_cbrnert>
+  <entitydescription.berra_bio2_ai>CBRN Protection ExoSuit from Berra Armory, using hard liner for protection enhancement \n‖color:255,0,0,255‖Untrained user may damage this gear‖color:end‖</entitydescription.berra_bio2_ai>
+  <entitydescription.rz_p_mk1_cbrn>Mech Mk1 specially for TSM CBRN ERT \nNBCPv2 provide enhanced protection using self-sealing chemical liner \n‖color:255,0,0,255‖Untrained user cannot use this gear‖color:end‖</entitydescription.rz_p_mk1_cbrn>
+  <entitydescription.rz_p_mk1_cbrn_ai>Mech Mk1 specially for TSM CBRN ERT \nNBCPv1 provided protection against NBC threats \n‖color:255,0,0,255‖Untrained user cannot use this gear‖color:end‖</entitydescription.rz_p_mk1_cbrn_ai>
+  <entitydescription.rz_p_mk1_cbrn_plus>Mech Mk1 specially for TSM CBRN ERT \nNBCPv3 is the most advanced upgrade kit, top secret prototype \n‖color:255,0,0,255‖Untrained user cannot use this gear‖color:end‖</entitydescription.rz_p_mk1_cbrn_plus>
+  <entitydescription.breachhammer>A combination of crowbar and hammer \nYou know how to use it...Right?</entitydescription.breachhammer>
+  <entitydescription.craftable_cbrn_col>A crew spawnner, allow spawning a CBRN Job AI crew with Coalition gear</entitydescription.craftable_cbrn_col>
+  <entitydescription.craftable_cbrn_sep>A crew spawnner, allow spawning a CBRN Job AI crew with Separatists gear</entitydescription.craftable_cbrn_sep>
+  <talentname.fuelextract>Nuclear Material Extraction</talentname.fuelextract>
+  <talentname.hert>HEAVILY ARMED</talentname.hert>
+  <talentvalue.watercanister>Sealed Container: Water</talentvalue.watercanister>
+  <sledgemodon>Sledge Mode</sledgemodon>
+  <entityname.deconstructnuclearspread>Nuclear Material Exposure</entityname.deconstructnuclearspread>
+  <entitydescription.deconstructnuclearspread>A bunch of nuclear material is leaking from their container. This is destructive. \nPlease check what are doing, something must be wrong</entitydescription.deconstructnuclearspread>
+  <cbrn_test>TEST ITEM</cbrn_test>
+  <talentname.reviscomming>Revolution</talentname.reviscomming>
+  <talentdescription.reviscomming_main>You are authorized to use and craft [revammo]</talentdescription.reviscomming_main>
+  <talentvalue.reviscomming_item>Triton Magazines</talentvalue.reviscomming_item>
+  <subcategory.tsm_modifiedmagazines>Aftermarket Magazines</subcategory.tsm_modifiedmagazines>
+  <entityname.fkj_545_mag_rev>Rebel Triton-AP Mag(5.45*39)</entityname.fkj_545_mag_rev>
+  <entityname.fkj_762_mag_rev>Rebel Triton-AP Mag(7.62*39)</entityname.fkj_762_mag_rev>
+  <entityname.fkj_762_51_mag_rev>Rebel Triton-AP Mag(7.62*51)</entityname.fkj_762_51_mag_rev>
+  <entityname.fkj_jts_mag_rev>Rebel MG Triton-AP Mag(5.45*39)</entityname.fkj_jts_mag_rev>
+  <entityname.fkj_pkp_mag_rev>Rebel GPMG Triton-AP Mag(7.62*51)</entityname.fkj_pkp_mag_rev>
+  <entityname.fkj_rpk_mag_rev>RPK Triton-AP Drum</entityname.fkj_rpk_mag_rev>
+  <entityname.fkj_m2_mag_rev>Rebel HMG Triton Mag</entityname.fkj_m2_mag_rev>
+  <entityname.fkj_svd_mag_rev>SVD Triton Mag</entityname.fkj_svd_mag_rev>
+  <entityname.tsm_556_45_mgmag_rev>Coalition LMG Triton-AP Belt(5.56*45)</entityname.tsm_556_45_mgmag_rev>
+  <entityname.lm_762_51_mgmag_rev>Coalition GPMG Triton-AP Mag(7.62*51)</entityname.lm_762_51_mgmag_rev>
+  <entityname.lm_556_mag_rev>Coalition Triton-AP Mag(5.56*45)</entityname.lm_556_mag_rev>
+  <entityname.lm_65_mag_rev>Coalition Special Purpose Triton-AP Mag(6.5mm)</entityname.lm_65_mag_rev>
+  <entityname.lm_68_51_mag_rev>Coalition Triton-AP Mag(6.8*51mm)</entityname.lm_68_51_mag_rev>
+  <entityname.lm_762_51_mag_rev>Coalition Triton-AP Mag(7.62*51)</entityname.lm_762_51_mag_rev>
+  <entityname.lm_m700_mag_rev>Coalition Sniper Rifle Triton-AP Mag(.338)</entityname.lm_m700_mag_rev>
+  <entityname.tsm_miniammo_rev>Minigun Triton-AP Belt</entityname.tsm_miniammo_rev>
+  <entityname.tsm_58_201mag_rev>201 Belt(Triton-AP)</entityname.tsm_58_201mag_rev>
+  <entityname.tsm_58_mag_rev>Assault Rifle Triton-AP Mag(5.8mm)</entityname.tsm_58_mag_rev>
+  <entityname.tsm_ammobox_rev>T.S.M Triton Ammunition Container</entityname.tsm_ammobox_rev>
+  <entityname.tsm_m61ammobox_rev>20mm Triton-HVAP Belt Container</entityname.tsm_m61ammobox_rev>
+  <entityname.tsm_hazardous_container>HAZMAT Container</entityname.tsm_hazardous_container>
+  <entitydescription.fkj_545_mag_rev>Loaded with 33 5.45 Triton-AP rounds</entitydescription.fkj_545_mag_rev>
+  <entitydescription.fkj_762_mag_rev>Loaded with 30 7.62x39 Triton-AP rounds</entitydescription.fkj_762_mag_rev>
+  <entitydescription.fkj_762_51_mag_rev>Loaded with 20 7.62x51 Triton-AP rounds</entitydescription.fkj_762_51_mag_rev>
+  <entitydescription.fkj_jts_mag_rev>Containing a 200 round 5.45x39mm Triton-AP Belt for ammo-wasting job \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.fkj_jts_mag_rev>
+  <entitydescription.fkj_pkp_mag_rev>Containing a 100 round Triton-AP Belt \nRadioactive</entitydescription.fkj_pkp_mag_rev>
+  <entitydescription.fkj_rpk_mag_rev>A 95 round 5.45x39 drum for ammo-wasting job \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.fkj_rpk_mag_rev>
+  <entitydescription.fkj_m2_mag_rev>A container for HMGs, containing a 150 round Triton-AP Belt \nRadioactive</entitydescription.fkj_m2_mag_rev>
+  <entitydescription.fkj_svd_mag_rev>Loaded with 20 Triton-AP round</entitydescription.fkj_svd_mag_rev>
+  <entitydescription.tsm_556_45_mgmag_rev>Loaded with 200 5.56x45mm Triton-AP rounds \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.tsm_556_45_mgmag_rev>
+  <entitydescription.lm_762_51_mgmag_rev>Loaded with 200 7.62x51mm Triton-AP rounds \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.lm_762_51_mgmag_rev>
+  <entitydescription.lm_556_mag_rev>Loaded with 31 5.56x45mm Triton-AP rounds, very effective against everything \The markings seem to have been hastily removed and repainted.</entitydescription.lm_556_mag_rev>
+  <entitydescription.lm_65_mag_rev>Loaded with 30 Special Purpose Triton rounds \The markings seem to have been hastily removed and repainted.</entitydescription.lm_65_mag_rev>
+  <entitydescription.lm_68_51_mag_rev>Loaded with 30 6.8x51 Triton-AP rounds \The markings seem to have been hastily removed and repainted.</entitydescription.lm_68_51_mag_rev>
+  <entitydescription.lm_762_51_mag_rev>Loaded with 20 7.62x51 Triton-AP rounds \The markings seem to have been hastily removed and repainted.</entitydescription.lm_762_51_mag_rev>
+  <entitydescription.lm_m700_mag_rev>Containing 5 rounds high power Triton-AP rounds</entitydescription.lm_m700_mag_rev>
+  <entitydescription.tsm_miniammo_rev>Containing 200 5.56x45 Triton-AP rounds \nRadioactive</entitydescription.tsm_miniammo_rev>
+  <entitydescription.tsm_58_201mag_rev>Containing 100 5.8mm Triton-AP rounds \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.tsm_58_201mag_rev>
+  <entitydescription.tsm_58_mag_rev>Containing 30 5.8mm Triton-AP rounds \The markings seem to have been hastily removed and repainted.</entitydescription.tsm_58_mag_rev>
+  <entitydescription.tsm_ammobox_rev>Containing all kinds of Triton ammunition, aim to refill magazines \nRadioactive</entitydescription.tsm_ammobox_rev>
+  <entitydescription.tsm_m61ammobox_rev>A heavy container containing 1200 20mm Triton-AP-I rounds \nYou know the rules, don't you? \nRadioactive</entitydescription.tsm_m61ammobox_rev>
+  <entitydescription.tsm_hazardous_container>A container for HAZMAT</entitydescription.tsm_hazardous_container>
+  <afflictiondescription.chemicalliner_mech>-95% Gunshotwound \n-100% Bleeding \n-95% Laceration \n-95% Blunttrauma \n-95% Internaldamage \n-95% Deep Tissue Injury \n-80% Burn\n-60% Special \n-100% Armor Break \n10u/s Wounds Sealing \n10u/s Stop Bleeding</afflictiondescription.chemicalliner_mech>
+  <missionname.tsm_cbrnert_assination>Eliminate T.S.M CBRN ERT</missionname.tsm_cbrnert_assination>
+  <missiondescription.tsm_cbrnert_assination>Some of the T.S.M CBRN ERT were here, eliminate them for tactical advantages</missiondescription.tsm_cbrnert_assination>
+  <missionsuccess.tsm_cbrnert_assination>Job's Done</missionsuccess.tsm_cbrnert_assination>
+  <missionfailure.tsm_cbrnert_assination>We failed to acquire tactical advantage</missionfailure.tsm_cbrnert_assination>
+  <missionheader0.tsm_cbrnert_assination>Nobody was left</missionheader0.tsm_cbrnert_assination>
+  <missionmessage0.tsm_cbrnert_assination>People fled crying, breathing in the gases that were supposed to sustain their lives, unaware that these gases were taking away their lives.</missionmessage0.tsm_cbrnert_assination>
+  <missionname.cargoSapphire_1>Chemical Transport</missionname.cargoSapphire_1>
+  <missiondescription.cargoSapphire_1>Researchers from [location1] hope you can transport some chemicals to [location2]\n \n \nWhen did acetone get banned?</missiondescription.cargoSapphire_1>
+  <missionname.cargoSapphire_2>Explosive Material Transport</missionname.cargoSapphire_2>
+  <missiondescription.cargoSapphire_2>A officer from [location1], hope you can transport some mining explosives to[location2]\n \n \nWhen did mining explosives get banned?</missiondescription.cargoSapphire_2>
+  <missionname.cargoSapphire_3>Weapon Material Transport</missionname.cargoSapphire_3>
+  <missiondescription.cargoSapphire_3>Someone in [location2] hope you can smuggle some material from [location1] to [location2]</missiondescription.cargoSapphire_3>
 </infotexts>

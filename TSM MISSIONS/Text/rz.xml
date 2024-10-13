@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <override>
+    <Item name="ProtoRZ-MK1" identifier="rz_prototype_mk1" subcategory="TSM" category="Diving,Equipment" tags="diving,deepdiving,deepdivinglarge,divinggear_wearableindoors,provocative" scale="0.605" fireproof="true" description="" isshootable="true" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" botpriority="0.01">
+      <Deconstruct time="30">
+        <Item identifier="titaniumaluminiumalloy" />
+        <Item identifier="titaniumaluminiumalloy" />
+        <Item identifier="exosuit" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="tsm_fabricator" requiredtime="60">
+        <RequiredSkill identifier="mechanical" level="70" />
+        <RequiredSkill identifier="weapons" level="60" />
+        <RequiredItem identifier="titaniumaluminiumalloy" amount="8" />
+        <RequiredItem identifier="exosuit" amount="1" />
+        <RequiredItem identifier="tsm_yx_crystallography" amount="1" />
+        <RequiredItem identifier="tsm_ic" amount="2" />
+      </Fabricate>
+      <InventoryIcon texture="%ModDir:2953749635%/suit/rz_mk1.png" sourcerect="357,384,147,128" origin="0.5,0.5" />
+      <Sprite name="rz_prototypesuit Item" texture="%ModDir:2953749635%/suit/mk1.png" sourcerect="108,65,194,369" depth="0.55" origin="0.49950522,0.49575573" />
+      <Body width="200" height="370" density="15" />
+      <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select" allowusewhenworn="true">
+        <sprite name="rz_prototypesuit Helmet Wearable" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="Head" hidelimb="true" inheritlimbdepth="true" inheritscale="false" ignorelimbscale="true" scale="0.43" hideotherwearables="true" hidewearablesoftype="" sourcerect="269,7,96,90" origin="0.35,1.52" />
+        <sprite name="rz_prototypesuit Torso" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="Torso" scale="0.95" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" origin="0.53,0.82" inheritlimbdepth="true" inheritsourcerect="false" sourcerect="1,7,213,214">
+          <LightComponent LightColor="150,150,150,255" range="1200" powerconsumption="10" IsOn="true" pulsefrequency="0.1" pulseamount="0.5">
+            <LightTexture texture="Content/Lights/lightcone.png" origin="0.0, 0.495" size="2.5,4.0" />
+          </LightComponent>
+        </sprite>
+        <sprite name="rz_prototypesuit Right Hand" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="RightHand" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.45" scale="0.4" inheritsourcerect="false" SourceRect="449,125,55,69" />
+        <sprite name="rz_prototypesuit Left Hand" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="LeftHand" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.45" scale="0.4" inheritsourcerect="false" SourceRect="449,125,55,69" />
+        <sprite name="rz_prototypesuit Right Upper Arm" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="RightArm" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.9" scale="0.5" inheritsourcerect="false" SourceRect="300,117,106,138" />
+        <sprite name="rz_prototypesuit Left Upper Arm" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="LeftArm" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.9" scale="0.5" inheritsourcerect="false" SourceRect="300,117,106,138" />
+        <sprite name="rz_prototypesuit Right Forearm" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="RightForearm" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.75" scale="0.4" inheritsourcerect="false" SourceRect="441,13,71,91" />
+        <sprite name="rz_prototypesuit Left Forearm" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.75" scale="0.4" inheritsourcerect="false" SourceRect="441,13,71,91" />
+        <sprite name="rz_prototypesuit Waist" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="Waist" hidelimb="true" scale="0.6" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.9" inheritsourcerect="false" sourcerect="182,264,109,91" />
+        <sprite name="rz_prototypesuit Right Thigh" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" origin="0.5,0.75" inheritsourcerect="false" sourcerect="0,288,111,153" />
+        <sprite name="rz_prototypesuit Left Thigh" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" origin="0.5,0.75" inheritsourcerect="false" sourcerect="0,288,111,153" />
+        <sprite name="rz_prototypesuit Right Leg" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="RightLeg" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.45,0.7" scale="0.55" inheritsourcerect="false" sourcerect="134,372,85,139" />
+        <sprite name="rz_prototypesuit Left Leg" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.45,0.7" inheritsourcerect="false" scale="0.55" sourcerect="134,372,85,139" />
+        <sprite name="rz_prototypesuit Left Shoe" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.6" inheritsourcerect="false" scale="0.6" sourcerect="381,315,121,49" />
+        <sprite name="rz_prototypesuit Right Shoe" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.6" inheritsourcerect="false" scale="0.6" sourcerect="381,315,121,49" />
+        <sprite name="rz_prototypesuit hideboob" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="tail" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.6" inheritsourcerect="false" scale="0.6" sourcerect="0,0,1,1" />
+        <StatusEffect type="OnWearing" target="Character" OxygenAvailable="-100.0" UseHullOxygen="false" />
+        <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="true" PressureProtection="10000.0" SpeedMultiplier="0.5" PropulsionSpeedMultiplier="0.25" setvalue="true" disabledeltatime="true">
+          <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="250" loop="true" />
+          <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="250" loop="true" />
+          <TriggerAnimation Type="Walk" FileName="HumanWalkExosuit" priority="1" ExpectedSpecies="Human" />
+          <TriggerAnimation Type="Run" FileName="HumanRunExosuit" priority="1" ExpectedSpecies="Human" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Character" interval="0.9" disabledeltatime="true">
+          <Affliction identifier="recoilstabilized" amount="1" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="0.4" setvalue="true" disabledeltatime="true">
+          <Conditional Voltage="gt 0.5" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained,Character" Condition="-0.1" interval="1" disabledeltatime="true" targetslot="1" comparison="Or">
+          <Conditional IsDead="false" />
+          <RequiredItem items="reactorfuel" targetslot="1" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="-10.0" setvalue="true" disabledeltatime="true">
+          <Conditional Voltage="lte 0.5" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" targetslot="0">
+          <Conditional IsDead="false" />
+          <RequiredItem items="weldingfueltank" targetslot="0" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" targetslot="0">
+          <Conditional IsDead="false" />
+          <RequiredItem items="incendiumfueltank" targetslot="0" type="Contained" />
+          <Affliction identifier="burn" amount="0.05" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.3" comparison="Or" targetslot="0">
+          <Conditional IsDead="false" />
+          <RequiredItem items="oxygentank" targetslot="0" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.05" comparison="Or" targetslot="0">
+          <Conditional IsDead="false" />
+          <RequiredItem items="oxygenitetank" targetslot="0" type="Contained" />
+        </StatusEffect>
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,acidburn,burn,bleeding,explosiondamage,triton_7L,blunttrauma,bitewounds,lacerations" damagemultiplier="0.05" damagesound="LimbArmor" deflectprojectiles="true" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.0" damagesound="LimbArmor" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="stun" damagemultiplier="0.0" damagesound="LimbArmor" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn" damagemultiplier="0.15" damagesound="" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.0" damagesound="LimbArmor" />
+        <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
+        <StatValue stattype="FlowResistance" value="0.0" />
+      </Wearable>
+      <ItemContainer capacity="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
+        <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,448,64,64" origin="0.5,0.5" />
+        <SlotIcon slotindex="1" texture="Content/UI/StatusMonitorUI.png" sourcerect="192,448,64,64" origin="0.5,0.5" />
+        <StatusEffect type="OnWearing" target="Contained" targetslot="0">
+          <RequiredItem items="oxygensource" type="Contained" targetslot="0" />
+          <Conditional condition="lt 5.0" />
+          <Sound file="Content/Items/WarningBeepSlow.ogg" range="500" loop="true" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained" targetslot="0" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource" type="Contained" targetslot="0" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="500" loop="true" />
+        </StatusEffect>
+        <SubContainer capacity="1" maxstacksize="1">
+          <Containable items="oxygensource,weldingtoolfuel" />
+        </SubContainer>
+        <SubContainer capacity="1" maxstacksize="1">
+          <Containable items="reactorfuel">
+            <StatusEffect type="OnContaining" target="This,Character" Voltage="1.0" setvalue="true">
+              <Conditional IsDead="false" />
+            </StatusEffect>
+          </Containable>
+        </SubContainer>
+        <SubContainer capacity="10" maxstacksize="32">
+          <Containable items="smallitem" />
+        </SubContainer>
+      </ItemContainer>
+      <aitarget maxsightrange="1500" />
+    </Item>
+  </override>
+</items>

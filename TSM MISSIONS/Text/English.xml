@@ -334,11 +334,11 @@
   <entitydescription.tsm_Coalitioncontingents_uniform />
   <entityname.tsm_old>Old Combat Uniform</entityname.tsm_old>
   <entitydescription.tsm_old />
-  <entityname.tsm_orangeconstant_o1>Damaged Orange-Uncertainty Suit</entityname.tsm_orangeconstant_o1>
+  <entityname.tsm_orangeconstant_o1>Damaged Orange-Volatile Suit</entityname.tsm_orangeconstant_o1>
   <entitydescription.tsm_orangeconstant_o1>This suit was damaged in combat, with many functions disabled.</entitydescription.tsm_orangeconstant_o1>
-  <entityname.tsm_orangeconstant_o2>Damaged Orange-Uncertainty Suit</entityname.tsm_orangeconstant_o2>
+  <entityname.tsm_orangeconstant_o2>Damaged Orange-Volatile Suit</entityname.tsm_orangeconstant_o2>
   <entitydescription.tsm_orangeconstant_o1>This suit was damaged in combat, with many functions disabled.</entitydescription.tsm_orangeconstant_o1>
-  <entityname.tsm_orangeconstant_o3>Damaged Orange-Uncertainty Suit</entityname.tsm_orangeconstant_o3>
+  <entityname.tsm_orangeconstant_o3>Damaged Orange-Volatile Suit</entityname.tsm_orangeconstant_o3>
   <entitydescription.tsm_orangeconstant_o3>This suit was damaged in combat, with many functions disabled.</entitydescription.tsm_orangeconstant_o3>
   <subcategory.tsmmissions>T.S.M. MISSIONS - The Sea of Miracles</subcategory.tsmmissions>
   <missionname.tsmmission1>The Watch of T.S.M</missionname.tsmmission1>
@@ -420,7 +420,7 @@
   <missionmessage0.tsmmission20>The death knell had been rung, it's a salute to the opening door to another world.</missionmessage0.tsmmission20>
   <missionsonarlabel.tsmmission20>New Experimental Subjects</missionsonarlabel.tsmmission20>
   <missionname.tsmmission22>Micro Warfare</missionname.tsmmission22>
-  <missiondescription.tsmmission22>Hey, hey, guess what. We used a micro weapon to shrink some latcher, and since they got too small, they all got away, so the captain had to get to them quickly!</missiondescription.tsmmission22>
+  <missiondescription.tsmmission22>Hey, hey, guess what. We used a micro weapon to shrink some latcher, and since they got too small, they all got away, so the captain has to get to them quickly!</missiondescription.tsmmission22>
   <missionsuccess.tsmmission22>Interesting experiments</missionsuccess.tsmmission22>
   <missionheader0.tsmmission22>No turning back</missionheader0.tsmmission22>
   <missionmessage0.tsmmission22>Will we tire of slaying endless beasts that hunt them</missionmessage0.tsmmission22>
@@ -744,8 +744,8 @@
   <talentname.tsm_specops>Special Forces</talentname.tsm_specops>
   <talentname.tsm_beatcop>Inspection Police</talentname.tsm_beatcop>
   <talentname.tsm_bleeding_outpost_sundown>Coagulant</talentname.tsm_bleeding_outpost_sundown>
-  <talentname.suger_tail_handle>A-Tang Mimicry</talentname.suger_tail_handle>
-  <talentdescription.suger_tail_handle>When you wear the mimicry device, you will grow cat ears and a cat tail.</talentdescription.suger_tail_handle>
+  <talentname.suger_tail_handle>Sugar-tail Transmogrifier</talentname.suger_tail_handle>
+  <talentdescription.suger_tail_handle>When you wear the device, you will grow cat ears and a cat tail.</talentdescription.suger_tail_handle>
   <talentname.tsm_ai_outpost>Stable Evil Plague Normal State of the Sea of Miracles</talentname.tsm_ai_outpost>
   <talentdescription.tsm_ai_outpost>Alter part of the DNA sequence to make the body reject foreign parasites.</talentdescription.tsm_ai_outpost>
   <talentname.tsm_eyi_instability>Unstable Evil Plague Anomaly State</talentname.tsm_eyi_instability>
@@ -755,12 +755,12 @@
   <afflictioncauseofdeath.tsm_ondeath>What are you seeking?</afflictioncauseofdeath.tsm_ondeath>
   <afflictioncauseofdeathself.tsm_ondeath>What are you seeking?</afflictioncauseofdeathself.tsm_ondeath>
   <afflictionname.tsm_eyi_attack>Combat Evil Plague Normal State</afflictionname.tsm_eyi_attack>
-  <afflictiondescription.tsm_eyi_attack>The Evil Plague within you is in a stable state, continuously providing bonuses for your combat.</afflictiondescription.tsm_eyi_attack>
+  <afflictiondescription.tsm_eyi_attack>The Evil Plague within you is in a stable state, continuously providing bonuses in combat.</afflictiondescription.tsm_eyi_attack>
   <afflictionname.tsm_stress_resistance>Strong Will</afflictionname.tsm_stress_resistance>
   <afflictiondescription.tsm_stress_resistance>Your will is very firm at this moment, able to withstand the torment of other things on your mind.</afflictiondescription.tsm_stress_resistance>
   <afflictionname.tsm_stress>Mental Stress</afflictionname.tsm_stress>
   <afflictiondescription.tsm_stress>You are currently feeling very tense and in pain.</afflictiondescription.tsm_stress>
-  <afflictioncauseofdeath.tsm_stress>He committed suicide.</afflictioncauseofdeath.tsm_stress>
+  <afflictioncauseofdeath.tsm_stress>Committed suicide.</afflictioncauseofdeath.tsm_stress>
   <afflictioncauseofdeathself.tsm_stress>You committed suicide.</afflictioncauseofdeathself.tsm_stress>
   <afflictionname.tsm_eyi_provocative>Flesh Information Pheromone</afflictionname.tsm_eyi_provocative>
   <afflictiondescription.tsm_eyi_provocative>You have been bitten by a rotting corpse; now the tearing wounds and bites you receive will increase, and enemies will be more likely to target you.</afflictiondescription.tsm_eyi_provocative>
@@ -774,8 +774,8 @@
   <afflictiondescription.tsmmission_eyi_bite>You have been bitten by an Evil Plague bloodworm.</afflictiondescription.tsmmission_eyi_bite>
   <afflictionname.tsmmission_monster_50>Broken Bones</afflictionname.tsmmission_monster_50>
   <afflictiondescription.tsmmission_monster_50>You feel as if your bones have broken/n At this moment, the tearing and biting damage you suffer will increase.</afflictiondescription.tsmmission_monster_50>
-  <afflictionname.tsmmission_ai_mod_resistancefor>Sea of Miracles Sundown Stable Evil Plague Normal State</afflictionname.tsmmission_ai_mod_resistancefor>
-  <afflictiondescription.tsmmission_ai_mod_resistancefor>Alter part of the DNA sequence to make the body reject foreign parasites.</afflictiondescription.tsmmission_ai_mod_resistancefor>
+  <afflictionname.tsmmission_ai_mod_resistancefor>T.S.M Sundown Stable Evil Plague State</afflictionname.tsmmission_ai_mod_resistancefor>
+  <afflictiondescription.tsmmission_ai_mod_resistancefor>Alters part of the DNA sequence to make the body reject foreign parasites.</afflictiondescription.tsmmission_ai_mod_resistancefor>
   <afflictionname.tsm_eyi_stable_state>Stable Evil Plague Normal State</afflictionname.tsm_eyi_stable_state>
   <afflictiondescription.tsmmission_eyi_0_1>At this stage, you will be immune to water pressure, require no oxygen, increase maximum health by 30%, and will no longer become addicted to drugs. Burns will recover quickly, and you will rapidly heal from Flesh Embryos and Husk Infection.</afflictiondescription.tsmmission_eyi_0_1>
   <afflictiondescription.tsmmission_eyi_1_4>At this stage, you will not need oxygen and will gain 30% swimming speed.</afflictiondescription.tsmmission_eyi_1_4>
@@ -878,14 +878,14 @@
   <tsm.tl56>I'll be waiting for your visit anytime.</tsm.tl56>
   <tsm.tl57>I'll come back later.</tsm.tl57>
   <tsm.tl58>I'll be waiting for your visit anytime.</tsm.tl58>
-  <tsm.tl59>Hello, I am Yu Lang, the head of the Sea of Miracles Armory. I'm here to issue bounties from the Sea of Miracles to passing captains.</tsm.tl59>
+  <tsm.tl59>Hello, I am Phantom Lang, the head of the Sea of Miracles Armory. I'm here to issue bounties from the Sea of Miracles to passing captains.</tsm.tl59>
   <tsm.tl60>You are... Phantom Lang?</tsm.tl60>
   <tsm.tl61>Ah, yes, that's my nickname. You can call me that too.</tsm.tl61>
   <tsm.tl62>No, I mean: I’ve met someone called "Phantom Lang" before...</tsm.tl62>
-  <tsm.tl63>Oh, I know what you mean. Those were my people. They were issuing commands on my behalf, but many of them are now missing... like they disappeared. If you see them, please let me know.</tsm.tl63>
+  <tsm.tl63>Oh, I know what you mean. Those were my people. They were issuing commands on my behalf, but many of them are now missing...gone without a trace. If you see them, please let me know.</tsm.tl63>
   <tsm.tl64>Oh, I see. Alright, alright. So, what tasks do you have now?</tsm.tl64>
   <tsm.tl65>Hmm... I've already sent the tasks to your panel. Please proceed with caution.\nAnd... try to stay alive.</tsm.tl65>
-  <tsm.tl66>This route is now under a blockade by the Sea of Miracles. Turn back immediately, or we will resort to forceful expulsion!</tsm.tl66>
+  <tsm.tl66>This route is now under a blockade by The Sea of Miracles. Turn back immediately, or we will resort to forceful expulsion!</tsm.tl66>
   <tsm.tl67>This is your final warning! Turn back now!</tsm.tl67>
   <tsm.tl68>You see a man acting suspiciously, so you approach him to see what he's up to.</tsm.tl68>
   <tsm.tl69>"What are you doing?" you say while putting a hand on his shoulder.</tsm.tl69>
@@ -893,7 +893,7 @@
   <tsm.tl71>"Don't run!" Just as you start to chase after him, alarms begin blaring throughout the station.</tsm.tl71>
   <tsm.tl72>T.S.M: \nUnknown hostile forces have been detected, T-71 defense protocol has been activated.\nThe entire station is now under lockdown. All civilians are urged to remain calm and proceed to the nearest safety shelter. The Sundown Operations Department will begin clearing out the intruders. Please refrain from taking any unauthorized actions and wait for the situation to stabilize.</tsm.tl72>
   <!-- OutpostEvents_tsm.xml -->
-  <tsm.tl_p_1>Hello, I am Yu Lang, the head of the Armed Forces of the Sea of Miracles. I am still searching for my missing team members.</tsm.tl_p_1>
+  <tsm.tl_p_1>Hello, I am Phantom Lang, the head of the Armed Forces of the Sea of Miracles. I am still searching for my missing team members.</tsm.tl_p_1>
   <tsm.tl_p_2>Sorry to bother you.</tsm.tl_p_2>
   <tsm.tl_p_3>I'm handling business, don't disturb me.</tsm.tl_p_3>
   <tsm.tl_p_4>Exchange items</tsm.tl_p_4>
@@ -1034,4 +1034,8 @@
   <entityname.kl2>Charon Two</entityname.kl2>
   <entityname.tsm_eyi_helmet>Plague Protection Helmet</entityname.tsm_eyi_helmet>
   <entityname.tsm_eyi_suit>Plague Protection Suit</entityname.tsm_eyi_suit>
+
+
+  <afflictionname.tsm_virusstage_inhibitory>Virus Dormant Stage</afflictionname.tsm_virusstage_inhibitory>
+  <afflictionname.eyiinfection>Plague</afflictionname.eyiinfection>
 </infotexts>

@@ -235,7 +235,7 @@
       <SpawnAction npcsetidentifier="occupation_npcs" npcidentifier="occupation_leader" lootingisstealing="false" targettag="occupation" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
       <StatusEffectAction targettag="occupation" enabledespawn="true">
         <StatusEffect target="This">
-          <Sound file="%ModDir%/ogg/Blood for the Blood.ogg" range="10000" />
+          <Sound file="%ModDir:2953749635%/ogg/Blood for the Blood.ogg" range="10000" />
         </StatusEffect>
       </StatusEffectAction>
       <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="occupation" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
@@ -374,7 +374,7 @@
       <SpawnAction npcsetidentifier="beowulf_npcs" npcidentifier="beowulf_leader" lootingisstealing="false" targettag="beowulf" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
       <StatusEffectAction targettag="beowulf">
         <StatusEffect target="This" enabledespawn="true">
-          <Sound file="%ModDir%/ogg/phonkghost.ogg" range="10000" />
+          <Sound file="%ModDir:2953749635%/ogg/phonkghost.ogg" range="10000" />
         </StatusEffect>
       </StatusEffectAction>
       <SpawnAction npcsetidentifier="rapidreaction_npcs" npcidentifier="rapidreaction_reinforcement" targettag="beowulf" lootingisstealing="false" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
@@ -540,7 +540,7 @@
       <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_leader" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
       <StatusEffectAction targettag="yehuo" enabledespawn="true">
         <StatusEffect target="This">
-          <Sound file="%ModDir%/ogg/red rock for mother Russia.ogg" range="10000" />
+          <Sound file="%ModDir:2953749635%/ogg/red rock for mother Russia.ogg" range="10000" />
         </StatusEffect>
       </StatusEffectAction>
       <SpawnAction npcsetidentifier="yehuo_npcs" npcidentifier="yehuo_reinforcement" lootingisstealing="false" targettag="separatists" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
@@ -760,7 +760,7 @@
       <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />
       <StatusEffectAction targettag="TSM" enabledespawn="true">
         <StatusEffect target="This">
-          <Sound file="%ModDir%/ogg/四面楚歌.ogg" range="10000" />
+          <Sound file="%ModDir:2953749635%/ogg/四面楚歌.ogg" range="10000" />
         </StatusEffect>
       </StatusEffectAction>
       <SpawnAction npcsetidentifier="tsm_npcs" npcidentifier="tsm_outpost_combat_3" lootingisstealing="false" targettag="TSM" spawnlocation="outpost" TeamID="None" allowinplayerview="false" />

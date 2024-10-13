@@ -7,7 +7,7 @@
     <locationnameformat.none>[name]</locationnameformat.none>
     <locationdescription.tsm_abandoned>Abandoned site, the facilities are relatively intact, but there are no inhabitants</locationdescription.tsm_abandoned>
     <locationname.tsm_abandoned>Old World</locationname.tsm_abandoned>
-    <biomename.thegreatsea>Vast Ocean</biomename.thegreatsea>
+    <biomename.thegreatsea>Great Sea</biomename.thegreatsea>
     <randomnews8>The Coalition officially declares war on the Separatist</randomnews8>
     <randomnews9>Sea of Miracles will safeguard you</randomnews9>
     <!--mod内容-->
@@ -31,12 +31,12 @@
     <afflictiondescription.triton_burn>Burning sensations start at the wound site</afflictiondescription.triton_burn>
     <afflictionname.tsm_armorbreak_jz>Shattered Armor</afflictionname.tsm_armorbreak_jz>
     <afflictiondescription.tsm_armorbreak_jz>More easily penetrated by bullets</afflictiondescription.tsm_armorbreak_jz>
-    <entityname.triton_9C_antidote>Special Damage Cleansing Agent</entityname.triton_9C_antidote>
-    <entitydescription.triton_9C_antidote>A medication used to treat special injuries</entitydescription.triton_9C_antidote>
+    <entityname.triton_9C_antidote>Triton-9C Antidote</entityname.triton_9C_antidote>
+    <entitydescription.triton_9C_antidote>A medication used to treat Triton-9C disfiguration and burns.</entitydescription.triton_9C_antidote>
     <afflictionname.zlyz>Gravity Suppression</afflictionname.zlyz>
     <afflictiondescription.zlyz>You feel an invisible pressure immobilizing you</afflictiondescription.zlyz>
-    <afflictioncauseofdeath.zlyz>Heavy</afflictioncauseofdeath.zlyz>
-    <afflictioncauseofdeathself.zlyz>Ignoring the consequences of the rules</afflictioncauseofdeathself.zlyz>
+    <afflictioncauseofdeath.zlyz>Crushed</afflictioncauseofdeath.zlyz>
+    <afflictioncauseofdeathself.zlyz>Ignored the rules, faced the consequences</afflictioncauseofdeathself.zlyz>
     <afflictionname.zlqy>Gravity Traction</afflictionname.zlqy>
     <afflictiondescription.zlqy>Let us sink together into the shadows woven between good and evil</afflictiondescription.zlqy>
     <afflictioncauseofdeath.zlqy>Annihilation</afflictioncauseofdeath.zlqy>
@@ -57,15 +57,15 @@
     <afflictiondescription.tsm_armor_bleeding>Resistance Type: Bleeding</afflictiondescription.tsm_armor_bleeding>
     <afflictionname.tsm_armor_lacerations>Laceration Resistance</afflictionname.tsm_armor_lacerations>
     <afflictiondescription.tsm_armor_lacerations>Resistance Type: Laceration</afflictiondescription.tsm_armor_lacerations>
-    <afflictionname.tsm_armor_stun>Dizziness Resistance</afflictionname.tsm_armor_stun>
-    <afflictiondescription.tsm_armor_stun>Resistance Type: Dizziness</afflictiondescription.tsm_armor_stun>
+    <afflictionname.tsm_armor_stun>Stun Resistance</afflictionname.tsm_armor_stun>
+    <afflictiondescription.tsm_armor_stun>Resistance Type: Stun</afflictiondescription.tsm_armor_stun>
     <afflictionname.tsm_armor_blunttrauma>Blunt Injury Resistance</afflictionname.tsm_armor_blunttrauma>
     <afflictiondescription.tsm_armor_blunttrauma>Resistance Type: Blunt Injury</afflictiondescription.tsm_armor_blunttrauma>
     <afflictionname.tsm_armor_huskinfection>Husk Infection Resistance</afflictionname.tsm_armor_huskinfection>
     <afflictiondescription.tsm_armor_huskinfection>Resistance Type: Husk Infection</afflictiondescription.tsm_armor_huskinfection>
     <afflictionname.tsm_armor_paralysis>Paralysis Resistance</afflictionname.tsm_armor_paralysis>
     <afflictiondescription.tsm_armor_paralysis>Resistance Type: Paralysis</afflictiondescription.tsm_armor_paralysis>
-    <afflictionname.tsm_armor_triton>Special Damage Resistance</afflictionname.tsm_armor_triton>
+    <afflictionname.tsm_armor_triton>Triton Resistance</afflictionname.tsm_armor_triton>
     <afflictiondescription.tsm_armor_triton>Resistance Type: Tritium Poisoning, Explosion</afflictiondescription.tsm_armor_triton>
     <afflictionname.tsm_armor_bitewounds>Bite Resistance</afflictionname.tsm_armor_bitewounds>
     <afflictiondescription.tsm_armor_bitewounds>Resistance Type: Bite</afflictiondescription.tsm_armor_bitewounds>
@@ -368,7 +368,7 @@
     <entityname.tsm_stunbaton_melee>Special Electric Baton</entityname.tsm_stunbaton_melee>
     <entitydescription.tsm_stunbaton_melee>Installed with Ray Sub Battery to provide more powerful control</entitydescription.tsm_stunbaton_melee>
     <entityname.tsm_moonlight_sword>Moonlight</entityname.tsm_moonlight_sword>
-    <entitydescription.tsm_moonlight_sword>‖color:255,144,48,255‖An honorary melee weapon, a replica of the ring-headed knife made from alien materials‖color:end‖</entitydescription.tsm_moonlight_sword>
+    <entitydescription.tsm_moonlight_sword>‖color:255,144,48,255‖An honorary melee weapon, a ring-hilted katana made from alien materials‖color:end‖</entitydescription.tsm_moonlight_sword>
     <entityname.tsm_lerentine_zhong>‖color:221,106,29,255‖Tomb‖color:end‖</entityname.tsm_lerentine_zhong>
     <entitydescription.tsm_lerentine_zhong>‖color:221,106,29,255‖Born in shadow, not bound by form in life; dead, the soul does not connect with my dreams‖color:end‖</entitydescription.tsm_lerentine_zhong>
     <entityname.tsm_zhong_handgun>‖color:221,106,29,255‖Gray Eye‖color:end‖</entityname.tsm_zhong_handgun>
@@ -377,16 +377,16 @@
     <entitydescription.tsm_pmf_melee>A tool for breaching, commonly used in Sea of Miracles</entitydescription.tsm_pmf_melee>
     <entityname.tsm_pqc_melee>Breach Hammer</entityname.tsm_pqc_melee>
     <entitydescription.tsm_pqc_melee>A tool for breaking walls, commonly used in Sea of Miracles</entitydescription.tsm_pqc_melee>
-    <entityname.tsm_thermal_knife>"Wind Whisper" Tactical Knife</entityname.tsm_thermal_knife>
-    <entitydescription.tsm_thermal_knife>This knife's manufacturing process is not disclosed. It is lightweight, and the blade can reach high temperatures in a very short time, making cutting efficiency high.</entitydescription.tsm_thermal_knife>
-    <entityname.tsm_steel_knife>"Sithir" Command Knife</entityname.tsm_steel_knife>
-    <entitydescription.tsm_steel_knife>A symbol of identity, crafted from expensive alien metal, awarded to those bold captains before Earth went missing.</entitydescription.tsm_steel_knife>
+    <entityname.tsm_thermal_knife>"Wind Whisper" Tactical Blade</entityname.tsm_thermal_knife>
+    <entitydescription.tsm_thermal_knife>This blade's manufacturing process is not disclosed. It is lightweight, and can reach high temperatures in a very short time, making cutting efficiency high.</entitydescription.tsm_thermal_knife>
+    <entityname.tsm_steel_knife>"Sithir" Command Blade</entityname.tsm_steel_knife>
+    <entitydescription.tsm_steel_knife>A symbol of status, forged from expensive alien metals. Before Earth lost contact, it was awarded to captains who bravely ventured into the unknown.</entitydescription.tsm_steel_knife>
     <!--弹药-->
     <entityname.tsm_12_ld>Deer Shot</entityname.tsm_12_ld>
     <entitydescription.tsm_12_ld>Fewer rounds but with greater power.</entitydescription.tsm_12_ld>
     <entityname.tsm_sabot>Double Shot Single Projectile</entityname.tsm_sabot>
     <entitydescription.tsm_sabot>Innovative double-shot design, where the outer projectile detaches upon hitting the target and quickly flips inside to cause damage.</entitydescription.tsm_sabot>
-    <entityname.tsm_12_bg>Depleted Uranium Change Bullet</entityname.tsm_12_bg>
+    <entityname.tsm_12_bg>Depleted Uranium Triton Bullet</entityname.tsm_12_bg>
     <entitydescription.tsm_12_bg>Tritium fusion core, deuterium fragment killing component</entitydescription.tsm_12_bg>
     <entityname.tsm_12_slience>Rubber Suppression Round</entityname.tsm_12_slience>
     <entitydescription.tsm_12_slience>Provides strong control</entitydescription.tsm_12_slience>
@@ -398,7 +398,7 @@
     <entitydescription.tsm_fragmentation_grenade>A common type of grenade using a delay fuse, with a fragmentation kill radius of 6-10. When held, right-click then press 'E' to sequentially pull the safety pin and release the firing pin spoon.</entitydescription.tsm_fragmentation_grenade>
     <!--武器-->
     <!--奇迹之海-->
-    <entityname.tsm_zc>Assault Rifle Tank</entityname.tsm_zc>
+    <entityname.tsm_zc>Tank Assault Rifle</entityname.tsm_zc>
     <entitydescription.tsm_zc>No design can withstand drug-enhanced bullets; practice is needed to hit accurately. However, its suppressor is quite good. Uses ‖color:150,0,0,255‖Sea of Miracles ammunition‖color:end‖.</entitydescription.tsm_zc>
     <entityname.tsm_fy>Flying Raven Assault Rifle</entityname.tsm_fy>
     <entitydescription.tsm_fy>Uses ‖color:150,0,0,255‖Sea of Miracles ammunition‖color:end‖</entitydescription.tsm_fy>
@@ -413,7 +413,7 @@
     <entityname.tsm_snoar_shell>T.S.M Railgun Decoy Shell</entityname.tsm_snoar_shell>
     <entitydescription.tsm_snoar_shell>Railgun Shell
   Decoy-type artillery missile that stops around 150m after launch and continuously emits a sonar pulse to attract creatures. Please note the strong EMP effects within the explosion radius.</entitydescription.tsm_snoar_shell>
-    <entityname.tsm_embi_shell>Fist of Destiny</entityname.tsm_embi_shell>
+    <entityname.tsm_embi_shell>Fist of Fate</entityname.tsm_embi_shell>
     <entitydescription.tsm_embi_shell>Railgun Shell
   Special ballistic correction artillery nuclear bomb developed and manufactured by EMBI. This ammunition can correct its trajectory within a certain range.</entitydescription.tsm_embi_shell>
     <entityname.tsm_fire_gun>Awakening Lion</entityname.tsm_fire_gun>
@@ -440,7 +440,7 @@
     <entityname.tsm_ots11>QTS-11 Strategic Assault Rifle</entityname.tsm_ots11>
     <entitydescription.tsm_ots11>A weapon born from the “Ideal Individual Combat Weapon” program, lightweight and featuring an all-in-one design, including a grenade launcher (note: magazines and grenades cannot be used simultaneously, as it may cause a catastrophic failure), advanced electro-optical thermal imaging sights, and utilizing existing ‖color:150,0,0,255‖5.8mm‖color:end‖ assault rifle magazines. However, due to its exorbitant cost, it was never put into service, with only a few prototypes circulating.</entitydescription.tsm_ots11>
     <entityname.tsm_gm6>GM6 "Wildcat" Bullpup Anti-Material Sniper Rifle</entityname.tsm_gm6>
-    <entitydescription.tsm_gm6>A highly precise and compact large-caliber sniper rifle. The floating barrel and bullpup design make it very handy even in indoor combat. Its manufacturing blueprints are highly classified; even if they fall into enemy hands, reverse engineering is impossible. Only elite forces can equip it, using ‖color:150,0,0,255‖12.7×99mm‖color:end‖ caliber sniper ammunition.</entitydescription.tsm_gm6>
+    <entitydescription.tsm_gm6>A highly precise and compact large-caliber sniper rifle. The floating barrel and bullpup design make it very handy even in indoor combat. Its manufacturing blueprints are highly classified; even if they fall into enemy hands, reverse engineering is impossible. Only elite forces can equip it, using ‖color:150,0,0,255‖12.7x99mm‖color:end‖ caliber sniper ammunition.</entitydescription.tsm_gm6>
     <entityname.tsm_krmagazine>T.S.M Extended Capacity Magazine</entityname.tsm_krmagazine>
     <entitydescription.tsm_krmagazine>Can hold 60 rounds of standard ammunition, with a special design ensuring reliability, but the price is not guaranteed.</entitydescription.tsm_krmagazine>
     <entityname.tsm_58_mag_kr>Assault Rifle Drum Magazine (5.8mm)</entityname.tsm_58_mag_kr>
@@ -479,7 +479,7 @@
     <entityname.tsm_lm_mdr>Coalition MDR Bullpup Combat Rifle</entityname.tsm_lm_mdr>
     <entitydescription.tsm_lm_mdr>In increasingly harsh combat scenarios, the Coalition found its small-caliber ammunition increasingly inadequate. The MDR was introduced as a response, maintaining a length of 79cm while using a 5.56mm configuration; it can switch to a 7.62mm configuration, allowing for quick conversion to engage targets while maintaining stability and versatility. Using ‖color:150,0,0,255‖5.56mm‖color:end‖ or ‖color:150,0,0,255‖7.62mm‖color:end‖ magazines.</entitydescription.tsm_lm_mdr>
     <entityname.tsm_lm_mdr_c>Coalition MDR Bullpup Combat Rifle - Infiltration Type</entityname.tsm_lm_mdr_c>
-    <entitydescription.tsm_lm_mdr_c>This rifle is a special modification for the Coalition's decapitation operations, equipped with a custom suppressor for better infiltration. It uses ‖color:150,0,0,255‖7.62×51mm‖color:end‖ ammunition.</entitydescription.tsm_lm_mdr_c>
+    <entitydescription.tsm_lm_mdr_c>This rifle is a special modification for the Coalition's decapitation operations, equipped with a custom suppressor for better infiltration. It uses ‖color:150,0,0,255‖7.62x51mm‖color:end‖ ammunition.</entitydescription.tsm_lm_mdr_c>
     <entityname.tsm_lm_vsh2>Coalition VSH-2 "Rogue" Advanced Bullpup Combat Rifle</entityname.tsm_lm_vsh2>
     <entitydescription.tsm_lm_vsh2>The ideal bullpup rifle, integrating a series of predecessor advantages. Its high rate of fire and accuracy have made the "Rogue" famous. The fully modernized modules and extensive use of engineering plastics make it lightweight, versatile, and visually appealing, earning high praise from various frontline units. It uses Coalition-issued ‖color:150,0,0,255‖5.56mm‖color:end‖ magazines.</entitydescription.tsm_lm_vsh2>
     <entityname.tsm_lm_rm277>Coalition RM277 Special Bullpup Combat Rifle</entityname.tsm_lm_rm277>
@@ -490,7 +490,7 @@
     <entityname.tsm_lm_m16a4>Coalition M16A4 Assault Rifle</entityname.tsm_lm_m16a4>
     <entitydescription.tsm_lm_m16a4>A fully improved model based on the M16A1, it becomes a fully modular platform. Its longer barrel gives it superior penetration among rifles, yet retains the three-round burst firing mode of the A1 version. The lack of suppressive fire was quickly replaced by the M4 carbine. Uses the Coalition-issued ‖color:150,0,0,255‖5.56mm‖color:end‖ magazine.</entitydescription.tsm_lm_m16a4>
     <entityname.tsm_lm_m110>Coalition M110 Designated Marksman Rifle</entityname.tsm_lm_m110>
-    <entitydescription.tsm_lm_m110>Utilizing a gas-operated semi-automatic firing system, it boasts a higher rate of fire than manually operated bolt-action sniper rifles. It features a 150mm long muzzle attachment to reduce noise and muzzle flash. It has become the preferred choice for Coalition counter-terrorism operations and can be fitted with a bipod for better stability. Uses the Coalition-issued ‖color:150,0,0,255‖7.62×51mm‖color:end‖ caliber magazine.</entitydescription.tsm_lm_m110>
+    <entitydescription.tsm_lm_m110>Utilizing a gas-operated semi-automatic firing system, it boasts a higher rate of fire than manually operated bolt-action sniper rifles. It features a 150mm long muzzle attachment to reduce noise and muzzle flash. It has become the preferred choice for Coalition counter-terrorism operations and can be fitted with a bipod for better stability. Uses the Coalition-issued ‖color:150,0,0,255‖7.62x51mm‖color:end‖ caliber magazine.</entitydescription.tsm_lm_m110>
     <entityname.tsm_lm_ar15>Coalition AR15-Taran Rifle</entityname.tsm_lm_ar15>
     <entitydescription.tsm_lm_ar15>Once the best-selling rifle on Earth, its stability and accuracy, combined with its affordable price and high modularity, make it popular among the public for defending their rights. The military version in the Coalition already features full-auto capability. Uses the Coalition-issued ‖color:150,0,0,255‖5.56mm‖color:end‖ magazine.</entitydescription.tsm_lm_ar15>
     <entityname.tsm_lm_M4>Coalition M4 Assault Rifle</entityname.tsm_lm_M4>
@@ -498,12 +498,12 @@
     <entityname.tsm_lm_mk18>Coalition MK18 Assault Rifle</entityname.tsm_lm_mk18>
     <entitydescription.tsm_lm_mk18>With a shorter body than the Coalition carbine, it offers greater maneuverability. Its powerful explosive force made it a standard assault rifle for the Coalition. Uses the Coalition-issued ‖color:150,0,0,255‖5.56mm‖color:end‖ magazine.</entitydescription.tsm_lm_mk18>
     <entityname.tsm_lm_mcx>Coalition MCX·Spear Combat Rifle</entityname.tsm_lm_mcx>
-    <entitydescription.tsm_lm_mcx>Experimental advanced weapon planned for special forces of the Coalition, regarded as the pinnacle of AR rifles, using the experimental ‖color:150,0,0,255‖6.8×51mm‖color:end‖ magazine, it possesses considerable lethality, equipped with a fully modernized modular platform.</entitydescription.tsm_lm_mcx>
+    <entitydescription.tsm_lm_mcx>Experimental advanced weapon planned for special forces of the Coalition, regarded as the pinnacle of AR rifles, using the experimental ‖color:150,0,0,255‖6.8x51mm‖color:end‖ magazine, it possesses considerable lethality, equipped with a fully modernized modular platform.</entitydescription.tsm_lm_mcx>
     <!--特殊-->
     <entityname.tsm_lm_mk18_l>MK18 CQB</entityname.tsm_lm_mk18_l>
     <entitydescription.tsm_lm_mk18_l>A modified MK18, more suitable for quick response units in indoor combat. Uses the Coalition-issued ‖color:150,0,0,255‖5.56mm‖color:end‖ magazine.</entitydescription.tsm_lm_mk18_l>
     <entityname.tsm_lm_scarh>Coalition MK17 Heavy Combat Rifle</entityname.tsm_lm_scarh>
-    <entitydescription.tsm_lm_scarh>The standard 5.56×45mm caliber bullets of the Coalition have proven inadequate against increasingly fortified body armor. Consequently, to meet the higher penetration demands of special forces for complex operations, this heavy combat rifle was developed. Uses ‖color:150,0,0,255‖7.62×51mm‖color:end‖ ammunition.</entitydescription.tsm_lm_scarh>
+    <entitydescription.tsm_lm_scarh>The standard 5.56x45mm caliber bullets of the Coalition have proven inadequate against increasingly fortified body armor. Consequently, to meet the higher penetration demands of special forces for complex operations, this heavy combat rifle was developed. Uses ‖color:150,0,0,255‖7.62x51mm‖color:end‖ ammunition.</entitydescription.tsm_lm_scarh>
     <entityname.tsm_lm_mk18_c>Coalition MK18 Assault Rifle (Tactical) </entityname.tsm_lm_mk18_c>
     <entitydescription.tsm_lm_mk18_c>A camouflage MK18 that has been equipped with a scope and grip for improved control, allowing the shooter to fire without awkwardly gripping a poorly designed forend. Uses the Coalition-issued ‖color:150,0,0,255‖5.56mm‖color:end‖ magazine.</entitydescription.tsm_lm_mk18_c>
     <entityname.tsm_lm_97>Coalition Type97 Rapid Response Rifle</entityname.tsm_lm_97>
@@ -513,11 +513,11 @@
     <entityname.tsm_lm_m4_c>Coalition M4 Assault Rifle (Universal Key)</entityname.tsm_lm_m4_c>
     <entitydescription.tsm_lm_m4_c>A specially modified assault rifle, equipped with a scope and a shotgun underbarrel on a camouflage M4. While easy to use, it cannot simultaneously fire 5.56 bullets and shotgun rounds due to excessive recoil that could injure the shooter. Uses the Coalition-issued ‖color:150,0,0,255‖5.56mm‖color:end‖ magazine.</entitydescription.tsm_lm_m4_c>
     <entityname.tsm_lm_mk46>Coalition General Purpose Light Machine Gun (MK46)</entityname.tsm_lm_mk46>
-    <entitydescription.tsm_lm_mk46>A squad light machine gun from Earth, with a shorter barrel making it more suitable for maneuvering in narrow station spaces or submarine corridors, using ‖color:150,0,0,255‖Coalition light machine gun magazines (5.56×45mm)‖color:end‖.</entitydescription.tsm_lm_mk46>
+    <entitydescription.tsm_lm_mk46>A squad light machine gun from Earth, with a shorter barrel making it more suitable for maneuvering in narrow station spaces or submarine corridors, using ‖color:150,0,0,255‖Coalition light machine gun magazines (5.56x45mm)‖color:end‖.</entitydescription.tsm_lm_mk46>
     <entityname.tsm_lm_mk48>Coalition Squad Machine Gun (MK48)</entityname.tsm_lm_mk48>
-    <entitydescription.tsm_lm_mk48>Using ‖color:150,0,0,255‖Coalition squad machine gun magazines (7.62×51mm)‖color:end‖.</entitydescription.tsm_lm_mk48>
+    <entitydescription.tsm_lm_mk48>Using ‖color:150,0,0,255‖Coalition squad machine gun magazines (7.62x51mm)‖color:end‖.</entitydescription.tsm_lm_mk48>
     <entityname.tsm_lm_m249>Coalition Light Machine Gun (M249)</entityname.tsm_lm_m249>
-    <entitydescription.tsm_lm_m249>While its lethality is somewhat lacking, it offers reliability and strong firepower with a 200-round belt feed, making it the most enduring weapon for sustained fire in infantry squads. A bipod can be installed to provide some stability, using ‖color:150,0,0,255‖Coalition light machine gun magazines (5.56×45mm)‖color:end‖.</entitydescription.tsm_lm_m249>
+    <entitydescription.tsm_lm_m249>While its lethality is somewhat lacking, it offers reliability and strong firepower with a 200-round belt feed, making it the most enduring weapon for sustained fire in infantry squads. A bipod can be installed to provide some stability, using ‖color:150,0,0,255‖Coalition light machine gun magazines (5.56x45mm)‖color:end‖.</entitydescription.tsm_lm_m249>
     <entityname.tsm_m1014>Benelli M1014 Shotgun</entityname.tsm_m1014>
     <entitydescription.tsm_m1014>A combat shotgun from centuries ago, it remains the top choice for security and self-defense in the oceans of Europa after design optimization.</entitydescription.tsm_m1014>
     <entityname.tsm_lm_minigun>Minigun</entityname.tsm_lm_minigun>
@@ -531,116 +531,116 @@
     <entityname.lm_ammobox>Coalition Ammunition Box</entityname.lm_ammobox>
     <entitydescription.lm_ammobox>Coalition-issued ammo box, can load common Coalition magazines
 [Insert magazine, right-click + left-click to load.]</entitydescription.lm_ammobox>
-    <entityname.tsm_556_45_mgmag>Coalition Light Machine Gun Magazine (5.56×45mm)</entityname.tsm_556_45_mgmag>
-    <entitydescription.tsm_556_45_mgmag>Contains 200 rounds of 5.56×45mm ammunition.</entitydescription.tsm_556_45_mgmag>
-    <entityname.tsm_556_45_mgmag_cj>Coalition Light Machine Gun Armor-Piercing Magazine (5.56×45mm)</entityname.tsm_556_45_mgmag_cj>
-    <entitydescription.tsm_556_45_mgmag_cj>Contains 200 rounds of 5.56×45mm armor-piercing ammunition.</entitydescription.tsm_556_45_mgmag_cj>
-    <entityname.lm_762_51_mgmag>Coalition Squad Machine Gun Magazine (7.62×51mm)</entityname.lm_762_51_mgmag>
-    <entitydescription.lm_762_51_mgmag>Contains 200 rounds of 7.62×51mm ammunition.</entitydescription.lm_762_51_mgmag>
-    <entityname.lm_762_51_mgmag_cj>Coalition Squad Machine Gun Armor-Piercing Magazine (7.62×51mm)</entityname.lm_762_51_mgmag_cj>
-    <entitydescription.lm_762_51_mgmag_cj>Contains 200 rounds of 7.62×51mm armor-piercing ammunition.</entitydescription.lm_762_51_mgmag_cj>
-    <entityname.lm_556_mag>Coalition Standard Magazine (5.56×45mm)</entityname.lm_556_mag>
+    <entityname.tsm_556_45_mgmag>Coalition Light Machine Gun Magazine (5.56*45mm)</entityname.tsm_556_45_mgmag>
+    <entitydescription.tsm_556_45_mgmag>Contains 200 rounds of 5.56x45mm ammunition.</entitydescription.tsm_556_45_mgmag>
+    <entityname.tsm_556_45_mgmag_cj>Coalition Light Machine Gun Armor-Piercing Magazine (5.56*45mm)</entityname.tsm_556_45_mgmag_cj>
+    <entitydescription.tsm_556_45_mgmag_cj>Contains 200 rounds of 5.56x45mm armor-piercing ammunition.</entitydescription.tsm_556_45_mgmag_cj>
+    <entityname.lm_762_51_mgmag>Coalition Squad Machine Gun Magazine (7.62*51mm)</entityname.lm_762_51_mgmag>
+    <entitydescription.lm_762_51_mgmag>Contains 200 rounds of 7.62x51mm ammunition.</entitydescription.lm_762_51_mgmag>
+    <entityname.lm_762_51_mgmag_cj>Coalition Squad Machine Gun Armor-Piercing Magazine (7.62*51mm)</entityname.lm_762_51_mgmag_cj>
+    <entitydescription.lm_762_51_mgmag_cj>Contains 200 rounds of 7.62x51mm armor-piercing ammunition.</entitydescription.lm_762_51_mgmag_cj>
+    <entityname.lm_556_mag>Coalition Standard Magazine (5.56*45mm)</entityname.lm_556_mag>
     <entitydescription.lm_556_mag>Contains a magazine loaded with 33 standard rounds, with a large quantity.</entitydescription.lm_556_mag>
-    <entityname.lm_556cj_mag>Coalition Armor-Piercing Magazine (5.56×45mm)</entityname.lm_556cj_mag>
+    <entityname.lm_556cj_mag>Coalition Armor-Piercing Magazine (5.56*45mm)</entityname.lm_556cj_mag>
     <entitydescription.lm_556cj_mag>Holds 31 armor-piercing rounds that can effectively deal with armored creatures and bulletproof vests, but for some reason, the label on the magazine states it contains 33 rounds? The lower count suggests it’s not advisable to carry too many.</entitydescription.lm_556cj_mag>
-    <entityname.lm_556gb_mag>Coalition High-Explosive Magazine (5.56×45mm)</entityname.lm_556gb_mag>
+    <entityname.lm_556gb_mag>Coalition High-Explosive Magazine (5.56*45mm)</entityname.lm_556gb_mag>
     <entitydescription.lm_556gb_mag>Contains 30 rounds of precious high-explosive ammunition for military use within the Coalition, capable of efficiently neutralizing targets. Limited quantity, not advisable to carry too many at once.</entitydescription.lm_556gb_mag>
     <entityname.lm_65_magazine>Coalition Standard Magazine (6.5mm)</entityname.lm_65_magazine>
-    <entitydescription.lm_65_magazine>Holds 30 rounds of standard 6.5×55mm ammunition with some armor-piercing capability for dealing with armored targets.</entitydescription.lm_65_magazine>
+    <entitydescription.lm_65_magazine>Holds 30 rounds of standard 6.5x55mm ammunition with some armor-piercing capability for dealing with armored targets.</entitydescription.lm_65_magazine>
     <entityname.lm_65kj_magazine>Coalition Hollow Point Magazine (6.5mm)</entityname.lm_65kj_magazine>
     <entitydescription.lm_65kj_magazine>Holds 30 rounds of hollow point ammunition designed to target unarmored foes, causing substantial bleeding upon impact.</entitydescription.lm_65kj_magazine>
-    <entityname.lm_68_51_magazine>Coalition Standard Magazine (6.8×51mm)</entityname.lm_68_51_magazine>
-    <entitydescription.lm_68_51_magazine>Holds 30 rounds of standard 6.8×51mm ammunition.</entitydescription.lm_68_51_magazine>
-    <entityname.lm_68_51cj_magazine>Coalition Armor-Piercing Magazine (6.8×51mm)</entityname.lm_68_51cj_magazine>
-    <entitydescription.lm_68_51cj_magazine>Holds 30 rounds of armor-piercing 6.8×51mm ammunition.</entitydescription.lm_68_51cj_magazine>
-    <entityname.lm_762_51_mag>Coalition Standard Magazine (7.62×51mm)</entityname.lm_762_51_mag>
-    <entitydescription.lm_762_51_mag>Holds 20 rounds of standard 7.62×51mm ammunition.</entitydescription.lm_762_51_mag>
-    <entityname.lm_762_51_ap_mag>Coalition Armor-Piercing Magazine (7.62×51mm)</entityname.lm_762_51_ap_mag>
-    <entitydescription.lm_762_51_ap_mag>Holds 20 rounds of armor-piercing 7.62×51mm ammunition.</entitydescription.lm_762_51_ap_mag>
+    <entityname.lm_68_51_magazine>Coalition Standard Magazine (6.8*51mm)</entityname.lm_68_51_magazine>
+    <entitydescription.lm_68_51_magazine>Holds 30 rounds of standard 6.8x51mm ammunition.</entitydescription.lm_68_51_magazine>
+    <entityname.lm_68_51cj_magazine>Coalition Armor-Piercing Magazine (6.8*51mm)</entityname.lm_68_51cj_magazine>
+    <entitydescription.lm_68_51cj_magazine>Holds 30 rounds of armor-piercing 6.8x51mm ammunition.</entitydescription.lm_68_51cj_magazine>
+    <entityname.lm_762_51_mag>Coalition Standard Magazine (7.62*51mm)</entityname.lm_762_51_mag>
+    <entitydescription.lm_762_51_mag>Holds 20 rounds of standard 7.62x51mm ammunition.</entitydescription.lm_762_51_mag>
+    <entityname.lm_762_51_ap_mag>Coalition Armor-Piercing Magazine (7.62*51mm)</entityname.lm_762_51_ap_mag>
+    <entitydescription.lm_762_51_ap_mag>Holds 20 rounds of armor-piercing 7.62x51mm ammunition.</entitydescription.lm_762_51_ap_mag>
     <entityname.lm_m700_mag>Sniper Rifle Magazine (.338)</entityname.lm_m700_mag>
     <entitydescription.lm_m700_mag>Contains 5 rounds of high-powered ammunition.</entitydescription.lm_m700_mag>
     <entityname.tsm_miniammo>Minigun AmmoBox</entityname.tsm_miniammo>
     <entitydescription.tsm_miniammo>200 rounds of 5.56 caliber ammunition, fire away.</entitydescription.tsm_miniammo>
     <!--反抗军-->
     <entityname.tsm_fkj_an94>Rebel AN94 Assault Rifle</entityname.tsm_fkj_an94>
-    <entitydescription.tsm_fkj_an94>A relic from a once-existing country, inherited by the Separatists and brought to new heights. The Separatists not only increased its caliber to ‖color:150,0,0,255‖7.62×39mm‖color:end‖ but also retained its accuracy. However, it requires extensive training to use it properly. (The weapon's durability getting stuck at 50% after firing is normal, a necessary sacrifice for the recoil mechanism.)</entitydescription.tsm_fkj_an94>
+    <entitydescription.tsm_fkj_an94>A relic from a once-existing country, inherited by the Separatists and brought to new heights. The Separatists not only increased its caliber to ‖color:150,0,0,255‖7.62x39mm‖color:end‖ but also retained its accuracy. However, it requires extensive training to use it properly. (The weapon's durability getting stuck at 50% after firing is normal, a necessary sacrifice for the recoil mechanism.)</entitydescription.tsm_fkj_an94>
     <entityname.tsm_fkj_ak74>Rebel AK74 Automatic Rifle</entityname.tsm_fkj_ak74>
-    <entitydescription.tsm_fkj_ak74>Can be properly used after only half an hour of learning, the perfect weapon for a seven-year-old. Fires ‖color:150,0,0,255‖5.45×39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak74>
+    <entitydescription.tsm_fkj_ak74>Can be properly used after only half an hour of learning, the perfect weapon for a seven-year-old. Fires ‖color:150,0,0,255‖5.45x39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak74>
     <entityname.tsm_fkj_groza>Rebel OTS Groza-1 “Lightning” Bullpup Assault Rifle</entityname.tsm_fkj_groza>
-    <entitydescription.tsm_fkj_groza>A short bullpup rifle modified from the AK74U, using a ‖color:150,0,0,255‖7.62×39mm‖color:end‖ caliber magazine. Despite its powerful large caliber and impressive fire rate, its poor ergonomics and uncontrollable recoil quickly led to it being phased out in submarine warfare, but its low cost and portability made it popular among pirates and Separatists. </entitydescription.tsm_fkj_groza>
+    <entitydescription.tsm_fkj_groza>A short bullpup rifle modified from the AK74U, using a ‖color:150,0,0,255‖7.62x39mm‖color:end‖ caliber magazine. Despite its powerful large caliber and impressive fire rate, its poor ergonomics and uncontrollable recoil quickly led to it being phased out in submarine warfare, but its low cost and portability made it popular among pirates and Separatists. </entitydescription.tsm_fkj_groza>
     <entityname.tsm_fkj_ak103>Rebel AK103 Assault Rifle</entityname.tsm_fkj_ak103>
-    <entitydescription.tsm_fkj_ak103>An excellent weapon, perfect for resisting Union tyranny. Many times, all you need to do is grab the gun and unload on the Union. Fires ‖color:150,0,0,255‖7.62×39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak103>
+    <entitydescription.tsm_fkj_ak103>An excellent weapon, perfect for resisting Union tyranny. Many times, all you need to do is grab the gun and unload on the Union. Fires ‖color:150,0,0,255‖7.62x39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak103>
     <entityname.tsm_fkj_ak103_l>AK103 Assault Rifle (Lightweight Stock)</entityname.tsm_fkj_ak103_l>
-    <entitydescription.tsm_fkj_ak103_l>Lightened and improved firing rate, making it better suited for submarine combat. Fires ‖color:150,0,0,255‖7.62×39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak103_l>
+    <entitydescription.tsm_fkj_ak103_l>Lightened and improved firing rate, making it better suited for submarine combat. Fires ‖color:150,0,0,255‖7.62x39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak103_l>
     <entityname.tsm_fkj_ak105>Rebel AK105 Assault Rifle</entityname.tsm_fkj_ak105>
-    <entitydescription.tsm_fkj_ak105>The shorter barrel makes it more suitable for use in confined spaces, ideal for submariners during close-quarters retaliation or dock raids. Fires ‖color:150,0,0,255‖5.45×39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak105>
+    <entitydescription.tsm_fkj_ak105>The shorter barrel makes it more suitable for use in confined spaces, ideal for submariners during close-quarters retaliation or dock raids. Fires ‖color:150,0,0,255‖5.45x39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak105>
     <entityname.tsm_fkj_ak105_l>AK105 Assault Rifle (Lightweight Stock)</entityname.tsm_fkj_ak105_l>
-    <entitydescription.tsm_fkj_ak105_l>A lighter AK-105, with no other improvements. Since the stock has been replaced, remember to bring firearm cleaning tools. Fires ‖color:150,0,0,255‖5.45×39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak105_l>
+    <entitydescription.tsm_fkj_ak105_l>A lighter AK-105, with no other improvements. Since the stock has been replaced, remember to bring firearm cleaning tools. Fires ‖color:150,0,0,255‖5.45x39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak105_l>
     <entityname.tsm_fkj_sks>Simonov Rifle</entityname.tsm_fkj_sks>
-    <entitydescription.tsm_fkj_sks>A former weapon of the socialist bloc, but modified by the petty bourgeoisie. While it’s more user-friendly, something just feels off? Uses ‖color:150,0,0,255‖7.62×39mm‖color:end‖ magazines. </entitydescription.tsm_fkj_sks>
+    <entitydescription.tsm_fkj_sks>A former weapon of the socialist bloc, but modified by the petty bourgeoisie. While it’s more user-friendly, something just feels off? Uses ‖color:150,0,0,255‖7.62x39mm‖color:end‖ magazines. </entitydescription.tsm_fkj_sks>
     <entityname.tsm_fkj_ak12>Rebel AK12 Assault Rifle</entityname.tsm_fkj_ak12>
-    <entitydescription.tsm_fkj_ak12>A "new" weapon with a century of history, modified by the Separatists with an adaptive barrel and chamber to fire both ‖color:150,0,0,255‖5.45×39mm‖color:end‖ and ‖color:150,0,0,255‖7.62×39mm‖color:end‖ calibers. </entitydescription.tsm_fkj_ak12>
+    <entitydescription.tsm_fkj_ak12>A "new" weapon with a century of history, modified by the Separatists with an adaptive barrel and chamber to fire both ‖color:150,0,0,255‖5.45x39mm‖color:end‖ and ‖color:150,0,0,255‖7.62x39mm‖color:end‖ calibers. </entitydescription.tsm_fkj_ak12>
     <entityname.tsm_fkj_aa12>Rebel AA12 Automatic Shotgun</entityname.tsm_fkj_aa12>
     <entitydescription.tsm_fkj_aa12>A powerhouse in the cabin, a meat grinder in close quarters. Just hold down the trigger and nothing, man or beast, in front of you will survive. Uses ‖color:150,0,0,255‖Rebel Shotgun Drum‖color:end‖ for ammunition. </entitydescription.tsm_fkj_aa12>
     <entityname.tsm_fkj_svd>Rebel SVD Sniper Rifle</entityname.tsm_fkj_svd>
     <entitydescription.tsm_fkj_svd>A semi-automatic precision rifle that allows a trained sniper to quickly pick off barricaded enemies from an elevated position. </entitydescription.tsm_fkj_svd>
     <entityname.tsm_fkj_jts>Rebel General-Purpose Light Machine Gun</entityname.tsm_fkj_jts>
-    <entitydescription.tsm_fkj_jts>A powerful weapon that allows rebel fighters to suppress Union dogs, pinning them down, before ripping them and their cover to shreds. The recoil from continuous fire can even push the shooter backward, so it's advised to be trained before using this weapon. Uses ‖color:150,0,0,255‖Rebel General-Purpose Machine Gun Magazine (5.45×39mm)‖color:end‖. </entitydescription.tsm_fkj_jts>
+    <entitydescription.tsm_fkj_jts>A powerful weapon that allows rebel fighters to suppress Union dogs, pinning them down, before ripping them and their cover to shreds. The recoil from continuous fire can even push the shooter backward, so it's advised to be trained before using this weapon. Uses ‖color:150,0,0,255‖Rebel General-Purpose Machine Gun Magazine (5.45x39mm)‖color:end‖. </entitydescription.tsm_fkj_jts>
     <entityname.tsm_fkj_pkp>Rebel General-Purpose Machine Gun (PKP)</entityname.tsm_fkj_pkp>
-    <entitydescription.tsm_fkj_pkp>A modernized improvement of what's considered the world's best general-purpose machine gun, still formidable even on Europa. The name "Pecheneg" comes from the Pechenegs, a belligerent Western Turkic branch from Earth's steppes. Effective within range against light structures and basic cover. Now modified by the Separatists to use ‖color:150,0,0,255‖Rebel Machine Gun Magazine (7.62×51mm)‖color:end‖. </entitydescription.tsm_fkj_pkp>
+    <entitydescription.tsm_fkj_pkp>A modernized improvement of what's considered the world's best general-purpose machine gun, still formidable even on Europa. The name "Pecheneg" comes from the Pechenegs, a belligerent Western Turkic branch from Earth's steppes. Effective within range against light structures and basic cover. Now modified by the Separatists to use ‖color:150,0,0,255‖Rebel Machine Gun Magazine (7.62x51mm)‖color:end‖. </entitydescription.tsm_fkj_pkp>
     <entityname.tsm_fkj_jq430>Rebel JQ430 Assault Rifle</entityname.tsm_fkj_jq430>
-    <entitydescription.tsm_fkj_jq430>Features a faux-wood stock and foregrip, letting users feel the breath of Earth, while its grenade launcher can give enemies a taste of Europa's shockwaves (Note: Do not use both the magazine and grenade at the same time, as it may cause a barrel explosion). However, the bayonet at the muzzle is so difficult to use that almost no one can wield it. Fires ‖color:150,0,0,255‖7.62×39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_jq430>
+    <entitydescription.tsm_fkj_jq430>Features a faux-wood stock and foregrip, letting users feel the breath of Earth, while its grenade launcher can give enemies a taste of Europa's shockwaves (Note: Do not use both the magazine and grenade at the same time, as it may cause a barrel explosion). However, the bayonet at the muzzle is so difficult to use that almost no one can wield it. Fires ‖color:150,0,0,255‖7.62x39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_jq430>
     <entityname.tsm_fkj_ak12_c>AK12 Assault Rifle (Tactical Version)</entityname.tsm_fkj_ak12_c>
-    <entitydescription.tsm_fkj_ak12_c>Equipped with a foregrip for better control. Can also fire both ‖color:150,0,0,255‖5.45×39mm‖color:end‖ and ‖color:150,0,0,255‖7.62×39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak12_c>
+    <entitydescription.tsm_fkj_ak12_c>Equipped with a foregrip for better control. Can also fire both ‖color:150,0,0,255‖5.45x39mm‖color:end‖ and ‖color:150,0,0,255‖7.62x39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak12_c>
     <entityname.tsm_fkj_ak105_c>AK105 Assault Rifle (Tactical Version)</entityname.tsm_fkj_ak105_c>
-    <entitydescription.tsm_fkj_ak105_c>Equipped with an under-barrel grenade launcher, capable of firing grenades without the need for a separate launcher (Note: Do not use both the magazine and grenade at the same time, as it may cause a barrel explosion). Fires ‖color:150,0,0,255‖5.45×39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak105_c>
+    <entitydescription.tsm_fkj_ak105_c>Equipped with an under-barrel grenade launcher, capable of firing grenades without the need for a separate launcher (Note: Do not use both the magazine and grenade at the same time, as it may cause a barrel explosion). Fires ‖color:150,0,0,255‖5.45x39mm‖color:end‖ rounds. </entitydescription.tsm_fkj_ak105_c>
     <entityname.tsm_fkj_m2>M2 Browning Heavy Machine Gun (Portable Version)</entityname.tsm_fkj_m2>
     <entitydescription.tsm_fkj_m2>Hey! it's a machinegun!\nUses ‖color:150,0,0,255‖Rebel Heavy Machine Gun Magazine‖color:end‖. </entitydescription.tsm_fkj_m2>
     <entityname.tsm_fkj_m2_eagle>M2 Browning Heavy Machine Gun (White Eagle Paint)</entityname.tsm_fkj_m2_eagle>
     <entitydescription.tsm_fkj_m2_eagle>To the brothers sharing the same boat</entitydescription.tsm_fkj_m2_eagle>
     <entityname.tsm_honeybadger>Rebel Honey Badger .308 Compact Assault Rifle</entityname.tsm_honeybadger>
-    <entitydescription.tsm_honeybadger>It was proven that while submachine guns have good mobility in close-quarters submarine combat where body armor is prevalent, they lacked sufficient stopping power. After considering magazine compatibility, a compact assault rifle using ‖color:150,0,0,255‖7.62×39mm‖color:end‖ caliber rounds was created. It features an integrated suppressor, short barrel, and large caliber, combining the advantages of both submachine guns and rifles.</entitydescription.tsm_honeybadger>
+    <entitydescription.tsm_honeybadger>It was proven that while submachine guns have good mobility in close-quarters submarine combat where body armor is prevalent, they lacked sufficient stopping power. After considering magazine compatibility, a compact assault rifle using ‖color:150,0,0,255‖7.62x39mm‖color:end‖ caliber rounds was created. It features an integrated suppressor, short barrel, and large caliber, combining the advantages of both submachine guns and rifles.</entitydescription.tsm_honeybadger>
     <entityname.tsm_fkj_rpk16>Rebel RPK-16 Light Machine Gun</entityname.tsm_fkj_rpk16>
-    <entitydescription.tsm_fkj_rpk16>Not only does it continue the excellent tradition of the AK family, but it has also undergone comprehensive modernization. Its lightweight and high firepower have made it extremely effective in submarine warfare, using ‖color:150,0,0,255‖5.45×39mm‖color:end‖ Rebel Magazine or ‖color:150,0,0,255‖RPK Drum‖color:end‖.</entitydescription.tsm_fkj_rpk16>
+    <entitydescription.tsm_fkj_rpk16>Not only does it continue the excellent tradition of the AK family, but it has also undergone comprehensive modernization. Its lightweight and high firepower have made it extremely effective in submarine warfare, using ‖color:150,0,0,255‖5.45x39mm‖color:end‖ Rebel Magazine or ‖color:150,0,0,255‖RPK Drum‖color:end‖.</entitydescription.tsm_fkj_rpk16>
     <entityname.tsm_fkj_ace52>Rebel Galil ACE52 Battle Rifle</entityname.tsm_fkj_ace52>
-    <entitydescription.tsm_fkj_ace52>As the AK series rifles became more common in the separatist forces, using mid-powered rounds, the full-powered Galil firing ‖color:150,0,0,255‖7.62×51mm‖color:end‖ still held its place. When the AK can't pierce enemy armor, the ACE52 might be the better choice.</entitydescription.tsm_fkj_ace52>
+    <entitydescription.tsm_fkj_ace52>As the AK series rifles became more common in the separatist forces, using mid-powered rounds, the full-powered Galil firing ‖color:150,0,0,255‖7.62x51mm‖color:end‖ still held its place. When the AK can't pierce enemy armor, the ACE52 might be the better choice.</entitydescription.tsm_fkj_ace52>
     <entityname.tsm_fkj_g3a4>Rebel G3A4 Battle Rifle</entityname.tsm_fkj_g3a4>
-    <entitydescription.tsm_fkj_g3a4>Uses a ‖color:150,0,0,255‖7.62×51mm‖color:end‖ caliber magazine. The retractable stock reduces the weapon's weight, and though it has a slower rate of fire, what fighter could resist the super cool charging handle of the G3?</entitydescription.tsm_fkj_g3a4>
+    <entitydescription.tsm_fkj_g3a4>Uses a ‖color:150,0,0,255‖7.62x51mm‖color:end‖ caliber magazine. The retractable stock reduces the weapon's weight, and though it has a slower rate of fire, what fighter could resist the super cool charging handle of the G3?</entitydescription.tsm_fkj_g3a4>
     <entityname.tsm_fkj_fal>Rebel FAL “Pharaoh” Battle Rifle</entityname.tsm_fkj_fal>
-    <entitydescription.tsm_fkj_fal>Uses a ‖color:150,0,0,255‖7.62×51mm‖color:end‖ caliber magazine. Known as the "Right Arm of the Free World," it is praised as the best full-power rifle platform. Low-cost, high burst power, making it beloved by many underworld heroes.</entitydescription.tsm_fkj_fal>
+    <entitydescription.tsm_fkj_fal>Uses a ‖color:150,0,0,255‖7.62x51mm‖color:end‖ caliber magazine. Known as the "Right Arm of the Free World," it is praised as the best full-power rifle platform. Low-cost, high burst power, making it beloved by many underworld heroes.</entitydescription.tsm_fkj_fal>
     <entityname.tsm_fkj_sg553>Rebel SG553-R “Raider” Rifle</entityname.tsm_fkj_sg553>
-    <entitydescription.tsm_fkj_sg553>Uses a ‖color:150,0,0,255‖7.62×39mm‖color:end‖ caliber magazine, modified from the now outdated small-caliber SG550, making it more suitable for conquest and raids.</entitydescription.tsm_fkj_sg553>
+    <entitydescription.tsm_fkj_sg553>Uses a ‖color:150,0,0,255‖7.62x39mm‖color:end‖ caliber magazine, modified from the now outdated small-caliber SG550, making it more suitable for conquest and raids.</entitydescription.tsm_fkj_sg553>
     <entityname.fkj_ammobox>Rebel Ammo Box</entityname.fkj_ammobox>
     <entitydescription.fkj_ammobox>Ammunition box with a semi-automatic reloading mechanism, containing ammunition used by Separatist standard-issue weapons.
 「Insert an empty magazine, left-click + right-click to reload the magazine.」
     </entitydescription.fkj_ammobox>
-    <entityname.fkj_545_mag>Rebel Standard Magazine (5.45×39mm)</entityname.fkj_545_mag>
+    <entityname.fkj_545_mag>Rebel Standard Magazine (5.45*39mm)</entityname.fkj_545_mag>
     <entitydescription.fkj_545_mag>A 35-round extended magazine for 5.45 ammo, mass-produced, and users are accustomed to carrying extra magazines.</entitydescription.fkj_545_mag>
-    <entityname.fkj_545_krmag>Rebel Extended Magazine (5.45×39mm)</entityname.fkj_545_krmag>
+    <entityname.fkj_545_krmag>Rebel Extended Magazine (5.45*39mm)</entityname.fkj_545_krmag>
     <entitydescription.fkj_545_krmag>A drum magazine holding 70 rounds of 5.45 ammo, offering excellent sustainability.</entitydescription.fkj_545_krmag>
-    <entityname.fkj_545cj_mag>Rebel Armor-Piercing Magazine (5.45×39mm)</entityname.fkj_545cj_mag>
+    <entityname.fkj_545cj_mag>Rebel Armor-Piercing Magazine (5.45*39mm)</entityname.fkj_545cj_mag>
     <entitydescription.fkj_545cj_mag>A 33-round magazine loaded with 5.45 armor-piercing rounds, effective against body armor and biological shells.</entitydescription.fkj_545cj_mag>
-    <entityname.fkj_545hz_mag>Rebel Explosive-Tip Magazine (5.45×39mm)</entityname.fkj_545hz_mag>
+    <entityname.fkj_545hz_mag>Rebel Explosive-Tip Magazine (5.45*39mm)</entityname.fkj_545hz_mag>
     <entitydescription.fkj_545hz_mag>Loaded with 30 rounds of new high-explosive bullets, though somewhat rare.</entitydescription.fkj_545hz_mag>
-    <entityname.fkj_762_mag>Rebel Standard Magazine (7.62×39mm)</entityname.fkj_762_mag>
+    <entityname.fkj_762_mag>Rebel Standard Magazine (7.62*39mm)</entityname.fkj_762_mag>
     <entitydescription.fkj_762_mag>A 30-round standard magazine for 7.62 ammo.</entitydescription.fkj_762_mag>
-    <entityname.fkj_762_krmag>Rebel Extended Magazine (7.62×39mm)</entityname.fkj_762_krmag>
+    <entityname.fkj_762_krmag>Rebel Extended Magazine (7.62*39mm)</entityname.fkj_762_krmag>
     <entitydescription.fkj_762_krmag>A drum magazine holding 60 rounds of 7.62 ammo, capable of giving an assault rifle machine-gun-like firepower.</entitydescription.fkj_762_krmag>
-    <entityname.fkj_762cj_mag>Rebel Armor-Piercing Magazine (7.62×39mm)</entityname.fkj_762cj_mag>
+    <entityname.fkj_762cj_mag>Rebel Armor-Piercing Magazine (7.62*39mm)</entityname.fkj_762cj_mag>
     <entitydescription.fkj_762cj_mag>The standard magazine's regular ammo has been replaced with 30 rounds of 7.62 armor-piercing rounds. You won't need to worry about piercing body armor anymore!</entitydescription.fkj_762cj_mag>
-    <entityname.fkj_762hz_mag>Rebel Explosive-Tip Magazine (7.62×39mm)</entityname.fkj_762hz_mag>
-    <entitydescription.fkj_762hz_mag>Loaded with 30 rounds of 7.62×39mm caliber explosive bullets.</entitydescription.fkj_762hz_mag>
-    <entityname.fkj_762_51_mag>Rebel Standard Magazine (7.62×51mm)</entityname.fkj_762_51_mag>
-    <entitydescription.fkj_762_51_mag>Holds 20 rounds of 7.62×51mm caliber ammo.</entitydescription.fkj_762_51_mag>
-    <entityname.fkj_762_51_ap_mag>Rebel Armor-Piercing Magazine (7.62×51mm)</entityname.fkj_762_51_ap_mag>
-    <entitydescription.fkj_762_51_ap_mag>Holds 20 rounds of 7.62×51mm caliber armor-piercing rounds.</entitydescription.fkj_762_51_ap_mag>
-    <entityname.fkj_jts_mag>Rebel General-Purpose Machine Gun Magazine (5.45×39mm)</entityname.fkj_jts_mag>
-    <entitydescription.fkj_jts_mag>A box holding a 200-round belt of 5.45×39mm ammo, allowing the shooter to waste as much ammo as they like.</entitydescription.fkj_jts_mag>
-    <entityname.fkj_jts_cjmag>Rebel General-Purpose Machine Gun Armor-Piercing Magazine (5.45×39mm)</entityname.fkj_jts_cjmag>
-    <entitydescription.fkj_jts_cjmag>A box holding a 200-round belt of 5.45×39mm armor-piercing rounds.</entitydescription.fkj_jts_cjmag>
-    <entityname.fkj_pkp_mag>Rebel General-Purpose Machine Gun Magazine (7.62×51mm)</entityname.fkj_pkp_mag>
+    <entityname.fkj_762hz_mag>Rebel Explosive-Tip Magazine (7.62*39mm)</entityname.fkj_762hz_mag>
+    <entitydescription.fkj_762hz_mag>Loaded with 30 rounds of 7.62x39mm caliber explosive bullets.</entitydescription.fkj_762hz_mag>
+    <entityname.fkj_762_51_mag>Rebel Standard Magazine (7.62*51mm)</entityname.fkj_762_51_mag>
+    <entitydescription.fkj_762_51_mag>Holds 20 rounds of 7.62x51mm caliber ammo.</entitydescription.fkj_762_51_mag>
+    <entityname.fkj_762_51_ap_mag>Rebel Armor-Piercing Magazine (7.62*51mm)</entityname.fkj_762_51_ap_mag>
+    <entitydescription.fkj_762_51_ap_mag>Holds 20 rounds of 7.62x51mm caliber armor-piercing rounds.</entitydescription.fkj_762_51_ap_mag>
+    <entityname.fkj_jts_mag>Rebel General-Purpose Machine Gun Magazine (5.45*39mm)</entityname.fkj_jts_mag>
+    <entitydescription.fkj_jts_mag>A box holding a 200-round belt of 5.45x39mm ammo, allowing the shooter to waste as much ammo as they like.</entitydescription.fkj_jts_mag>
+    <entityname.fkj_jts_cjmag>Rebel General-Purpose Machine Gun Armor-Piercing Magazine (5.45*39mm)</entityname.fkj_jts_cjmag>
+    <entitydescription.fkj_jts_cjmag>A box holding a 200-round belt of 5.45x39mm armor-piercing rounds.</entitydescription.fkj_jts_cjmag>
+    <entityname.fkj_pkp_mag>Rebel General-Purpose Machine Gun Magazine (7.62*51mm)</entityname.fkj_pkp_mag>
     <entitydescription.fkj_pkp_mag>A box holding a 100-round belt of 7.62 ammo.</entitydescription.fkj_pkp_mag>
-    <entityname.fkj_pkp_mag_cj>Rebel General-Purpose Machine Gun Armor-Piercing Magazine (7.62×51mm)</entityname.fkj_pkp_mag_cj>
+    <entityname.fkj_pkp_mag_cj>Rebel General-Purpose Machine Gun Armor-Piercing Magazine (7.62*51mm)</entityname.fkj_pkp_mag_cj>
     <entitydescription.fkj_pkp_mag_cj>A box holding a 100-round belt of 7.62 armor-piercing rounds.</entitydescription.fkj_pkp_mag_cj>
     <entityname.fkj_m2_mag>Rebel Heavy Machine Gun Magazine</entityname.fkj_m2_mag>
     <entitydescription.fkj_m2_mag>A box of 150 rounds mounted on a heavy machine gun, providing prolonged fire. Too large to be portable, it's recommended to have an assistant gunner carry it.</entitydescription.fkj_m2_mag>
@@ -649,7 +649,7 @@
     <entityname.fkj_aa12_mag>Rebel Shotgun Drum</entityname.fkj_aa12_mag>
     <entitydescription.fkj_aa12_mag>A drum holding 15 shotgun shells, providing the AA-12 with extended sustainability.</entitydescription.fkj_aa12_mag>
     <entityname.fkj_rpk_mag>RPK Drum</entityname.fkj_rpk_mag>
-    <entitydescription.fkj_rpk_mag>A drum holding 95 rounds of 5.45×39mm caliber ammo, offering the RPK long-term sustainability.</entitydescription.fkj_rpk_mag>
+    <entitydescription.fkj_rpk_mag>A drum holding 95 rounds of 5.45x39mm caliber ammo, offering the RPK long-term sustainability.</entitydescription.fkj_rpk_mag>
     <!--通用-->
     <entityname.tsm_m32_launcher>Revolving Grenade Launcher</entityname.tsm_m32_launcher>
     <entitydescription.tsm_m32_launcher>A revolving grenade launcher capable of firing various types of ammunition. Whether for suppressing riots and uprisings or resisting packs of Mudraptors, it's a highly efficient, ferocious weapon.</entitydescription.tsm_m32_launcher>
@@ -664,7 +664,7 @@
     <entityname.tsm_r_heat>RPG Armor-Piercing Grenade</entityname.tsm_r_heat>
     <entitydescription.tsm_r_heat>A classic model, no further explanation needed.</entitydescription.tsm_r_heat>
     <entityname.tsm_b_rocket>Bazooka Rocket</entityname.tsm_b_rocket>
-    <entitydescription.tsm_b_rocket>An antique ×2mm. Modern craftsmanship still can't improve this relic much, but its size gives it better portability.</entitydescription.tsm_b_rocket>
+    <entitydescription.tsm_b_rocket>An antique x2mm. Modern craftsmanship still can't improve this relic much, but its size gives it better portability.</entitydescription.tsm_b_rocket>
     <entityname.tsm_grenade_heat>High-Explosive Anti-Tank Grenade</entityname.tsm_grenade_heat>
     <entitydescription.tsm_grenade_heat>A fast-flying grenade? Crude but accurate. It works just like that.</entitydescription.tsm_grenade_heat>
     <entityname.tsm_grenade_fire>Incendiary Grenade</entityname.tsm_grenade_fire>
@@ -674,7 +674,7 @@
     <entityname.tsm_05>Type 05 Suppressed Submachine Gun</entityname.tsm_05>
     <entitydescription.tsm_05>Uses ‖color:150,0,0,255‖5.8mm Submachine Gun Magazine‖color:end‖</entitydescription.tsm_05>
     <entityname.tsm_p90>P90 Submachine Gun </entityname.tsm_p90>
-    <entitydescription.tsm_p90>This gun, despite being a submachine gun, boasts excellent penetration capability, maintaining decent penetration power against high-level body armor within effective range. It is dubbed the “Body Armor Puncher” and utilizes a simple and reliable operational mechanism while having good shooting accuracy. In the cramped environments of submarines, its short bullpup design and penetration power quickly gained popularity among various factions on Europa, using ‖color:150,0,0,255‖5.7×28mm Rounds‖color:end‖</entitydescription.tsm_p90>
+    <entitydescription.tsm_p90>This gun, despite being a submachine gun, boasts excellent penetration capability, maintaining decent penetration power against high-level body armor within effective range. It is dubbed the “Body Armor Puncher” and utilizes a simple and reliable operational mechanism while having good shooting accuracy. In the cramped environments of submarines, its short bullpup design and penetration power quickly gained popularity among various factions on Europa, using ‖color:150,0,0,255‖5.7x28mm Rounds‖color:end‖</entitydescription.tsm_p90>
     <entityname.tsm_92_pistols>Type 92 Lightweight Standard Automatic Pistol</entityname.tsm_92_pistols>
     <entitydescription.tsm_92_pistols>An excellent individual defense weapon with low maintenance costs, suitable for engaging unarmored or lightly armored infantry targets, using ‖color:150,0,0,255‖9mm Pistol Magazine‖color:end‖</entitydescription.tsm_92_pistols>
     <entityname.tsm_fn509_pistols>FN 509 Tactical Pistol</entityname.tsm_fn509_pistols>
@@ -690,11 +690,11 @@
     <entityname.tsm_cslr4>CS LR4 Sniper Rifle</entityname.tsm_cslr4>
     <entitydescription.tsm_cslr4>The CS/LR4 model ‖color:150,0,0,255‖7.62mm‖color:end‖ high-precision sniper rifle features a bullpup structure, a floating barrel design, a rotating bolt action, and magazine feeding. The rifle consists of a body, stock/handguard, action, feeding device, and bipod. It also includes an 8x-32x white light scope, night vision enhancement device, laser rangefinder/ballistic computer, maintenance tools, spare magazines, and other accessories. The complete system is priced at 260,000 excluding ammunition. Uses ‖color:150,0,0,255‖7.62mm Sniper Rifle Magazine‖color:end‖</entitydescription.tsm_cslr4>
     <entityname.tsm_qbu202>QBU-202 High-Precision Sniper Rifle</entityname.tsm_qbu202>
-    <entitydescription.tsm_qbu202>The QBU202 model 8.6mm high-precision sniper rifle's barrel is manufactured through cold hammer forging, giving it a very high accuracy lifespan. It employs magazine feeding and uses ‖color:150,0,0,255‖8.6×70mm‖color:end‖ sniper rifle magazine.</entitydescription.tsm_qbu202>
+    <entitydescription.tsm_qbu202>The QBU202 model 8.6mm high-precision sniper rifle's barrel is manufactured through cold hammer forging, giving it a very high accuracy lifespan. It employs magazine feeding and uses ‖color:150,0,0,255‖8.6x70mm‖color:end‖ sniper rifle magazine.</entitydescription.tsm_qbu202>
     <entityname.tsm_amr2>AMR-2 Heavy Sniper Rifle</entityname.tsm_amr2>
-    <entitydescription.tsm_amr2>The AMR-2 ‖color:150,0,0,255‖12.7×99mm‖color:end‖ non-automatic sniper rifle is an anti-material weapon used by infantry snipers to engage high-value targets at long distances, including individual personnel and important equipment. It allows for precise strikes and effective destruction. This model features a heavy barrel, and its non-automatic structure minimizes the number of components that may vibrate at the moment of firing, ensuring shooting accuracy. Uses ‖color:150,0,0,255‖12.7mm Sniper Rifle Magazine‖color:end‖</entitydescription.tsm_amr2>
+    <entitydescription.tsm_amr2>The AMR-2 ‖color:150,0,0,255‖12.7x99mm‖color:end‖ non-automatic sniper rifle is an anti-material weapon used by infantry snipers to engage high-value targets at long distances, including individual personnel and important equipment. It allows for precise strikes and effective destruction. This model features a heavy barrel, and its non-automatic structure minimizes the number of components that may vibrate at the moment of firing, ensuring shooting accuracy. Uses ‖color:150,0,0,255‖12.7mm Sniper Rifle Magazine‖color:end‖</entitydescription.tsm_amr2>
     <entityname.tsm_m99>M99 Anti-Material Sniper Rifle</entityname.tsm_m99>
-    <entitydescription.tsm_m99>As the war intensifies, soldiers' protection levels have been rising, making existing sniper rifles seem less effective in range and power. The active development of new ‖color:150,0,0,255‖12.7×99mm‖color:end‖ large-caliber sniper rifles has become a new battlefield for military forces. Consequently, light weapons researchers have vigorously pursued the development of semi-automatic large-caliber sniper rifles, leading to the emergence of the M99, which carries the designers' efforts and pride into Europa.</entitydescription.tsm_m99>
+    <entitydescription.tsm_m99>As the war intensifies, soldiers' protection levels have been rising, making existing sniper rifles seem less effective in range and power. The active development of new ‖color:150,0,0,255‖12.7x99mm‖color:end‖ large-caliber sniper rifles has become a new battlefield for military forces. Consequently, light weapons researchers have vigorously pursued the development of semi-automatic large-caliber sniper rifles, leading to the emergence of the M99, which carries the designers' efforts and pride into Europa.</entitydescription.tsm_m99>
     <entityname.tsm_mg42>MG42 General Purpose Machine Gun</entityname.tsm_mg42>
     <entitydescription.tsm_mg42>A heavy machine gun banned from production under the Europa Convention, its terrifying rate of fire has earned it the nickname "Dictator's Chainsaw" since Earth. Uses ‖color:150,0,0,255‖7.92 MG42 Drum‖color:end‖, with a frenzied muzzle velocity and penetration power rendering any enemy cover laughable; the only downside is its poor endurance.</entitydescription.tsm_mg42>
     <entityname.tsm_56>Type 56 Submachine Gun</entityname.tsm_56>
@@ -711,8 +711,8 @@
     <entitydescription.tsm_9_smgmag_cj>Holds 30 rounds of 9mm armor-piercing rounds.</entitydescription.tsm_9_smgmag_cj>
     <entityname.tsm_58_smgmag>Submachine Gun Magazine (5.8mm)</entityname.tsm_58_smgmag>
     <entitydescription.tsm_58_smgmag>Holds 50 rounds of 5.8mm ammunition.</entitydescription.tsm_58_smgmag>
-    <entityname.tsm_57_smgmag>Submachine Gun Magazine (5.7×28mm)</entityname.tsm_57_smgmag>
-    <entitydescription.tsm_57_smgmag>A heavy magazine capable of holding 50 rounds, 5.7×28mm ammunition can easily penetrate level three, four, and even five protective vests.</entitydescription.tsm_57_smgmag>
+    <entityname.tsm_57_smgmag>Submachine Gun Magazine (5.7*28mm)</entityname.tsm_57_smgmag>
+    <entitydescription.tsm_57_smgmag>A heavy magazine capable of holding 50 rounds, 5.7x28mm ammunition can easily penetrate level three, four, and even five protective vests.</entitydescription.tsm_57_smgmag>
     <entityname.tsm_9_mag>Pistol Magazine (9mm)</entityname.tsm_9_mag>
     <entitydescription.tsm_9_mag>Holds 18 rounds of 9mm pistol ammunition.</entitydescription.tsm_9_mag>
     <entityname.tsm_9_krmag>Pistol Extended Magazine (9mm)</entityname.tsm_9_krmag>
@@ -725,13 +725,13 @@
     <entitydescription.tsm_127_mag>Holds 7 rounds of high-powered pistol ammunition; due to its large size, the carrying quantity will be affected.</entitydescription.tsm_127_mag>
     <entityname.tsm_58ammo_mag>Sniper Rifle Magazine (5.8mm)</entityname.tsm_58ammo_mag>
     <entitydescription.tsm_58ammo_mag>Holds 10 rounds of 5.8mm ammunition.</entitydescription.tsm_58ammo_mag>
-    <entityname.tsm_762ammo_mag>Sniper Rifle Magazine (7.62×51mm)</entityname.tsm_762ammo_mag>
-    <entitydescription.tsm_762ammo_mag>Holds 10 rounds of 7.62×51mm ammunition.</entitydescription.tsm_762ammo_mag>
-    <entityname.tsm_86_mag>Sniper Rifle Magazine (8.6×70mm)</entityname.tsm_86_mag>
-    <entitydescription.tsm_86_mag>Holds 8 rounds of 8.6×70mm ammunition.</entitydescription.tsm_86_mag>
-    <entityname.tsm_127ammo_mag>Sniper Rifle Magazine (12.7×99mm)</entityname.tsm_127ammo_mag>
-    <entitydescription.tsm_127ammo_mag>Holds 5 rounds of 12.7×99mm ammunition.</entitydescription.tsm_127ammo_mag>
-    <entityname.tsm_mg42_mag>Drum (7.92×57mm)</entityname.tsm_mg42_mag>
+    <entityname.tsm_762ammo_mag>Sniper Rifle Magazine (7.62*51mm)</entityname.tsm_762ammo_mag>
+    <entitydescription.tsm_762ammo_mag>Holds 10 rounds of 7.62x51mm ammunition.</entitydescription.tsm_762ammo_mag>
+    <entityname.tsm_86_mag>Sniper Rifle Magazine (8.6*70mm)</entityname.tsm_86_mag>
+    <entitydescription.tsm_86_mag>Holds 8 rounds of 8.6x70mm ammunition.</entitydescription.tsm_86_mag>
+    <entityname.tsm_127ammo_mag>Sniper Rifle Magazine (12.7*99mm)</entityname.tsm_127ammo_mag>
+    <entitydescription.tsm_127ammo_mag>Holds 5 rounds of 12.7x99mm ammunition.</entitydescription.tsm_127ammo_mag>
+    <entityname.tsm_mg42_mag>Drum (7.92*57mm)</entityname.tsm_mg42_mag>
     <entitydescription.tsm_mg42_mag>Holds 75 rounds of large-caliber ammunition.</entitydescription.tsm_mg42_mag>
     <entityname.tsm_stock_pistols>Short Stock Buttstock</entityname.tsm_stock_pistols>
     <entitydescription.tsm_stock_pistols>Exclusively for pistol use.</entitydescription.tsm_stock_pistols>
@@ -803,7 +803,7 @@
     <npctitle.beowulf_breaker>Beowulf Squad - Breacher</npctitle.beowulf_breaker>
     <npctitle.beowulf_fire>Beowulf Squad - Heavy Gunner</npctitle.beowulf_fire>
     <!--占领军-->
-    <npctitle.occupation_leader>Occupation Force - Tactical Knife</npctitle.occupation_leader>
+    <npctitle.occupation_leader>Occupation Force - Tactical Blade</npctitle.occupation_leader>
     <npctitle.occupation_elite>Occupation Force - Elite</npctitle.occupation_elite>
     <npctitle.occupation_elite_p>Occupation Force - Elite</npctitle.occupation_elite_p>
     <npctitle.occupation_ex>Occupation Force - Demolitionist</npctitle.occupation_ex>
@@ -879,19 +879,19 @@
     <npctitle.separatists_000032>000032</npctitle.separatists_000032>
     <npctitle.beowulf_sl>Shang-Ling</npctitle.beowulf_sl>
     <npctitle.crosstalk_tianjie>Tianjie</npctitle.crosstalk_tianjie>
-    <npctitle.tsm_soldier_Finianna>Finiana</npctitle.tsm_soldier_Finianna>
+    <npctitle.tsm_soldier_Finianna>Finianna</npctitle.tsm_soldier_Finianna>
     <npctitle.adventists_bmyl>Dusk Silver Dragon</npctitle.adventists_bmyl>
     <npctitle.tsm_soldier_FFFFFour>FFFFFour</npctitle.tsm_soldier_FFFFFour>
     <npctitle.crosstalk_ckhs233>ckhs233</npctitle.crosstalk_ckhs233>
     <npctitle.moon_shadow>Moon Shadow</npctitle.moon_shadow>
     <npctitle.tsm_soldier_ml>Ink Scales</npctitle.tsm_soldier_ml>
-    <npctitle.occupation_qiuwu>Ball Five</npctitle.occupation_qiuwu>
+    <npctitle.occupation_qiuwu>Qiu Wu</npctitle.occupation_qiuwu>
     <!--npc对话-->
     <tsm.dh>I'm here to exchange some items</tsm.dh>
     <tsm.see>Exchange Items</tsm.see>
     <tsm.wait>I'll come back later</tsm.wait>
     <tsm.wait1>I'll wait a little longer</tsm.wait1>
-    <tsm.d1>Currently, the permits issued by headquarters are several times more than before. But there's no choice; with the war starting, the situation everywhere is very dire. I hope the war ends soon.</tsm.d1>
+    <tsm.d1>Currently, the permits issued by headquarters are several times higher than before. But there's no choice; with the war starting, the situation everywhere is very dire. I hope the war ends soon.</tsm.d1>
     <tsm.d2>Sorry, you do not have an official permit. Next time you make this kind of joke, you will be arrested.</tsm.d2>
     <tsm.bg1>Please show the permit issued by headquarters</tsm.bg1>
     <tsm.bg>Sea of Miracles Triton Ammunition Permit Exchange for Tritium Core Pack</tsm.bg>
@@ -992,7 +992,7 @@
     <missionheader0.tsm_combat_escort>Toss the bodies out.</missionheader0.tsm_combat_escort>
     <missionmessage0.tsm_combat_escort>You Coalition dogs, get off my ship!</missionmessage0.tsm_combat_escort>
     <missionname.tsm_combat_aria>Aria</missionname.tsm_combat_aria>
-    <missiondescription.tsm_combat_aria>Previously, we found a Adventists' site conducting human control experiments. After sending a team to raid it, we lost contact.\nAccording to life signs, they’re still alive, but likely controlled.\nWe have no solution, so we must sacrifice the team. Captain, eliminate everything alive at the site.\nBe cautious—some members of the team have been issued Revolution magazines.</missiondescription.tsm_combat_aria>
+    <missiondescription.tsm_combat_aria>Previously, we found a Adventists' site conducting human control experiments. After sending a team to raid it, we lost contact.\nAccording to life signs, they’re still alive, but likely controlled.\nWe have no solution, so we must sacrifice the team. Captain, eliminate everything alive at the site.\nBe cautious—some members of the team have been issued Triton magazines.</missiondescription.tsm_combat_aria>
     <missionsuccess.tsm_combat_aria>Next time you pass by, Europa will be without us.</missionsuccess.tsm_combat_aria>
     <missionfailure.tsm_combat_aria>Mission failed, HQ has dispatched a more elite team for extermination.</missionfailure.tsm_combat_aria>
     <missionheader0.tsm_combat_aria>I feel like a decaying corpse, lonely and helpless.</missionheader0.tsm_combat_aria>
@@ -1113,21 +1113,21 @@
     <entityname.tsm_58ammo>5.8</entityname.tsm_58ammo>
     <entityname.tsm_762ammo></entityname.tsm_762ammo>
     <entityname.tsm_127ammo></entityname.tsm_127ammo>
-    <!-- <entityname.pt7.92×57mm>Standard 7.92×57mm</entityname.pt7.92×57mm> -->
+    <!-- <entityname.pt7.92x57mm>Standard 7.92x57mm</entityname.pt7.92x57mm> -->
     <entityname.collider_sword>Block</entityname.collider_sword>
     <entityname.hxl_knife>Phantom</entityname.hxl_knife>
     <entityname.tsm_9_ammo></entityname.tsm_9_ammo>
     <entityname.tsm_9_ammo_cj></entityname.tsm_9_ammo_cj>
-    <entityname.tsm_57_ammo>5.7×28mm</entityname.tsm_57_ammo>
+    <entityname.tsm_57_ammo>5.7*28mm</entityname.tsm_57_ammo>
     <entityname.tsm_1143_ammo></entityname.tsm_1143_ammo>
     <entityname.tsm_127_ammo></entityname.tsm_127_ammo>
     <entityname.pt545>5.45 Standard Ammo</entityname.pt545>
     <entityname.cj545>5.45 Armor-Piercing Ammo</entityname.cj545>
     <entityname.gb545>5.45 Hybrid Explosive Ammo</entityname.gb545>
-    <!-- <entityname.pt762×39mm>Standard 7.62×39mm</entityname.pt762×39mm> -->
-    <!-- <entityname.cj762×39mm>Armor-Piercing 7.62×39mm</entityname.cj762×39mm> -->
-    <!-- <entityname.gb762×39mm>7.62×39mm Hybrid Explosive Ammo</entityname.gb762×39mm> -->
-    <!-- <entityname.pt762×54mm>Standard 7.62×54mm</entityname.pt762×54mm> -->
+    <!-- <entityname.pt762x39mm>Standard 7.62x39mm</entityname.pt762x39mm> -->
+    <!-- <entityname.cj762x39mm>Armor-Piercing 7.62x39mm</entityname.cj762x39mm> -->
+    <!-- <entityname.gb762x39mm>7.62x39mm Hybrid Explosive Ammo</entityname.gb762x39mm> -->
+    <!-- <entityname.pt762x54mm>Standard 7.62x54mm</entityname.pt762x54mm> -->
     <entityname.12ammo>aa12ammo</entityname.12ammo>
     <entityname.tsm_redemption_bolt>tsm_redemption_bolt</entityname.tsm_redemption_bolt>
     <entityname.tsm_zc_c>War Vehicle (Kyushu Paint)</entityname.tsm_zc_c>
@@ -1147,16 +1147,16 @@
     <entityname.tsm_zc_3>War Vehicle Component</entityname.tsm_zc_3>
     <entityname.tsm_zc_4>War Vehicle Component</entityname.tsm_zc_4>
     <entityname.tsm_lm_m4>M4</entityname.tsm_lm_m4>
-    <!-- <entityname.pt556×45mm>5.56×45mm</entityname.pt556×45mm> -->
-    <!-- <entityname.cj556×45mm>5.56×45mm AP</entityname.cj556×45mm> -->
-    <!-- <entityname.gb556×45mm>5.56×45mm EX</entityname.gb556×45mm> -->
+    <!-- <entityname.pt556x45mm>5.56x45mm</entityname.pt556x45mm> -->
+    <!-- <entityname.cj556x45mm>5.56x45mm AP</entityname.cj556x45mm> -->
+    <!-- <entityname.gb556x45mm>5.56x45mm EX</entityname.gb556x45mm> -->
     <entityname.pt65>6.5 Standard Ammo</entityname.pt65>
     <entityname.kj65>6.5 Open Tip Ammo</entityname.kj65>
     <entityname.68_51_pt>6.8 Standard Ammo</entityname.68_51_pt>
     <entityname.68_51_ap>6.8 Armor-Piercing Ammo</entityname.68_51_ap>
     <entityname.68_51_full>6.8 Full Power Ammo</entityname.68_51_full>
-    <entityname.pt762_51>7.62×51mm</entityname.pt762_51>
-    <entityname.pt762_51_ap>7.62×51mm AP</entityname.pt762_51_ap>
+    <entityname.pt762_51>7.62*51mm</entityname.pt762_51>
+    <entityname.pt762_51_ap>7.62*51mm AP</entityname.pt762_51_ap>
     <entityname.338magnum>.338 Magnum</entityname.338magnum>
 
 

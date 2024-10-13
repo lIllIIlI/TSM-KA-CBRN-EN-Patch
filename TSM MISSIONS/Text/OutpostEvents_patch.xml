@@ -459,7 +459,7 @@
               <ConversationAction targettag="sound" text="tsm.tl72" endconversation="true" />
               <StatusEffectAction targettag="sound">
                 <StatusEffect target="This">
-                  <Sound file="%ModDir%/Sounds/tsm_alert.ogg" range="10000" dontmuffle="true" />
+                  <Sound file="%ModDir:2852411866%/Sounds/tsm_alert.ogg" range="10000" dontmuffle="true" />
                 </StatusEffect>
               </StatusEffectAction>
               <WaitAction time="3" />
