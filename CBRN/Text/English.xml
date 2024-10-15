@@ -2,15 +2,15 @@
 <infotexts language="English" nowhitespace="true" translatedname="English">
   <!-- (x\d+)(?!\d*mm) / $1mm-->
   <entityname.berra_etps7b>BerraARM ETPS-7B Extreme Temperature Protective Suit</entityname.berra_etps7b>
-  <entityname.berra_bio2>BerraARM Bio-2 Combat NBC Suit</entityname.berra_bio2>
+  <entityname.berra_bio2>BerraARM Bio-2 Combat CBRN Suit</entityname.berra_bio2>
   <entityname.berra_cbrn3>BerraARM CBRN-3 Gas Mask</entityname.berra_cbrn3>
   <entityname.berra_cbrn3a>BerraARM CBRN-3A Comprehensive Respirator</entityname.berra_cbrn3a>
   <entityname.tsm_filiter>T.S.M Standard Gas Mask Filter</entityname.tsm_filiter>
   <entityname.berra_filiter>BerraARM Standard Gas Mask Filter</entityname.berra_filiter>
   <entitydescription.berra_etps7b>Heavy protective suit produced by Berra Armory. Designed for Extreme environments. \n Using high quality material to protect user from burning. \nOwns a CCR and a self cooling system, can protect user in extreme temperature and low oxygen envirnments.</entitydescription.berra_etps7b>
-  <entitydescription.berra_bio2>NBC EXOsuit produced by Berra Armory,advanced self-sealing material can provide secure air tightness in combat. \nA part of Berra TAC Combat NBC Gear.</entitydescription.berra_bio2>
-  <entitydescription.berra_cbrn3>A ballistic gas mask made by Berra Armory,can combine with filiter to filter toxic substances in the cost of field of view. \nA part of Berra TAC Combat NBC Gear.</entitydescription.berra_cbrn3>
-  <entitydescription.berra_cbrn3a>A comprehensive respirator produced by Berra Armory,can filter toxic substances or using oxygen tanks to breath in low oxygen locations. \nBetter material,better FOV. \nA part of Berra TAC Combat NBC Gear.</entitydescription.berra_cbrn3a>
+  <entitydescription.berra_bio2>CBRN EXOsuit produced by Berra Armory,advanced self-sealing material can provide secure air tightness in combat. \nA part of Berra TAC Combat CBRN Gear.</entitydescription.berra_bio2>
+  <entitydescription.berra_cbrn3>A ballistic gas mask made by Berra Armory,can combine with filiter to filter toxic substances in the cost of field of view. \nA part of Berra TAC Combat CBRN Gear.</entitydescription.berra_cbrn3>
+  <entitydescription.berra_cbrn3a>A comprehensive respirator produced by Berra Armory,can filter toxic substances or using oxygen tanks to breath in low oxygen locations. \nBetter material,better FOV. \nA part of Berra TAC Combat CBRN Gear.</entitydescription.berra_cbrn3a>
   <entitydescription.tsm_filiter>Standard gas mask filter issued by The Sea of Miracles \nShould be used with a gas mask </entitydescription.tsm_filiter>
   <entitydescription.berra_filiter>Standard gas mask filter produced by Berra Armory,better material,more durable \nShould be used with a gas mask</entitydescription.berra_filiter>
   <entityname.berra_TES20>BerraARM 20mm MAWS "Punisher"</entityname.berra_TES20>
@@ -131,12 +131,12 @@
   <entitydescription.chemdist_throwable>A grenade designed to spread chemicals</entitydescription.chemdist_throwable>
   <entityname.berra_xtg12>BerraMed xTG-12 Toxicide</entityname.berra_xtg12>
   <entityname.berra_obj121>BerraMed Type121 Biological Countermeasure</entityname.berra_obj121>
-  <entityname.tsm_d6>T.S.M D-6 Comprehensive NBC Countermeasure</entityname.tsm_d6>
+  <entityname.tsm_d6>T.S.M D-6 Comprehensive CBRN Countermeasure</entityname.tsm_d6>
   <entityname.col_cac2>Coalition SCAC-2 Standard Chemical agent Countermeasure №2</entityname.col_cac2>
   <entityname.pe_cure>Pulmonary Edema Treatment C</entityname.pe_cure>
   <entitydescription.berra_xtg12>Multipurpose toxicide,can treat poisoning effectively</entitydescription.berra_xtg12>
   <entitydescription.berra_obj121>Multipurpose biological countermeasure,can treat bioinfection effectively</entitydescription.berra_obj121>
-  <entitydescription.tsm_d6>Comprehensive first-aid measure issued by The Sea of Miracles \nEffective against NBC threats</entitydescription.tsm_d6>
+  <entitydescription.tsm_d6>Comprehensive first-aid measure issued by The Sea of Miracles \nEffective against CBRN threats</entitydescription.tsm_d6>
   <entitydescription.col_cac2>Coalition issued chemical countermeasure for all coalition soliders \nCheap but useful</entitydescription.col_cac2>
   <entitydescription.pe_cure>Pulmonary Edema Treatment,only treats Pulmonary Edema :) \nThis item is for Neurotrauma</entitydescription.pe_cure>
   <entityname.powdercapsule_vx>Sealed Tube</entityname.powdercapsule_vx>
@@ -261,7 +261,7 @@
   <missionmessage0.berra_undermasks_assination>Step into the outpost is the start of a war and a countdown to death.</missionmessage0.berra_undermasks_assination>
   <Override>
     <entitydescription.tsm_helmet_respirator>Heavy helmet produced by The Sea of Miracles,has great ballistic performence and a gas mask.</entitydescription.tsm_helmet_respirator>
-    <entitydescription.tsm_medicalkits_s>Advanced medical kit produced by The Sea of Miracles,contains enough medical equipments for a field surgery.Also contains medicals against NBC threats. \nExpensive but worthy.</entitydescription.tsm_medicalkits_s>
+    <entitydescription.tsm_medicalkits_s>Advanced medical kit produced by The Sea of Miracles,contains enough medical equipments for a field surgery.Also contains medicals against CBRN threats. \nExpensive but worthy.</entitydescription.tsm_medicalkits_s>
     <entityname.nuclearshell>Nuclear Shell</entityname.nuclearshell>
     <entitydescription.nuclearshell>A explosive device designed to launch from a Railgun. Usually was used to throw tons of radioactive material onto enemies.</entitydescription.nuclearshell>
     <entityname.nuclearshellcheap>Nuclear Shell(Cheap)</entityname.nuclearshellcheap>
@@ -344,7 +344,7 @@
   <talentname.nanomachine>Nano Machine</talentname.nanomachine>
   <talentname.biodev>Bio Develpment</talentname.biodev>
   <talentname.bioresearch>Bio Weapon Research</talentname.bioresearch>
-  <talentname.ert>NBC ERT</talentname.ert>
+  <talentname.ert>CBRN ERT</talentname.ert>
   <talentname.tacticalnuke>Tactical Nuke</talentname.tacticalnuke>
   <talentname.nuke>Now We're Talkin</talentname.nuke>
   <talentname.finalresort>Final Resort</talentname.finalresort>
@@ -364,17 +364,17 @@
   <talentvalue.bz_chemdist_40>40mm Chemical Grenade BZ Gas</talentvalue.bz_chemdist_40>
   <talentvalue.cs_chemdist_throwable>Chemical Grenade CS Gas</talentvalue.cs_chemdist_throwable>
   <talentvalue.bz_chemdist_throwable>Chemical Grenade BZ Gas</talentvalue.bz_chemdist_throwable>
-  <talentvalue.bzcanister>Sealed Container BZ Gas</talentvalue.bzcanister>
-  <talentvalue.cscanister>Sealed Container CS Gas</talentvalue.cscanister>
+  <talentvalue.bzcanister>Sealed Container: BZ Gas</talentvalue.bzcanister>
+  <talentvalue.cscanister>Sealed Container: CS Gas</talentvalue.cscanister>
   <talentvalue.phosgene_chemdist_40>40mm Chemical Grenade Phosgene Gas</talentvalue.phosgene_chemdist_40>
   <talentvalue.phosgene_chemdist_throwable>Chemical Grenade Phosgene Gas</talentvalue.phosgene_chemdist_throwable>
-  <talentvalue.phosgenecanister>Sealed Container Phosgene Gas</talentvalue.phosgenecanister>
+  <talentvalue.phosgenecanister>Sealed Container: Phosgene Gas</talentvalue.phosgenecanister>
   <talentvalue.vx_chemdist_40>40mm Chemical Grenade VX Gas</talentvalue.vx_chemdist_40>
   <talentvalue.mustard_chemdist_40>40mm Chemical Grenade Mustard Gas</talentvalue.mustard_chemdist_40>
   <talentvalue.vx_chemdist_throwable>Chemical Grenade VX Gas</talentvalue.vx_chemdist_throwable>
   <talentvalue.mustard_chemdist_throwable>Chemical Grenade Mustard Gas</talentvalue.mustard_chemdist_throwable>
-  <talentvalue.mustardcanister>Sealed Container Mustard Gas</talentvalue.mustardcanister>
-  <talentvalue.vxcanister>Sealed Container VX Gas</talentvalue.vxcanister>
+  <talentvalue.mustardcanister>Sealed Container: Mustard Gas</talentvalue.mustardcanister>
+  <talentvalue.vxcanister>Sealed Container: VX Gas</talentvalue.vxcanister>
   <talentvalue.berra_M107Mag_m1022>M82/M107 Magazine M1022</talentvalue.berra_M107Mag_m1022>
   <talentvalue.berra_M107Mag_m33>M82/M107 Magazine M33 FMJ</talentvalue.berra_M107Mag_m33>
   <talentvalue.berra_STANAG_50beowulf_ap>STANAG .50cal Beowulf AP</talentvalue.berra_STANAG_50beowulf_ap>
@@ -385,13 +385,13 @@
   <talentvalue.vx_biodist_40>40mm Explosive Spread Grenade VX Agent</talentvalue.vx_biodist_40>
   <talentvalue.weyi_chemdist_throwable>Aerosol Grenade Weaponized Evil Virus</talentvalue.weyi_chemdist_throwable>
   <talentvalue.weyi_chemdist_40>40mm Aerosol Grenade Weaponized Evil Virus</talentvalue.weyi_chemdist_40>
-  <talentvalue.weyicanister>Sealed Container Weaponized Evil Virus</talentvalue.weyicanister>
-  <talentvalue.anthraxcanister>Sealed Container Anthrax</talentvalue.anthraxcanister>
+  <talentvalue.weyicanister>Sealed Container: Weaponized Evil Virus</talentvalue.weyicanister>
+  <talentvalue.anthraxcanister>Sealed Container: Anthrax</talentvalue.anthraxcanister>
   <reset>Reset</reset>
   <talentvalue.berra_300FAL_M118LR>FAL Magazine M118LR</talentvalue.berra_300FAL_M118LR>
   <entityname.m57detonator>M57 Detonator(Double)</entityname.m57detonator>
   <lights>Light</lights>
-  <entityname.eyi_weaponizedcanister>Sealed Container</entityname.eyi_weaponizedcanister>
+  <entityname.eyi_weaponizedcanister>Sealed Container: Weaponized EYI Virus</entityname.eyi_weaponizedcanister>
   <entitydescription.eyi_weaponizedcanister>A sealed container made of high-strength glass and steel. \nInside, a special agent preserves the weaponized EYI virus. \nIt can withstand low-intensity impacts and bullet strikes. \nNote: This weaponized virus is specifically modified for humans, capable of infecting and converting humans, and spreads via aerosols. \nThe specially engineered genome sequence will effectively self-replicate and transform the host's original cells.</entitydescription.eyi_weaponizedcanister>
   <entityname.standard_cbrnsuit_orange>Standard CBRN Suit (Orange)</entityname.standard_cbrnsuit_orange>
   <entitydescription.standard_cbrnsuit_orange>A nuclear, biological, and chemical shielding suit that meets Coalition standards. It doesn't offer great ballistics protection but is better than nothing. \nIt provides sufficient contact protection.</entitydescription.standard_cbrnsuit_orange>
@@ -399,8 +399,6 @@
   <damage>Physical Damage</damage>
 
   <!-- 3.3 -->
-  <entityname.m57detonator>M57 Detonator(Double)</entityname.m57detonator>
-  <lights>Light</lights>
   <afflictionname.chemicalliner_main>Self-sealing Chemical Liner</afflictionname.chemicalliner_main>
   <afflictiondescription.chemicalliner_main>-85% Gunshotwound \n-99% Bleeding \n-85% Laceration \n-85% Blunttrauma \n-85% Internaldamage \n-85% Deep Tissue Injury \n-80% Burn\n-60% Special Damage \n-100% Armor Break \n5u/s Wounds Sealing \n10u/s Stop Bleeding</afflictiondescription.chemicalliner_main>
   <afflictionname.chemicalliner_secondary>Self-sealing Chemical Liner</afflictionname.chemicalliner_secondary>
@@ -408,58 +406,59 @@
   <entityname.fuelextractor>Nuclear Material Extractor</entityname.fuelextractor>
   <entityname.nuclearwaste>Nuclear Waste</entityname.nuclearwaste>
   <entityname.plutonium_core>Mixed Plutonium</entityname.plutonium_core>
-  <entityname.plutonium_weapon>Weapon Grade Plutonium</entityname.plutonium_weapon>
-  <entityname.plutoniumfuelrod>MOX Fuelrod</entityname.plutoniumfuelrod>
+  <entityname.plutonium_weapon>Weapons-Grade Plutonium</entityname.plutonium_weapon>
+  <entityname.plutoniumfuelrod>MOX Fuel Rod</entityname.plutoniumfuelrod>
   <entityname.watercanister>Sealed Container</entityname.watercanister>
   <entityname.d2ocanister>Sealed Container</entityname.d2ocanister>
-  <entityname.col_filiter>Coalition Standard Filiter</entityname.col_filiter>
-  <entityname.sep_filiter>Separatists Homemade Filiter</entityname.sep_filiter>
-  <entityname.breachhammer>Breach Hammer</entityname.breachhammer>
-  <entityname.tsm_m61_vulcan>M61A1 "Vulcan" 20mm Cannon</entityname.tsm_m61_vulcan>
-  <entityname.tsm_cbrnert_ai>T.S.M Heavy NBC Suit Mod.0 Mass Production</entityname.tsm_cbrnert_ai>
-  <entityname.tsm_cbrnert>T.S.M Heavy NBC Suit Mod.I Block 0</entityname.tsm_cbrnert>
-  <entityname.rz_p_mk1_cbrn>Mech Mk.1 NBCPv2</entityname.rz_p_mk1_cbrn>
-  <entityname.rz_p_mk1_cbrn_ai>Mech Mk.1 NBCP</entityname.rz_p_mk1_cbrn_ai>
-  <entityname.rz_p_mk1_cbrn_plus>Mech Mk.1 NBCPv3</entityname.rz_p_mk1_cbrn_plus>
-  <entityname.berra_bio2_ai>BerraARM Bio-2L NBC Suit</entityname.berra_bio2_ai>
-  <entityname.craftable_cbrn_col>CBRN Crew Spawnner(Coalition)</entityname.craftable_cbrn_col>
-  <entityname.craftable_cbrn_sep>CBRN Crew Spawnner(Separatists)</entityname.craftable_cbrn_sep>
-  <entitydescription.fuelextractor>A integrated nuclear material extraction device, can be used to extract many nuclear materials \nAim and press E to place</entitydescription.fuelextractor>
-  <entitydescription.nuclearwaste>Depleted reactor fuel, process in Nuclear Material Extractor for nuclear materials</entitydescription.nuclearwaste>
-  <entitydescription.plutonium_core>Radioactive powder mainly consist of plutonium, can be processed for further product</entitydescription.plutonium_core>
-  <entitydescription.plutonium_weapon>A weapon grade concentration of plutonium, preserved in a special amount for safety considerations \nA component of nuclear weapons</entitydescription.plutonium_weapon>
-  <entitydescription.plutoniumfuelrod>A reactor fuelrod mainly consist of plutonium dioxide and uranium dioxide, has a long lifetime. Process in Nuclear Material Extractor for nuclear materials after depleted</entitydescription.plutoniumfuelrod>
-  <entitydescription.watercanister>Sealed container filled with water, can be processed for deuteroxide.</entitydescription.watercanister>
-  <entitydescription.d2ocanister>Sealed container filled with deuteroxide. Process in Nuclear Material Extractor for triton container after depletion</entitydescription.d2ocanister>
-  <entitydescription.tsm_m61_vulcan>M61A1 "Vulcan" cannon will tear your enemy with 6000rpm fire rate \nLarge scale and weight makes it ‖color:255,0,0,255‖IMPOSSIBLE to use without proper gear‖color:end‖</entitydescription.tsm_m61_vulcan>
-  <entitydescription.tsm_cbrnert_ai>A heavy NBC suit produced by The Sea of Miracle, everything is fine but weightness and mobility.\nUsing hard material and B-22 recipe chemical liner, can easily stop projectiles and protect user in a hazardous environment. Pressure Protection 12500m \nMain gear of T.S.M CBRN ERT \nYou are the last line against the threats \n‖color:255,0,0,255‖Untrained user may damage this gear‖color:end‖</entitydescription.tsm_cbrnert_ai>
-  <entitydescription.tsm_cbrnert>The most advanced NBC suit in The Sea of Miracles, everything is fine but weightness and mobility. \nUsing hard material and D-03 recipe chemical liner to provide relible protection. Pressure Protection 12500m \nVery rare, only equipped a small amount of combat units \nYou are the last line against the threats \n‖color:255,0,0,255‖Untrained user cannot use this gear‖color:end‖</entitydescription.tsm_cbrnert>
-  <entitydescription.berra_bio2_ai>CBRN Protection ExoSuit from Berra Armory, using hard liner for protection enhancement \n‖color:255,0,0,255‖Untrained user may damage this gear‖color:end‖</entitydescription.berra_bio2_ai>
-  <entitydescription.rz_p_mk1_cbrn>Mech Mk1 specially for TSM CBRN ERT \nNBCPv2 provide enhanced protection using self-sealing chemical liner \n‖color:255,0,0,255‖Untrained user cannot use this gear‖color:end‖</entitydescription.rz_p_mk1_cbrn>
-  <entitydescription.rz_p_mk1_cbrn_ai>Mech Mk1 specially for TSM CBRN ERT \nNBCPv1 provided protection against NBC threats \n‖color:255,0,0,255‖Untrained user cannot use this gear‖color:end‖</entitydescription.rz_p_mk1_cbrn_ai>
-  <entitydescription.rz_p_mk1_cbrn_plus>Mech Mk1 specially for TSM CBRN ERT \nNBCPv3 is the most advanced upgrade kit, top secret prototype \n‖color:255,0,0,255‖Untrained user cannot use this gear‖color:end‖</entitydescription.rz_p_mk1_cbrn_plus>
-  <entitydescription.breachhammer>A combination of crowbar and hammer \nYou know how to use it...Right?</entitydescription.breachhammer>
-  <entitydescription.craftable_cbrn_col>A crew spawnner, allow spawning a CBRN Job AI crew with Coalition gear</entitydescription.craftable_cbrn_col>
-  <entitydescription.craftable_cbrn_sep>A crew spawnner, allow spawning a CBRN Job AI crew with Separatists gear</entitydescription.craftable_cbrn_sep>
+  <entityname.col_filiter>Coalition Standard Filter Cartridge</entityname.col_filiter>
+  <entityname.sep_filiter>Separatist Homemade Filter Cartridge</entityname.sep_filiter>
+  <entityname.breachhammer>Multi-Purpose Breaching Hammer</entityname.breachhammer>
+  <entityname.tsm_m61_vulcan>M61A1 "Vulcan" 20mm Autocannon</entityname.tsm_m61_vulcan>
+  <entityname.tsm_cbrnert_ai>T.S.M Heavy CBRN Suit Mod.0 Mass-Produced Version</entityname.tsm_cbrnert_ai>
+  <entityname.tsm_cbrnert>T.S.M Heavy CBRN Suit Mod.I Batch 0</entityname.tsm_cbrnert>
+  <entityname.rz_p_mk1_cbrn>Mech Mk.1 CBRNPv2</entityname.rz_p_mk1_cbrn>
+  <entityname.rz_p_mk1_cbrn_ai>Mech Mk.1 CBRNP</entityname.rz_p_mk1_cbrn_ai>
+  <entityname.rz_p_mk1_cbrn_plus>Mech Mk.1 CBRNPv3</entityname.rz_p_mk1_cbrn_plus>
+  <entityname.berra_bio2_ai>BerraARM Bio-2L Combat CBRN Suit</entityname.berra_bio2_ai>
+  <entityname.craftable_cbrn_col>CBRN Crew Spawner (Coalition)</entityname.craftable_cbrn_col>
+  <entityname.craftable_cbrn_sep>CBRN Crew Spawner (Separatists)</entityname.craftable_cbrn_sep>
+  <entitydescription.fuelextractor>An integrated nuclear material extractor capable of processing various radioactive materials.\nPress E to place.</entitydescription.fuelextractor>
+  <entitydescription.nuclearwaste>Depleted reactor fuel, from which remaining materials can be extracted with a nuclear extractor.</entitydescription.nuclearwaste>
+  <entitydescription.plutonium_core>A radioactive powder primarily composed of plutonium, useful for extraction or manufacturing purposes.</entitydescription.plutonium_core>
+  <entitydescription.plutonium_weapon>A block of weapons-grade plutonium stored with specialized methods for safety.\nCan be used to produce nuclear weapons.</entitydescription.plutonium_weapon>
+  <entitydescription.plutoniumfuelrod>A reactor fuel rod made of plutonium dioxide and uranium dioxide, offering long lifespan. Remaining material can be extracted after use.</entitydescription.plutoniumfuelrod>
+  <entitydescription.watercanister>A sealed container filled with water that can be processed into heavy water.</entitydescription.watercanister>
+  <entitydescription.d2ocanister>A sealed container with heavy water (Deuterium Oxide) that can be centrifuged for tritium after irradiation in a reactor.</entitydescription.d2ocanister>
+  <entitydescription.tsm_m61_vulcan>"Hail to the Gatling Buddha, blessed uranium rounds of purity, spinning at 3600 RPM, spreading compassion."\nThe M61A1 "Vulcan" autocannon shreds enemies at a fire rate of 6000 rounds per minute.\nIts size and weight mean that ‖color:255,0,0,255‖only specific gear can lift and fire it.‖color:end‖ However, its terrifying recoil will still push the user backward.</entitydescription.tsm_m61_vulcan>
+  <entitydescription.tsm_cbrnert_ai>A rigid, heavy CBRN suit designed by T.S.M, offering first-class protection except for weight and mobility.\nMade with hard materials and B22 high-durability chemical filler, it shields the user from projectiles and chemicals. Pressure resistance: 12,500m.\nThe main gear of Kyushu HQ's nuclear emergency response team.\n"You are humanity's final defense. Behind you lies the future."\n‖color:255,0,0,255‖Untrained users may damage this suit.‖color:end‖</entitydescription.tsm_cbrnert_ai>
+  <entitydescription.tsm_cbrnert>The most advanced and expensive heavy CBRN suit from T.S.M. It excels in every aspect except weight, mobility, and cost.\nUsing hard materials and D03 high-durability chemical filler, it provides exceptional protection. Pressure resistance: 12,500m.\nLimited production, only distributed to frontline combat personnel.\n"You are humanity's final defense. Behind you lies the future."\n‖color:255,0,0,255‖Untrained users cannot operate this equipment.‖color:end‖</entitydescription.tsm_cbrnert>
+  <entitydescription.berra_bio2_ai>A CBRN exosuit by Berra Armory, reinforced with rigid chemical lining.\nPart of the Berra TAC Bio-Defense Combat Suit.\n‖color:255,0,0,255‖Untrained users may damage this equipment.‖color:end‖</entitydescription.berra_bio2_ai>
+  <entitydescription.rz_p_mk1_cbrn>T.S.M’s Mk.1 armor for the nuclear response team.\nCBRNPv2 (Nuclear Biological Chemical Protection v2) uses self-sealing chemical filler to enhance protection.\n‖color:255,0,0,255‖Untrained users cannot operate this equipment.‖color:end‖</entitydescription.rz_p_mk1_cbrn>
+  <entitydescription.rz_p_mk1_cbrn_ai>T.S.M’s Mk.1 armor, offering nuclear and chemical threat protection.\nCBRNPv1 (v1 protection components).\n‖color:255,0,0,255‖Untrained users cannot operate this equipment.‖color:end‖</entitydescription.rz_p_mk1_cbrn_ai>
+  <entitydescription.rz_p_mk1_cbrn_plus>The upgraded v3 trial version, providing the most comprehensive protection.\n‖color:255,0,0,255‖Untrained users cannot operate this equipment.‖color:end‖</entitydescription.rz_p_mk1_cbrn_plus>
+  <entitydescription.breachhammer>A hybrid between a sledgehammer and a crowbar.\nYou know what it’s for... right?\nYes, the texture was lazy. Don't mind it. quq</entitydescription.breachhammer>
+  <entitydescription.craftable_cbrn_col>A tool that allows you to generate a CBRN crew member equipped with Coalition gear.</entitydescription.craftable_cbrn_col>
+  <entitydescription.craftable_cbrn_sep>A tool that allows you to generate a CBRN crew member equipped with Rebel gear.</entitydescription.craftable_cbrn_sep>
   <talentname.fuelextract>Nuclear Material Extraction</talentname.fuelextract>
-  <talentname.hert>HEAVILY ARMED</talentname.hert>
+  <talentname.hert>Heavy Armored Unit</talentname.hert>
   <talentvalue.watercanister>Sealed Container: Water</talentvalue.watercanister>
-  <sledgemodon>Sledge Mode</sledgemodon>
-  <entityname.deconstructnuclearspread>Nuclear Material Exposure</entityname.deconstructnuclearspread>
-  <entitydescription.deconstructnuclearspread>A bunch of nuclear material is leaking from their container. This is destructive. \nPlease check what are doing, something must be wrong</entitydescription.deconstructnuclearspread>
-  <cbrn_test>TEST ITEM</cbrn_test>
+  <talentvalue.d2ocanister>Sealed Container: Heavy Water</talentvalue.d2ocanister>
+  <sledgemodon>Breaching Mode</sledgemodon>
+  <entityname.deconstructnuclearspread>Radioactive Material Exposure</entityname.deconstructnuclearspread>
+  <entitydescription.deconstructnuclearspread>A catastrophic release of radioactive material from its container.\nCheck your procedure; you definitely did something wrong.</entitydescription.deconstructnuclearspread>
+  <cbrn_test>Test Equipment</cbrn_test>
   <talentname.reviscomming>Revolution</talentname.reviscomming>
-  <talentdescription.reviscomming_main>You are authorized to use and craft [revammo]</talentdescription.reviscomming_main>
-  <talentvalue.reviscomming_item>Triton Magazines</talentvalue.reviscomming_item>
+  <talentdescription.reviscomming_main>You have been authorized to widely distribute [revammo] and fully establish production lines.</talentdescription.reviscomming_main>
+  <talentvalue.reviscomming_item>Triton Ammunition</talentvalue.reviscomming_item>
   <subcategory.tsm_modifiedmagazines>Aftermarket Magazines</subcategory.tsm_modifiedmagazines>
-  <entityname.fkj_545_mag_rev>Rebel Triton-AP Mag(5.45*39)</entityname.fkj_545_mag_rev>
-  <entityname.fkj_762_mag_rev>Rebel Triton-AP Mag(7.62*39)</entityname.fkj_762_mag_rev>
-  <entityname.fkj_762_51_mag_rev>Rebel Triton-AP Mag(7.62*51)</entityname.fkj_762_51_mag_rev>
-  <entityname.fkj_jts_mag_rev>Rebel MG Triton-AP Mag(5.45*39)</entityname.fkj_jts_mag_rev>
-  <entityname.fkj_pkp_mag_rev>Rebel GPMG Triton-AP Mag(7.62*51)</entityname.fkj_pkp_mag_rev>
-  <entityname.fkj_rpk_mag_rev>RPK Triton-AP Drum</entityname.fkj_rpk_mag_rev>
-  <entityname.fkj_m2_mag_rev>Rebel HMG Triton Mag</entityname.fkj_m2_mag_rev>
-  <entityname.fkj_svd_mag_rev>SVD Triton Mag</entityname.fkj_svd_mag_rev>
+  <entityname.fkj_545_mag_rev>Rebel Triton AP Magazine (5.45*39)</entityname.fkj_545_mag_rev>
+  <entityname.fkj_762_mag_rev>Rebel Triton AP Magazine (7.62*39)</entityname.fkj_762_mag_rev>
+  <entityname.fkj_762_51_mag_rev>Rebel Triton AP Magazine (7.62*51)</entityname.fkj_762_51_mag_rev>
+  <entityname.fkj_jts_mag_rev>Rebel Triton AP Belt Magazine (5.45*39)</entityname.fkj_jts_mag_rev>
+  <entityname.fkj_pkp_mag_rev>Rebel Triton AP Belt Magazine (7.62*51)</entityname.fkj_pkp_mag_rev>
+  <entityname.fkj_rpk_mag_rev>RPK Triton Drum Magazine</entityname.fkj_rpk_mag_rev>
+  <entityname.fkj_m2_mag_rev>Triton Heavy Machine Gun Belt</entityname.fkj_m2_mag_rev>
+  <entityname.fkj_svd_mag_rev>SVD Triton Magazine</entityname.fkj_svd_mag_rev>
   <entityname.tsm_556_45_mgmag_rev>Coalition LMG Triton-AP Belt(5.56*45)</entityname.tsm_556_45_mgmag_rev>
   <entityname.lm_762_51_mgmag_rev>Coalition GPMG Triton-AP Mag(7.62*51)</entityname.lm_762_51_mgmag_rev>
   <entityname.lm_556_mag_rev>Coalition Triton-AP Mag(5.56*45)</entityname.lm_556_mag_rev>
@@ -471,40 +470,41 @@
   <entityname.tsm_58_201mag_rev>201 Belt(Triton-AP)</entityname.tsm_58_201mag_rev>
   <entityname.tsm_58_mag_rev>Assault Rifle Triton-AP Mag(5.8mm)</entityname.tsm_58_mag_rev>
   <entityname.tsm_ammobox_rev>T.S.M Triton Ammunition Container</entityname.tsm_ammobox_rev>
-  <entityname.tsm_m61ammobox_rev>20mm Triton-HVAP Belt Container</entityname.tsm_m61ammobox_rev>
-  <entityname.tsm_hazardous_container>HAZMAT Container</entityname.tsm_hazardous_container>
-  <entitydescription.fkj_545_mag_rev>Loaded with 33 5.45 Triton-AP rounds</entitydescription.fkj_545_mag_rev>
-  <entitydescription.fkj_762_mag_rev>Loaded with 30 7.62x39 Triton-AP rounds</entitydescription.fkj_762_mag_rev>
-  <entitydescription.fkj_762_51_mag_rev>Loaded with 20 7.62x51 Triton-AP rounds</entitydescription.fkj_762_51_mag_rev>
-  <entitydescription.fkj_jts_mag_rev>Containing a 200 round 5.45x39mm Triton-AP Belt for ammo-wasting job \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.fkj_jts_mag_rev>
-  <entitydescription.fkj_pkp_mag_rev>Containing a 100 round Triton-AP Belt \nRadioactive</entitydescription.fkj_pkp_mag_rev>
-  <entitydescription.fkj_rpk_mag_rev>A 95 round 5.45x39 drum for ammo-wasting job \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.fkj_rpk_mag_rev>
-  <entitydescription.fkj_m2_mag_rev>A container for HMGs, containing a 150 round Triton-AP Belt \nRadioactive</entitydescription.fkj_m2_mag_rev>
-  <entitydescription.fkj_svd_mag_rev>Loaded with 20 Triton-AP round</entitydescription.fkj_svd_mag_rev>
-  <entitydescription.tsm_556_45_mgmag_rev>Loaded with 200 5.56x45mm Triton-AP rounds \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.tsm_556_45_mgmag_rev>
-  <entitydescription.lm_762_51_mgmag_rev>Loaded with 200 7.62x51mm Triton-AP rounds \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.lm_762_51_mgmag_rev>
-  <entitydescription.lm_556_mag_rev>Loaded with 31 5.56x45mm Triton-AP rounds, very effective against everything \The markings seem to have been hastily removed and repainted.</entitydescription.lm_556_mag_rev>
-  <entitydescription.lm_65_mag_rev>Loaded with 30 Special Purpose Triton rounds \The markings seem to have been hastily removed and repainted.</entitydescription.lm_65_mag_rev>
-  <entitydescription.lm_68_51_mag_rev>Loaded with 30 6.8x51 Triton-AP rounds \The markings seem to have been hastily removed and repainted.</entitydescription.lm_68_51_mag_rev>
-  <entitydescription.lm_762_51_mag_rev>Loaded with 20 7.62x51 Triton-AP rounds \The markings seem to have been hastily removed and repainted.</entitydescription.lm_762_51_mag_rev>
-  <entitydescription.lm_m700_mag_rev>Containing 5 rounds high power Triton-AP rounds</entitydescription.lm_m700_mag_rev>
-  <entitydescription.tsm_miniammo_rev>Containing 200 5.56x45 Triton-AP rounds \nRadioactive</entitydescription.tsm_miniammo_rev>
-  <entitydescription.tsm_58_201mag_rev>Containing 100 5.8mm Triton-AP rounds \nRadioactive \The markings seem to have been hastily removed and repainted.</entitydescription.tsm_58_201mag_rev>
-  <entitydescription.tsm_58_mag_rev>Containing 30 5.8mm Triton-AP rounds \The markings seem to have been hastily removed and repainted.</entitydescription.tsm_58_mag_rev>
-  <entitydescription.tsm_ammobox_rev>Containing all kinds of Triton ammunition, aim to refill magazines \nRadioactive</entitydescription.tsm_ammobox_rev>
-  <entitydescription.tsm_m61ammobox_rev>A heavy container containing 1200 20mm Triton-AP-I rounds \nYou know the rules, don't you? \nRadioactive</entitydescription.tsm_m61ammobox_rev>
-  <entitydescription.tsm_hazardous_container>A container for HAZMAT</entitydescription.tsm_hazardous_container>
+  <entityname.tsm_m61ammobox_rev>20mm Triton High Velocity AP Belt Container</entityname.tsm_m61ammobox_rev>
+  <entityname.tsm_hazardous_container>Hazardous Material Transport Container</entityname.tsm_hazardous_container>
+  <entitydescription.fkj_545_mag_rev>Contains 33 rounds of 5.45x39mm Triton AP ammunition.</entitydescription.fkj_545_mag_rev>
+  <entitydescription.fkj_762_mag_rev>Contains 30 rounds of 7.62x39mm Triton AP ammunition.</entitydescription.fkj_762_mag_rev>
+  <entitydescription.fkj_762_51_mag_rev>Contains 20 rounds of 7.62x51mm Triton AP ammunition.</entitydescription.fkj_762_51_mag_rev>
+  <entitydescription.fkj_jts_mag_rev>Holds a 200-round belt of 5.45x39mm Triton AP rounds, perfect for continuous fire.\nRadioactive!\nThe markings on the magazine seem hastily altered by logistics staff.</entitydescription.fkj_jts_mag_rev>
+  <entitydescription.fkj_pkp_mag_rev>Holds a 100-round belt of Triton AP rounds.\nRadioactive!</entitydescription.fkj_pkp_mag_rev>
+  <entitydescription.fkj_rpk_mag_rev>A 95-round drum of 5.45x39mm Triton AP rounds for the RPK, extending firing endurance.\nRadioactive!\nThe markings seem hastily altered by logistics staff.</entitydescription.fkj_rpk_mag_rev>
+  <entitydescription.fkj_m2_mag_rev>A 150-round belt box for heavy machine guns, offering sustained fire. Due to its size, it is not easily portable and should be carried by an assistant gunner.\nRadioactive!</entitydescription.fkj_m2_mag_rev>
+  <entitydescription.fkj_svd_mag_rev>Contains 20 rounds of Triton sniper rifle ammunition.</entitydescription.fkj_svd_mag_rev>
+  <entitydescription.tsm_556_45_mgmag_rev>Contains 200 rounds of 5.56x45mm Triton AP rounds.\nRadioactive!\nThe markings seem hastily altered by logistics staff.</entitydescription.tsm_556_45_mgmag_rev>
+  <entitydescription.lm_762_51_mgmag_rev>Contains 200 rounds of 7.62x51mm Triton AP rounds.\nRadioactive!\nThe markings seem hastily altered by logistics staff.</entitydescription.lm_762_51_mgmag_rev>
+  <entitydescription.lm_556_mag_rev>Contains 31 rounds of 5.56x45mm Triton AP rounds, ideal for armored enemies and bulletproof vests.\nThe markings seem hastily altered by logistics staff.</entitydescription.lm_556_mag_rev>
+  <entitydescription.lm_65_mag_rev>Contains 30 rounds of special Triton ammunition, effective against various targets.\nThe markings seem hastily altered by logistics staff.</entitydescription.lm_65_mag_rev>
+  <entitydescription.lm_68_51_mag_rev>Contains 30 rounds of 6.8x51mm Triton AP rounds.\nThe markings seem hastily altered by logistics staff.</entitydescription.lm_68_51_mag_rev>
+  <entitydescription.lm_762_51_mag_rev>Contains 20 rounds of 7.62x51mm Triton AP rounds.\nThe markings seem hastily altered by logistics staff.</entitydescription.lm_762_51_mag_rev>
+  <entitydescription.lm_m700_mag_rev>Contains 5 high-power Triton rounds.</entitydescription.lm_m700_mag_rev>
+  <entitydescription.tsm_miniammo_rev>200 rounds of 5.56mm Triton AP rounds for the Minigun, perfect for continuous fire.\nRadioactive!</entitydescription.tsm_miniammo_rev>
+  <entitydescription.tsm_58_201mag_rev>Contains 100 rounds of 5.8mm Triton AP rounds.\nRadioactive!\nThe markings seem hastily altered by logistics staff.</entitydescription.tsm_58_201mag_rev>
+  <entitydescription.tsm_58_mag_rev>Contains 30 rounds of 5.8mm Triton AP rounds.\nThe markings seem hastily altered by logistics staff.</entitydescription.tsm_58_mag_rev>
+  <entitydescription.tsm_ammobox_rev>A box filled with various Triton rounds, compatible with most Triton magazines.\nRadioactive!</entitydescription.tsm_ammobox_rev>
+  <entitydescription.tsm_m61ammobox_rev>A heavy ammo box with 1200 rounds of 20mm Triton AP incendiary rounds.\nYou know the rules, don't you? \nRadioactive!</entitydescription.tsm_m61ammobox_rev>
+  <entitydescription.tsm_hazardous_container>A heavy container designed for the safe transport of hazardous materials... as long as no one tries to tamper with it.</entitydescription.tsm_hazardous_container>
   <afflictiondescription.chemicalliner_mech>-95% Gunshotwound \n-100% Bleeding \n-95% Laceration \n-95% Blunttrauma \n-95% Internaldamage \n-95% Deep Tissue Injury \n-80% Burn\n-60% Special \n-100% Armor Break \n10u/s Wounds Sealing \n10u/s Stop Bleeding</afflictiondescription.chemicalliner_mech>
   <missionname.tsm_cbrnert_assination>Eliminate T.S.M CBRN ERT</missionname.tsm_cbrnert_assination>
-  <missiondescription.tsm_cbrnert_assination>Some of the T.S.M CBRN ERT were here, eliminate them for tactical advantages</missiondescription.tsm_cbrnert_assination>
-  <missionsuccess.tsm_cbrnert_assination>Job's Done</missionsuccess.tsm_cbrnert_assination>
-  <missionfailure.tsm_cbrnert_assination>We failed to acquire tactical advantage</missionfailure.tsm_cbrnert_assination>
-  <missionheader0.tsm_cbrnert_assination>Nobody was left</missionheader0.tsm_cbrnert_assination>
-  <missionmessage0.tsm_cbrnert_assination>People fled crying, breathing in the gases that were supposed to sustain their lives, unaware that these gases were taking away their lives.</missionmessage0.tsm_cbrnert_assination>
+  <missiondescription.tsm_cbrnert_assination>The T.S.M CBRN emergency response team is stationed here. Eliminating them will grant us a tactical advantage.</missiondescription.tsm_cbrnert_assination>
+  <missionsuccess.tsm_cbrnert_assination>Mission Complete</missionsuccess.tsm_cbrnert_assination>
+  <missionfailure.tsm_cbrnert_assination>We failed to gain any advantage in this area.</missionfailure.tsm_cbrnert_assination>
+  <missionheader0.tsm_cbrnert_assination>All unit members eliminated.</missionheader0.tsm_cbrnert_assination>
+  <missionmessage0.tsm_cbrnert_assination>People fled in panic, gasping for the very air that was supposed to sustain them, unaware it was now stealing their lives.</missionmessage0.tsm_cbrnert_assination>
   <missionname.cargoSapphire_1>Chemical Transport</missionname.cargoSapphire_1>
-  <missiondescription.cargoSapphire_1>Researchers from [location1] hope you can transport some chemicals to [location2]\n \n \nWhen did acetone get banned?</missiondescription.cargoSapphire_1>
-  <missionname.cargoSapphire_2>Explosive Material Transport</missionname.cargoSapphire_2>
-  <missiondescription.cargoSapphire_2>A officer from [location1], hope you can transport some mining explosives to[location2]\n \n \nWhen did mining explosives get banned?</missiondescription.cargoSapphire_2>
-  <missionname.cargoSapphire_3>Weapon Material Transport</missionname.cargoSapphire_3>
-  <missiondescription.cargoSapphire_3>Someone in [location2] hope you can smuggle some material from [location1] to [location2]</missiondescription.cargoSapphire_3>
+  <missiondescription.cargoSapphire_1>The researchers at [location1] have requested that you transport some chemicals to [location2].\n\n\nSince when did acetone become contraband?</missiondescription.cargoSapphire_1>
+  <missionname.cargoSapphire_2>Explosives Transport</missionname.cargoSapphire_2>
+  <missiondescription.cargoSapphire_2>Officials from [location1] have discreetly requested that you smuggle mining explosives to [location2].\n\n\nSince when did mining explosives become contraband?</missiondescription.cargoSapphire_2>
+  <missionname.cargoSapphire_3>Weapons Material Transport</missionname.cargoSapphire_3>
+  <missiondescription.cargoSapphire_3>Staff from [location2] need you to smuggle dangerous weapon materials from [location1] to [location2].\n\n\nSince when did titanium become contraband?</missiondescription.cargoSapphire_3>
+  
 </infotexts>

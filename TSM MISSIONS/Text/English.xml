@@ -784,17 +784,17 @@
   <afflictiondescription.tsmmission_eyi_16_22>At this stage, you will quickly heal from bleeding and blood loss.</afflictiondescription.tsmmission_eyi_16_22>
   <afflictiondescription.tsmmission_eyi_22_28>At this stage, you will gain 30% physical damage resistance.</afflictiondescription.tsmmission_eyi_22_28>
   <afflictiondescription.tsmmission_eyi_28_33>At this stage, you will gain a 10% attack speed increase for ranged weapons and reduce spread by 20%.</afflictiondescription.tsmmission_eyi_28_33>
-  <afflictiondescription.tsmmission_eyi_33_37>At this stage, you will gain 50% resistance to dizziness and burns.</afflictiondescription.tsmmission_eyi_33_37>
+  <afflictiondescription.tsmmission_eyi_33_37>At this stage, you will gain 50% resistance to stuns and burns.</afflictiondescription.tsmmission_eyi_33_37>
   <afflictiondescription.tsmmission_eyi_37_39>At this stage, you will slowly heal physical damage and burns.</afflictiondescription.tsmmission_eyi_37_39>
-  <afflictiondescription.tsmmission_eyi_39_42>At this stage, you will gain 50% resistance to acid burns, and the opioid poisoning, withdrawal, addiction, alcohol poisoning, psychosis, Skin Painting, and acid burns in your body will heal slowly.</afflictiondescription.tsmmission_eyi_39_42>
+  <afflictiondescription.tsmmission_eyi_39_42>At this stage, you will gain 50% resistance to Opioid poisoning, Withdrawal, Addiction, Alcohol poisoning, Psychosis, Husk Infection, as well as Acid Burns which will heal slowly.</afflictiondescription.tsmmission_eyi_39_42>
   <afflictiondescription.tsmmission_eyi_42_44>At this stage, you will gain 25% attack power, 50% melee strike force, and 10% turret attack speed.</afflictiondescription.tsmmission_eyi_42_44>
-  <afflictiondescription.tsmmission_eyi_44_47>At this stage, you will have 55% bleeding resistance.</afflictiondescription.tsmmission_eyi_44_47>
+  <afflictiondescription.tsmmission_eyi_44_48>At this stage, you will have 55% bleeding resistance.</afflictiondescription.tsmmission_eyi_44_48>
   <afflictiondescription.tsmmission_eyi_48_55>At this stage, you will be immune to water pressure of 5112 meters.</afflictiondescription.tsmmission_eyi_48_55>
   <afflictiondescription.tsmmission_eyi_55_59>At this stage, all your skill levels will increase by 18, and repair speed will increase by 44%.</afflictiondescription.tsmmission_eyi_55_59>
-  <afflictiondescription.tsmmission_eyi_59_63>At this stage, you will gain 30% melee attack speed, 20% movement speed, and 40% dizziness resistance.</afflictiondescription.tsmmission_eyi_59_63>
+  <afflictiondescription.tsmmission_eyi_59_63>At this stage, you will gain 30% melee attack speed, 20% movement speed, and 40% stun resistance.</afflictiondescription.tsmmission_eyi_59_63>
   <afflictiondescription.tsmmission_eyi_63_65>At this stage, you will gain 30% damage resistance and 30% maximum health.</afflictiondescription.tsmmission_eyi_63_65>
   <afflictiondescription.tsmmission_eyi_65_69>At this stage, you will gain the ability to slowly heal from all toxins.</afflictiondescription.tsmmission_eyi_65_69>
-  <afflictiondescription.tsmmission_eyi_69_72>At this stage, you can recover from dizziness faster, increasing attack power by 30% and ranged attack speed by 5%.</afflictiondescription.tsmmission_eyi_69_72>
+  <afflictiondescription.tsmmission_eyi_69_72>At this stage, you can recover from stun faster, increase attack power by 30% and ranged attack speed by 5%.</afflictiondescription.tsmmission_eyi_69_72>
   <afflictiondescription.tsmmission_eyi_72_76>At this stage, you will never die.</afflictiondescription.tsmmission_eyi_72_76>
   <afflictiondescription.tsmmission_eyi_76_83>At this stage, your item crafting speed will increase by 150%, and crafting level will increase by 2.</afflictiondescription.tsmmission_eyi_76_83>
   <afflictiondescription.tsmmission_eyi_83_85>At this stage, you will be immune to water pressure of 6177 meters and will not need oxygen.</afflictiondescription.tsmmission_eyi_83_85>
@@ -804,7 +804,7 @@
   <locationdescription.tsm_city>The largest city under the Sea of Miracles, bustling with people, with comprehensive facilities and services.</locationdescription.tsm_city>
   <locationname.tsm_city>Sea of Miracles Fortress City</locationname.tsm_city>
   <locationnameformat.tsm_city>[name] Station</locationnameformat.tsm_city>
-  <locationname.tsm_mine>Sea of Miracles Mine Station</locationname.tsm_mine>
+  <locationname.tsm_mine>Sea of Miracles Mining Station</locationname.tsm_mine>
   <locationdescription.tsm_mine>A mineral mining site under the Sea of Miracles, where you can go deep into the mines to mine.</locationdescription.tsm_mine>
   <locationnameformat.tsm_mine>[name] Station</locationnameformat.tsm_mine>
   <locationname.tsm_military>Sea of Miracles Armed Division</locationname.tsm_military>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <items>
   <override>
-    <Item name="ProtoRZ-MK1" identifier="rz_prototype_mk1" subcategory="TSM" category="Diving,Equipment" tags="diving,deepdiving,deepdivinglarge,divinggear_wearableindoors,provocative" scale="0.605" fireproof="true" description="" isshootable="true" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" botpriority="0.01">
+    <Item name="ProtoRZ-MK1" identifier="rz_prototype_mk1" subcategory="TSM" category="Equipment" tags="diving,deepdiving,deepdivinglarge,divinggear_wearableindoors,provocative" scale="0.605" fireproof="true" description="" isshootable="true" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" botpriority="0.01">
       <Deconstruct time="30">
         <Item identifier="titaniumaluminiumalloy" />
         <Item identifier="titaniumaluminiumalloy" />
@@ -10,16 +10,16 @@
       <Fabricate suitablefabricators="tsm_fabricator" requiredtime="60">
         <RequiredSkill identifier="mechanical" level="70" />
         <RequiredSkill identifier="weapons" level="60" />
-        <RequiredItem identifier="titaniumaluminiumalloy" amount="8" />
+        <RequiredItem identifier="titaniumaluminiumalloy" amount="5" />
         <RequiredItem identifier="exosuit" amount="1" />
         <RequiredItem identifier="tsm_yx_crystallography" amount="1" />
         <RequiredItem identifier="tsm_ic" amount="2" />
       </Fabricate>
       <InventoryIcon texture="%ModDir:2953749635%/suit/rz_mk1.png" sourcerect="357,384,147,128" origin="0.5,0.5" />
-      <Sprite name="rz_prototypesuit Item" texture="%ModDir:2953749635%/suit/mk1.png" sourcerect="108,65,194,369" depth="0.55" origin="0.49950522,0.49575573" />
+      <Sprite name="rz_prototypesuit Item" texture="%ModDir:2953749635%/suit/mk1.png" sourcerect="108,65,194,369" depth="0.55" origin="0.5,0.5" />
       <Body width="200" height="370" density="15" />
       <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select" allowusewhenworn="true">
-        <sprite name="rz_prototypesuit Helmet Wearable" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="Head" hidelimb="true" inheritlimbdepth="true" inheritscale="false" ignorelimbscale="true" scale="0.43" hideotherwearables="true" hidewearablesoftype="" sourcerect="269,7,96,90" origin="0.35,1.52" />
+        <sprite name="rz_prototypesuit Helmet Wearable" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="Head" hidelimb="true" inheritlimbdepth="true" inheritscale="false" ignorelimbscale="true" scale="0.43" hideotherwearables="true" hidewearablesoftype="" sourcerect="269,7,96,90" origin="0.30,1.5" />
         <sprite name="rz_prototypesuit Torso" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="Torso" scale="0.95" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" origin="0.53,0.82" inheritlimbdepth="true" inheritsourcerect="false" sourcerect="1,7,213,214">
           <LightComponent LightColor="150,150,150,255" range="1200" powerconsumption="10" IsOn="true" pulsefrequency="0.1" pulseamount="0.5">
             <LightTexture texture="Content/Lights/lightcone.png" origin="0.0, 0.495" size="2.5,4.0" />
