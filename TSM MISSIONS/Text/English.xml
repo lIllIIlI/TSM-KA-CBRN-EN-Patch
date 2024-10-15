@@ -5,7 +5,7 @@
   <missionsuccess.tsmmission11>Falling Stars</missionsuccess.tsmmission11>
   <missionheader0.tsmmission11>Recorded in Border Archive, No. 011.</missionheader0.tsmmission11>
   <missionmessage0.tsmmission11>Our land is not to be trampled on by any hostile creature.</missionmessage0.tsmmission11>
-  <missionsonarlabel.tsmmission11>Disk Star</missionsonarlabel.tsmmission11>
+  <missionsonarlabel.tsmmission11>Spinning Star</missionsonarlabel.tsmmission11>
   <missionname.tsmmission12>Eclipse</missionname.tsmmission12>
   <missiondescription.tsmmission12>T.S.M is fighting in frontline Area 73 and has no time to worry about the safety of this area, but T.S.M guarantees a [reward] mk to the captain who kills these beasts.</missiondescription.tsmmission12>
   <missionsuccess.tsmmission12>Congratulations, you made it!</missionsuccess.tsmmission12>
@@ -48,7 +48,7 @@
   <missionheader0.tsmmission21>Containment Failure</missionheader0.tsmmission21>
   <missionmessage0.tsmmission21>Hush! Silence!</missionmessage0.tsmmission21>
   <missionsonarlabel.tsmmission21>Subject 001</missionsonarlabel.tsmmission21>
-  <missionname.tsmmission23>EMBI Testing Ground</missionname.tsmmission23>
+  <missionname.tsmmission23>EMBI Proving Grounds</missionname.tsmmission23>
   <missiondescription.tsmmission23>The Europa Magic and Biology Inc. has issued a challenge. Their new test subjects are ready for use and they are recruiting captains undaunted by death to record and analyze the subjects' capabilities. If you make it back alive and triumphant, they will offer a generous reward.</missiondescription.tsmmission23>
   <missionsuccess.tsmmission23>“The gods are mourning! Let me hear... who is wailing...”</missionsuccess.tsmmission23>
   <missionfailure.tsmmission23>You didn't finish the experiment...</missionfailure.tsmmission23>
@@ -210,7 +210,7 @@
   <character.FractalTwin_Destruction>Destruction</character.FractalTwin_Destruction>
   <character.FractalTwin_Sabotage>Sabotage</character.FractalTwin_Sabotage>
   <character.Shadowreave>Shadow Reave</character.Shadowreave>
-  <character.Eclipticshadow>Ecliptic Shadow</character.Eclipticshadow>
+  <character.Eclipticshadow>Shadowreave</character.Eclipticshadow>
   <character.Skypiercingdolphin>Skypiercing Dolphin</character.Skypiercingdolphin>
   <character.Shadowcharm>Shadowcharm</character.Shadowcharm>
   <character.AlbinismSpineling_giant>Albino Spineling</character.AlbinismSpineling_giant>
@@ -543,8 +543,8 @@
   <missionheader0.tsmmission_origin21>Mission Complete</missionheader0.tsmmission_origin21>
   <missionmessage0.tsmmission_origin21>Back to sleep again</missionmessage0.tsmmission_origin21>
   <missionsonarlabel.tsmmission_origin21>Bounty Target</missionsonarlabel.tsmmission_origin21>
-  <character.embi_009>Plague</character.embi_009>
-  <character.embi_t037a>Thunder Dragon</character.embi_t037a>
+  <character.embi_009>Experiment 009: Plague</character.embi_009>
+  <character.embi_t037a>T-037A: Thunder Dragon</character.embi_t037a>
   <character.embi_001>Experiment 001</character.embi_001>
   <character.embi_003>Experiment 003</character.embi_003>
   <character.Experiment009_bug>Toxic Exploder</character.Experiment009_bug>
@@ -586,25 +586,25 @@
   <eventtext.unlockpathgeneric.nomoney.tsm>“If you're not capable and not planning to pay the deposit, don’t waste my precious nap time.”</eventtext.unlockpathgeneric.nomoney.tsm>
   <eventtext.unlockpath.refusebribe.tsm>Thought better of it</eventtext.unlockpath.refusebribe.tsm>
   <lockedpathtooltiptsmreputation>This passage has been sealed off by Sea of Miracles. If you want to continue, your reputation with ‖color:faction.tsm‖ Sea of Miracles must exceed [requiredreputation], and you must obtain the administrator's permission. You can view your current reputation in the info interface.\n\nCurrent Reputation: [currentreputation]</lockedpathtooltiptsmreputation>
-  <eventtext.unlockpathcoldcaverns.tsmc1>“You want to pass this checkpoint?”\nThe administrator looked up, his gaze sweeping through the fleet via the control panel's light screen, then skillfully operating the terminal,\n“Wait a moment, I need to verify your fleet’s records.”\nA few seconds later\n“Welcome, Captain. After review, your reputation is sufficient. Permission to travel to the Europa Ridge has been granted. The authorization has been synced to your terminal.”\nHe paused, a hint of seriousness flashing in his eyes\n“But, the Europa Ridge is far more perilous than previous routes. Deep-sea currents, unknown creatures, and wrecked ships may threaten your safety at any moment. Captain, please stay calm and cautious.”</eventtext.unlockpathcoldcaverns.tsmc1>
+  <eventtext.unlockpathcoldcaverns.tsmc1>“You want to pass this checkpoint?”\nThe administrator looked up, his gaze sweeping through the fleet via the control panel's light screen, then skillfully operating the terminal,\n“Wait a moment, I need to verify your fleet’s records.”\nA few seconds later\n“Welcome, Captain. After review, your reputation is sufficient. Permission to travel to the Europan Ridge has been granted. The authorization has been synced to your terminal.”\nHe paused, a hint of seriousness flashing in his eyes\n“But, the Europan Ridge is far more perilous than previous routes. Deep-sea currents, unknown creatures, and wrecked ships may threaten your safety at any moment. Captain, please stay calm and cautious.”</eventtext.unlockpathcoldcaverns.tsmc1>
   <eventtext.unlockpathcoldcaverns.tsmc2>“You want to dive into deeper waters?”\nThe administrator smiled faintly, lightly touching the terminal, “Hold on a moment, I need to pull up your records.”\nA few seconds later, the data on the screen made the administrator frown, “Sorry, according to the current records, you haven’t met the requirements to pass the blockade.”\n“But...” he paused, glancing from the terminal to you, with a slightly playful tone, “This is the Sea of Miracles, after all. In these waters, there are always exceptions. If you insist on heading deeper, we can make an exception—provided you pay a 2000mk deposit.”\nThe administrator leaned back in his chair, his gaze filled with a mix of anticipation and calculation, “Now, the decision is yours. What will you choose?”</eventtext.unlockpathcoldcaverns.tsmc2>
   <eventtext.unlockpathcoldcaverns.tsmo1>2000MK, deal!</eventtext.unlockpathcoldcaverns.tsmo1>
   <eventtext.unlockpathcoldcaverns.tsmo1.tsmc1>“Great! I like people with this kind of attitude. I’ll let the folks at the blockade know; you just go ahead.”</eventtext.unlockpathcoldcaverns.tsmo1.tsmc1>
   <eventtext.unlockpathcoldcaverns.tsmo1.nomoney>“No money? Well, then I can’t help you. Your fleet’s records don’t look too promising. If you’re broke, consider earning some cash through bounties.”</eventtext.unlockpathcoldcaverns.tsmo1.nomoney>
   <eventtext.unlockpathcoldcaverns.tsmo2.tsmc1>“If you’re not capable and not planning to pay the deposit, don’t waste my precious rest time.”</eventtext.unlockpathcoldcaverns.tsmo2.tsmc1>
-  <eventtext.unlockpatheuropanridge.tsmc1>“You want to head to the Abyssal Plains?”\n“Please hold on a second,” the administrator’s fingers swiftly glided over the terminal.\nA moment later, the administrator smiled in satisfaction, “It seems you’ve been contributing a lot to the Ice Ridge. I’m pleased to announce—you now have access to the Abyssal Plains.”\n“May you sail smoothly in those dark depths. Safe travels, Captain.”</eventtext.unlockpatheuropanridge.tsmc1>
-  <eventtext.unlockpatheuropanridge.tsmc2>“You want to enter the Abyssal Plains?”\nThe administrator squinted, lightly tapping the terminal, and chuckled softly after a moment, “Judging by the records, this doesn’t look too promising…”</eventtext.unlockpatheuropanridge.tsmc2>
+  <eventtext.unlockpatheuropanridge.tsmc1>“You want to head to the Aphotic Plateau?”\n“Please hold on a second,” the administrator’s fingers swiftly glided over the terminal.\nA moment later, the administrator smiled in satisfaction, “It seems you’ve been contributing a lot to the Ice Ridge. I’m pleased to announce—you now have access to the Aphotic Plateau.”\n“May you sail smoothly in those dark depths. Safe travels, Captain.”</eventtext.unlockpatheuropanridge.tsmc1>
+  <eventtext.unlockpatheuropanridge.tsmc2>“You want to enter the Aphotic Plateau?”\nThe administrator squinted, lightly tapping the terminal, and chuckled softly after a moment, “Judging by the records, this doesn’t look too promising…”</eventtext.unlockpatheuropanridge.tsmc2>
   <eventtext.unlockpatheuropanridge.tsmo1>“I understand, I understand, is 4500mk enough?”</eventtext.unlockpatheuropanridge.tsmo1>
   <eventtext.unlockpatheuropanridge.tsmo1.tsmc1>“Your records aren’t bad, but are you truly ready? This dangerous sea won’t accept just anyone.”</eventtext.unlockpatheuropanridge.tsmo1.tsmc1>
   <eventtext.unlockpatheuropanridge.tsmo1.nomoney>“Not enough money, huh? Well, we’ve recently posted some bounty missions, why not give them a shot?”</eventtext.unlockpatheuropanridge.tsmo1.nomoney>
   <eventtext.unlockpatheuropanridge.tsmo2.tsmc1>“Whether you go or not, that’s not for us to decide, it’s up to you. After all, the Europa Ridge is a great place to live, isn’t it?”</eventtext.unlockpatheuropanridge.tsmo2.tsmc1>
-  <eventtext.unlockpathaphoticplateau.tsmc1>“Ah, it’s you! You’re the star fleet everyone’s been talking about, right? Your tales are all over Europa.”\n“Of course, of course, this means you’ve earned the right to traverse the Abyssal Plains. You may now set sail for the vast ocean. Not many fleets have managed to make it there under the current circumstances.”\nThe administrator stood up and shook your hand, “I’ll notify the checkpoint ahead to allow your passage into the Abyss. May you proceed safely through those unfathomable waters.”</eventtext.unlockpathaphoticplateau.tsmc1>
-  <eventtext.unlockpathaphoticplateau.tsmc2>“My apologies,”\nThe administrator sighed, a hint of helplessness in his expression, “I know it hasn’t been easy for you to make it this far, you’ve overcome many obstacles. But we cannot risk letting an unqualified fleet venture into the vast ocean.”\nHe looked up, his tone softening slightly, “This is for your protection. I hope you understand, not everyone can handle the dangers lurking there.”</eventtext.unlockpathaphoticplateau.tsmc2>
+  <eventtext.unlockpathaphoticplateau.tsmc1>“Ah, it’s you! You’re the star fleet everyone’s been talking about, right? Your tales are all over Europa.”\n“Of course, of course, this means you’ve earned the right to traverse the Aphotic Plateau. You may now set sail for the Great Sea. Not many fleets have managed to make it there under the current circumstances.”\nThe administrator stood up and shook your hand, “I’ll notify the checkpoint ahead to allow your passage into the Abyss. May you proceed safely through those unfathomable waters.”</eventtext.unlockpathaphoticplateau.tsmc1>
+  <eventtext.unlockpathaphoticplateau.tsmc2>“My apologies,”\nThe administrator sighed, a hint of helplessness in his expression, “I know it hasn’t been easy for you to make it this far, you’ve overcome many obstacles. But we cannot risk letting an unqualified fleet venture into the Great Sea.”\nHe looked up, his tone softening slightly, “This is for your protection. I hope you understand, not everyone can handle the dangers lurking there.”</eventtext.unlockpathaphoticplateau.tsmc2>
   <eventtext.unlockpathaphoticplateau.tsmo1>“What if we pay a 9K deposit?”</eventtext.unlockpathaphoticplateau.tsmo1>
-  <eventtext.unlockpathaphoticplateau.tsmo1.tsmc1>“According to our regulations, you can indeed pass,” he said slowly, his tone solemn.\n“But I must advise you to think carefully. The vast ocean is not a place to tread lightly.” He gazed at you, his voice low and full of meaning.\n“That sea holds endless unknowns and dangers, and not everyone returns from it. Please consider carefully.”</eventtext.unlockpathaphoticplateau.tsmo1.tsmc1>
+  <eventtext.unlockpathaphoticplateau.tsmo1.tsmc1>“According to our regulations, you can indeed pass,” he said slowly, his tone solemn.\n“But I must advise you to think carefully. The Great Sea is not a place to tread lightly.” He gazed at you, his voice low and full of meaning.\n“That sea holds endless unknowns and dangers, and not everyone returns from it. Please consider carefully.”</eventtext.unlockpathaphoticplateau.tsmo1.tsmc1>
   <eventtext.unlockpathaphoticplateau.tsmo1.nomoney>“If you don’t have enough money, don’t push it. Besides, money isn’t everything—stay alive first, then talk.”</eventtext.unlockpathaphoticplateau.tsmo1.nomoney>
-  <eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>“As I said, there’s no need to go overboard. The Abyssal Plains are great, livable, and Sea of Miracles's headquarters are there. Why not buy an apartment and retire?”</eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>
-  <eventtext.unlockpathgreatsea.tsmc1>The administrator saw you from afar and stood up, shaking your hand. “Look who it is! The famous star fleet! What can I do for you this time?”\nUpon hearing your request to travel to the Hydrothermal Wastelands, the administrator’s expression stiffened slightly. He was silent for a moment, then spoke in a slow, deliberate tone: “The number of creatures in the next area is abnormally high, and the currents stirred by geothermal activity will make navigation even more dangerous.” He looked at you, as if gauging your resolve. “Are you truly prepared?”\nHe straightened up and saluted you. “Then, please be careful—do not be careless.”</eventtext.unlockpathgreatsea.tsmc1>
+  <eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>“As I said, there’s no need to go overboard. The Aphotic Plateau are great, livable, and Sea of Miracles's headquarters are there. Why not buy an apartment and retire?”</eventtext.unlockpathaphoticplateau.tsmo2.tsmc1>
+  <eventtext.unlockpathgreatsea.tsmc1>The administrator saw you from afar and stood up, shaking your hand. “Look who it is! The famous star fleet! What can I do for you this time?”\nUpon hearing your request to travel to the Hydrothermal Wastes, the administrator’s expression stiffened slightly. He was silent for a moment, then spoke in a slow, deliberate tone: “The number of creatures in the next area is abnormally high, and the currents stirred by geothermal activity will make navigation even more dangerous.” He looked at you, as if gauging your resolve. “Are you truly prepared?”\nHe straightened up and saluted you. “Then, please be careful—do not be careless.”</eventtext.unlockpathgreatsea.tsmc1>
   <eventtext.unlockpathgreatsea.tsmc2>“So you want to enter the Hydrothermal Wasteland? Many fleets have tried, and many have gone missing. This is the Sea of Miracles’s deposit system. If you’re determined to go, take a look.”</eventtext.unlockpathgreatsea.tsmc2>
   <eventtext.unlockpathgreatsea.tsmo1>“17000mk? No problem, I’ll transfer the money shortly.”</eventtext.unlockpathgreatsea.tsmo1>
   <eventtext.unlockpathgreatsea.tsmo1.tsmc1>“Don’t rush. You can always reconsider. It’s rare to see someone who’s both earning money with their life and buying their way into danger. First time I’ve seen someone paying to die.”</eventtext.unlockpathgreatsea.tsmo1.tsmc1>
@@ -898,11 +898,11 @@
   <tsm.tl_p_3>I'm handling business, don't disturb me.</tsm.tl_p_3>
   <tsm.tl_p_4>Exchange items</tsm.tl_p_4>
   <tsm.tl_p_5>Fair prices, honest trade.</tsm.tl_p_5>
-  <tsm.tl_p_6>400 MK to exchange for Atang Transmuter</tsm.tl_p_6>
+  <tsm.tl_p_6>400 MK to exchange for Sugar's Transmogrifier</tsm.tl_p_6>
   <tsm.tl_p_7>Hey, these are rare treasures, though they’re all knock-offs... replicas. But I'm raising MK to repair my drone Nancy, otherwise, I wouldn't be willing to sell them to you.</tsm.tl_p_7>
-  <tsm.tl_p_8>300 MK to exchange for Atang Combat Suit</tsm.tl_p_8>
-  <tsm.tl_p_9>250 MK to exchange for Atang Hoodie</tsm.tl_p_9>
-  <tsm.tl_p_10>450 MK to exchange for Atang's Battle Axe</tsm.tl_p_10>
+  <tsm.tl_p_8>300 MK to exchange for Sugar's Combat Suit</tsm.tl_p_8>
+  <tsm.tl_p_9>250 MK to exchange for Sugar's Hoodie</tsm.tl_p_9>
+  <tsm.tl_p_10>450 MK to exchange for Sugar's's Battle Axe</tsm.tl_p_10>
   <tsm.tl_p_11>150 MK to exchange for Navy Officer's Large Hat</tsm.tl_p_11>
   <tsm.tl_p_12>2300 MK to exchange for Icarus Hand Cannon</tsm.tl_p_12>
   <tsm.tl_p_13>800 MK to exchange for 6 Hand Cannon Bullets</tsm.tl_p_13>
@@ -910,7 +910,7 @@
   <tsm.tl_p_15>1000 MK to exchange for Medical Supplies</tsm.tl_p_15>
   <tsm.tl_p_16>Special supplies from the Sea of Miracles.</tsm.tl_p_16>
   <tsm.tl_p_17>Not much left, see what you need.</tsm.tl_p_17>
-  <tsm.tl_p_18>400 MK to exchange for Lerentine Transmuter</tsm.tl_p_18>
+  <tsm.tl_p_18>400 MK to exchange for Lerentine Transmogrifier</tsm.tl_p_18>
   <tsm.tl_p_19>Don’t use it for bad things!</tsm.tl_p_19>
   <tsm.tl_p_20>300 MK to exchange for Women's Uniform</tsm.tl_p_20>
   <tsm.tl_p_21>This is a women's uniform from Kyushu.</tsm.tl_p_21>
@@ -1034,8 +1034,32 @@
   <entityname.kl2>Charon Two</entityname.kl2>
   <entityname.tsm_eyi_helmet>Plague Protection Helmet</entityname.tsm_eyi_helmet>
   <entityname.tsm_eyi_suit>Plague Protection Suit</entityname.tsm_eyi_suit>
-
-
   <afflictionname.tsm_virusstage_inhibitory>Virus Dormant Stage</afflictionname.tsm_virusstage_inhibitory>
   <afflictionname.eyiinfection>Plague</afflictionname.eyiinfection>
+
+  <!-- trying to get monsters TL'd -->
+  <character.Endwormhusk>Huskworm</character.Endwormhusk>
+  <character.巨型捕勾兽>Albino Latcher</character.巨型捕勾兽>
+  <character.剑头鲨>Swordhead Shark</character.剑头鲨>
+  <character.画皮剑头鲨>Swordhead Shark</character.画皮剑头鲨>
+  <character.极具摩洛克>Giant Moloch</character.极具摩洛克>
+  <character.魔女的下颚>The Witch</character.魔女的下颚>
+  <character.腐败机械>Corrupt Machinery</character.腐败机械>
+  <character.CorruptionMachinery>Corrupt Machinery</character.CorruptionMachinery>
+  <character.欧罗巴之心>Epicentrum</character.欧罗巴之心>
+  <character.末日巨鲸>Doomsday Whale</character.末日巨鲸>
+  <character.灭世巨鲸>Killer Whale</character.灭世巨鲸>
+  <character.死无对证>Undead Dreadnought</character.死无对证>
+  <character.埋骨>Gravekeeper</character.埋骨>
+  <character.祈鲸>Wailing Whale</character.祈鲸>
+  <character.结晶脊鲸>Crystal Whale</character.结晶脊鲸>
+  <character.毁灭>Sabotage</character.毁灭>
+  <character.破坏>Destruction</character.破坏>
+  <!-- <character.Ship> 
+  <character.Ship1> 
+  <character.Ship2> 
+  <character.Ship> 
+  <character.Ship1> 
+  <character.Ship2> 
+  <character.Ship3>  -->
 </infotexts>

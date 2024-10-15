@@ -193,22 +193,22 @@
   <displayname.50beowulf_ap>[itemname] 12.7x45mm AP</displayname.50beowulf_ap>
   <displayname.458socom>[itemname] .458cal SOCOM</displayname.458socom>
   <displayname.m118lr>[itemname] M118LR</displayname.m118lr>
-  <displayname.50beowulf_fr_recycle>[itemname] Reload 12.7x45mm Fragile</displayname.50beowulf_fr_recycle>
-  <displayname.50beowulf_ap_recycle>[itemname] Reload 12.7x45mm AP</displayname.50beowulf_ap_recycle>
-  <displayname.458socom_recycle>[itemname] Reload .458cal SOCOM</displayname.458socom_recycle>
-  <displayname.m118lr_recycle>[itemname] Reload M118LR</displayname.m118lr_recycle>
-  <displayname.fillvxcanister>[itemname] Fill VX</displayname.fillvxcanister>
-  <displayname.fillcscanister>[itemname] Fill CS</displayname.fillcscanister>
-  <displayname.fillbzcanister>[itemname] Fill BZ</displayname.fillbzcanister>
-  <displayname.fillmustardcanister>[itemname] Fill Mustard</displayname.fillmustardcanister>
-  <displayname.fillphosgenecanister>[itemname] Fill Phosgene</displayname.fillphosgenecanister>
-  <displayname.fillvxdist>[itemname] Fill VX</displayname.fillvxdist>
-  <displayname.fillcsdist>[itemname] Fill CS</displayname.fillcsdist>
-  <displayname.fillbzdist>[itemname] Fill BZ</displayname.fillbzdist>
-  <displayname.fillmustarddist>[itemname] Fill Mustard</displayname.fillmustarddist>
-  <displayname.fillphosgenedist>[itemname] Fill Phosgene</displayname.fillphosgenedist>
-  <displayname.fillanthraxcanister>[itemname] Fill Anthrax</displayname.fillanthraxcanister>
-  <displayname.fillanthraxdist>[itemname] Fill Anthrax</displayname.fillanthraxdist>
+  <displayname.50beowulf_fr_recycle>[itemname] 12.7x45mm Fragile (Reload)</displayname.50beowulf_fr_recycle>
+  <displayname.50beowulf_ap_recycle>[itemname] 12.7x45mm AP (Reload)</displayname.50beowulf_ap_recycle>
+  <displayname.458socom_recycle>[itemname] .458cal SOCOM (Reload)</displayname.458socom_recycle>
+  <displayname.m118lr_recycle>[itemname] M118LR (Reload)</displayname.m118lr_recycle>
+  <displayname.fillvxcanister>[itemname]:VX</displayname.fillvxcanister>
+  <displayname.fillcscanister>[itemname]:CS</displayname.fillcscanister>
+  <displayname.fillbzcanister>[itemname]:BZ</displayname.fillbzcanister>
+  <displayname.fillmustardcanister>[itemname]:Mustard</displayname.fillmustardcanister>
+  <displayname.fillphosgenecanister>[itemname]:Phosgene</displayname.fillphosgenecanister>
+  <displayname.fillvxdist>[itemname]:VX</displayname.fillvxdist>
+  <displayname.fillcsdist>[itemname]:CS</displayname.fillcsdist>
+  <displayname.fillbzdist>[itemname]:BZ</displayname.fillbzdist>
+  <displayname.fillmustarddist>[itemname]:Mustard</displayname.fillmustarddist>
+  <displayname.fillphosgenedist>[itemname]:Phosgene</displayname.fillphosgenedist>
+  <displayname.fillanthraxcanister>[itemname]:Anthrax</displayname.fillanthraxcanister>
+  <displayname.fillanthraxdist>[itemname]:Anthrax</displayname.fillanthraxdist>
   <causeofdeath.unconscious_poisonsource>Sleep well</causeofdeath.unconscious_poisonsource>
   <entityname.chemical_decal_standard>Chemical Standard</entityname.chemical_decal_standard>
   <entityname.biological_decal_standard>Biological Standard</entityname.biological_decal_standard>
@@ -236,9 +236,9 @@
   <entitydescription.c4_stickcharge>The most common C4 plastic charge in sapper units,come with special glue,can easily stick to anything it touchs \nEach cell contains 2KG explosive.Theoretically it can blow up even the thickest barrier.</entitydescription.c4_stickcharge>
   <entitydescription.m57detonator>The most common detonator in sapper units, can detonate 2 explosives with electronic fuse. \nField tutorial:RMB+LMB at the start of each round,no less or more than 2 explosives at a time or malfunction. After setting enough charges,RMB+LMB to detonate</entitydescription.m57detonator>
   <missionname.berra_fireeaters_outpostdestory>Destory "Fire Eater" Stations</missionname.berra_fireeaters_outpostdestory>
-  <missiondescription.berra_fireeaters_outpostdestory>"Fire Eater" found a bio leak in this outpost.Destory everything here</missiondescription.berra_fireeaters_outpostdestory>
+  <missiondescription.berra_fireeaters_outpostdestory>"Fire Eater" found a bio leak in this outpost. Destory everything here.</missiondescription.berra_fireeaters_outpostdestory>
   <missionsuccess.berra_fireeaters_outpostdestory>Target Destoryed</missionsuccess.berra_fireeaters_outpostdestory>
-  <missionfailure.berra_fireeaters_outpostdestory>Everything will burnt out</missionfailure.berra_fireeaters_outpostdestory>
+  <missionfailure.berra_fireeaters_outpostdestory>Everything will be burnt</missionfailure.berra_fireeaters_outpostdestory>
   <missionheader0.berra_fireeaters_outpostdestory>Outpost has been wiped out</missionheader0.berra_fireeaters_outpostdestory>
   <missionmessage0.berra_fireeaters_outpostdestory>Death is a cool summer night, providing a good sleep</missionmessage0.berra_fireeaters_outpostdestory>
   <missionname.berra_fireeaters_assination>Eliminate "Fire Eaters"</missionname.berra_fireeaters_assination>
@@ -321,12 +321,12 @@
   <entitydescription.weyi_chemdist_throwable>A grenade using aerosol to spread bio-weapons \nFilled Evil Virus \nFuse: 1.5s</entitydescription.weyi_chemdist_throwable>
   <entityname.sacabambaspis_he_impact>Sacabambaspis(Impact)</entityname.sacabambaspis_he_impact>
   <entitydescription.sacabambaspis_he_impact>A offensive grenade with impact fuse \nWARNING: May cause unexpected detonation or misfire if not properly used \nCan easily blow up almost everything(including yourself, doors and your enemies) \nSmaller effective range, greater lethality</entitydescription.sacabambaspis_he_impact>
-  <displayname.fillweyi>[itemname] Fill Weaponized Evil Virus</displayname.fillweyi>
-  <displayname.fillweyicanister>[itemname] Fill Weaponized Evil Virus</displayname.fillweyicanister>
+  <displayname.fillweyi>[itemname]: Weaponized Evil Virus</displayname.fillweyi>
+  <displayname.fillweyicanister>[itemname]: Weaponized Evil Virus</displayname.fillweyicanister>
   <displayname.m33>[itemname] M33 FMJ</displayname.m33>
-  <displayname.m33_recycle>[itemname] M33 FMJ Reload</displayname.m33_recycle>
+  <displayname.m33_recycle>[itemname] M33 FMJ (Reload)</displayname.m33_recycle>
   <displayname.m1022>[itemname] M1022</displayname.m1022>
-  <displayname.m1022_recycle>[itemname] M1022 Reload</displayname.m1022_recycle>
+  <displayname.m1022_recycle>[itemname] M1022 (Reload)</displayname.m1022_recycle>
   <talentname.weapontraining>Weapons Training</talentname.weapontraining>
   <talentname.medicaltraining>Medical Training</talentname.medicaltraining>
   <talentname.protectivegeartierone>Basic Protections</talentname.protectivegeartierone>
@@ -501,10 +501,10 @@
   <missionheader0.tsm_cbrnert_assination>All unit members eliminated.</missionheader0.tsm_cbrnert_assination>
   <missionmessage0.tsm_cbrnert_assination>People fled in panic, gasping for the very air that was supposed to sustain them, unaware it was now stealing their lives.</missionmessage0.tsm_cbrnert_assination>
   <missionname.cargoSapphire_1>Chemical Transport</missionname.cargoSapphire_1>
-  <missiondescription.cargoSapphire_1>The researchers at [location1] have requested that you transport some chemicals to [location2].\n\n\nSince when did acetone become contraband?</missiondescription.cargoSapphire_1>
+  <missiondescription.cargoSapphire_1>The researchers at [location1] have requested that you transport some chemicals to [location2]</missiondescription.cargoSapphire_1>
   <missionname.cargoSapphire_2>Explosives Transport</missionname.cargoSapphire_2>
-  <missiondescription.cargoSapphire_2>Officials from [location1] have discreetly requested that you smuggle mining explosives to [location2].\n\n\nSince when did mining explosives become contraband?</missiondescription.cargoSapphire_2>
+  <missiondescription.cargoSapphire_2>Officials from [location1] have discreetly requested that you smuggle mining explosives to [location2]</missiondescription.cargoSapphire_2>
   <missionname.cargoSapphire_3>Weapons Material Transport</missionname.cargoSapphire_3>
-  <missiondescription.cargoSapphire_3>Staff from [location2] need you to smuggle dangerous weapon materials from [location1] to [location2].\n\n\nSince when did titanium become contraband?</missiondescription.cargoSapphire_3>
+  <missiondescription.cargoSapphire_3>Staff from [location2] need you to smuggle dangerous weapon materials from [location1] to [location2]</missiondescription.cargoSapphire_3>
   
 </infotexts>
