@@ -17,7 +17,7 @@
       </Fabricate>
       <InventoryIcon texture="%ModDir:2953749635%/suit/rz_mk1.png" sourcerect="357,384,147,128" origin="0.5,0.5" />
       <Sprite name="rz_prototypesuit Item" texture="%ModDir:2953749635%/suit/mk1.png" sourcerect="108,65,194,369" depth="0.55" origin="0.5,0.5" />
-      <Body width="200" height="370" density="15" />
+      <Body width="194" height="369" density="15" friction="0.1"/>
       <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select" allowusewhenworn="true">
         <sprite name="rz_prototypesuit Helmet Wearable" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="Head" hidelimb="true" inheritlimbdepth="true" inheritscale="false" ignorelimbscale="true" scale="0.43" hideotherwearables="true" hidewearablesoftype="" sourcerect="269,7,96,90" origin="0.30,1.5" />
         <sprite name="rz_prototypesuit Torso" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="Torso" scale="0.95" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="false" origin="0.53,0.82" inheritlimbdepth="true" inheritsourcerect="false" sourcerect="1,7,213,214">
@@ -39,12 +39,10 @@
         <sprite name="rz_prototypesuit Left Shoe" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.6" inheritsourcerect="false" scale="0.6" sourcerect="381,315,121,49" />
         <sprite name="rz_prototypesuit Right Shoe" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.6" inheritsourcerect="false" scale="0.6" sourcerect="381,315,121,49" />
         <sprite name="rz_prototypesuit hideboob" texture="%ModDir:2953749635%/suit/rz_mk1.png" limb="tail" hidelimb="true" inherittexturescale="false" hideotherwearables="true" inheritorigin="false" origin="0.5,0.6" inheritsourcerect="false" scale="0.6" sourcerect="0,0,1,1" />
-        <StatusEffect type="OnWearing" target="Character" OxygenAvailable="-100.0" UseHullOxygen="false" />
+        <StatusEffect type="OnWearing" target="Character" OxygenAvailable="1000.0" UseHullOxygen="true" />
         <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="true" PressureProtection="10000.0" SpeedMultiplier="0.5" PropulsionSpeedMultiplier="0.25" setvalue="true" disabledeltatime="true">
-          <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="250" loop="true" />
-          <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="250" loop="true" />
           <TriggerAnimation Type="Walk" FileName="HumanWalkExosuit" priority="1" ExpectedSpecies="Human" />
-          <TriggerAnimation Type="Run" FileName="HumanRunExosuit" priority="1" ExpectedSpecies="Human" />
+          <TriggerAnimation Type="Run" FileName="HumanRunExosuit" priority="10" ExpectedSpecies="Human" />
         </StatusEffect>
         <StatusEffect type="OnWearing" target="Character" interval="0.9" disabledeltatime="true">
           <Affliction identifier="recoilstabilized" amount="1" />
