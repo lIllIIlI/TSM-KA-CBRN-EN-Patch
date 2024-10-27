@@ -4,6 +4,8 @@
     <RandomEvents file="%ModDir%/TSM MISSIONS/Text/OutpostEvents_patch.xml" />
     <RandomEvents file="%ModDir%/TSM MISSIONS/Text/OutpostEvents_tsm_patch.xml" />
     <Item file="%ModDir%/TSM MISSIONS/Text/rz.xml"/>
+    <Other file="%ModDir%/TSM MISSIONS/humaneyi/eyiappendagefix.xml"/>
+    <Character file="%ModDir%/TSM MISSIONS/humaneyi/humaneyipatch.xml" />
     <Text file="%ModDir%/Kyushu Arsenal/Text/English.xml" />
     <RandomEvents file="%ModDir%/Kyushu Arsenal/Text/OutpostEvents_patch.xml" />
     <RandomEvents file="%ModDir%/Kyushu Arsenal/Text/OutpostEvents_over_patch.xml" />
