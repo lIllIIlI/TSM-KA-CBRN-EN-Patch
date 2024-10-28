@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Override>
 <huskappendage>
+  <Override>
   <limb name="eyiappendage 1" id="18" height="31" width="19" ignorecollisions="True" flip="True">
     <damagemodifier armorsector="0,360" afflictiontypes="damage" damagemultiplier="0.1" />
     <damagemodifier armorsector="0,360" afflictiontypes="bleeding" damagemultiplier="0.1" />
@@ -72,5 +72,5 @@
   <joint name="eyiappendage 3-3" limb1="23" limb2="24" limb1anchor="1.4,-37.3" limb2anchor="-3,0" upperlimit="1" lowerlimit="-1" canbesevered="False" limitenabled="True" />
   <joint name="tail 1-1" limb1="12" limb2="25" limb1anchor="-17.4,-9.5" limb2anchor="14.5,16.6" upperlimit="5" lowerlimit="-10" canbesevered="False" limitenabled="True" />
   <joint name="tail 1-2" limb1="25" limb2="26" limb1anchor="-8.6,-10.4" limb2anchor="-34.3,-19.1" upperlimit="3" lowerlimit="-6" canbesevered="False" limitenabled="True" />
-</huskappendage>
 </Override>
+</huskappendage>
