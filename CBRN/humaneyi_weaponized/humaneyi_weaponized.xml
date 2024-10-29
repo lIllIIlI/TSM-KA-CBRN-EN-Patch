@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
 <Character specifiertags="true" SpeciesName="humaneyi_weaponized" SpeciesTranslationOverride="" DisplayName="" Group="eyi" Humanoid="True" HasInfo="True" CanInteract="True" Husk="True" nonhuskedspecies="human" UseHuskAppendage="True" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="100" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="2000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="despawncontainer">
-  <ragdolls folder="%ModDir%/TSM MISSIONS/humaneyi/Ragdolls" />
-  <animations folder="%ModDir%/TSM MISSIONS/humaneyi/Animations" />
+  <ragdolls folder="%ModDir%/CBRN/humaneyi_weaponized/Ragdolls" />
+  <animations folder="%ModDir%/CBRN/humaneyi_weaponized/Animations" />
   <huskappendage affliction="eyiinfection_weaponized" path="%ModDir%/CBRN/humaneyi_weaponized/eyiappendage.xml" />
   <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="5" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
   <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />

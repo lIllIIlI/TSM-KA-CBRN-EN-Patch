@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Override>
 <huskappendage>
-  <limb name="eyiappendage 1" id="181" height="31" width="19" ignorecollisions="True" flip="True">
+  <Override>
+  <limb name="cbrn_eyiappendage 1" id="182" height="31" width="19" ignorecollisions="True" flip="True">
     <!-- strong protection, otherwise gaining a eyi appendage is a liability as it cannot be protected with armor -->
     <damagemodifier armorsector="0,360" afflictiontypes="damage" damagemultiplier="0.1" />
     <damagemodifier armorsector="0,360" afflictiontypes="bleeding" damagemultiplier="0.1" />
     <damagemodifier armorsector="0,360" afflictiontypes="burn" damagemultiplier="0.1" />
-    <sprite texture="%ModDir%/TSM MISSIONS/humaneyi/eyi.png" sourcerect="212,126,31,19" depth="0.11" origin="0.510,0.601" ignoretint="true" />
+    <sprite texture="%ModDir%/CBRN/humaneyi_weaponized/eyi.png" sourcerect="212,126,31,19" depth="0.11" origin="0.510,0.601" ignoretint="true" />
     <attack range="40" damagerange="25" duration="0.1" targetforce="0" structuresoundtype="StructureBlunt" force="6" applyforceonlimbs="0" torque="0" context="Any" targettype="Character" hitdetectiontype="Distance" structuredamage="0" itemdamage="0" stun="0" onlyhumans="False" applyforcesonlyonce="False" targetimpulse="3" targetimpulseworld="0,0" targetforceworld="0,0" severlimbsprobability="0" stickchance="0" priority="0" afterattack="FollowThrough" cooldown="1" secondarycooldown="0" cooldownrandomfactor="0">
       <StatusEffect type="OnUse" target="Parent" disabledeltatime="true">
         <ReduceAffliction type="damage" strength="1.5" />
@@ -17,5 +17,5 @@
       <Affliction identifier="stun" strength="0.3" />
     </attack>
   </limb>
-</huskappendage>
 </Override>
+</huskappendage>
