@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
 <Ragdoll type="Human" Texture="%ModDir:3282923984%/Content/Characters/Human/Human_[GENDER].png" Color="255,255,255,255" SpritesheetOrientation="180" LimbScale="0.5" JointScale="0.5" TextureScale="1" ColliderHeightFromFloor="140" ImpactTolerance="7.5" CanEnterSubmarine="True" CanWalk="True" Draggable="True" MainLimb="Torso">
   <collider Name="Main Collider" Radius="30" Height="110" Width="0" BodyType="Dynamic" />
   <collider Name="Secondary Collider" Radius="30" Height="80" Width="0" BodyType="Dynamic" />
@@ -143,3 +144,4 @@
     <sprite SourceRect="414,111,6,8" Origin="0.85553366,0.49279293" Depth="0.04" Texture="" IgnoreTint="False" Color="255,255,255,255" DeadColor="255,255,255,255" DeadColorTime="0" />
   </limb>
 </Ragdoll>
+</Override>

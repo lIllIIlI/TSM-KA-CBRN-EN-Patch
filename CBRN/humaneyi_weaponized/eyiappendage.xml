@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
 <huskappendage>
-  <limb name="eyiappendage 1" id="18" height="31" width="19" ignorecollisions="True" flip="True">
+  <limb name="eyiappendage 1" id="181" height="31" width="19" ignorecollisions="True" flip="True">
     <!-- strong protection, otherwise gaining a eyi appendage is a liability as it cannot be protected with armor -->
     <damagemodifier armorsector="0,360" afflictiontypes="damage" damagemultiplier="0.1" />
     <damagemodifier armorsector="0,360" afflictiontypes="bleeding" damagemultiplier="0.1" />
